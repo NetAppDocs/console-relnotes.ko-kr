@@ -1,0 +1,23 @@
+= Azure에서 HA 다중 가용성 영역 배포를 지원하는 새로운 지역
+:allow-uri-read: 
+
+
+Connector 3.9.34 릴리스에는 다음과 같은 변경 사항이 도입되었습니다.
+
+
+
+=== Azure에서 HA 다중 가용성 영역 배포를 지원하는 새로운 지역
+
+Azure의 다음 지역은 이제 Cloud Volumes ONTAP 9.14.0 이상에 대해 고가용성 다중 가용성 영역 배포를 지원합니다.
+
+* 호주 동부
+* 동아시아
+* 프랑스 중부
+* 북유럽
+* 카타르 센트럴
+* 스웨덴 중부
+* 서유럽
+* 서부 미국 2
+
+
+여러 가용성 영역을 지원하는 모든 지역 목록은 다음을 참조하세요. https://bluexp.netapp.com/cloud-volumes-global-regions["Azure의 글로벌 지역 맵"^] .

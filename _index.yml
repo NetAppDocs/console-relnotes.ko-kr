@@ -1,0 +1,25 @@
+---
+indexpage:
+  title: NetApp 콘솔 릴리스 노트
+  summary: 이 릴리스 노트에서는 NetApp 콘솔과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다.  각 서비스에 대한
+    전체 릴리스 노트에 대한 링크를 제공합니다.
+  keywords: release notes, enhancements, bluexp, what's new
+  lead: 이 릴리스 노트에서는 NetApp 콘솔과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다.  각 서비스에 대한 전체
+    릴리스 노트에 대한 링크를 제공합니다.
+  tiles:
+  - title: 새로운 소식
+    links:
+    - title: NetApp 콘솔의 최근 변경 사항
+      url: whats-new.html
+  - title: 서비스별 릴리스 노트
+    links:
+    - title: 릴리스 노트 인덱스
+      url: release-notes-index.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 콘솔
+      url: https://www.netapp.com/console
+    - title: NetApp 데이터 서비스
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

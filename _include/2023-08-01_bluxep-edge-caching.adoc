@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+이 릴리스에서는 다음에서 설명한 문제가 해결되었습니다. https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"] .  업데이트된 소프트웨어 패키지는 다음에서 사용 가능합니다. https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"] .

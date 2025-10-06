@@ -1,0 +1,23 @@
+---
+settings:
+  name: Release Notes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: NetApp 콘솔 릴리스 노트
+    url: "/index.html"
+  - title: 최근 변경 사항
+    url: "/whats-new.html"
+  - title: 릴리스 노트 인덱스
+    url: "/release-notes-index.html"
+  - title: 법적 고지 사항
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

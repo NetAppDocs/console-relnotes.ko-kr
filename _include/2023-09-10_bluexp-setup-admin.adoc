@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+* BlueXP 에서 AWS에 커넥터를 만들 때 이제 키 쌍 필드 내에서 검색하여 커넥터 인스턴스와 함께 사용하려는 키 쌍을 더 쉽게 찾을 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["BlueXP 에서 AWS의 커넥터를 생성할 때 네트워크 페이지에 나타나는 키 쌍 ​​필드의 검색 옵션 스크린샷입니다."]
+
+* 이 업데이트에는 버그 수정도 포함되어 있습니다.
+

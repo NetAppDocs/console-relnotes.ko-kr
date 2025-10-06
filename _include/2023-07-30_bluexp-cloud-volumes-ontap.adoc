@@ -1,0 +1,37 @@
+= Google Cloud의 Flash Cache 및 고속 쓰기 지원
+:allow-uri-read: 
+
+
+Connector 3.9.32 릴리스에는 다음과 같은 변경 사항이 도입되었습니다.
+
+
+
+=== Google Cloud의 Flash Cache 및 고속 쓰기 지원
+
+Google Cloud의 Cloud Volumes ONTAP 9.13.1 이상에서는 Flash Cache와 고속 쓰기 속도를 별도로 활성화할 수 있습니다.  지원되는 모든 인스턴스 유형에서 높은 쓰기 속도를 사용할 수 있습니다.  Flash Cache는 다음 인스턴스 유형에서 지원됩니다.
+
+* n2-표준-16
+* n2-표준-32
+* n2-표준-48
+* n2-표준-64
+
+
+이러한 기능은 단일 노드와 고가용성 쌍 배포 모두에서 별도로 또는 함께 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP 실행"^]
+
+
+
+=== 사용 보고서 개선
+
+사용 보고서에 표시되는 정보에 다양한 개선 사항이 적용되었습니다.  사용 보고서의 개선 사항은 다음과 같습니다.
+
+* 이제 TiB 단위가 열 이름에 포함됩니다.
+* 이제 일련 번호에 대한 새로운 "노드" 필드가 포함되었습니다.
+* 이제 스토리지 VM 사용 보고서에 새로운 "워크로드 유형" 열이 포함되었습니다.
+* 이제 작업 환경 이름이 스토리지 VM 및 볼륨 사용 보고서에 포함됩니다.
+* 볼륨 유형 "파일"이 이제 "기본(읽기/쓰기)"로 표시됩니다.
+* 볼륨 유형 "보조"는 이제 "보조(DP)"로 표시됩니다.
+
+
+사용 보고서에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서 다운로드"^] .
