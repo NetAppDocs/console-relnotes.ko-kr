@@ -472,7 +472,6 @@
   <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">NetApp 콘솔에서 콘솔 에이전트를 배포할 때 이제 에이전트 구성을 검증할 수 있는 옵션이 제공됩니다. 콘솔에서 에이전트를 배포하지 못하면 문제 해결에 도움이 되는 다운로드 가능한 보고서가 제공됩니다.</block>
   <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">콘솔 에이전트에 대한 문제 해결 개선</block>
   <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">콘솔 에이전트 문제를 해결하는 방법을 알아보세요.</block>
-  <block id="79ab7cf55c7d04c02a94981a9a1b7b29" category="paragraph">콘솔 에이전트에서는 문제를 더 잘 이해하는 데 도움이 되는 오류 메시지가 개선되었습니다.<block ref="32afeb8eb0f9a2e606975b6efca2856e" category="inline-link-macro-rx"></block></block>
   <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">NetApp 콘솔 관리에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="bbd516543defb57b86168970a68bacbc" category="section-title">홈페이지 대시보드</block>
   <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">홈페이지에 대해 자세히 알아보세요.</block>
@@ -524,11 +523,9 @@
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">백업 및 복구</block>
   <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">2025년 7월 28일</block>
   <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP backup and recovery 페이지의 새로운 기능</block>
-  <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">로 가다<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 2025년 7월 릴리스에 포함된 변경 사항을 참조하세요.</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">분류</block>
   <block id="9285fd96738351d44da30f801dea109b" category="cell">2025년 7월 14일(버전 1.45)</block>
   <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP classification 페이지의 새로운 기능</block>
-  <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">로 가다<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> .</block>
   <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">업그레이드 방법을 포함하여 개인 모드에 대한 자세한 내용은 다음을 참조하세요.</block>
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">개인 모드에 대해 알아보세요</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
@@ -909,22 +906,18 @@
   <block id="062a6e04f65117f2c5ad969cc8e0116c" category="list-text">볼륨 보기.</block>
   <block id="e093c974eb3629147ecf532045c7e226" category="list-text">작업 환경을 제거합니다.</block>
   <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="section-title">BlueXP ransomware protection 이제 NetApp 랜섬웨어 복원력으로 바뀌었습니다.</block>
-  <block id="b1243a3724853addea33e0cf141fe5df" category="paragraph">BlueXP 랜섬웨어 복제는 NetApp 랜섬웨어 복원력으로 이름이 바뀌었습니다.</block>
   <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025년 7월 15일</block>
   <block id="90b6690e6ff7c4f6c224ce1794630ced" category="section-title">SAN 워크로드 지원</block>
   <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">이 릴리스에는 BlueXP ransomware protection 의 SAN 워크로드에 대한 지원이 포함되어 있습니다. 이제 NFS 및 CIFS 워크로드뿐만 아니라 SAN 워크로드도 보호할 수 있습니다.</block>
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP ransomware protection 전제 조건</block>
-  <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block> .</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">향상된 작업 부하 보호</block>
   <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">이 릴리스에서는 SnapCenter 나 BlueXP backup and recovery 와 같은 다른 NetApp 도구의 스냅샷 및 백업 정책을 사용하는 워크로드에 대한 구성 프로세스가 개선되었습니다. 이전 릴리스에서는 BlueXP ransomware protection 다른 도구의 정책을 발견하여 사용자가 감지 정책을 변경할 수만 있었습니다. 이 릴리스를 사용하면 스냅샷 및 백업 정책을 BlueXP ransomware protection 정책으로 바꾸거나 다른 도구의 정책을 계속 사용할 수 있습니다.</block>
   <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">작업 부하 보호</block>
-  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block> .</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">이메일 알림</block>
   <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">BlueXP ransomware protection 잠재적인 공격을 감지하면 BlueXP 알림에 알림이 나타나고, 사용자가 구성한 이메일 주소로 이메일이 전송됩니다.</block>
   <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">이메일에는 심각도, 영향을 받는 작업 부하, BlueXP ransomware protection *알림* 탭의 알림에 대한 링크에 대한 정보가 포함되어 있습니다.</block>
   <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">BlueXP ransomware protection 에서 SIEM(보안 및 이벤트 관리) 시스템을 구성한 경우 해당 서비스는 SIEM 시스템으로 경고 세부 정보를 전송합니다.</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link-macro">감지된 랜섬웨어 알림 처리</block>
-  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block> .</block>
   <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025년 6월 9일</block>
   <block id="07008bfe30be6fadcf287348a234142c" category="section-title">랜딩 페이지 업데이트</block>
   <block id="1f054df4aa4b46ec1a714386afb99b06" category="paragraph">이번 릴리스에는 BlueXP ransomware protection 의 랜딩 페이지가 업데이트되어 무료 평가판 시작과 검색이 더욱 쉬워졌습니다.</block>
@@ -933,20 +926,17 @@
   <block id="5e0279378617bd12ec67145646285fab" category="paragraph">이번 릴리스에서는 BlueXP ransomware protection 대시보드의 새 버튼을 사용하여 테스트 워크로드에 대한 랜섬웨어 준비 훈련을 실행할 수 있습니다. 이를 통해 제어된 환경 내에서 랜섬웨어 공격을 시뮬레이션하고, 그 영향을 조사하고, 워크로드를 효율적으로 복구하기가 더 쉬워졌습니다.</block>
   <block id="a539ada725302fb5ecd1f180a2aed531" category="paragraph">이제 NFS 워크로드뿐만 아니라 CIFS(SMB) 워크로드에 대한 준비 훈련을 실행할 수 있습니다.</block>
   <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">랜섬웨어 공격 대비 훈련을 실시하세요</block>
-  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block> .</block>
   <block id="8a09aacd3cf1c88c3c2a4d746cad44f5" category="section-title">BlueXP classification 업데이트 활성화</block>
   <block id="ba91dfda650db88e3bc3dd36c32fa577" category="paragraph">BlueXP ransomware protection 서비스 내에서 BlueXP classification 사용하기 전에 BlueXP classification 활성화하여 데이터를 검사해야 합니다. 데이터를 분류하면 개인 식별 정보(PII)를 찾는 데 도움이 되며, 이는 보안 위험을 증가시킬 수 있습니다.</block>
   <block id="960c237c5456a08952ee4a0c6bc67ab9" category="paragraph">BlueXP ransomware protection 내에서 파일 공유 워크로드에 BlueXP classification 배포할 수 있습니다. *개인정보 노출* 열에서 *노출 식별* 옵션을 선택합니다. 분류 서비스를 활성화한 경우 이 작업을 통해 노출을 식별할 수 있습니다. 그렇지 않은 경우, 이 릴리스에서는 대화 상자에 BlueXP classification 배포할 수 있는 옵션이 표시됩니다. *배포*를 선택하면 BlueXP classification 서비스 랜딩 페이지로 이동하여 해당 서비스를 배포할 수 있습니다. 여</block>
   <block id="55d5a81a565b7cb4265c8c73ecd4aa37" category="inline-link">클라우드에 BlueXP classification 배포</block>
   <block id="6b0e91bb98e8a9394dda94307f3217d0" category="inline-link">BlueXP classification 사용하여 개인 식별 정보를 스캔하세요</block>
-  <block id="1ebb3fd0e37e111d097f72f481a8495f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="3daa2f037f0ac9e3dc92dfaca32cdfd8" category="inline-link-rx"></block> BlueXP ransomware protection 서비스를 사용하려면 다음을 참조하세요.<block ref="92298fee5b4e50be64de76505f153d1a" category="inline-link-rx"></block> .</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025년 5월 13일</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">BlueXP ransomware protection 에서 지원되지 않는 작업 환경 보고</block>
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">검색 워크플로 중에 지원되는 워크로드 또는 지원되지 않는 워크로드 위에 마우스를 올리면 BlueXP ransomware protection 더 자세한 정보를 보고합니다. 이를 통해 일부 워크로드가 BlueXP ransomware protection 서비스에서 발견되지 않는 이유를 이해하는 데 도움이 됩니다.</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">서비스가 작업 환경을 지원하지 않는 데에는 여러 가지 이유가 있습니다. 예를 들어, 작업 환경의 ONTAP 버전이 필요한 버전보다 낮을 수 있습니다. 지원되지 않는 작업 환경 위에 마우스를 올리면 툴팁에 그 이유가 표시됩니다.</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">초기 검색 중에 지원되지 않는 작업 환경을 볼 수 있으며, 결과를 다운로드할 수도 있습니다. 설정 페이지의 *워크로드 검색* 옵션에서 검색 결과를 볼 수도 있습니다.</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">BlueXP ransomware protection 에서 워크로드를 발견하세요</block>
-  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block> .</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">Amazon FSx for NetApp ONTAP 지원</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리스는 Amazon FSx for NetApp ONTAP 지원합니다. 이 기능은 BlueXP ransomware protection 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
@@ -957,12 +947,9 @@
   <block id="2e09d92e8822f80e9aac61fdb75fa3c8" category="admonition">FSx for ONTAP 에서 실행되는 워크로드에 대한 백업 정책은 BlueXP 에서 설정할 수 없습니다. Amazon FSx for NetApp ONTAP 에 설정된 기존 백업 정책은 변경되지 않습니다.</block>
   <block id="97c627f1fcd3a299ac19157a8f566694" category="list-text">경고 사건은 새로운 FSx for ONTAP 작업 환경을 보여줍니다.</block>
   <block id="1d40c591d842224b16a448bc26a6bfab" category="inline-link">BlueXP ransomware protection 및 작업 환경에 대해 알아보세요</block>
-  <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block> .</block>
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP ransomware protection 제한 사항</block>
-  <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">지원되는 옵션에 대한 정보는 다음을 참조하세요.<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block> .</block>
   <block id="4dd9f1961ea018706909f1155d36c91a" category="paragraph">이제 BlueXP ransomware protection 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 랜섬웨어 보호 관리자 또는 랜섬웨어 보호 뷰어.</block>
   <block id="34397c830c77af93d96e3ed470658d45" category="inline-link">모든 서비스에 대한 BlueXP 액세스 역할에 대해 알아보세요</block>
-  <block id="0d46f65a7717513cadcb109363fb6c6d" category="paragraph"><block ref="06a5d1f4c488b014d10a11f3fe7273ba" category="inline-link-rx"></block> .</block>
   <block id="4fe331eaa4881ca37fd2ff947e6b8bec" category="section-title">준비 훈련 보고서</block>
   <block id="e78c37e0abce1f032a2a34eda9e02a54" category="paragraph">이번 릴리스에서는 랜섬웨어 공격 대비 훈련 보고서를 검토할 수 있습니다. 준비 훈련을 통해 새로 생성된 샘플 워크로드에 대한 랜섬웨어 공격을 시뮬레이션할 수 있습니다. 그런 다음 시뮬레이션된 공격을 조사하고 샘플 작업 부하를 복구합니다. 이 기능은 경고 알림, 대응 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생할 경우 대비가 되어 있는지 확인하는 데 도움이 됩니다.</block>
   <block id="cc61bd0d76dc349aa4d70e26ca03704d" category="section-title">새로운 역할 기반 액세스 제어 역할 및 권한</block>
@@ -970,11 +957,9 @@
   <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="list-text">랜섬웨어 보호 관리자</block>
   <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="list-text">랜섬웨어 보호 뷰어</block>
   <block id="51871ed75f741b0dab90d2d1612f6499" category="inline-link">BlueXP ransomware protection 역할 기반 기능 액세스</block>
-  <block id="b42fe8f702412cfa14541d3fab58efa6" category="paragraph">권한에 대한 자세한 내용은 다음을 참조하세요.<block ref="01046b99aab91b10679a0fac299864df" category="inline-link-rx"></block> .</block>
   <block id="25ccc48b022e2433d5b379cc51530139" category="section-title">결제 개선</block>
   <block id="a3d54846581a4bb8314f87602a4ba2c0" category="paragraph">이번 릴리스에는 결제 프로세스에 대한 여러 가지 개선 사항이 포함되어 있습니다.</block>
   <block id="7ffb0c59c068d14b0ee6581cde479463" category="inline-link">라이센싱 및 지불 옵션 설정</block>
-  <block id="52a7f2b6af87f28195cf6badbad6c667" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="a8b1ada7f83ee5659f868a512032628f" category="inline-link-rx"></block> .</block>
   <block id="747ef7cb70bddb84c8ef27217b868e12" category="section-title">BlueXP replication 이제 NetApp 복제입니다.</block>
   <block id="57ff97c571d4da9035b6687a3eb97fea" category="paragraph">BlueXP replication NetApp 복제로 이름이 변경되었습니다.</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">ONTAP 용 FSx에서 Cloud Volumes ONTAP 으로</block>
@@ -1106,4 +1091,34 @@
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">성공적인 검색 후 vCenter 크기 조정 세부 정보를 캡처하기 위한 로그 개선</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">기본, 보조 및 개체 스토리지에서 VM 백업을 검색하고 복원합니다.</block>
   <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">여러분은 꽤 오랫동안 BlueXP Canvas에서 Azure Blob Storage를 볼 수 있었습니다. 이제 BlueXP 에서 직접 새로운 스토리지 계정을 추가하고 기존 스토리지 계정의 속성을 변경할 수 있습니다. <block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> .</block>
+  <block id="12ad8fdc380a2754e74763c6ec3dd093" category="paragraph">콘솔 에이전트에서는 문제를 더 잘 이해하는 데 도움이 되는 오류 메시지가 개선되었습니다.<block ref="af6db24ea837f8b9ee9738ec7c58a997" category="inline-link-macro-rx"></block></block>
+  <block id="bdf328dcc25654b345bbfab998204210" category="cell">로 가다<block ref="6357afa5f4df051bc1bb94ee8e3de4c5" category="inline-link-rx"></block> 2025년 7월 릴리스에 포함된 변경 사항을 참조하세요.</block>
+  <block id="3f21878baefde2ddae755caf4163a20e" category="cell">로 가다<block ref="1f6c2a2bb628adfdf4a77389c4b1bb41" category="inline-link-rx"></block> .</block>
+  <block id="8c033e68f21af84a645a65cdb34e6632" category="paragraph">BlueXP ransomware protection 서비스의 이름이 NetApp Ransomware Resilience 로 변경되었습니다.</block>
+  <block id="6b815504dd4844974d9ebfb52e0fe4d6" category="section-title">데이터 침해 감지</block>
+  <block id="50558bac19c965c1d55609370fca3199" category="paragraph">랜섬웨어 복원력에는 몇 단계만으로 활성화할 수 있는 새로운 감지 메커니즘이 포함되어 있어 데이터 침해의 조기 지표로 비정상적인 사용자 읽기를 감지합니다. 랜섬웨어 복원력은 과거 데이터에서 예상되는 정상적인 동작 프로필인 과거 기준선을 생성하여 사용자 읽기 이벤트를 수집하고 분석합니다. 새로운 사용자 활동이 이러한 기존 기준에서 크게 벗어나는 경우(예상치 못한 읽기 급증과 의심스러운 읽기 패턴이 결합된 경우) 알림이 생성됩니다. 랜섬웨어 복원력에는 의심스러운 읽기 패턴을 감지하는 AI 모델이 포함되어 있습니다.</block>
+  <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">저장 계층에서 ARP를 통한 암호화 감지와 달리, Ransomware Resilience SaaS 서비스에서는 FPolicy 이벤트를 수집하여 사용자 동작 이상을 감지합니다.</block>
+  <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">의심스러운 사용자 활동 감지 활성화</block>
+  <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">비정상적인 사용자 동작 보기</block>
+  <block id="b270269f4d3564626c9860f0f29f2992" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="58d7e66449e28231f244d38ab02cc3e1" category="inline-link-macro-rx"></block> 그리고<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block> .</block>
+  <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">추가적으로 의심스러운 사용자 활동 감지</block>
+  <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">Ransomware Resilience는 데이터 침해 감지 외에도 관찰된 의심스러운 사용자 활동을 기반으로 다음과 같은 알림 유형을 감지합니다.</block>
+  <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**데이터 파괴 - 잠재적 공격** - 파일 삭제 수가 기존 기준을 초과하면 잠재적 공격의 심각도를 알려주는 알림이 생성됩니다.</block>
+  <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**의심스러운 사용자 동작 - 잠재적 공격** - 랜섬웨어 공격과 유사한 순서로 읽기, 이름 바꾸기 및 삭제 작업이 관찰되면 잠재적 공격의 심각도를 알려주는 경고가 생성됩니다.</block>
+  <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**의심스러운 사용자 동작 - 경고** - 파일 활동(읽기, 삭제, 이름 바꾸기 등)의 총 수가 이전 기준을 초과하면 경고 심각도의 알림이 생성됩니다.</block>
+  <block id="b0ba200b30bf16fc357a806132791b75" category="section-title">데이터 침해 감지를 위한 새로운 사용자 역할</block>
+  <block id="fa780a65e0e091d94507a69bc6b589c6" category="inline-link-macro">NetApp Ransomware Resilience 역할 기반 액세스</block>
+  <block id="badd5c45c49e20368873307ff9e6ffc0" category="paragraph">의심스러운 사용자 활동 알림을 관리하기 위해 Ransomware Resilience는 사용자 파일 활동과 같은 중요한 데이터에 대한 세부적인 액세스를 제공하는 두 가지 새로운 역할을 도입했습니다. 자세한 내용은 다음을 참조하세요. <block ref="acee2fdb33125bc970e8c80226d5f58c" category="inline-link-macro-rx"></block> .</block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">이 릴리스에는 일반적인 개선 사항 및 개선 사항이 포함되어 있습니다.</block>
+  <block id="8b61f628ff6c584959e081dfc4edebb6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="c4baa86796975d4c7e6a1153b246f3d1" category="inline-link-macro-rx"></block> .</block>
+  <block id="cf51b26fb14f613d642588e747a6409b" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fe8b859db0e9e0c241fb61d50beda51d" category="inline-link-macro-rx"></block> .</block>
+  <block id="a47ac27491bd173f33b1da537aafa64f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="5f880b35b82b0cf35578f40dde855e69" category="inline-link-macro-rx"></block> .</block>
+  <block id="ffbd6ced4cfd19806457928826e77f9d" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="680a07f1320ce65c31e5161379886639" category="inline-link-rx"></block> .</block>
+  <block id="7e42707703b4d067b548f10acbf4df99" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="c12ecfc72dc196e054946f32c2360b19" category="inline-link-rx"></block> BlueXP ransomware protection 서비스를 사용하려면 다음을 참조하세요.<block ref="546f381a7c557bb1741d0a7b3184b38d" category="inline-link-rx"></block> .</block>
+  <block id="ce9a399316c0383caf8dae43d9de270f" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="c6fe8309407496782517b1f78c419c07" category="inline-link-rx"></block> .</block>
+  <block id="8c15a7a1b990daf1c67965c3409291a0" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="850bf291deb03a29bea4824c43e8b433" category="inline-link-rx"></block> .</block>
+  <block id="74969aaacd3e898ffb289ab18b5802e2" category="paragraph">지원되는 옵션에 대한 정보는 다음을 참조하세요.<block ref="c05ac23ab96ba518082f01b1b08e8e95" category="inline-link-rx"></block> .</block>
+  <block id="e730cca4cd272ec01ca9b83307bce0ea" category="paragraph"><block ref="56ddaed99a22a4135c2249926212e08e" category="inline-link-rx"></block> .</block>
+  <block id="fa5fdf6437c8f041e577f03d2886feb7" category="paragraph">권한에 대한 자세한 내용은 다음을 참조하세요.<block ref="bae933e2ecf3f9d4c80618fdd19f0a12" category="inline-link-rx"></block> .</block>
+  <block id="90f9ae6ca21dd13979085a7ce12c30fb" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="0e61d2375267610913b69353158784eb" category="inline-link-rx"></block> .</block>
 </blocks>
