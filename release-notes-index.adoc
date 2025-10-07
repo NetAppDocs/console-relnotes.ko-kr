@@ -25,7 +25,7 @@ NetApp 콘솔 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["자동화 허브"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["디지털 어드바이저"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["경제적 효율성"^]
-* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["라이센스 및 구독"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["라이센스 및 구독"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["소프트웨어 업데이트"^]
 
 
@@ -58,7 +58,7 @@ NetApp 콘솔 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 == 데이터 서비스
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["백업 및 복구"^]
-* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["데이터 분류"^]
+* https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["데이터 분류"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["복사 및 동기화"^]
 * https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["재해 복구"^]
 * https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["랜섬웨어 복원력"^]
