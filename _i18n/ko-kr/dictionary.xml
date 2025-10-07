@@ -1105,4 +1105,5 @@
   <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">복제 계획에 NFS FQDN이 사용된 경우 NetApp Disaster Recovery는 이제 이를 IP 주소로 확인합니다. 이 업데이트는 재해 복구 사이트에서 FQDN을 확인할 수 없는 경우에 유용합니다.</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 정렬 개선</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">성공적인 검색 후 vCenter 크기 조정 세부 정보를 캡처하기 위한 로그 개선</block>
+  <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">기본, 보조 및 개체 스토리지에서 VM 백업을 검색하고 복원합니다.</block>
 </blocks>
