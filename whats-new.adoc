@@ -1343,7 +1343,109 @@ Cloud Volumes ONTAP 사용 보고서에 다음과 같은 여러 가지 개선 �
 
 == 재해 복구
 
-<stdin>에 해결되지 않은 지시어가 있습니다. - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 2025년 10월 6일
+
+
+
+==== BlueXP disaster recovery 이제 NetApp 재해 복구입니다.
+
+BlueXP disaster recovery NetApp 재해 복구로 이름이 변경되었습니다.
+
+
+
+==== BlueXP 는 이제 NetApp 콘솔입니다.
+
+강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
+
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+
+
+
+==== 기타 업데이트
+
+* Amazon FSx for NetApp ONTAP 통한 Amazon Elastic VMware Service(EVS) 지원은 공개 미리 보기 단계에 있었습니다. 이번 릴리스를 통해 이제 일반적으로 사용할 수 있게 되었습니다. 자세한 내용은 다음을 참조하세요.link:../reference/evs-deploy-guide-introduction.html["Amazon Elastic VMware Service 및 Amazon FSx for NetApp ONTAP 사용한 NetApp 재해 복구 소개"] .
+* 온프레미스 배포에 대한 검색 시간 단축을 포함한 스토리지 검색 개선
+* 역할 기반 액세스 제어(RBAC) 및 향상된 사용자 권한을 포함한 IAM(Identity and Access Management) 지원
+* Azure VMware 솔루션 및 Cloud Volumes ONTAP 에 대한 Private Preview 지원. 이 지원을 통해 이제 Cloud Volumes ONTAP 스토리지를 사용하여 온프레미스에서 Azure VMware 솔루션으로 재해 복구 보호를 구성할 수 있습니다.
+
+
+
+
+=== 2025년 8월 4일
+
+버전 4.2.5P2
+
+
+
+==== NetApp 재해 복구 업데이트
+
+이 릴리스에는 다음과 같은 업데이트가 포함되어 있습니다.
+
+* 여러 스토리지 가상 머신에서 제공되는 동일한 LUN을 처리하기 위해 VMFS 지원이 개선되었습니다.
+* 이미 마운트 해제되거나 삭제된 데이터 저장소를 처리하기 위해 테스트 해체 정리를 개선했습니다.
+* 제공된 네트워크 내에 입력된 게이트웨이가 포함되어 있는지 확인할 수 있도록 서브넷 매핑이 개선되었습니다.
+* VM 이름에 ".com"이 포함되어 있는 경우 복제 계획이 실패할 수 있는 문제를 수정했습니다.
+* 복제 계획 생성의 일부로 볼륨을 생성할 때 대상 볼륨이 소스 볼륨과 동일하지 않도록 하는 제한이 제거되었습니다.
+* Azure Marketplace에서 NetApp Intelligent Services에 대한 PAYGO(종량제) 구독 지원을 추가하고 무료 평가판 대화 상자에 Azure Marketplace에 대한 링크를 추가했습니다.
++
+자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["NetApp 재해 복구 라이선싱"] 그리고 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["NetApp 재해 복구에 대한 라이선싱 설정"] .
+
+
+
+
+
+=== 2025년 7월 14일
+
+버전 4.2.5
+
+
+
+==== NetApp 재해 복구의 사용자 역할
+
+NetApp Disaster Recovery는 이제 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리하는 역할을 사용합니다.
+
+이 서비스는 NetApp 재해 복구에 특정한 다음 역할을 사용합니다.
+
+* *재해 복구 관리자*: NetApp 재해 복구에서 모든 작업을 수행합니다.
+* *재해 복구 장애 조치 관리자*: NetApp 재해 복구에서 장애 조치 및 마이그레이션 작업을 수행합니다.
+* *재해 복구 애플리케이션 관리자*: 복제 계획을 만들고 수정하고 테스트 장애 조치를 시작합니다.
+* *재해 복구 뷰어*: NetApp 재해 복구에서 정보를 볼 수 있지만, 어떤 작업도 수행할 수 없습니다.
+
+
+NetApp 재해 복구 서비스를 클릭하고 처음으로 구성하는 경우 *SnapCenterAdmin* 권한이나 *조직 관리자* 역할이 있어야 합니다.
+
+자세한 내용은 다음을 참조하십시오.  https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["NetApp 재해 복구의 사용자 역할 및 권한"] .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["모든 서비스에 대한 액세스 역할에 대해 알아보세요"^] .
+
+
+
+==== NetApp 재해 복구의 기타 업데이트
+
+* 향상된 네트워크 검색
+* 확장성 개선:
++
+** 모든 세부 정보 대신 필요한 메타데이터만 필터링
+** VM 리소스를 더 빠르게 검색하고 업데이트하기 위한 검색 개선
+** 데이터 검색 및 데이터 업데이트를 위한 메모리 최적화 및 성능 최적화
+** vCenter SDK 클라이언트 생성 및 풀 관리 개선
+
+
+* 다음 예약 또는 수동 검색 시 오래된 데이터 관리:
++
+** vCenter에서 VM이 삭제되면 이제 NetApp Disaster Recovery가 복제 계획에서 자동으로 해당 VM을 제거합니다.
+** vCenter에서 데이터 저장소나 네트워크가 삭제되면 이제 NetApp Disaster Recovery가 복제 계획 및 리소스 그룹에서도 해당 데이터 저장소나 네트워크를 삭제합니다.
+** vCenter에서 클러스터, 호스트 또는 데이터 센터가 삭제되면 이제 NetApp Disaster Recovery가 복제 계획 및 리소스 그룹에서 해당 항목을 삭제합니다.
+
+
+* 이제 브라우저의 시크릿 모드에서도 Swagger 문서에 액세스할 수 있습니다. NetApp Disaster Recovery에서 설정 옵션 > API 설명서를 통해 액세스할 수 있으며, 브라우저의 시크릿 모드에서 다음 URL을 통해 직접 액세스할 수도 있습니다. https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Swagger 문서"^] .
+* 어떤 상황에서는 장애 복구 작업 후 작업이 완료된 후에도 iGroup이 남겨지는 경우가 있었습니다. 이 업데이트는 오래된 iGroup을 제거합니다.
+* 복제 계획에 NFS FQDN이 사용된 경우 NetApp Disaster Recovery는 이제 이를 IP 주소로 확인합니다. 이 업데이트는 재해 복구 사이트에서 FQDN을 확인할 수 없는 경우에 유용합니다.
+* UI 정렬 개선
+* 성공적인 검색 후 vCenter 크기 조정 세부 정보를 캡처하기 위한 로그 개선
+
 
 
 

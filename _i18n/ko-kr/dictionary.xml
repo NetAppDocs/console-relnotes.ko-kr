@@ -340,7 +340,6 @@
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">BlueXP 데이터 서비스에 대한 라이선스를 관리하는 방법을 알아보세요.</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023년 7월 30일</block>
-  <block id="1f44f33aeb1b63e7094b0cbb0522d33b" category="paragraph">&lt;stdin&gt;에 해결되지 않은 지시어가 있습니다. - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">수명주기 계획</block>
   <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="section-title">BlueXP economic efficiency 이제 수명 주기 계획입니다.</block>
   <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">BlueXP economic efficiency 수명 주기 계획으로 이름이 바뀌었습니다.</block>
@@ -1056,4 +1055,54 @@
   <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">클러스터가 콜드 데이터의 20% 미만을 계층화하는 경우(데이터를 계층화하지 않는 클러스터 포함) 계층화 이벤트 "클러스터 &lt;이름&gt;에서 개체 스토리지로 추가 데이터를 계층화하여 스토리지 효율성을 높이세요"가 이제 알림으로 표시됩니다.</block>
   <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">클라우드 티어링 총 소유 비용 및 절감 계산기</block>
   <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">이 알림은 귀하의 시스템 효율성을 높이고 저장 비용을 절감하는 데 도움이 되는 "권장 사항"입니다. 링크를 제공합니다<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block> 비용 절감액을 계산하는 데 도움이 됩니다.</block>
+  <block id="bdffab7d1fc5c739af6bcacd7556d32b" category="section-title">BlueXP disaster recovery 이제 NetApp 재해 복구입니다.</block>
+  <block id="b8479b63a059f61189d191d9d8206a0e" category="paragraph">BlueXP disaster recovery NetApp 재해 복구로 이름이 변경되었습니다.</block>
+  <block id="74ec2cbf7ad010d86af9ea5f2d47ee39" category="section-title">기타 업데이트</block>
+  <block id="77ce624f79cabd64ddedccf3196e9b1a" category="inline-link-macro">Amazon Elastic VMware Service 및 Amazon FSx for NetApp ONTAP 사용한 NetApp 재해 복구 소개</block>
+  <block id="e6b27502ab6a46e1039ef9e004cb65ff" category="list-text">Amazon FSx for NetApp ONTAP 통한 Amazon Elastic VMware Service(EVS) 지원은 공개 미리 보기 단계에 있었습니다. 이번 릴리스를 통해 이제 일반적으로 사용할 수 있게 되었습니다. 자세한 내용은 다음을 참조하세요.<block ref="d77dcab16ff9979356836b689cffd0ee" category="inline-link-macro-rx"></block> .</block>
+  <block id="1842d5453eb18b28e3fe6f5c7acc9eaa" category="list-text">온프레미스 배포에 대한 검색 시간 단축을 포함한 스토리지 검색 개선</block>
+  <block id="58077d66ee3ca42d6d7732854dac2714" category="list-text">역할 기반 액세스 제어(RBAC) 및 향상된 사용자 권한을 포함한 IAM(Identity and Access Management) 지원</block>
+  <block id="ef31873b640af7e0e4300d5282baffe4" category="list-text">Azure VMware 솔루션 및 Cloud Volumes ONTAP 에 대한 Private Preview 지원. 이 지원을 통해 이제 Cloud Volumes ONTAP 스토리지를 사용하여 온프레미스에서 Azure VMware 솔루션으로 재해 복구 보호를 구성할 수 있습니다.</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025년 8월 4일</block>
+  <block id="4a32789f771ba902fef02cd0f2a544e6" category="paragraph">버전 4.2.5P2</block>
+  <block id="48cd462677138869d77d61db9c16b889" category="section-title">NetApp 재해 복구 업데이트</block>
+  <block id="36088b35355e766d544b98140baa439a" category="list-text">여러 스토리지 가상 머신에서 제공되는 동일한 LUN을 처리하기 위해 VMFS 지원이 개선되었습니다.</block>
+  <block id="5958ae417b9ca044a24e8a3629b195bb" category="list-text">이미 마운트 해제되거나 삭제된 데이터 저장소를 처리하기 위해 테스트 해체 정리를 개선했습니다.</block>
+  <block id="1a2957b0c8fb36225440df520076e072" category="list-text">제공된 네트워크 내에 입력된 게이트웨이가 포함되어 있는지 확인할 수 있도록 서브넷 매핑이 개선되었습니다.</block>
+  <block id="7f5267deccdc08e8591ec8b4dccfcc03" category="list-text">VM 이름에 ".com"이 포함되어 있는 경우 복제 계획이 실패할 수 있는 문제를 수정했습니다.</block>
+  <block id="8af129ac3a817923db5feb647660eb7c" category="list-text">복제 계획 생성의 일부로 볼륨을 생성할 때 대상 볼륨이 소스 볼륨과 동일하지 않도록 하는 제한이 제거되었습니다.</block>
+  <block id="4de413f6189881cc6b259fb6e68df02c" category="list-text">Azure Marketplace에서 NetApp Intelligent Services에 대한 PAYGO(종량제) 구독 지원을 추가하고 무료 평가판 대화 상자에 Azure Marketplace에 대한 링크를 추가했습니다.</block>
+  <block id="2987548294e292332cf7adcf36589fc5" category="inline-link">NetApp 재해 복구 라이선싱</block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">NetApp 재해 복구에 대한 라이선싱 설정</block>
+  <block id="66987db2f4ddc01df2f2608d224490a6" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="daf049a4e68b2c2a66995f2733e6d093" category="inline-link-rx"></block> 그리고<block ref="502b84db50f651e0d1e6368db24aec66" category="inline-link-rx"></block> .</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">버전 4.2.5</block>
+  <block id="ae9748c0cf32bbe0d62a0514c121d1f2" category="section-title">NetApp 재해 복구의 사용자 역할</block>
+  <block id="acd3b1030b26202122f9ff922116dd46" category="paragraph">NetApp Disaster Recovery는 이제 각 사용자가 특정 기능과 작업에 대해 갖는 액세스를 관리하는 역할을 사용합니다.</block>
+  <block id="5d0c7e3e79227c0f48e31b0f10e5a07d" category="paragraph">이 서비스는 NetApp 재해 복구에 특정한 다음 역할을 사용합니다.</block>
+  <block id="8089d5956a754913831086e4a192fba0" category="list-text">*재해 복구 관리자*: NetApp 재해 복구에서 모든 작업을 수행합니다.</block>
+  <block id="1da73a6d977d71d257524dfc760b311f" category="list-text">*재해 복구 장애 조치 관리자*: NetApp 재해 복구에서 장애 조치 및 마이그레이션 작업을 수행합니다.</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*재해 복구 애플리케이션 관리자*: 복제 계획을 만들고 수정하고 테스트 장애 조치를 시작합니다.</block>
+  <block id="919421d556cf702a4e06810fc276b335" category="list-text">*재해 복구 뷰어*: NetApp 재해 복구에서 정보를 볼 수 있지만, 어떤 작업도 수행할 수 없습니다.</block>
+  <block id="eeacd7a9a09a00a4f78e8e20c24b39e4" category="paragraph">NetApp 재해 복구 서비스를 클릭하고 처음으로 구성하는 경우 *SnapCenterAdmin* 권한이나 *조직 관리자* 역할이 있어야 합니다.</block>
+  <block id="228f454cf16a61507e28cfb734b215ab" category="inline-link">NetApp 재해 복구의 사용자 역할 및 권한</block>
+  <block id="044ee78e955ad31e7cec671d271aff49" category="paragraph">자세한 내용은 다음을 참조하십시오. <block ref="064655cf5aa70bddc10e05f71e3f59a1" category="inline-link-rx"></block> .</block>
+  <block id="9e51129a710cb333676e7ff392c0610c" category="inline-link">모든 서비스에 대한 액세스 역할에 대해 알아보세요</block>
+  <block id="d0f140b1f3426612fda3714d998f3232" category="paragraph"><block ref="ea112d812fe0cc251b9a8c88105fdf11" category="inline-link-rx"></block> .</block>
+  <block id="1e9f4844ea9e9792cbb09aa643cdd0b9" category="section-title">NetApp 재해 복구의 기타 업데이트</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">향상된 네트워크 검색</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">확장성 개선:</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">모든 세부 정보 대신 필요한 메타데이터만 필터링</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">VM 리소스를 더 빠르게 검색하고 업데이트하기 위한 검색 개선</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">데이터 검색 및 데이터 업데이트를 위한 메모리 최적화 및 성능 최적화</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">vCenter SDK 클라이언트 생성 및 풀 관리 개선</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">다음 예약 또는 수동 검색 시 오래된 데이터 관리:</block>
+  <block id="2b077b3d88dcc4adb54c2a11c5463fae" category="list-text">vCenter에서 VM이 삭제되면 이제 NetApp Disaster Recovery가 복제 계획에서 자동으로 해당 VM을 제거합니다.</block>
+  <block id="7fb8e5a4929cd35fd131ad1f5533d144" category="list-text">vCenter에서 데이터 저장소나 네트워크가 삭제되면 이제 NetApp Disaster Recovery가 복제 계획 및 리소스 그룹에서도 해당 데이터 저장소나 네트워크를 삭제합니다.</block>
+  <block id="1b838198508b4c30761cfb90615db038" category="list-text">vCenter에서 클러스터, 호스트 또는 데이터 센터가 삭제되면 이제 NetApp Disaster Recovery가 복제 계획 및 리소스 그룹에서 해당 항목을 삭제합니다.</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Swagger 문서</block>
+  <block id="cec5123afb166f0c68f7ddc85e5b41e4" category="list-text">이제 브라우저의 시크릿 모드에서도 Swagger 문서에 액세스할 수 있습니다. NetApp Disaster Recovery에서 설정 옵션 &gt; API 설명서를 통해 액세스할 수 있으며, 브라우저의 시크릿 모드에서 다음 URL을 통해 직접 액세스할 수도 있습니다.<block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> .</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">어떤 상황에서는 장애 복구 작업 후 작업이 완료된 후에도 iGroup이 남겨지는 경우가 있었습니다. 이 업데이트는 오래된 iGroup을 제거합니다.</block>
+  <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">복제 계획에 NFS FQDN이 사용된 경우 NetApp Disaster Recovery는 이제 이를 IP 주소로 확인합니다. 이 업데이트는 재해 복구 사이트에서 FQDN을 확인할 수 없는 경우에 유용합니다.</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 정렬 개선</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">성공적인 검색 후 vCenter 크기 조정 세부 정보를 캡처하기 위한 로그 개선</block>
 </blocks>
