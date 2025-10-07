@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes-index.html 
 keywords: release notes 
-summary: NetApp 콘솔 관리 및 스토리지 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 노트를 확인하세요. 
+summary: NetApp Console 관리 및 스토리지 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 노트를 확인하세요. 
 ---
 = 릴리스 노트 인덱스
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetApp 콘솔 관리 및 스토리지 기능과 NetApp 데이터 서비
 
 
 [role="lead"]
-NetApp 콘솔 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 노트를 확인하세요.
+NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 노트를 확인하세요.
 
 
 
@@ -25,7 +25,7 @@ NetApp 콘솔 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["자동화 허브"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["디지털 어드바이저"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["경제적 효율성"^]
-* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["라이센스 및 구독"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["소프트웨어 업데이트"^]
 
 
@@ -38,7 +38,7 @@ NetApp 콘솔 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 * https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Azure Blob 저장소"^]
 * https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetApp 콘솔에서 Cloud Volumes ONTAP 관리"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetApp Console 에서 Cloud Volumes ONTAP 관리"^]
 * https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["E-시리즈 시스템"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["구글 클라우드 스토리지"^]

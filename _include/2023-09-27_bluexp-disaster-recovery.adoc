@@ -14,7 +14,7 @@ BlueXP disaster recovery 의 이 미리보기 릴리스에는 다음과 같은 �
 +
 참조하다 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획 만들기"] .
 
-** *네트워킹 향상*: 복제 계획의 가상 머신 섹션에서 소스와 대상 위치 간의 네트워킹을 매핑할 때 BlueXP disaster recovery 이제 DHCP 또는 정적 IP라는 두 가지 옵션을 제공합니다.  이전에는 DHCP만 지원되었습니다.  고정 IP의 경우 서브넷, 게이트웨이, DNS 서버를 구성합니다.  또한 이제 가상 머신에 대한 자격 증명을 입력할 수 있습니다.
+** *네트워킹 향상*: 복제 계획의 가상 머신 섹션에서 소스와 대상 위치 간의 네트워킹을 매핑할 때 BlueXP disaster recovery 이제 DHCP 또는 정적 IP의 두 가지 옵션을 제공합니다.  이전에는 DHCP만 지원되었습니다.  고정 IP의 경우 서브넷, 게이트웨이, DNS 서버를 구성합니다.  또한 이제 가상 머신에 대한 자격 증명을 입력할 수 있습니다.
 +
 참조하다 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획 만들기"] .
 
