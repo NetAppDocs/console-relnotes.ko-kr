@@ -434,4 +434,14 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">더 이상 사용되지 않는 서비스</block>
+  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025년 11월 11일</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
+  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025년 10월 17일</block>
+  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025년 10월 13일</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">클라우드 티어링 :leveloffset: +1</block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">복제 :leveloffset: +1</block>
+  <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E-시리즈 :leveloffset: +1</block>
+  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025년 9월 22일</block>
+  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025년 8월 25일</block>
 </blocks>
