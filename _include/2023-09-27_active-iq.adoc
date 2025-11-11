@@ -1,7 +1,0 @@
-= 
-:allow-uri-read: 
-
-
-* 기본 관심 목록에 대한 업그레이드 어드바이저 페이지에 액세스하려면 다음을 사용하십시오.link:https://activeiq.netapp.com/redirect/upgrade-advisor["업그레이드 어드바이저"^] 링크.
-* 업그레이드 계획은 중복된 업그레이드 단계를 제거하고 백아웃 계획을 단순화하도록 최적화되었습니다.  클러스터의 모든 노드에 걸친 공통 단계는 통합되어 업그레이드 계획 내의 일반 정보 섹션에서 확인할 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["업그레이드 계획을 생성하고 보는 방법을 알아보세요"] .
-

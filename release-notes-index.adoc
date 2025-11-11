@@ -22,7 +22,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["설정 및 관리"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["알림"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["자동화 허브"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["자동화 카탈로그"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["디지털 어드바이저"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["경제적 효율성"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
