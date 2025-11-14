@@ -444,4 +444,9 @@
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025년 9월 22일</block>
   <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025년 8월 25일</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Console 시스템 페이지에서 온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
+  <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">청구 환경 설정 관리</block>
+  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">이제 NetApp Console 에서 직접 *청구 기본 설정*을 구성하고 관리할 수 있습니다. 이 향상된 기능을 통해 관리자는 NetApp 직접 라이선스, 클라우드 마켓플레이스 구독 및 Keystone 계약에 따른 용량 사용량, 갱신 및 비용 청구 방식을 정의하고 확인할 수 있습니다.</block>
+  <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">청구 환경 설정 문서</block>
+  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">자세한 내용은 .을 참조하세요.<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">이 릴리스에는 일반적인 개선 사항 및 개선 사항이 포함되어 있습니다.</block>
 </blocks>
