@@ -415,7 +415,6 @@
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">등록 중 VMware 하드웨어 지원 다운그레이드</block>
   <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">재해 복구는 이제 등록 중에 VMware 하드웨어를 이전 버전의 vSphere로 다운그레이드하는 것을 지원합니다. 이 기능은 소스 ESX 호스트가 재해 복구 사이트보다 최신 버전을 실행하는 경우에 유용합니다.</block>
   <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">NetApp Disaster Recovery 에서 복제 계획 만들기</block>
-  <block id="a412b7de9758b999e39beb6a86f38803" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="3b88d2273f8f2a777f18a77cece1dbb2" category="inline-xref-macro-rx"></block>.</block>
   <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">우아한 종료</block>
   <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">재해 복구 기능은 이제 VM의 전원을 끄는 대신 정상적으로 종료합니다. VM의 전원을 끄는 데 10분 이상 걸리는 경우 재해 복구 기능이 해당 VM의 전원을 끕니다.</block>
   <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">사전 백업 스크립팅 지원</block>
@@ -454,4 +453,5 @@
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025년 11월 17일</block>
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">운영 체제 요구 사항 보기</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">콘솔 에이전트를 수동으로 설치할 때 에이전트는 이제 Podman 5.4.0이 포함된 RHEL 9.6을 지원합니다. 또한 RHEL 9 이상을 사용하는 경우 NetApp podman-compose 1.5.0을 지원합니다. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
+  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
 </blocks>
