@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP 용 Amazon FSX</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">온프레미스 ONTAP 클러스터</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">Preview에서 VMware 워크로드 보호 지원</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">이 릴리스에서는 VMware 워크로드를 보호하기 위한 미리보기 지원이 추가되었습니다. 온프레미스 ONTAP 시스템의 VMware VM과 데이터스토어를 Amazon Web Services와 StorageGRID 로 백업합니다.</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">VMware 워크로드 보호에 대한 문서는 기술 미리보기로 제공됩니다. 이 미리보기 제공을 통해 NetApp 일반 공급 전에 제공 세부 정보, 내용 및 일정을 수정할 권리가 있습니다.</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">NetApp Backup and Recovery 사용하여 VMware 워크로드를 보호하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>.</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">AWS, Azure 및 GCP에 대한 고성능 인덱싱이 일반적으로 제공됩니다.</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">2025년 2월, AWS, Azure, GCP를 위한 고성능 인덱싱(Indexed Catalog v2) 미리보기를 발표했습니다. 이 기능은 현재 일반적으로 사용 가능합니다(GA). 2025년 6월부터 모든 _신규_ 고객에게 기본적으로 제공되었습니다. 이번 릴리스부터 모든 고객이 지원을 받을 수 있습니다. 고성능 인덱싱은 개체 스토리지에 보호된 워크로드에 대한 백업 및 복원 작업의 성능을 개선합니다.</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">기본적으로 활성화됨:</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">신규 고객의 경우 고성능 인덱싱이 기본적으로 활성화되어 있습니다.</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">기존 고객인 경우 UI의 복원 섹션으로 이동하여 재인덱싱을 활성화할 수 있습니다.</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">새로운 열을 통해 향상된 논리적 사용 추적</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">FabricPool 볼륨에 대한 Keystone 소비량 추적을 강화하기 위해 새로운 열인 '전체 발자국'이 추가되었습니다.</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXP 의 Keystone 대시보드 *: *자산* 탭의 *클러스터 볼륨* 탭에서 *총 설치 공간* 열을 볼 수 있습니다.</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: *볼륨 및 개체* 탭의 *볼륨 세부 정보* 탭에서 *총 공간* 열을 볼 수 있습니다.</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">이 열은 성능 및 콜드 계층의 데이터를 포함하여 FabricPool 계층화를 사용하는 볼륨의 총 논리적 설치 공간을 표시하므로 Keystone 소비량을 정확하게 계산할 수 있습니다.</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">알람 모니터링 추가</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXP 의 Keystone 대시보드에는 이제 구독 전반의 알림과 모니터를 관리하기 위한 *모니터링* 탭이 포함되었습니다. 이 새로운 탭을 사용하면 다음 작업을 수행할 수 있습니다.</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">시스템 생성 알림과 사용자 정의 알림(용량 사용 및 구독 만료)을 포함한 활성 알림을 보고 해결합니다.</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">복제 :leveloffset: +1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E-시리즈 :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025년 9월 22일</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025년 8월 25일</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Console 시스템 페이지에서 온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">청구 환경 설정 관리</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">이제 NetApp Console 에서 직접 *청구 기본 설정*을 구성하고 관리할 수 있습니다. 이 향상된 기능을 통해 관리자는 NetApp 직접 라이선스, 클라우드 마켓플레이스 구독 및 Keystone 계약에 따른 용량 사용량, 갱신 및 비용 청구 방식을 정의하고 확인할 수 있습니다.</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">운영 체제 요구 사항 보기</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">콘솔 에이전트를 수동으로 설치할 때 에이전트는 이제 Podman 5.4.0이 포함된 RHEL 9.6을 지원합니다. 또한 RHEL 9 이상을 사용하는 경우 NetApp podman-compose 1.5.0을 지원합니다. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">커버리지 갭 구독에 대한 추적 ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*모니터링 &gt; 알림 모니터*의 *보장 범위 완료* 알림 상자에서 각 구독의 구독 번호 옆에 추적 ID가 표시됩니다.</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025년 11월 24일</block>
 </blocks>
