@@ -64,7 +64,7 @@ Kubernetes 클러스터 검색 및 관리에 대한 지원은 2024년 8월 7일�
 
 NetApp Disaster Recovery 이제 마이그레이션, 장애 조치, 장애 복구 및 테스트 작업을 위해 Google Cloud NetApp Volumes 사용하여 Google Cloud VMware Engine을 지원합니다. 이러한 통합을 통해 온프레미스 환경과 Google Cloud 간의 원활한 재해 복구 워크플로가 가능해집니다.
 
-검토하세요link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["전제 조건"] 그리고link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.adoc["제한 사항"] Google Cloud를 위해.
+검토하세요link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["전제 조건"] 그리고link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["제한 사항"] Google Cloud를 위해.
 
 
 
