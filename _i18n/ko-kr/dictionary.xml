@@ -441,4 +441,8 @@
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">커버리지 갭 구독에 대한 추적 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*모니터링 &gt; 알림 모니터*의 *보장 범위 완료* 알림 상자에서 각 구독의 구독 번호 옆에 추적 ID가 표시됩니다.</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025년 11월 24일</block>
+  <block id="f5263927d94a42a805785f1aed06a069" category="doc">Google Cloud Platform 자격 증명 변경</block>
+  <block id="790bec3007566d403b50931f866ace35" category="paragraph">고객이 더 많은 Google Cloud NetApp Volumes 시스템을 설정하고 승인함에 따라 자격 증명을 관리하는 방식도 바뀌었습니다.</block>
+  <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes 시스템 자격 증명은 이제 Cloud Key Management 서비스나 유사한 서비스 등 Google 클라우드 백엔드에 저장되며, 새 시스템을 만들 때는 서비스 계정 가장 자격 증명이 사용됩니다.</block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025년 11월 27일</block>
 </blocks>
