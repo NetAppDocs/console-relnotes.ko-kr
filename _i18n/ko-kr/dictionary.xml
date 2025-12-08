@@ -451,4 +451,13 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">제한 사항</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025년 12월 1일</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">검토하세요<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block> 그리고<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block> Google Cloud를 위해.</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">버전 1.49</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">이번 Data Classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">Health Monitoring 대시보드에서 메트릭과 성능을 모니터링합니다.</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">데이터 분류는 이제 리소스에 대한 실시간 모니터링과 메모리 사용량, 디스크 사용량, 디스크 활용도 등에 대한 통찰력을 제공하는 상태 모니터링 대시보드를 제공합니다. 상태 모니터링 대시보드의 통찰력을 통해 배포 인프라를 검토하고 스토리지와 성능을 최적화하기 위한 통찰력을 얻을 수 있습니다.</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">데이터 분류 상태 모니터링</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>.</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">향상된 로딩 성능</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">데이터 분류의 모든 페이지에 대한 로딩 성능이 개선되어 사용자 경험이 더욱 효율적으로 개선되었습니다.</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
 </blocks>
