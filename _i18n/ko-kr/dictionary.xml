@@ -119,7 +119,6 @@
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">자동화 카탈로그</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">콘솔 설정 및 관리</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">볼륨 캐싱</block>
-  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">데이터 분류</block>
   <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">E-시리즈</block>
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP 용 Amazon FSX</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">온프레미스 ONTAP 클러스터</block>
@@ -470,7 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">확장 차단은 워크로드 수준에서 활성화됩니다.</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">확장 차단을 활성화하면 이제 스토리지 VM 수준이 아닌 워크로드 수준에서 활성화됩니다.</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">사용자 동작 알림 상태 편집</block>
-  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다. 알림을 수동으로 해제하고 해결할 수 있습니다. 이제 알림을 "검토 중"으로 표시할 수도 있습니다.</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">알림 관리</block>
   <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">여러 콘솔 에이전트 지원</block>
@@ -487,4 +485,5 @@
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">스위치 콘솔 에이전트</block>
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025년 12월 9일</block>
+  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다. 알림을 수동으로 해제하고 해결할 수 있습니다.</block>
 </blocks>
