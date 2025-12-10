@@ -488,4 +488,20 @@
   <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>.</block>
   <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">NetApp Backup and Recovery 사용하여 VMware 가상 디스크를 복원하는 방법에 대해 자세히 알아보세요.</block>
   <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>.</block>
+  <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP 에 선호하는 결제 옵션</block>
+  <block id="626a12ed9517ef0e6c0a2613974c12ed" category="paragraph">이제 사용량 및 초과 요금 계산 방식에 대한 원하는 청구 옵션을 선택할 수 있습니다. 2025년 6월 25일부터 BYOL 라이선스 사용이 제한됨에 따라 NetApp NetApp Console 의 *라이선스 및 구독* 섹션에서 선호하는 요금 청구 방식을 제공합니다. 청구 및 초과 사용량 처리에 연간 마켓플레이스 구독을 사용하거나 기존 라이선스(BYOL) 모델을 사용할 수 있습니다. 이를 통해 조직의 재정 전략 및 사용 패턴에 가장 적합한 요금 청구 방식을 유연하게 선택할 수 있습니다.</block>
+  <block id="4c5b742acce759a08023728b244eccc6" category="inline-link">청구 및 초과 요금</block>
+  <block id="ff7ec6876f38e21f4dcfd0621fca9672" category="paragraph">자세한 내용은 다음을 참조하십시오.<block ref="f6335a1e309ef0a8646001c6937b8852" category="inline-link-rx"></block> .</block>
+  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">Azure에서 Premium SSD v2 디스크의 성능을 향상시킬 수 있는 기능</block>
+  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">이제 Azure에서 Premium SSD v2 관리형 디스크의 성능을 IOPS 및 처리량 매개변수를 수정하여 향상시킬 수 있습니다. 이 기능을 사용하면 워크로드 요구 사항에 따라 시스템의 스토리지 성능을 최적화할 수 있습니다.</block>
+  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">Azure Cloud Volumes ONTAP 에서 Premium SSD v2 디스크 성능을 관리하세요.</block>
+  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>.</block>
+  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Essentials 라이선스 초과 사용 요금 청구 방식 간소화</block>
+  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">Cloud Volumes ONTAP 마켓플레이스 연간 계약/프라이빗 오퍼의 경우, Essentials 라이선스 초과 사용량 계산 방식이 이제 BYOL(Bring Your Own License) 패키지와 동일하게 적용됩니다. 이전에는 초과 사용량에 대해 동일한 Essentials 패키지에 대한 시간당 시장 요율로 청구되었습니다. 만약 마켓플레이스 연간 계약에 여러 Essentials 패키지가 포함되어 있다면, NetApp Console 구독에 포함된 더 비싼 Essentials 패키지의 사용 가능한 용량을 기준으로 해당 Essentials 패키지의 초과 사용량을 청구합니다. 이를 통해 Essentials 패키지의 초과 사용량 계산이 간소화되고 BYOL 라이선스에서 구독 기반 모델로의 원활한 전환이 보장됩니다.</block>
+  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Essentials 라이선스 초과 사용 요금 부과 방식</block>
+  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
+  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">Azure Edsv6 크기 시리즈 지원</block>
+  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">Cloud Volumes ONTAP 9.17.1 버전부터 NetApp Console 통해 새로운 Cloud Volumes ONTAP 인스턴스에 Azure Edsv6 시리즈 VM을 배포할 수 있습니다. Cloud Volumes ONTAP 9.17.1 이상 버전에서는 신규 배포 시 2세대 VM만 지원합니다. 이러한 2세대 장비는 UEFI(Unified Extensible Firmware Interface), Azure Boost 시스템 및 NVMe와 같은 최신 기술과 호환됩니다. 이러한 스토리지 시스템은 데이터베이스 서버 및 분석 엔진과 같이 빠른 로컬 스토리지가 필요한 메모리 집약적인 시스템 및 애플리케이션에 이상적입니다.</block>
+  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
+  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
 </blocks>
