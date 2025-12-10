@@ -143,7 +143,6 @@
   <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">탐색 메뉴 및 페이지</block>
   <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp 대부분의 메뉴 옵션을 왼쪽 탐색 창으로 옮기고 NetApp Console 에서 더 쉽게 탐색할 수 있도록 메뉴를 재구성했습니다.</block>
   <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">Canvas는 시스템 페이지로 대체됩니다.</block>
-  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">NetApp Canvas의 이름을 *시스템* 페이지로 변경했습니다. *저장소 &gt; 관리* 메뉴에서 *시스템* 페이지로 이동합니다.</block>
   <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">시스템 페이지의 스크린샷.</block>
   <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">확장된 스토리지 메뉴</block>
@@ -383,11 +382,9 @@
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.</block>
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">이름이 변경된 에이전트 상태 표시기</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">콘솔 에이전트의 상태 표시기 이름을 *활성* 및 *비활성*에서 *연결됨* 및 *연결 끊김*으로 변경하여 그 목적을 더 명확하게 했습니다.</block>
-  <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">Redhat Enterprise Linux(RHEL) 9.6 및 Podman 5.4.0 지원</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console 관리</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">이 릴리스에는 다음이 포함됩니다.</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console 알림을 위한 새 이메일 주소</block>
-  <block id="3ded9fa2f8cf197bdf563d5509101e3a" category="paragraph">NetApp Console 알림을 보내는 이메일 주소가 *service@console.bluexp.netapp.com*에서 *service@console.netapp.com*으로 변경되었습니다. NetApp NetApp Console 이메일 알림을 계속 받으려면 모든 이메일 규칙을 *service@console.netapp.com*으로 업데이트할 것을 권장합니다.</block>
   <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">버전 1.48</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">이번 데이터 분류 릴리스에는 버그 수정, 보안 개선, 성능 향상이 포함되어 있습니다.</block>
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">향상된 스캔 진행 상황 명확성</block>
@@ -504,4 +501,31 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">Cloud Volumes ONTAP 9.17.1 버전부터 NetApp Console 통해 새로운 Cloud Volumes ONTAP 인스턴스에 Azure Edsv6 시리즈 VM을 배포할 수 있습니다. Cloud Volumes ONTAP 9.17.1 이상 버전에서는 신규 배포 시 2세대 VM만 지원합니다. 이러한 2세대 장비는 UEFI(Unified Extensible Firmware Interface), Azure Boost 시스템 및 NVMe와 같은 최신 기술과 호환됩니다. 이러한 스토리지 시스템은 데이터베이스 서버 및 분석 엔진과 같이 빠른 로컬 스토리지가 필요한 메모리 집약적인 시스템 및 애플리케이션에 이상적입니다.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
+  <block id="ae41cdf98d6f24f84727785b0c41cda9" category="paragraph">NetApp Canvas의 이름을 *시스템* 페이지로 변경했습니다. 저장소 &gt; 관리 메뉴에서 시스템 페이지로 이동합니다.</block>
+  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">Red Hat Enterprise Linux(RHEL) 9.6 및 Podman 5.4.0 지원</block>
+  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">NetApp Console 알림을 보내는 이메일 주소가 *service@console.bluexp.netapp.com*에서 *service@console.netapp.com*으로 변경되었습니다. NetApp NetApp Console 이메일 알림을 계속 수신할 수 있도록 *service@console.netapp.com*을 허용하도록 이메일 규칙을 업데이트하는 것을 권장합니다.</block>
+  <block id="026970f0ac157044199489d6744c2491" category="doc">콘솔 에이전트 4.2.0</block>
+  <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 버전은 표준 모드와 제한 모드를 모두 지원합니다.</block>
+  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
+  <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">클라우드 배포 관리자</block>
+  <block id="e7858dcbf9687c88e071775eb4ee07ea" category="paragraph">NetApp 이제 Google Cloud Deployment Manager 대신 Google Cloud Infrastructure Manager(IM)를 사용하여 Google Cloud에 에이전트를 배포하고 관리합니다. 이러한 변경은 Google이 해당 기능을 더 이상 지원하지 않기로 했기 때문에 이루어졌습니다. <block ref="9574f21b6b64ac1c3366333a9bb489f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="817a59a137d2f36b17e19b14b0e90545" category="inline-link-macro">권한 변경 로그를 확인하세요.</block>
+  <block id="05345eddc0e94be562e27e8d53b608ae" category="list-text">4.2.0 이상 버전의 모든 새로운 에이전트는 인프라 관리자를 사용하므로 배포에 사용되는 사용자 계정과 서비스 계정의 권한을 모두 업데이트해야 합니다. <block ref="ca3a237b8d0ef6729093b3abe4bab2f0" category="inline-link-macro-rx"></block></block>
+  <block id="cc598dc1e413aff136dd2366a85faf46" category="list-text">에이전트를 배포하면 시스템에서 배포 파일을 저장할 Google Cloud 버킷도 생성합니다.</block>
+  <block id="d9dfb1e70d9002b82990e5020a243087" category="list-title">콘솔 에이전트에 대한 구성 검사 기능이 향상되었습니다.</block>
+  <block id="1c113e32e8394b861faad1f61a9626cb" category="inline-link-macro">콘솔 에이전트에 필요한 엔드포인트에 대해 자세히 알아보세요.</block>
+  <block id="675d71adc8a1b2329a23e817b7275840" category="list-text">콘솔 에이전트는 이제 구성 검사를 수행할 때 더 이상 사용되지 않는 엔드포인트를 확인합니다. 4.0.0 이상 버전의 새로운 엔드포인트 목록으로 업데이트하지 않은 경우, 시스템이 이전 엔드포인트 목록에 연결할 수 있다면 설치가 성공적으로 완료됩니다. <block ref="4fa9d5f65f1179ca8dedab794aee5677" category="inline-link-macro-rx"></block></block>
+  <block id="5cf1eebafa9e566db5b16d2f75b10866" category="inline-link-macro">콘솔 에이전트에 대한 구성 검사를 실행하는 방법을 알아보세요.</block>
+  <block id="532e2205eae250e20138ac0d4fb7670a" category="list-text">콘솔 또는 에이전트 유지 관리 콘솔에서 설치된 콘솔 에이전트에 대한 구성 검사를 실행하여 연결을 확인하고 문제를 해결하십시오. <block ref="2d14832e5c27ace253e7c4b1295d1814" category="inline-link-macro-rx"></block></block>
+  <block id="f1a69f998a4fd4d34f139b76d2b1cf5d" category="paragraph-title">NetApp Console 에서 에이전트 소프트웨어를 직접 다운로드하세요.</block>
+  <block id="ffb09157eddacde0f2ddbb27b8b5a58d" category="inline-link-macro">NetApp Console 에서 콘솔 에이전트 소프트웨어를 직접 다운로드하는 방법을 알아보세요.</block>
+  <block id="0d8ee60431ecde7e8c0ca3d789c24bae" category="paragraph">에이전트를 수동으로 설치해야 하는 경우 NetApp 지원 사이트 외에도 NetApp Console 에서 에이전트 소프트웨어에 직접 액세스할 수 있습니다. <block ref="3ce006bd909dc885369b2f86674a08a3" category="inline-link-macro-rx"></block></block>
+  <block id="f33a1c02aef9134dd317909d568855ae" category="paragraph-title">자격 증명 만료에 대한 알림을 설정할 수 있는 기능</block>
+  <block id="eb85d454a2ba07f1bf0f8e315ae0b696" category="paragraph">서비스 계정 및 페더레이션의 자격 증명 만료에 대한 알림을 설정하세요. 7일 또는 30일 중에서 선택하세요. 콘솔은 적절한 역할을 가진 사용자에게 알림을 표시하고 이메일을 보냅니다. 조직 관리자는 서비스 계정 알림을 받습니다. 조직 관리자, 연합 관리자 및 연합 뷰어는 연합 알림을 받습니다.</block>
+  <block id="c76ecba1e00b52577de6653acbf29014" category="paragraph-title">페더레이션을 활성화한 후에는 로컬 로그인을 사용할 수 없습니다.</block>
+  <block id="e713ec00d2b4c1f46099d8669c70bc4a" category="paragraph">콘솔 조직에 대해 페더레이션을 활성화하면 사용자는 로컬 로그인을 사용할 수 없으며 페더레이션 로그인으로 전환됩니다.</block>
+  <block id="37922d4b00cf704156c5276d88caa05c" category="paragraph-title">저장소 관리 페이지의 사용성 개선</block>
+  <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">이제 스토리지 관리 페이지에서 온프레미스 ONTAP 시스템(및 ONTAP 용 FSx)에 대한 자세한 정보를 더 쉽게 확인하고 관리할 수 있습니다.</block>
+  <block id="c513928c0b95afec773bd29d135d4632" category="list-text">* Discoverable systems* 페이지는 요약 정보와 사용 가능한 시스템의 탭 형식 표시를 분리하여 검색 가능한 시스템에 대한 포괄적인 정보를 더 쉽게 볼 수 있도록 합니다.</block>
+  <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025년 12월 10일</block>
 </blocks>
