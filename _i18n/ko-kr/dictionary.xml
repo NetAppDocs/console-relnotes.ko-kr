@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">온프레미스 ONTAP 클러스터</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 워크로드의 미리보기 릴리스에는 다음과 같은 향상된 기능이 도입되었습니다.</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">자산 탭의 QoS 정책 재정의 열</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">이제 *자산* 탭 내의 *클러스터의 볼륨* 탭에 백업 및 미러 볼륨에 대한 QoS 규칙을 우회할지 여부를 나타내는 *QoS 정책 재정의* 열이 포함되어 *true*(규칙 무시), *false*(규칙 적용) 또는 *N/A*(미러 볼륨)로 표시됩니다.</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Keystone v3 구독의 경우, v3 제품에는 QoS 정책이 적용되지 않으므로 이 열에는 *해당 없음*이 표시됩니다.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">개요 페이지에서 알림 가시성 향상</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">NetApp Console 의 Keystone 대시보드</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">*개요* 페이지에는 이제 *심각도별 해결되지 않은 알림*과 *가장 오래된 해결되지 않은 Keystone 알림*이라는 두 개의 새로운 알림 섹션이 포함되었습니다. 자세한 내용은 다음을 참조하세요. <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure의 Cloud Volumes ONTAP 이제 최신 지원 버전으로 제한됩니다.</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">NetApp Console 통한 Azure의 Cloud Volumes ONTAP 배포 및 업그레이드는 이제 최신 지원 버전으로 제한됩니다. 이를 통해 Microsoft에서 지원하는 최신 세대 하드웨어와의 호환성이 보장되고 최신 기능과 보안 강화 기능이 제공됩니다. 콘솔에서 지원되는 버전으로 업그레이드하라는 메시지가 표시됩니다.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">자세한 내용은 다음을 참조하세요.</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025년 11월 11일</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025년 10월 17일</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025년 10월 13일</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Console 시스템 페이지에서 온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">청구 환경 설정 관리</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">이제 NetApp Console 에서 직접 *청구 기본 설정*을 구성하고 관리할 수 있습니다. 이 향상된 기능을 통해 관리자는 NetApp 직접 라이선스, 클라우드 마켓플레이스 구독 및 Keystone 계약에 따른 용량 사용량, 갱신 및 비용 청구 방식을 정의하고 확인할 수 있습니다.</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">이 변경 사항은 표준 모드에만 적용되며 ONTAP 버전 9.6 이상에서만 사용 가능합니다.</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">온프레미스 환경에서 여러 콘솔 에이전트 지원</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">온프레미스 재해 복구를 사용하는 경우 이제 각 vCenter 인스턴스에 콘솔 에이전트를 배포하여 복원력을 향상시킬 수 있습니다.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">예를 들어, 두 개의 사이트(사이트 A와 B)가 있는 경우 사이트 A에는 콘솔 에이전트 A를 vCenter 1, ONTAP 배포 1 및 ONTAP 배포 2에 연결할 수 있습니다. 사이트 B는 콘솔 에이전트 B를 vCenter 2 및 ONTAP 배포 3 및 4에 연결할 수 있습니다.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">콘솔 에이전트 만들기</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">재해 복구 환경에서 콘솔 에이전트에 대한 자세한 내용은 다음을 참조하십시오. <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>.</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">데이터스토어 기반 보호를 사용하는 복제 계획에 대해 장애 조치 후 VM을 추가합니다.</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">장애 조치가 발생하면 데이터스토어 기반 보호를 사용하는 모든 복제 계획에는 데이터스토어에 추가된 VM이 포함됩니다. 단, 해당 VM이 검색된 경우에 한합니다. 장애 조치가 완료되기 전에 추가된 VM에 대한 매핑 세부 정보를 제공해야 합니다.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">장애 조치 애플리케이션</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">새 이메일 알림</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">재해 복구 시스템은 이제 다음과 같은 이벤트에 대한 이메일 알림을 제공합니다.</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">용량 사용 한계에 근접하고 있습니다</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">보고서 생성 완료</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">직업 실패</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">면허 만료 또는 위반 사항</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">스웨거 개선 사항</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">이제 재해 복구 환경에서 Swagger 문서를 확인할 수 있습니다. 재해 복구에서 **설정**을 선택한 다음 **API 문서**를 선택하여 Swagger에 연결하거나 브라우저의 시크릿/개인 모드에서 다음 URL을 방문하세요. <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>.</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">개선된 사용자 인터페이스</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">재해 복구 기능이 향상된 경고 및 오류 해결 기능을 제공합니다. 이번 릴리스에서는 취소된 작업이 사용자 인터페이스에 표시되지 않던 오류가 수정되었습니다. 취소된 작업이 이제 표시됩니다. 또한 동일한 대상 네트워크가 여러 개의 서로 다른 소스 네트워크에 매핑될 경우 새로운 경고 메시지가 표시됩니다.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">복제 계획에 기본값으로 추가된 VM 폴더 구조를 유지합니다.</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">복제본을 생성할 때, 새로운 기본 설정은 VM 폴더 구조를 유지하는 것입니다. 복구 대상에 원래 폴더 계층 구조가 없는 경우 재해 복구 기능이 이를 생성합니다. 원래 폴더 계층 구조를 무시하려면 이 옵션을 선택 해제하면 됩니다.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026년 1월 12일</block>
 </blocks>
