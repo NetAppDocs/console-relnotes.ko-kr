@@ -300,4 +300,14 @@
   <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">이제 Cloud Volumes ONTAP 사용량 및 초과 사용량 계산에 사용할 원하는 청구 옵션을 선택할 수 있습니다. 2025년 6월 25일부터 BYOL(Bring Your Own Licenses) 라이선스 모델의 사용이 제한됨에 따라 NetApp NetApp Console 의 *라이선스 및 구독* 섹션에 선호하는 요금 청구 방식을 추가했습니다. 청구 및 초과 사용량 처리에는 연간 마켓플레이스 구독을 사용하거나 기존의 BYOL 모델을 사용하는 것이 좋습니다. BYOL 모델을 선호하는 옵션으로 선택할 수 있습니다. 이를 통해 조직의 재정 전략 및 사용 패턴에 가장 적합한 요금 청구 방식을 유연하게 선택할 수 있습니다.</block>
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">요금 설정 및 초과 사용 요금</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>.</block>
+  <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">스냅샷을 ONTAP 에 복제합니다.</block>
+  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다.</block>
+  <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드를 보호하세요.</block>
+  <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
+  <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">랜섬웨어 복원력에서 워크로드를 제외합니다.</block>
+  <block id="36d62eb8fbffb07f574185bd90036cd1" category="paragraph">랜섬웨어 복원력은 이제 시스템 내 특정 워크로드를 보호 대상에서 제외하는 기능을 지원하며, 랜섬웨어 복원력 대시보드에서도 이 기능을 사용할 수 있습니다. 검색 후 워크로드를 제외할 수 있으며, 랜섬웨어 보호 기능을 추가하려면 다시 포함할 수 있습니다. 제외된 워크로드에 대해서는 비용이 청구되지 않습니다.</block>
+  <block id="427dab7765b34a516acce2d3545db33d" category="inline-link-macro">워크로드 제외</block>
+  <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>.</block>
+  <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">검토 중임을 알림으로 표시합니다.</block>
+  <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">랜섬웨어 복원력 기능을 통해 이제 알림을 "검토 중"으로 표시할 수 있습니다. "검토 중" 레이블을 사용하여 활성 랜섬웨어 위협을 분류하고 관리할 때 팀 전체의 명확성을 높이세요.</block>
 </blocks>
