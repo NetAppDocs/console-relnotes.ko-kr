@@ -323,4 +323,7 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">조직이 읽기 전용 모드일 때 자신의 역할을 강화하는 방법을 알아보세요.</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
+  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">Cloud Volumes ONTAP 에 대한 추가 Google Cloud 권한</block>
+  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 관리를 지원하기 위해 콘솔 에이전트에 추가 권한이 필요합니다. 콘솔 에이전트에서 사용하는 서비스 계정에 다음 권한이 추가되었습니다. compute.forwardingRules.update</block>
+  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
 </blocks>
