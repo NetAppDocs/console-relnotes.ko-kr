@@ -71,11 +71,6 @@ Kubernetes 클러스터 검색 및 관리에 대한 지원은 2024년 8월 7일�
 
 link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html#verify-network-access["콘솔 에이전트에 대한 구성 검사를 실행하는 방법을 알아보세요."]
 
-.Cloud Volumes ONTAP 에 대한 추가 Google Cloud 권한
-Google Cloud에서 Cloud Volumes ONTAP 관리를 지원하기 위해 콘솔 에이전트에 추가 권한이 필요합니다. 콘솔 에이전트에서 사용하는 서비스 계정에 다음 권한이 추가되었습니다. compute.forwardingRules.update
-
-link:https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["권한 변경 로그를 확인하세요."]
-
 
 
 ==== NetApp Console 관리
