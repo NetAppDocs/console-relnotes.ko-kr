@@ -117,13 +117,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 워크로드의 미리보기 릴리스에는 다음과 같은 향상된 기능이 도입되었습니다.</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:</block>
-  <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure의 Cloud Volumes ONTAP 이제 최신 지원 버전으로 제한됩니다.</block>
-  <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">NetApp Console 통한 Azure의 Cloud Volumes ONTAP 배포 및 업그레이드는 이제 최신 지원 버전으로 제한됩니다. 이를 통해 Microsoft에서 지원하는 최신 세대 하드웨어와의 호환성이 보장되고 최신 기능과 보안 강화 기능이 제공됩니다. 콘솔에서 지원되는 버전으로 업그레이드하라는 메시지가 표시됩니다.</block>
-  <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">자세한 내용은 다음을 참조하세요.</block>
-  <block id="c7c36710c319ba2646765acbeed52820" category="inline-link">Cloud Volumes ONTAP 배포에 지원되는 ONTAP 버전</block>
-  <block id="8a79801dc6892f83b39904d935baeea6" category="list-text">전개:<block ref="defc681ae2012fb7f8f998224eac55e5" category="inline-link-rx"></block></block>
-  <block id="b2f564ccc8dab8d25ce5727e3ac0f553" category="inline-link">Azure에 지원되는 업그레이드 경로</block>
-  <block id="cd28d8af5b4308747357925ae313e125" category="list-text">치받이:<block ref="9fd9abde9fac7cd4edc5e352cd251056" category="inline-link-rx"></block></block>
   <block id="9c1b6a208384484254769349d91e3af9" category="doc">콘솔 에이전트 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">이 콘솔 에이전트 릴리스에는 보안 개선, 버그 수정 및 다음 기능이 포함되어 있습니다.</block>
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.</block>
@@ -160,7 +153,6 @@
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">더 이상 사용되지 않는 서비스</block>
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025년 11월 11일</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025년 10월 17일</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Console 시스템 페이지에서 온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">청구 환경 설정 관리</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">이제 NetApp Console 에서 직접 *청구 기본 설정*을 구성하고 관리할 수 있습니다. 이 향상된 기능을 통해 관리자는 NetApp 직접 라이선스, 클라우드 마켓플레이스 구독 및 Keystone 계약에 따른 용량 사용량, 갱신 및 비용 청구 방식을 정의하고 확인할 수 있습니다.</block>
@@ -300,7 +292,6 @@
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">요금 설정 및 초과 사용 요금</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>.</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">스냅샷을 ONTAP 에 복제합니다.</block>
-  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다.</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">랜섬웨어 공격으로부터 워크로드를 보호하세요.</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
   <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">랜섬웨어 복원력에서 워크로드를 제외합니다.</block>
@@ -337,4 +328,5 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">조사 보고서 작성 예상 시간</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">조사 보고서를 다운로드할 때, 이제 데이터 분류 기능에 다운로드 완료 예상 시간이 표시됩니다.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026년 1월 14일</block>
+  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
 </blocks>
