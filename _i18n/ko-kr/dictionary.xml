@@ -312,7 +312,6 @@
   <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">콘솔 조직에 대해 읽기 전용 모드를 활성화하는 방법을 알아보세요.</block>
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">조직이 읽기 전용 모드일 때 자신의 역할을 강화하는 방법을 알아보세요.</block>
-  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
   <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">스캔 설정에 대한 자세한 내용은 다음을 참조하세요. <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>.</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">버전 1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">사용자 지정 분류 개선</block>
@@ -333,4 +332,5 @@
   <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console 페더레이션 그룹(예: Active Directory 그룹)에 역할을 할당하는 기능을 지원하므로 관리자는 조직의 ID 공급자(IdP)의 그룹 멤버십을 기반으로 사용자 온보딩 및 오프보딩을 자동화할 수 있습니다. 이 기능은 관리 부담을 줄이고 그룹 멤버십이 변경될 때 콘솔 액세스 권한을 즉시 업데이트하여 안전하고 일관된 액세스를 보장합니다.</block>
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">조직 구성원에게 연합 그룹에 대한 액세스 권한을 부여하는 방법을 알아보세요.</block>
   <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
+  <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
 </blocks>
