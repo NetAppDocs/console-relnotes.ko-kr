@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">조사 보고서를 다운로드할 때, 이제 데이터 분류 기능에 다운로드 완료 예상 시간이 표시됩니다.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026년 1월 14일</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Console 에서 페더레이션 그룹에 대한 역할 기반 액세스</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console 페더레이션 그룹(예: Active Directory 그룹)에 역할을 할당하는 기능을 지원하므로 관리자는 조직의 ID 공급자(IdP)의 그룹 멤버십을 기반으로 사용자 온보딩 및 오프보딩을 자동화할 수 있습니다. 이 기능은 관리 부담을 줄이고 그룹 멤버십이 변경될 때 콘솔 액세스 권한을 즉시 업데이트하여 안전하고 일관된 액세스를 보장합니다.</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">조직 구성원에게 연합 그룹에 대한 액세스 권한을 부여하는 방법을 알아보세요.</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
