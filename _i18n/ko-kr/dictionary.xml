@@ -333,4 +333,8 @@
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">조직 구성원에게 연합 그룹에 대한 액세스 권한을 부여하는 방법을 알아보세요.</block>
   <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
   <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
+  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">구독 수정이 불가능합니다</block>
+  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console 의 Keystone 대시보드 업데이트:</block>
+  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">현재 Keystone 구독에 대한 약정 용량을 수정하는 옵션은 제공되지 않습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
 </blocks>
