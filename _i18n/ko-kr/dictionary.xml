@@ -337,4 +337,28 @@
   <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console 의 Keystone 대시보드 업데이트:</block>
   <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">현재 Keystone 구독에 대한 약정 용량을 수정하는 옵션은 제공되지 않습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
+  <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP 볼륨 워크로드 개선 사항</block>
+  <block id="70cc82710208295496c70c203368aaf9" category="paragraph">ONTAP 볼륨 워크로드의 이번 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
+  <block id="cbab7e5b614b876bebcce0c29fd1afb6" category="paragraph">*다중 버킷 지원*: (비공개 미리 보기) ONTAP 9.17.1 이상 버전부터 시스템 내 볼륨을 서로 다른 클라우드 공급자에 걸쳐 시스템당 최대 6개의 버킷으로 보호할 수 있습니다.</block>
+  <block id="695e42eb94aa8a143b557dc75e4cc65e" category="inline-link-macro">NetApp Backup and Recovery 사용하여 ONTAP 볼륨 데이터를 백업하는 방법에 대해 자세히 알아보세요.</block>
+  <block id="c380d2c239579706adcab966ccded39a" category="paragraph"><block ref="040f925aac1483fc9f3f6e8bd68d3888" category="inline-link-macro-rx"></block>.</block>
+  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
+  <block id="d8cf45a94e57901a57764525baf2f9bf" category="paragraph">이번 VMware 워크로드 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
+  <block id="0f685163e47b1dbc7208e24f5639ed4c" category="list-text">NetApp Backup and Recovery 에서 VMware 워크로드 지원이 이제 정식 출시(GA)되었습니다.</block>
+  <block id="3b2cdba7e0b9954f4d9e79b310fdbccd" category="list-text">이제 게스트 OS 파일과 폴더를 복원할 수 있습니다.</block>
+  <block id="7646858e9d2b15a6ffb584e47fd5567e" category="paragraph"><block ref="4f4eca7ac15d647aeef99bf9ca19ff76" category="inline-link-rx"></block>.</block>
+  <block id="1ae0fe82c82eb100fa0d7221b899a229" category="inline-link">게스트 파일 및 폴더 복원에 대해 자세히 알아보세요.</block>
+  <block id="f73006a3da0451caefdac27f55b5a651" category="paragraph"><block ref="ec740e6f2b69e9d5eeb44cc6164f597c" category="inline-link-rx"></block>.</block>
+  <block id="2fcce708931d6d68e1d88fc4a46eef94" category="section-title">Hyper-V 워크로드 미리 보기 개선 사항</block>
+  <block id="0c95402d3c8d84b27c1f2eb1f4757c29" category="paragraph">이번 Hyper-V 워크로드 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
+  <block id="1bfaec2035ab816cb33f0b9264b08184" category="list-text">이제 Hyper-V VM 백업 및 스냅샷을 다른 위치로 복원할 수 있습니다. 이 기능은 서로 다른 Hyper-V 호스트에서 VM 버전을 관리하려는 경우에 유용합니다.</block>
+  <block id="86ef33bcd420761fa8d995a0d265b43f" category="list-text">System Center Virtual Machine Manager(SCVMM)로 프로비저닝되고 CIFS 공유에 호스팅된 Hyper-V 가상 머신이 이제 NetApp Backup and Recovery 에서 지원됩니다.</block>
+  <block id="3d0f94ed484d5b1224a05746eeef7916" category="list-text">이제 보호 그룹을 편집할 수 있습니다.</block>
+  <block id="33c7653a8f2aa564c4ccd96aaacf4f4f" category="admonition">이번 릴리스에서는 작업 메뉴의 *업그레이드* 옵션을 사용하여 Hyper-V 또는 Windows용 NetApp 플러그인을 업그레이드할 수 없습니다. 그 대신 각 Hyper-V 호스트를 제거한 다음 다시 추가하여 플러그인을 업데이트하십시오.</block>
+  <block id="2e9a0674716cf9fc0f20713c35ea7c92" category="inline-link">NetApp Backup and Recovery 사용하여 Hyper-V VM을 복원하는 방법에 대해 자세히 알아보세요.</block>
+  <block id="b6346010c4ef2da943c1c7fa6a17d974" category="paragraph"><block ref="7ec45f32ee1da46f6d69c07cb5d19e8e" category="inline-link-rx"></block>.</block>
+  <block id="4b39db76689788868bda30b97106ca4a" category="section-title">KVM 워크로드 미리 보기 개선 사항</block>
+  <block id="0daeca72fa8b0acaee6fea8ae743cb8c" category="paragraph">KVM 워크로드 미리 보기에서 Apache CloudStack 관리 플랫폼과의 통합을 지원하므로 Apache CloudStack에서 관리하는 KVM 호스트 및 가상 머신을 보호할 수 있습니다.</block>
+  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
+  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
 </blocks>
