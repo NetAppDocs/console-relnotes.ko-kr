@@ -373,4 +373,11 @@
   <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">새로운 사용 유형 열</block>
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*구독* 탭에는 구독 요금이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량을 기준으로 청구되는지 여부를 표시하는 *사용 유형* 열이 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026년 2월 2일</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">포괄적인 보안 감독을 위한 새로운 보안 보고서</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor에는 이제 스토리지 환경 전반의 ONTAP 보안 위험에 대한 통합 보기를 제공하는 보안 보고서가 포함되어 있습니다. 이 보고서를 통해 클러스터, SVM 및 볼륨 전반에 걸쳐 잘못된 구성, 규정 준수 격차 및 보안 문제를 더 빠르게 감지하여 안전한 스토리지 인프라를 유지할 수 있습니다.</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">패치 버전이 혼합된 환경에 대한 Upgrade Advisor 지원 기능이 향상되었습니다.</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor는 이제 동일한 ONTAP 주요 릴리스 내에서 노드가 서로 다른 패치 레벨을 실행하는 클러스터에 대한 업그레이드 보고서를 생성합니다. 이 개선 사항을 통해 고객은 클러스터가 주요 버전 간에 혼합되지 않는 한 원활하게 업그레이드를 진행할 수 있으며, 업그레이드 계획에 있어 더 큰 유연성을 제공합니다.</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">지원 기간이 종료된 ONTAP 버전에 대한 지원이 확장되었습니다.</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor는 이제 제한적 지원이 종료된 ONTAP 버전에 대한 업그레이드 계획 생성을 지원하며, 9개월의 유예 기간을 제공합니다. 이 기능은 전환 기간 동안 명확한 지침을 제공하여 고객이 적시에 조치를 취하고 업그레이드 중단을 방지할 수 있도록 지원합니다.</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026년 2월 4일</block>
 </blocks>
