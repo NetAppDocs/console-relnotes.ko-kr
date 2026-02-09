@@ -88,7 +88,6 @@
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요.  전체 릴리스 내역을 보려면 다음으로 이동하세요.<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console 릴리스 노트</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">데이터 복제</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">복사 및 동기화</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">수명주기 계획</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">에지 캐싱</block>
@@ -107,7 +106,6 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
-  <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">자동화 카탈로그</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">콘솔 설정 및 관리</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">볼륨 캐싱</block>
@@ -117,55 +115,16 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 워크로드의 미리보기 릴리스에는 다음과 같은 향상된 기능이 도입되었습니다.</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:</block>
-  <block id="9c1b6a208384484254769349d91e3af9" category="doc">콘솔 에이전트 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">이 콘솔 에이전트 릴리스에는 보안 개선, 버그 수정 및 다음 기능이 포함되어 있습니다.</block>
-  <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">이름이 변경된 에이전트 상태 표시기</block>
-  <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">콘솔 에이전트의 상태 표시기 이름을 *활성* 및 *비활성*에서 *연결됨* 및 *연결 끊김*으로 변경하여 그 목적을 더 명확하게 했습니다.</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console 관리</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">이 릴리스에는 다음이 포함됩니다.</block>
-  <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console 알림을 위한 새 이메일 주소</block>
-  <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">버전 1.48</block>
-  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">이번 데이터 분류 릴리스에는 버그 수정, 보안 개선, 성능 향상이 포함되어 있습니다.</block>
-  <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">향상된 스캔 진행 상황 명확성</block>
-  <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">이제 스캔 구성에 스캔 완료에 대한 향상된 통찰력이 포함되었습니다. 이전에는 스캔이 진행 중일 때만 진행률 표시줄이 표시되었습니다. 이제 스캔이 성공적으로 완료되었음을 확인하기 위해 완료 후에도 진행률 표시줄이 계속 표시됩니다. 매핑되고 스캔된 파일의 수도 볼 수 있습니다.</block>
-  <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">저장소에 대한 NetApp Data Classification 검사 설정 변경</block>
-  <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">계단식 장애 조치 지원</block>
-  <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">이제 ONTAP 에서 계단식 관계를 구성하고 해당 복제 관계의 모든 단계를 재해 복구에 사용할 수 있습니다.</block>
-  <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">등록 중 VMware 하드웨어 지원 다운그레이드</block>
-  <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">재해 복구는 이제 등록 중에 VMware 하드웨어를 이전 버전의 vSphere로 다운그레이드하는 것을 지원합니다. 이 기능은 소스 ESX 호스트가 재해 복구 사이트보다 최신 버전을 실행하는 경우에 유용합니다.</block>
-  <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">NetApp Disaster Recovery 에서 복제 계획 만들기</block>
-  <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">우아한 종료</block>
-  <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">재해 복구 기능은 이제 VM의 전원을 끄는 대신 정상적으로 종료합니다. VM의 전원을 끄는 데 10분 이상 걸리는 경우 재해 복구 기능이 해당 VM의 전원을 끕니다.</block>
-  <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">사전 백업 스크립팅 지원</block>
-  <block id="bb05f5a972177b632dbf8088c480f305" category="paragraph">이제 백업을 생성하기 전에 실행할 사용자 정의 스크립팅을 장애 조치 워크플로에 삽입할 수 있습니다. 사전 백업 스크립팅을 사용하면 스냅샷이 복제되기 전에 VM 상태를 제어하고 전환을 위해 VM을 준비할 수 있습니다. 예를 들어, 장애 조치 후 다른 스크립트를 사용하여 다시 마운트될 NFS 마운트를 마운트 해제하는 스크립트를 삽입할 수 있습니다.</block>
-  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">보장 알림 상자를 완성하세요</block>
-  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">경보 모니터의 적용 범위 격차 관리</block>
-  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">*모니터링* 페이지의 *알림 모니터* 탭에는 적용 범위에 차이가 있을 때 나타나는 *적용 범위 완료* 알림 상자가 포함되어 있습니다. 이 상자에는 용량 또는 만료 모니터가 없는 구독과 구독이 없는 모니터가 나열됩니다. 기존 모니터에 구독을 추가하거나, 새로운 모니터를 만들거나, 사용하지 않는 모니터를 삭제하여 격차를 해소할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
-  <block id="6e4298fbeec2cc865308057fb6986a86" category="doc">향상된 NVMe-TCP 지원</block>
-  <block id="84b4c7fa59d88db266b9be7eb3cff08e" category="paragraph">이전에는 NVMe-TCP를 통해 Cloud Volumes ONTAP 인스턴스를 배포할 때 배포 전에 NVMe 라이선스를 수동으로 획득하고 적용해야 했습니다. 이 업데이트를 통해 Cloud Volumes ONTAP 이제 배포 중에 필요한 NVMe 라이선스를 자동으로 설치하여 설정 프로세스를 간소화합니다.</block>
-  <block id="14579d19ae9f1a43eae607d4450c7546" category="paragraph">라이선스가 없는 기존 NVMe-TCP 배포의 경우 Cloud Volumes ONTAP 라이선스를 자동으로 적용합니다. 라이센스를 적용하려면 시스템을 다시 시작해야 합니다.</block>
-  <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Cloud Volumes ONTAP 에 지원되는 클라이언트 프로토콜: NVMe-TCP</block>
-  <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block> .</block>
-  <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간 복제 지원</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">더 이상 사용되지 않는 서비스</block>
-  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025년 11월 11일</block>
-  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
-  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Console 시스템 페이지에서 온프레미스 ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
-  <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">청구 환경 설정 관리</block>
-  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">이제 NetApp Console 에서 직접 *청구 기본 설정*을 구성하고 관리할 수 있습니다. 이 향상된 기능을 통해 관리자는 NetApp 직접 라이선스, 클라우드 마켓플레이스 구독 및 Keystone 계약에 따른 용량 사용량, 갱신 및 비용 청구 방식을 정의하고 확인할 수 있습니다.</block>
-  <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">청구 환경 설정 문서</block>
-  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">이 릴리스에는 일반적인 개선 사항 및 개선 사항이 포함되어 있습니다.</block>
-  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block> .</block>
   <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">AWS Lambda 링크를 사용할 때 시스템 관리자를 사용할 수 있습니다.</block>
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">고급 ONTAP 작업을 위한 링크 사용에 대해 알아보세요</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP 시스템 관리자 인터페이스는 AWS Lambda 링크와 함께 사용하여 고급 ONTAP 작업을 수행할 수 있습니다. 이는 System Manager와 함께 콘솔 에이전트를 사용하여 콘솔에서 직접 FSx for ONTAP 파일 시스템을 관리하는 것에 대한 대안을 제공합니다. <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025년 11월 17일</block>
-  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">운영 체제 요구 사항 보기</block>
-  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">콘솔 에이전트를 수동으로 설치할 때 에이전트는 이제 Podman 5.4.0이 포함된 RHEL 9.6을 지원합니다. 또한 RHEL 9 이상을 사용하는 경우 NetApp podman-compose 1.5.0을 지원합니다. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
-  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">커버리지 갭 구독에 대한 추적 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*모니터링 &gt; 알림 모니터*의 *보장 범위 완료* 알림 상자에서 각 구독의 구독 번호 옆에 추적 ID가 표시됩니다.</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025년 11월 24일</block>
@@ -228,8 +187,6 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">Cloud Volumes ONTAP 9.17.1 버전부터 NetApp Console 통해 새로운 Cloud Volumes ONTAP 인스턴스에 Azure Edsv6 시리즈 VM을 배포할 수 있습니다. Cloud Volumes ONTAP 9.17.1 이상 버전에서는 신규 배포 시 2세대 VM만 지원합니다. 이러한 2세대 장비는 UEFI(Unified Extensible Firmware Interface), Azure Boost 시스템 및 NVMe와 같은 최신 기술과 호환됩니다. 이러한 스토리지 시스템은 데이터베이스 서버 및 분석 엔진과 같이 빠른 로컬 스토리지가 필요한 메모리 집약적인 시스템 및 애플리케이션에 이상적입니다.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
-  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">Red Hat Enterprise Linux(RHEL) 9.6 및 Podman 5.4.0 지원</block>
-  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">NetApp Console 알림을 보내는 이메일 주소가 *service@console.bluexp.netapp.com*에서 *service@console.netapp.com*으로 변경되었습니다. NetApp NetApp Console 이메일 알림을 계속 수신할 수 있도록 *service@console.netapp.com*을 허용하도록 이메일 규칙을 업데이트하는 것을 권장합니다.</block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">콘솔 에이전트 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 버전은 표준 모드와 제한 모드를 모두 지원합니다.</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
@@ -310,7 +267,6 @@
   <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">콘솔 조직에 대해 읽기 전용 모드를 활성화하는 방법을 알아보세요.</block>
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">조직이 읽기 전용 모드일 때 자신의 역할을 강화하는 방법을 알아보세요.</block>
-  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">스캔 설정에 대한 자세한 내용은 다음을 참조하세요. <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>.</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">버전 1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">사용자 지정 분류 개선</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">이제 데이터 분류 기능에서 사용자 지정 범주 생성을 지원합니다. 파일을 업로드하여 데이터 분류에서 데이터에 범주 마커를 적용하는 데 사용하는 AI 모델을 세밀하게 조정할 수 있습니다. 모든 사용자 지정 분류에 대한 인터페이스가 개선되었습니다.</block>
@@ -380,4 +336,19 @@
   <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">지원 기간이 종료된 ONTAP 버전에 대한 지원이 확장되었습니다.</block>
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor는 이제 제한적 지원이 종료된 ONTAP 버전에 대한 업그레이드 계획 생성을 지원하며, 9개월의 유예 기간을 제공합니다. 이 기능은 전환 기간 동안 명확한 지침을 제공하여 고객이 적시에 조치를 취하고 업그레이드 중단을 방지할 수 있도록 지원합니다.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026년 2월 4일</block>
+  <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
+  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상에서는 Google Cloud의 새 배포에 대해 <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 대신 <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM)을 지원합니다. Google은 더 고급 Infrastructure Manager를 위해 가까운 미래에 인프라 서비스로서 Deployment Manager를 더 이상 사용하지 않을 예정입니다.</block>
+  <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">기존 Cloud Volumes ONTAP 배포를 Google Cloud Infrastructure Manager에 맞게 구성합니다.</block>
+  <block id="aa51ff66cac4f14d899d7f563f8f476a" category="paragraph">이제 Infrastructure Manager를 사용하도록 Cloud Volumes ONTAP을 자동으로 배포하거나 변환 도구를 실행하여 Deployment Manager의 기존 배포를 Infrastructure Manager로 전환할 수 있습니다. 변환은 일회성 프로세스이며, 변환 후 시스템이 자동으로 Infrastructure Manager를 사용하기 시작합니다. 전환 도구 실행에 대한 지침은<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">Infrastructure Manager를 사용하는 Cloud Volumes ONTAP 시스템은 Google Cloud Storage 버킷을 사용하여 데이터를 저장하고 첫 번째 배포 영역에 배포 레코드를 저장하며, 이는 후속 배포에 재사용됩니다. 이러한 버킷에 대해 추가 비용이 발생할 수 있지만 버킷이나 해당 콘텐츠를 편집하거나 삭제하지 마십시오.</block>
+  <block id="c63b3118890326f42e936277c83db3b6" category="list-text"><block ref="9d4c46381bcc7ebe4bf02a7fd0ac5b6f" prefix="" category="inline-code"></block>: Cloud Volumes ONTAP Terraform 파일 저장용</block>
+  <block id="aaa460fe2e0e39c5d509b26ad876baf8" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>: Google Cloud Terraform 아티팩트 저장용</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
+  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP 시작하기</block>
+  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
+  <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 릴리스 노트</block>
+  <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
+  <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager에 필요한 권한</block>
+  <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
+  <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026년 2월 9일</block>
 </blocks>
