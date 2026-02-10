@@ -400,4 +400,8 @@
   <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">NetApp Backup and Recovery 워크로드(Oracle 및 Microsoft SQL Server)를 프로젝트와 연결할 수 있습니다. 프로젝트에 할당되면 해당 프로젝트에 대한 NetApp Backup and Recovery 역할을 부여받은 사용자는 해당 워크로드를 사용할 수 있습니다. 현재 다른 워크로드에 대해서는 역할 기반 액세스가 지원되지 않습니다.</block>
   <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Backup and Recovery 워크로드에 대한 역할 기반 액세스 설정에 대해 자세히 알아보세요.</block>
   <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
+  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Cloud Volumes ONTAP과 FSx for ONTAP 간의 데이터 복제 지원</block>
+  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">이제 NetApp Console에서 Cloud Volumes ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">데이터 복제</block>
+  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
 </blocks>
