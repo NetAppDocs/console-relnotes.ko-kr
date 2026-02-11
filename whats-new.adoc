@@ -140,7 +140,7 @@ Oracle Database 워크로드 보호에 대한 자세한 내용은 https://docs.n
 
 
 
-==== 버전 1.50
+==== 버전 1.51
 
 이번 Data Classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.
 
