@@ -56,33 +56,6 @@ Kubernetes 클러스터 검색 및 관리에 대한 지원은 2024년 8월 7일�
 
 
 
-=== 콘솔 설정 및 관리
-
-
-
-==== Console 에이전트 4.4.1
-
-4.4.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.
-
-이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.
-
-
-
-==== NetApp Console 관리
-
-이 릴리스에는 다음이 포함됩니다.
-
-
-
-==== NetApp Console 관리
-
-이 릴리스에는 다음이 포함됩니다.
-
-.NetApp Console에서 NetApp Data Infrastructure Insights에 액세스
-NetApp Console에서 NetApp Data Infrastructure Insights 무료 평가판을 이용할 수 있습니다. *Governance* > *Data Infrastructure Insights*로 이동하여 등록하고 데이터 환경에 대한 인사이트 및 분석 정보를 확인해 보세요.
-
-
-
 === Cloud Volumes ONTAP
 
 
@@ -113,22 +86,6 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 2026년 2월 16일
-
-
-
-=== 재해 복구
-
-
-
-==== 개선된 사용자 인터페이스
-
-피드백을 기반으로 성능 및 사용자 경험을 개선하기 위해 Disaster Recovery UI가 새롭게 단장되었습니다.
-
-
-
-==== API Swagger 문서
-
-이제 일반 브라우저에서 Disaster Recovery API Swagger 문서에 액세스할 수 있습니다. 더 이상 시크릿 모드가 필요하지 않습니다. API 문서에 액세스하려면 Disaster Recovery 대시보드로 이동하여 오른쪽 상단 컨텍스트 메뉴 image:../media/use/icon-vertical-dots.png["작업 아이콘"]를 선택한 다음 **API Documentation**을 선택하면 Swagger 문서가 열립니다. 또한 link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["URL을 즐겨찾기에 추가"^]를 통해서도 액세스할 수 있습니다.
 
 
 
