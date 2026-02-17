@@ -56,6 +56,33 @@ Kubernetes 클러스터 검색 및 관리에 대한 지원은 2024년 8월 7일�
 
 
 
+=== 콘솔 설정 및 관리
+
+
+
+==== Console 에이전트 4.4.1
+
+4.4.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.
+
+이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.
+
+
+
+==== NetApp Console 관리
+
+이 릴리스에는 다음이 포함됩니다.
+
+
+
+==== NetApp Console 관리
+
+이 릴리스에는 다음이 포함됩니다.
+
+.NetApp Console에서 NetApp Data Infrastructure Insights에 액세스
+NetApp Console에서 NetApp Data Infrastructure Insights 무료 평가판을 이용할 수 있습니다. *Governance* > *Data Infrastructure Insights*로 이동하여 등록하고 데이터 환경에 대한 인사이트 및 분석 정보를 확인해 보세요.
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -82,6 +109,50 @@ https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["G
 Azure 단일 및 다중 가용성 영역에 배포된 Cloud Volumes ONTAP 9.18.1 이상 버전은 전송 중인 데이터를 보호하기 위한 계층형 보안 전략의 일환으로 Azure 가상 네트워크(VNet) 암호화를 지원합니다. Cloud Volumes ONTAP는 Azure의 기본 데이터그램 전송 계층 보안(DTLS) 프로토콜을 활용하여 ONTAP 노드, 관리 인터페이스 및 기타 Azure 서비스 간의 통신을 보호하고, 데이터 가로채기 및 무단 액세스를 방지합니다. 이러한 네트워크 수준 암호화는 ONTAP에 내장된 스토리지 및 저장 데이터 보호 기능을 보완하여 데이터에 대한 엔드 투 엔드 보안을 제공합니다.
 
 https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["Azure VNet 암호화를 위한 네트워킹"^]
+
+
+
+== 2026년 2월 16일
+
+
+
+=== 랜섬웨어 복원력
+
+
+
+==== Azure NetApp Files 지원
+
+Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.
+
+자세한 내용은 link:For more information, see link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]을 참조하십시오.
+
+
+
+==== 사용자 행동 알림에서 사용자 제외
+
+NetApp Ransomware Resilience를 사용하면 이제 사용자 행동 알림에서 특정 사용자를 제외할 수 있습니다. 신뢰할 수 있는 사용자를 제외하면 오탐 및 불필요한 알림을 방지할 수 있습니다.
+
+자세한 내용은 link:For more information, see link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["알림에서 사용자 제외"^]을 참조하십시오.
+
+
+
+==== 사용자 행동 활동에 대한 보호 그룹 지원
+
+Ransomware Resilience 보호 그룹에서 이제 의심스러운 사용자 행동 탐지를 위한 탐지 정책을 지원합니다. 보호 그룹에 랜섬웨어 보호 전략을 적용하면 워크로드 전반에 정책이 적용되어 사이버 보안 태세 관리가 간소화됩니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["보호 그룹 생성"^]를 참조하세요.
+
+
+
+=== ONTAP 용 Amazon FSX
+
+
+
+==== 스토리지 VM 마이그레이션 지원
+
+NetApp Workload Factory에서 이제 스토리지 VM 마이그레이션을 지원합니다. 이 기능을 사용하면 온프레미스 ONTAP 시스템 또는 1세대 FSx for ONTAP 파일 시스템에서 2세대 FSx for ONTAP 파일 시스템으로 ONTAP 스토리지 시스템 데이터 및 구성을 마이그레이션할 수 있습니다. 스토리지 VM 데이터와 구성 설정을 복제하여 사용자 및 애플리케이션에 대한 다운타임과 중단을 최소화하면서 새 파일 시스템으로 이동할 수 있습니다.
+
+이 기능을 사용하려면 link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["복제 관계 생성"] 사용 사례로 *Migration*을 선택하십시오. 마이그레이션 프로세스를 완료하려면 link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["스토리지 VM과 복제된 볼륨을 컷오버합니다"] 즉시 데이터와 스토리지 VM 구성 설정을 타겟 FSx for ONTAP 파일 시스템으로 영구적으로 마이그레이션해야 합니다.
 
 
 
@@ -513,7 +584,7 @@ link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["
 
 ==== 스냅샷을 ONTAP 에 복제합니다.
 
-랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.
+NetApp Ransomware Resilience는 이제 보조 ONTAP 사이트로 스냅샷 복제 추가를 지원합니다. 복제 정책을 사용하는 보호 그룹을 통해 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 복제를 포함하는 랜섬웨어 보호 전략을 생성하거나 사전 정의된 전략을 사용할 수 있습니다.
 
 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["랜섬웨어 공격으로부터 워크로드를 보호하세요."^].
 

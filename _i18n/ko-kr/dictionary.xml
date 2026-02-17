@@ -301,7 +301,6 @@
   <block id="4b39db76689788868bda30b97106ca4a" category="section-title">KVM 워크로드 미리 보기 개선 사항</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
-  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">랜섬웨어 복원력 기능이 이제 스냅샷 복제본을 보조 ONTAP 사이트에 추가하는 것을 지원합니다. 복제 정책을 사용하는 보호 그룹을 사용하면 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 랜섬웨어 방어 전략을 생성할 때 복제 기능을 포함하거나 미리 정의된 전략을 사용할 수 있습니다.</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">지원되지 않는 볼륨</block>
   <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">랜섬웨어 복원력 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템 내 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단하십시오.</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">랜섬웨어 복원력 관련 보고서를 다운로드하세요.</block>
@@ -422,4 +421,26 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Azure VNet 암호화를 위한 네트워킹</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026년 2월 17일</block>
+  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">NetApp Ransomware Resilience는 이제 보조 ONTAP 사이트로 스냅샷 복제 추가를 지원합니다. 복제 정책을 사용하는 보호 그룹을 통해 모든 워크로드에 대해 동일한 대상 또는 서로 다른 대상으로 복제할 수 있습니다. 복제를 포함하는 랜섬웨어 보호 전략을 생성하거나 사전 정의된 전략을 사용할 수 있습니다.</block>
+  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 지원</block>
+  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience가 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때, Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 이를 보호 대시보드에 보여줍니다. Azure NetApp Files에 대한 Ransomware Resilience 지원은 스냅샷만을 사용한 탐지 및 보호 전략을 포함합니다. Azure NetApp Files 지원은 현재 프리뷰 단계입니다.</block>
+  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
+  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">자세한 내용은 link:For more information, see <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">사용자 행동 알림에서 사용자 제외</block>
+  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">NetApp Ransomware Resilience를 사용하면 이제 사용자 행동 알림에서 특정 사용자를 제외할 수 있습니다. 신뢰할 수 있는 사용자를 제외하면 오탐 및 불필요한 알림을 방지할 수 있습니다.</block>
+  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">알림에서 사용자 제외</block>
+  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">자세한 내용은 link:For more information, see <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">사용자 행동 활동에 대한 보호 그룹 지원</block>
+  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">Ransomware Resilience 보호 그룹에서 이제 의심스러운 사용자 행동 탐지를 위한 탐지 정책을 지원합니다. 보호 그룹에 랜섬웨어 보호 전략을 적용하면 워크로드 전반에 정책이 적용되어 사이버 보안 태세 관리가 간소화됩니다.</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">보호 그룹 생성</block>
+  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">자세한 내용은 <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>를 참조하세요.</block>
+  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">스토리지 VM 마이그레이션 지원</block>
+  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory에서 이제 스토리지 VM 마이그레이션을 지원합니다. 이 기능을 사용하면 온프레미스 ONTAP 시스템 또는 1세대 FSx for ONTAP 파일 시스템에서 2세대 FSx for ONTAP 파일 시스템으로 ONTAP 스토리지 시스템 데이터 및 구성을 마이그레이션할 수 있습니다. 스토리지 VM 데이터와 구성 설정을 복제하여 사용자 및 애플리케이션에 대한 다운타임과 중단을 최소화하면서 새 파일 시스템으로 이동할 수 있습니다.</block>
+  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">복제 관계 생성</block>
+  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">스토리지 VM과 복제된 볼륨을 컷오버합니다</block>
+  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">이 기능을 사용하려면 <block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 사용 사례로 *Migration*을 선택하십시오. 마이그레이션 프로세스를 완료하려면 <block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block> 즉시 데이터와 스토리지 VM 구성 설정을 타겟 FSx for ONTAP 파일 시스템으로 영구적으로 마이그레이션해야 합니다.</block>
+  <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console 에이전트 4.4.1</block>
+  <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">NetApp Console에서 NetApp Data Infrastructure Insights에 액세스</block>
+  <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">NetApp Console에서 NetApp Data Infrastructure Insights 무료 평가판을 이용할 수 있습니다. *Governance* &gt; *Data Infrastructure Insights*로 이동하여 등록하고 데이터 환경에 대한 인사이트 및 분석 정보를 확인해 보세요.</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026년 2월 16일</block>
 </blocks>
