@@ -438,7 +438,6 @@
   <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory에서 이제 스토리지 VM 마이그레이션을 지원합니다. 이 기능을 사용하면 온프레미스 ONTAP 시스템 또는 1세대 FSx for ONTAP 파일 시스템에서 2세대 FSx for ONTAP 파일 시스템으로 ONTAP 스토리지 시스템 데이터 및 구성을 마이그레이션할 수 있습니다. 스토리지 VM 데이터와 구성 설정을 복제하여 사용자 및 애플리케이션에 대한 다운타임과 중단을 최소화하면서 새 파일 시스템으로 이동할 수 있습니다.</block>
   <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">복제 관계 생성</block>
   <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">스토리지 VM과 복제된 볼륨을 컷오버합니다</block>
-  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">이 기능을 사용하려면 <block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 사용 사례로 *Migration*을 선택하십시오. 마이그레이션 프로세스를 완료하려면 <block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block> 즉시 데이터와 스토리지 VM 구성 설정을 타겟 FSx for ONTAP 파일 시스템으로 영구적으로 마이그레이션해야 합니다.</block>
   <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console 에이전트 4.4.1</block>
   <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">NetApp Console에서 NetApp Data Infrastructure Insights에 액세스</block>
   <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">NetApp Console에서 NetApp Data Infrastructure Insights 무료 평가판을 이용할 수 있습니다. *Governance* &gt; *Data Infrastructure Insights*로 이동하여 등록하고 데이터 환경에 대한 인사이트 및 분석 정보를 확인해 보세요.</block>
@@ -449,4 +448,5 @@
   <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">작업 아이콘</block>
   <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">URL을 즐겨찾기에 추가</block>
   <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">이제 일반 브라우저에서 Disaster Recovery API Swagger 문서에 액세스할 수 있습니다. 더 이상 시크릿 모드가 필요하지 않습니다. API 문서에 액세스하려면 Disaster Recovery 대시보드로 이동하여 오른쪽 상단 컨텍스트 메뉴 <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 **API Documentation**을 선택하면 Swagger 문서가 열립니다. 또한 <block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>를 통해서도 액세스할 수 있습니다.</block>
+  <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">이 기능을 사용하려면 <block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 사용 사례로 *Migration*을 선택하십시오. 마이그레이션 프로세스를 완료하려면 <block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block> 즉시 데이터와 스토리지 VM 구성 설정을 타겟 FSx for ONTAP 파일 시스템으로 영구적으로 마이그레이션해야 합니다.</block>
 </blocks>
