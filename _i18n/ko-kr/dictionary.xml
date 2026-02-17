@@ -121,10 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">더 이상 사용되지 않는 서비스</block>
-  <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">AWS Lambda 링크를 사용할 때 시스템 관리자를 사용할 수 있습니다.</block>
-  <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">고급 ONTAP 작업을 위한 링크 사용에 대해 알아보세요</block>
-  <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP 시스템 관리자 인터페이스는 AWS Lambda 링크와 함께 사용하여 고급 ONTAP 작업을 수행할 수 있습니다. 이는 System Manager와 함께 콘솔 에이전트를 사용하여 콘솔에서 직접 FSx for ONTAP 파일 시스템을 관리하는 것에 대한 대안을 제공합니다. <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
-  <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025년 11월 17일</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">커버리지 갭 구독에 대한 추적 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*모니터링 &gt; 알림 모니터*의 *보장 범위 완료* 알림 상자에서 각 구독의 구독 번호 옆에 추적 ID가 표시됩니다.</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025년 11월 24일</block>
@@ -412,4 +408,18 @@
   <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 설명서: Edsv5 크기 시리즈</block>
   <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
   <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026년 2월 12일</block>
+  <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">차세대 Google Cloud VM을 위한 Cloud Volumes ONTAP 지원</block>
+  <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">9.18.1에서 NetApp은 새로운 Cloud Volumes ONTAP 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다. 이제 Google Cloud에서 Cloud Volumes ONTAP 9.18.1 이상 버전을 배포할 때 C3 시리즈 VM의 이점을 활용할 수 있습니다. C3 시리즈 머신은 Google Virtual NIC(gVNIC)와 Hyperdisk Balanced 디스크를 사용하여 향상된 성능과 더 높은 용량 제한을 제공하며, 집약적인 워크로드에 필요한 동적 성능을 보장합니다.</block>
+  <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">현재 Cloud Volumes ONTAP는 단일 노드 배포 환경에서만 C3 시리즈를 지원합니다.</block>
+  <block id="506a0b7b76d0386b3d56de15882686c0" category="paragraph">Cloud Volumes ONTAP 시스템이 9.18.1 이상을 실행하는 경우 간편한 단일 노드 배포에 사용하는 사전 구성된 패키지는 자동으로 C3 VM을 사용하며 워크로드 요구 사항에 따라 IOPS 및 처리량 매개 변수를 사용자 지정할 수 있습니다. 마찬가지로 애그리게이트를 생성하는 동안 Hyperdisk Balanced 디스크를 추가하여 Google Cloud에서 더 나은 성능과 확장성을 달성할 수 있습니다. 또한 기본 Flash Cache 지원을 위해 C3 시리즈 머신의 LSSD 변형을 선택할 수 있습니다.</block>
+  <block id="4e97495efaaec030c995f03b84344009" category="paragraph">C3 VM은 Hyperdisk Balanced 디스크만 지원하기 때문에 애그리게이트에 볼륨을 추가할 때 디스크 유형을 변경할 수 없습니다. 마찬가지로 N2 VM 유형의 시스템을 C3 VM으로 복제할 때 디스크 유형은 기본적으로 Hyperdisk Balanced로 설정됩니다.</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP에 대해 지원되는 구성</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google 문서: C3 머신 시리즈</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="1a7265e4a0716c5c59fbf92d4b2b8f8b" category="section-title">Azure의 Cloud Volumes ONTAP용 VNet 보안</block>
+  <block id="a128f7270c0bfb9c5f5d16ec39f0d354" category="paragraph">Azure 단일 및 다중 가용성 영역에 배포된 Cloud Volumes ONTAP 9.18.1 이상 버전은 전송 중인 데이터를 보호하기 위한 계층형 보안 전략의 일환으로 Azure 가상 네트워크(VNet) 암호화를 지원합니다. Cloud Volumes ONTAP는 Azure의 기본 데이터그램 전송 계층 보안(DTLS) 프로토콜을 활용하여 ONTAP 노드, 관리 인터페이스 및 기타 Azure 서비스 간의 통신을 보호하고, 데이터 가로채기 및 무단 액세스를 방지합니다. 이러한 네트워크 수준 암호화는 ONTAP에 내장된 스토리지 및 저장 데이터 보호 기능을 보완하여 데이터에 대한 엔드 투 엔드 보안을 제공합니다.</block>
+  <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Azure VNet 암호화를 위한 네트워킹</block>
+  <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
+  <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026년 2월 17일</block>
 </blocks>
