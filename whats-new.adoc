@@ -192,6 +192,18 @@ NetApp Workload Factory에서 이제 스토리지 VM 마이그레이션을 지�
 
 
 
+=== Keystone
+
+NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
+
+
+
+==== Data Infrastructure Insights 추가 기능 소비량 표시
+
+Data Infrastructure Insights(DII) 추가 기능 사용량이 이제 *현재 사용량* 및 *사용량 추세* 탭에 표시됩니다. 자세한 내용은 link:./concepts/data-infra-insights.html#view-dii-consumption["DII 소비량 보기"]를 참조하십시오.
+
+
+
 == 2026년 2월 12일
 
 
