@@ -62,13 +62,13 @@ Kubernetes 클러스터 검색 및 관리에 대한 지원은 2024년 8월 7일�
 
 ==== 일반 공급(GA)에서 지원되는 KVM 워크로드
 
-Microsoft Hyper-V 워크로드 지원이 이제 NetApp Backup and Recovery에서 정식 출시(GA)되었습니다.
+NetApp Backup and Recovery에서 KVM 워크로드 지원이 이제 정식 출시(GA)되었습니다.
 
 KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["KVM 워크로드 보호 개요"] .
 
 
 
-==== Kubernetes가 일반 공급(GA)에서 지원됩니다
+==== 일반 공급(GA)에서 지원되는 Kubernetes 워크로드
 
 Kubernetes 워크로드 지원이 이제 NetApp Backup and Recovery에서 정식 출시(GA)되었습니다. 이번 Kubernetes 워크로드 릴리스에는 다음과 같은 향상된 기능도 포함되어 있습니다.
 
@@ -908,19 +908,3 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 NetApp Disaster Recovery 이제 마이그레이션, 장애 조치, 장애 복구 및 테스트 작업을 위해 Google Cloud NetApp Volumes 사용하여 Google Cloud VMware Engine을 지원합니다. 이러한 통합을 통해 온프레미스 환경과 Google Cloud 간의 원활한 재해 복구 워크플로가 가능해집니다.
 
 검토하세요link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["전제 조건"] 그리고link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["제한 사항"] Google Cloud를 위해.
-
-
-
-== 2025년 11월 27일
-
-
-
-=== Google Cloud NetApp Volumes
-
-
-
-==== Google Cloud Platform 자격 증명 변경
-
-고객이 더 많은 Google Cloud NetApp Volumes 시스템을 설정하고 승인함에 따라 자격 증명을 관리하는 방식도 바뀌었습니다.
-
-NetApp Volumes 시스템 자격 증명은 이제 Cloud Key Management 서비스나 유사한 서비스 등 Google 클라우드 백엔드에 저장되며, 새 시스템을 만들 때는 서비스 계정 가장 자격 증명이 사용됩니다.
