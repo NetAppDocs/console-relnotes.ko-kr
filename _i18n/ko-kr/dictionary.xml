@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console에서 이제 워크로드의 FSx for ONTAP 파일 시스템에 대한 Console 에이전트 상태를 표시합니다. 이 상태는 에이전트가 실행 중이고 FSx for ONTAP 파일 시스템과 통신할 수 있는지 여부를 나타냅니다. 이 정보를 통해 연결 문제를 해결할 수 있습니다.</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2026년 3월 2일)</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">클러스터의 볼륨 탭의 새 열</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Keystone 구독과 관련된 자산 보기</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Keystone 구독 전반에 걸쳐 자산을 확인하세요.</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*자산*의 *클러스터별 볼륨* 탭에 *핫 데이터*, *콜드 티어(%)*, *핫 티어(%)*라는 세 개의 새로운 열이 추가되었습니다. 더 자세한 내용을 알아보려면 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 및 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">소비 추세에서 청구된, 청구되지 않은 및 임시 버스트 사용량</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">누적된 버스트 보기</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">모니터링 보기 개선 사항</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* 보기에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 탭*: *Alert* 열의 이름이 *Alert type &amp; condition*으로 변경되었습니다. 이제 *Status* 열 옆에 있는 점 세 개 아이콘을 사용하여 알림을 편집하거나 메모를 추가하거나 알림 세부 정보를 볼 수 있습니다.</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors 탭*: *Condition* 열의 이름이 *Monitor type &amp; condition*으로 변경되었습니다.</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystone 구독 관련 알림을 확인하고 관리하세요.</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystone 구독에 대한 알림 모니터를 보고 생성하세요.</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">더 자세한 내용을 알아보려면 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 및 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026년 3월 2일</block>
 </blocks>
