@@ -519,4 +519,19 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">자세한 내용은 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">향상된 네트워크 검색</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">재해 복구 기능에 향상된 네트워크 검색 기능이 포함되어 더욱 다양한 네트워크 구성을 지원합니다.</block>
+  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">복사 및 이동에 대한 제한 증가</block>
+  <block id="5db4431afc8c4647c29360449ee80225" category="doc">버전 1.52</block>
+  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">리소스 유효성 검사</block>
+  <block id="19458db6dfda018080434d803401d712" category="paragraph">안정성을 보장하기 위해 Data Classification은 스캔, 보고서 생성 및 작업 전반에 걸쳐 사용 가능한 메모리 및 디스크 리소스를 검증합니다. 메모리 사용량이 95%를 초과하거나 디스크 공간이 6GB 미만으로 떨어지면 Data Classification은 자동으로 작업을 일시 중지합니다. 리소스가 충분해지면 작업이 재개됩니다.</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Data Classification의 상태를 모니터링하세요</block>
+  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">시스템 리소스를 모니터링하려면 <block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">이제 CIFS 대상에 대한 복사 및 이동 기능이 지원됩니다. 두 작업 모두 파일당 크기 제한이 기존 50MB에서 1GB로 증가했습니다. 두 작업 모두 작업량 제한이 1TB 또는 500만 파일로 늘어났습니다.</block>
+  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Active Directory 통합 구성 권한</block>
+  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">Data Classification에서 Active Directory(AD) 통합 설정 변경은 이제 관리자에게만 허용됩니다. 뷰어는 더 이상 AD 설정을 수정할 수 없습니다.</block>
+  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">데이터 서비스 역할</block>
+  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">분류 뷰어 역할에 대한 자세한 내용은 <block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">투명 프록시 지원</block>
+  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Data Classification은 이제 투명 프록시 구성을 지원하여 프록시 또는 제한된 네트워크 환경에서 더욱 원활한 배포를 가능하게 합니다.</block>
+  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">인터넷 연결이 없는 Linux 호스트에 NetApp Data Classification 설치</block>
+  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">제한된 환경에서의 배포에 대한 자세한 내용은 <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
