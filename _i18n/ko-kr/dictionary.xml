@@ -113,62 +113,18 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP 용 Amazon FSX</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">온프레미스 ONTAP 클러스터</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 워크로드의 미리보기 릴리스에는 다음과 같은 향상된 기능이 도입되었습니다.</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">이 콘솔 에이전트 릴리스에는 보안 개선, 버그 수정 및 다음 기능이 포함되어 있습니다.</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console 관리</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">이 릴리스에는 다음이 포함됩니다.</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
-  <block id="6a6493990827c82055e808631b52c236" category="doc">버전 1.49</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">이번 Data Classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.</block>
-  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">Health Monitoring 대시보드에서 메트릭과 성능을 모니터링합니다.</block>
-  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">데이터 분류는 이제 리소스에 대한 실시간 모니터링과 메모리 사용량, 디스크 사용량, 디스크 활용도 등에 대한 통찰력을 제공하는 상태 모니터링 대시보드를 제공합니다. 상태 모니터링 대시보드의 통찰력을 통해 배포 인프라를 검토하고 스토리지와 성능을 최적화하기 위한 통찰력을 얻을 수 있습니다.</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">데이터 분류 상태 모니터링</block>
-  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>.</block>
-  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">향상된 로딩 성능</block>
-  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">데이터 분류의 모든 페이지에 대한 로딩 성능이 개선되어 사용자 경험이 더욱 효율적으로 개선되었습니다.</block>
-  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
-  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 워크로드 미리보기 개선 사항</block>
-  <block id="24936fb650df7af8295e75a3667becef" category="list-text">이제 백업과 스냅샷을 대체 위치로 복원할 수 있습니다. 이 기능은 다양한 VMware vCenter 배포, VMware ESXi 호스트 또는 VMware 데이터 저장소에서 VM 버전을 관리하려는 경우에 유용합니다.</block>
-  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">이제 기본 또는 보조 위치에서 특정 VMware 가상 디스크(VMDK 이미지)를 복원하여 VM 데이터 복원을 보다 세부적으로 제어할 수 있습니다.</block>
-  <block id="236430e108e8394ac19913076b10fb55" category="doc">누적 버스트 용량 레이블 이름이 변경되었습니다.</block>
-  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">*누적 버스트 용량* 라벨이 *누적 버스트*로 이름이 변경되었습니다.</block>
-  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">확장 차단은 워크로드 수준에서 활성화됩니다.</block>
-  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">확장 차단을 활성화하면 이제 스토리지 VM 수준이 아닌 워크로드 수준에서 활성화됩니다.</block>
-  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">사용자 동작 알림 상태 편집</block>
-  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">여러 콘솔 에이전트 지원</block>
-  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">랜섬웨어 복원력은 이제 여러 콘솔 에이전트를 사용하여 동일한 시스템을 관리하는 것을 지원합니다.</block>
-  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">콘솔 에이전트 만들기</block>
-  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">콘솔 에이전트에 대한 자세한 내용은 다음을 참조하세요.<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> .</block>
-  <block id="b706122b5735a672dec906da7d14b15c" category="doc">폴더 계층 구조 유지</block>
-  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">기본적으로 재해 복구는 장애 조치 시 VM 인벤토리 계층 구조(폴더 구조)를 유지합니다. 복구 대상에 필요한 폴더가 없으면 재해 복구가 해당 폴더를 만듭니다.</block>
-  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">이제 새로운 부모 VM 폴더를 지정하거나 **원래 폴더 계층 구조 유지** 옵션의 선택을 취소하여 이 설정을 재정의할 수 있습니다.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 만들기</block>
-  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">간소화된 콘솔 에이전트 업데이트</block>
-  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">재해 복구는 이제 작업 환경에서 여러 콘솔 에이전트를 사용하기 위한 간소화된 프로세스를 지원합니다. 콘솔 에이전트 간에 전환하려면 vCenter 구성을 편집하고, 자격 증명을 다시 검색하고, 복제 계획을 새로 고쳐서 새 콘솔 에이전트를 사용해야 합니다.</block>
-  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">스위치 콘솔 에이전트</block>
-  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025년 12월 9일</block>
-  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">랜섬웨어 복원력을 통해 이제 사용자 동작 알림 상태를 편집할 수 있습니다. 알림을 수동으로 해제하고 해결할 수 있습니다.</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">랜섬웨어 복원력에서 알림 관리</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
-  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">NetApp Backup and Recovery 사용하여 VMware VM을 복원하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>.</block>
-  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">NetApp Backup and Recovery 사용하여 VMware 가상 디스크를 복원하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>.</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP 에 선호하는 결제 옵션</block>
-  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">Azure에서 Premium SSD v2 디스크의 성능을 향상시킬 수 있는 기능</block>
-  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">이제 Azure에서 Premium SSD v2 관리형 디스크의 성능을 IOPS 및 처리량 매개변수를 수정하여 향상시킬 수 있습니다. 이 기능을 사용하면 워크로드 요구 사항에 따라 시스템의 스토리지 성능을 최적화할 수 있습니다.</block>
-  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">Azure Cloud Volumes ONTAP 에서 Premium SSD v2 디스크 성능을 관리하세요.</block>
-  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>.</block>
-  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Essentials 라이선스 초과 사용 요금 청구 방식 간소화</block>
-  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">Cloud Volumes ONTAP 마켓플레이스 연간 계약/프라이빗 오퍼의 경우, Essentials 라이선스 초과 사용량 계산 방식이 이제 BYOL(Bring Your Own License) 패키지와 동일하게 적용됩니다. 이전에는 초과 사용량에 대해 동일한 Essentials 패키지에 대한 시간당 시장 요율로 청구되었습니다. 만약 마켓플레이스 연간 계약에 여러 Essentials 패키지가 포함되어 있다면, NetApp Console 구독에 포함된 더 비싼 Essentials 패키지의 사용 가능한 용량을 기준으로 해당 Essentials 패키지의 초과 사용량을 청구합니다. 이를 통해 Essentials 패키지의 초과 사용량 계산이 간소화되고 BYOL 라이선스에서 구독 기반 모델로의 원활한 전환이 보장됩니다.</block>
-  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Essentials 라이선스 초과 사용 요금 부과 방식</block>
-  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
-  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">Azure Edsv6 크기 시리즈 지원</block>
-  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">Cloud Volumes ONTAP 9.17.1 버전부터 NetApp Console 통해 새로운 Cloud Volumes ONTAP 인스턴스에 Azure Edsv6 시리즈 VM을 배포할 수 있습니다. Cloud Volumes ONTAP 9.17.1 이상 버전에서는 신규 배포 시 2세대 VM만 지원합니다. 이러한 2세대 장비는 UEFI(Unified Extensible Firmware Interface), Azure Boost 시스템 및 NVMe와 같은 최신 기술과 호환됩니다. 이러한 스토리지 시스템은 데이터베이스 서버 및 분석 엔진과 같이 빠른 로컬 스토리지가 필요한 메모리 집약적인 시스템 및 애플리케이션에 이상적입니다.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
-  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">콘솔 에이전트 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 버전은 표준 모드와 제한 모드를 모두 지원합니다.</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
@@ -201,8 +157,6 @@
   <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">시스템 페이지의 볼륨 탭은 온프레미스 ONTAP 클러스터가 20개 이상인 경우 기본적으로 그리드 보기로 표시됩니다.</block>
   <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">NetApp Console 에서 관리하는 온프레미스 ONTAP 클러스터가 20개 이상인 경우, *볼륨* 탭은 탐색을 쉽게 하기 위해 기본적으로 그리드 보기로 표시됩니다. 카드 보기 기능이 비활성화되었습니다.</block>
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">이 변경 사항은 표준 모드에만 적용되며 ONTAP 버전 9.6 이상에서만 사용 가능합니다.</block>
-  <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
-  <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">온프레미스 환경에서 여러 콘솔 에이전트 지원</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">온프레미스 재해 복구를 사용하는 경우 이제 각 vCenter 인스턴스에 콘솔 에이전트를 배포하여 복원력을 향상시킬 수 있습니다.</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">예를 들어, 두 개의 사이트(사이트 A와 B)가 있는 경우 사이트 A에는 콘솔 에이전트 A를 vCenter 1, ONTAP 배포 1 및 ONTAP 배포 2에 연결할 수 있습니다. 사이트 B는 콘솔 에이전트 B를 vCenter 2 및 ONTAP 배포 3 및 4에 연결할 수 있습니다.</block>
@@ -535,4 +489,21 @@
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystone 구독에 대한 알림 모니터를 보고 생성하세요.</block>
   <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">더 자세한 내용을 알아보려면 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 및 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026년 3월 2일</block>
+  <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
+  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 향상된 기능을 제공합니다.</block>
+  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*원본 위치로 복원*: 이제 로컬 스냅샷 및 복제된 스냅샷의 파일을 원본 위치뿐만 아니라 다른 위치로도 복원할 수 있습니다.</block>
+  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*시간별 볼륨 검색*: 이제 Dashboard에서 새로운 볼륨을 더 빠르게 검색하고 새로 고칩니다.</block>
+  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*다크 사이트 지원*: 이제 다크 사이트용 Backup and Recovery를<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>에서 다운로드할 수 있습니다. 현재 다크 사이트용 NetApp Backup and Recovery는 ONTAP Volumes 워크로드만 지원합니다.</block>
+  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Unicode 호환성 개선*: 카탈로그 색인에서 Unicode 문자를 더 잘 처리합니다.</block>
+  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">*FlexGroup 호환성 향상*: ONTAP FlexVol 볼륨을 FlexGroup 볼륨으로 변환할 때 이제 변환 전에 생성된 백업을 복원할 수 있습니다.</block>
+  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*다중 버킷 지원*: 이제 시스템 내 볼륨을 서로 다른 클라우드 공급자에 걸쳐 시스템당 최대 6개의 버킷으로 보호할 수 있습니다.</block>
+  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">ONTAP 볼륨 워크로드 보호 개요</block>
+  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">ONTAP Volume 워크로드 보호에 대한 자세한 내용은<block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 향상된 기능을 소개합니다.</block>
+  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*객체 저장소에서 게스트 데이터 복원*: 이제 객체 저장소에서 게스트 파일과 폴더를 복원할 수 있습니다.</block>
+  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*VMFS/NFS 빠른 복원*: 이제 다른 위치로 복원할 때 빠른 복원 옵션을 활성화할 수 있습니다. 이 옵션을 활성화하면 오브젝트 저장소에서 VM 메타데이터(파일, LUN 및 네임스페이스)만 검색되므로 전체 복원보다 볼륨을 더 빠르게 사용할 수 있습니다.</block>
+  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*Amazon FSx for NetApp ONTAP 지원*: VMware 워크로드에서 이제 버전 9.13.1 이상을 실행하는 Amazon FSx for NetApp ONTAP 스토리지 시스템을 지원합니다.</block>
+  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware 워크로드 보호 개요</block>
+  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
 </blocks>
