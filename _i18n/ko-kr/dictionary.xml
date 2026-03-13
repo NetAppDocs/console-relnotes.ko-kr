@@ -535,4 +535,6 @@
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">자세한 내용은 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience는 이제 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
+  <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">데이터 복사, 이동 및 삭제</block>
+  <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">자세한 내용은 <block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>
