@@ -564,5 +564,5 @@
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026년 3월 30일</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps용 SOAR 플레이북</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience는 이제 <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 작업 테스트 및 필수 랜섬웨어 대응 작업을 자동화할 수 있습니다.</block>
+  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience는 이제 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.</block>
 </blocks>
