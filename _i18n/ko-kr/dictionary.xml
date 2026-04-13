@@ -554,4 +554,17 @@
   <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">&lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">클린 복원</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">격리된 복구 환경 생성</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
+  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk Enterprise용 SIEM 지원</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결하세요</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">자세한 내용은 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">사용자 행동 활동 개선</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">사용자 활동 감지에 대해 알아보십시오</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">자세한 내용은 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>
