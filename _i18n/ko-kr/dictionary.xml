@@ -551,4 +551,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery를 위한 지원 구성</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVE 지원에 대한 자세한 내용은 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">&lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
 </blocks>
