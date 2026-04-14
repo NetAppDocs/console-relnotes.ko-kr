@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">클라우드 배포 관리자</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">버전 1.50</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">사용자 지정 분류 개선</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">이제 데이터 분류 기능에서 사용자 지정 범주 생성을 지원합니다. 파일을 업로드하여 데이터 분류에서 데이터에 범주 마커를 적용하는 데 사용하는 AI 모델을 세밀하게 조정할 수 있습니다. 모든 사용자 지정 분류에 대한 인터페이스가 개선되었습니다.</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">사용자 정의 분류 만들기</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>.</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">사용자 지정 오래된 데이터 정의</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">데이터 분류 기능을 통해 이제 조직의 요구 사항에 맞게 오래된 데이터의 정의를 사용자 지정할 수 있습니다. 이전에는 오래된 데이터를 마지막으로 수정된 지 3년이 지난 데이터로 정의했습니다. 이제 오래된 데이터는 마지막 접근 시점 또는 마지막 수정 시점을 기준으로 식별할 수 있으며, 그 기간은 6개월 전부터 10년 전까지 다양할 수 있습니다.</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">오래된 데이터 정의를 사용자 지정합니다.</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">자세한 내용은 다음을 참조하세요. <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>.</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">성능 향상</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">데이터 분류의 모든 페이지, 데이터 매핑 보고서 및 조사 페이지의 필터 로딩 시간이 단축되었습니다.</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">조사 보고서 작성 예상 시간</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">조사 보고서를 다운로드할 때, 이제 데이터 분류 기능에 다운로드 완료 예상 시간이 표시됩니다.</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026년 1월 14일</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP 볼륨 워크로드 개선 사항</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">ONTAP 볼륨 워크로드의 이번 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
@@ -567,4 +553,13 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">사용자 활동 감지에 대해 알아보십시오</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">자세한 내용은 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Google Cloud C3 VM에서 Cloud Volumes ONTAP 지원이 향상되었습니다.</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP는 이제 Google Cloud C3 시리즈 VM에 대한 지원을 강화하여 다음과 같은 추가 기능을 사용할 수 있게 되었습니다.</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Cloud Volumes ONTAP 배포에서 C3 제품군 내의 다양한 변형 간에 인스턴스 유형을 전환할 수 있습니다.</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">인스턴스 유형을 변경할 때 대상 VM으로 c3-standard-44 또는 c3-standard-88 및 해당 LSSD 변형을 선택하면 Google 네트워크 서비스 송신 네트워크 계층 Tier-1이 자동으로 적용됩니다. 다른 C3 변형으로 전환하면 송신 네트워크 계층은 Standard로 설정됩니다.</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">송신 네트워크 계층을 Tier-1으로 변경하면 추가 비용이 발생합니다. 배포 및 업그레이드 계획을 적절히 수립하십시오.</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">C3의 로컬 SSD(LSSD) 변형을 선택하면 Flash Cache가 기본적으로 활성화됩니다. 대상 변형이 Flash Cache를 지원하더라도 Cloud Volumes ONTAP 배포 환경에서는 C3 LSSD 변형 간에 전환할 수 없습니다.</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">이제 C3 VM에서 새 애그리게이트와 기존 애그리게이트 모두에 볼륨을 추가할 수 있습니다.</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">NetApp Console을 통해 또는 <block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API를 사용하여 볼륨을 추가할 때 IOPS 및 처리량 설정을 변경할 수 있습니다.</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
 </blocks>

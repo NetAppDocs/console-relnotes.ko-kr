@@ -121,6 +121,20 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+=== 데이터 분류
+
+
+
+==== 버전 1.53
+
+이번 Data Classification 릴리스에는 버그 수정, 보안 개선 및 성능 향상이 포함되어 있습니다.
+
+Cloud Tiering :leveloffset: +1
+
+_whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문
+
+
+
 === 재해 복구
 
 
@@ -136,6 +150,60 @@ NetApp Disaster Recovery의 GCVE 지원이 이제 일반 공급(GA)으로 제공
 
 
 GCVE 지원에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Disaster Recovery를 위한 지원 구성"^]을(를) 참조하십시오.
+
+
+
+=== 랜섬웨어 복원력
+
+
+
+==== 클린 복원
+
+Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.
+
+지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["격리된 복구 환경 생성"^]를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["깔끔한 복원을 통해 워크로드 복구"^]를 참조하십시오.
+
+
+
+==== Splunk Enterprise용 SIEM 지원
+
+Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Ransomware Resilience를 SIEM에 연결하세요"^]를 참조하십시오.
+
+
+
+==== 사용자 행동 활동 개선
+
+데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 활동 감지에 대해 알아보십시오"^]를 참조하십시오.
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Google Cloud C3 VM에서 Cloud Volumes ONTAP 지원이 향상되었습니다.
+
+Cloud Volumes ONTAP는 이제 Google Cloud C3 시리즈 VM에 대한 지원을 강화하여 다음과 같은 추가 기능을 사용할 수 있게 되었습니다.
+
+* Cloud Volumes ONTAP 배포에서 C3 제품군 내의 다양한 변형 간에 인스턴스 유형을 전환할 수 있습니다.
+* 인스턴스 유형을 변경할 때 대상 VM으로 c3-standard-44 또는 c3-standard-88 및 해당 LSSD 변형을 선택하면 Google 네트워크 서비스 송신 네트워크 계층 Tier-1이 자동으로 적용됩니다. 다른 C3 변형으로 전환하면 송신 네트워크 계층은 Standard로 설정됩니다.
++
+
+NOTE: 송신 네트워크 계층을 Tier-1으로 변경하면 추가 비용이 발생합니다. 배포 및 업그레이드 계획을 적절히 수립하십시오.
+
+* C3의 로컬 SSD(LSSD) 변형을 선택하면 Flash Cache가 기본적으로 활성화됩니다. 대상 변형이 Flash Cache를 지원하더라도 Cloud Volumes ONTAP 배포 환경에서는 C3 LSSD 변형 간에 전환할 수 없습니다.
+* 이제 C3 VM에서 새 애그리게이트와 기존 애그리게이트 모두에 볼륨을 추가할 수 있습니다.
+* NetApp Console을 통해 또는  `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API를 사용하여 볼륨을 추가할 때 IOPS 및 처리량 설정을 변경할 수 있습니다.
+
+
+.관련 링크
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud에서 Cloud Volumes ONTAP에 대해 지원되는 구성"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["차세대 Google Cloud VM을 위한 Cloud Volumes ONTAP 지원"^]
+
 
 
 
@@ -1064,33 +1132,3 @@ KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요
 Ransomware Resilience 보고서의 **요약** 보고서에 지원되는 볼륨과 지원되지 않는 볼륨에 대한 정보가 포함됩니다. 이 정보를 사용하여 시스템의 볼륨이 랜섬웨어 보호 대상에서 제외되는 이유를 진단할 수 있습니다.
 
 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["랜섬웨어 복원력 관련 보고서를 다운로드하세요."^].
-
-
-
-== 2026년 1월 14일
-
-
-
-=== 데이터 분류
-
-
-
-==== 버전 1.50
-
-이번 Data Classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.
-
-.사용자 지정 분류 개선
-이제 데이터 분류 기능에서 사용자 지정 범주 생성을 지원합니다. 파일을 업로드하여 데이터 분류에서 데이터에 범주 마커를 적용하는 데 사용하는 AI 모델을 세밀하게 조정할 수 있습니다. 모든 사용자 지정 분류에 대한 인터페이스가 개선되었습니다.
-
-자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-data-classification/task-custom-classification.html["사용자 정의 분류 만들기"^].
-
-.사용자 지정 오래된 데이터 정의
-데이터 분류 기능을 통해 이제 조직의 요구 사항에 맞게 오래된 데이터의 정의를 사용자 지정할 수 있습니다. 이전에는 오래된 데이터를 마지막으로 수정된 지 3년이 지난 데이터로 정의했습니다. 이제 오래된 데이터는 마지막 접근 시점 또는 마지막 수정 시점을 기준으로 식별할 수 있으며, 그 기간은 6개월 전부터 10년 전까지 다양할 수 있습니다.
-
-자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/data-services-data-classification/task-stale-data.html["오래된 데이터 정의를 사용자 지정합니다."^].
-
-.성능 향상
-데이터 분류의 모든 페이지, 데이터 매핑 보고서 및 조사 페이지의 필터 로딩 시간이 단축되었습니다.
-
-.조사 보고서 작성 예상 시간
-조사 보고서를 다운로드할 때, 이제 데이터 분류 기능에 다운로드 완료 예상 시간이 표시됩니다.
