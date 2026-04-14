@@ -524,8 +524,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*대체 스토리지 시스템으로 복원*: 이제 원래(운영) 스토리지 시스템을 완전히 사용할 수 없는 경우에도 가상 머신을 대체 스토리지 시스템으로 복원할 수 있습니다. 자세한 내용은<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">파일 및 폴더 복원</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Linux VM에 파일 복원*: 이제 VM 파일과 폴더를 Linux VM에 복원할 수 있습니다. 자세한 내용은<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*파일 및 폴더 복원 시 프록시 VM 지원* - 이제 소스 vCenter에서 호스팅되는 다른 VM으로 파일 및 폴더를 복원할 수 있습니다. 자세한 내용은<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*재귀적 파일 및 폴더 검색* - 이제 VMDK 파일 전체에서 특정 파일이나 폴더를 검색할 수 있습니다. 자세한 내용은<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">버전 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">이번 Data Classification 릴리스에는 버그 수정, 보안 개선 및 성능 향상이 포함되어 있습니다.</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine(GCVE) 지원이 이제 정식 출시(GA)되었습니다.</block>
@@ -562,4 +560,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">이제 C3 VM에서 새 애그리게이트와 기존 애그리게이트 모두에 볼륨을 추가할 수 있습니다.</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">NetApp Console을 통해 또는 <block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API를 사용하여 볼륨을 추가할 때 IOPS 및 처리량 설정을 변경할 수 있습니다.</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
+  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*파일 및 폴더 복원 시 프록시 VM 지원* - 이제 가상 디스크를 원래 VM에 연결하지 않고 프록시 VM을 사용하여 가상 디스크에서 파일과 폴더를 복원할 수 있습니다. 자세한 내용은<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>을 참조하세요.</block>
+  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*재귀적 파일 및 폴더 검색* - 이제 가상 디스크 전체에서 특정 파일이나 폴더를 검색할 수 있습니다. 자세한 내용은<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>을 참조하세요.</block>
 </blocks>
