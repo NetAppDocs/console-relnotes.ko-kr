@@ -511,9 +511,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery를 위한 지원 구성</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVE 지원에 대한 자세한 내용은 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">&lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]에서 해결되지 않은 지시문</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">클린 복원</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">격리된 복구 환경 생성</block>
@@ -541,4 +539,13 @@
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 지원*: VMware 워크로드에서 이제 NetApp ASA r2 SAN 전용 환경에서 호스팅되는 VMFS 데이터스토어의 VM 보호를 지원합니다.</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026년 4월 20일</block>
+  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">NetApp Cloud Tiering은 더 이상 제공되지 않습니다</block>
+  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">NetApp Cloud Tiering은 2026년 4월 26일부터 더 이상 구매하거나 라이선스를 갱신할 수 없습니다.</block>
+  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">기존 고객은 구독 또는 라이선스 계약이 만료될 때까지 NetApp Cloud Tiering을 계속 사용하고 지원을 받을 수 있습니다. 구독이 만료된 후에는 고객이 NetApp Cloud Tiering 기능이나 지원에 더 이상 액세스할 수 없습니다.</block>
+  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">ONTAP 클러스터에 FabricPool 라이센스 설치</block>
+  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetApp에서는 고객이 NetApp 담당자와 협력하여 기존 계층화 라이센스를 ONTAP FabricPool 라이센스로 전환할 것을 권장합니다. 이 라이센스는 ONTAP에서 데이터 계층화 기능을 제공합니다. FabricPool을 사용하여 ONTAP에서 데이터 계층화를 설정하는 방법에 대한 자세한 내용은 <block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering 사용 중단 안내</block>
+  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
+  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 공급 종료 FAQ</block>
+  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
 </blocks>
