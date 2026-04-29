@@ -511,7 +511,6 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery를 위한 지원 구성</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVE 지원에 대한 자세한 내용은 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026년 4월 13일</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">클린 복원</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">격리된 복구 환경 생성</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 공급 종료 FAQ</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">프로비저닝된 용량 레이블 이름 변경</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* 레이블이 *Provisioned volume capacity*로 변경되었습니다. 업데이트된 레이블은 관련 CSV 및 Excel 보고서에도 반영됩니다.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">누적 버스트에 대한 예측 토글</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026년 4월 27일</block>
 </blocks>
