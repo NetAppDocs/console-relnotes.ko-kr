@@ -479,7 +479,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP 볼륨 워크로드 보호 개요</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 보호 정책 개선 사항을 도입합니다.</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*보호 정책 편집*: 이제 변경이 필요한 경우 Kubernetes 워크로드 보호 정책을 편집할 수 있습니다</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*디스크 간 지원*: 이제 디스크 간 백업 아키텍처를 사용하여 Kubernetes 보호 정책을 구성할 수 있습니다.</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform 스토리지 버킷 지원*: 이제 Kubernetes 보호 정책을 구성하여 Google Cloud Platform 스토리지 버킷에 백업할 수 있습니다.</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">NetApp Backup and Recovery에서 보호 정책을 생성하고 관리하기</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">누적 버스트에 대한 예측 토글</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026년 4월 27일</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*보호 정책 편집*: 이제 필요에 따라 Kubernetes 워크로드 보호 정책을 편집할 수 있습니다.</block>
 </blocks>
