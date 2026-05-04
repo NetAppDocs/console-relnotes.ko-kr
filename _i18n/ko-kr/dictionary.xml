@@ -118,7 +118,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">이 릴리스에는 다음이 포함됩니다.</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
-  <block id="640602402999fbf572de482a35f449bc" category="paragraph">이번 Data Classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 만들기</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
@@ -127,17 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">NetApp Backup and Recovery에서 VMware 워크로드 지원이 이제 정식 출시(GA)되었습니다.</block>
-  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">일일 누적 버스트 데이터에 대한 대화형 필터링</block>
-  <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">일일 누적 버스트 데이터 사용량 보기</block>
-  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">*소비 추세* 탭의 *일별 누적 버스트* 표에서 이제 대화형 필터링 기능을 지원합니다. 누적 버스트 청구 그래프에서 막대를 선택하면 해당 청구 기간 내의 일수만 볼 수 있습니다. 자세한 내용은 <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">누적 버스트 그래프의 향상된 날짜 범위 표시</block>
-  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 월과 연도만 표시되는 대신 2025년 10월 1일부터 2025년 10월 31일까지와 같이 각 청구 기간에 대한 전체 날짜 범위가 표시됩니다.</block>
-  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">확장 가능한 구독 세부 정보 보기</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">Keystone 구독에 대한 자세한 정보를 확인하세요.</block>
-  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*Subscriptions* 탭에서는 모든 구독을 펼쳐 각 구독에 대한 성능 서비스 수준 정보를 동시에 확인할 수 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">새로운 사용 유형 열</block>
-  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*구독* 탭에는 구독 요금이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량을 기준으로 청구되는지 여부를 표시하는 *사용 유형* 열이 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026년 2월 2일</block>
   <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">포괄적인 보안 감독을 위한 새로운 보안 보고서</block>
   <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor에는 이제 스토리지 환경 전반의 ONTAP 보안 위험에 대한 통합 보기를 제공하는 보안 보고서가 포함되어 있습니다. 이 보고서를 통해 클러스터, SVM 및 볼륨 전반에 걸쳐 잘못된 구성, 규정 준수 격차 및 보안 문제를 더 빠르게 감지하여 안전한 스토리지 인프라를 유지할 수 있습니다.</block>
   <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">패치 버전이 혼합된 환경에 대한 Upgrade Advisor 지원 기능이 향상되었습니다.</block>
@@ -208,7 +196,6 @@
   <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">이제 NetApp Console에서 Cloud Volumes ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">데이터 복제</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">버전 1.51</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">일반 출시(GA)에서 지원되는 VMware 워크로드</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure에서 Ebdsv5 및 E104ids_v5 VM 지원</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">Cloud Volumes ONTAP 9.18.1부터 단일 노드 및 고가용성(HA) 배포 및 업그레이드를 위해 Ebdsv5 및 E104ids_v5 VM을 배포할 수 있습니다.</block>
@@ -391,7 +378,6 @@
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">향상된 네트워크 검색</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">재해 복구 기능에 향상된 네트워크 검색 기능이 포함되어 더욱 다양한 네트워크 구성을 지원합니다.</block>
   <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">복사 및 이동에 대한 제한 증가</block>
-  <block id="5db4431afc8c4647c29360449ee80225" category="doc">버전 1.52</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">리소스 유효성 검사</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">안정성을 보장하기 위해 Data Classification은 스캔, 보고서 생성 및 작업 전반에 걸쳐 사용 가능한 메모리 및 디스크 리소스를 검증합니다. 메모리 사용량이 95%를 초과하거나 디스크 공간이 6GB 미만으로 떨어지면 Data Classification은 자동으로 작업을 일시 중지합니다. 리소스가 충분해지면 작업이 재개됩니다.</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Data Classification의 상태를 모니터링하세요</block>
@@ -499,7 +485,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*대체 스토리지 시스템으로 복원*: 이제 원래(운영) 스토리지 시스템을 완전히 사용할 수 없는 경우에도 가상 머신을 대체 스토리지 시스템으로 복원할 수 있습니다. 자세한 내용은<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">파일 및 폴더 복원</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Linux VM에 파일 복원*: 이제 VM 파일과 폴더를 Linux VM에 복원할 수 있습니다. 자세한 내용은<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">버전 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">이번 Data Classification 릴리스에는 버그 수정, 보안 개선 및 성능 향상이 포함되어 있습니다.</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine(GCVE) 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">NetApp Disaster Recovery의 GCVE 지원이 이제 일반 공급(GA)으로 제공됩니다. GA 지원을 통해 GCVE용 Disaster Recovery는 이제 다음을 지원합니다:</block>
@@ -552,4 +537,9 @@
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026년 4월 27일</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*보호 정책 편집*: 이제 필요에 따라 Kubernetes 워크로드 보호 정책을 편집할 수 있습니다.</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
+  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">OVA를 사용하여 NetApp Data Classification 배포</block>
+  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification은 이제 VMware Open Virtual Appliance(OVA)를 통한 배포를 지원하여 온프레미스 VMware vSphere 환경을 위한 간소화된 배포 전략을 제공합니다.</block>
+  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">자세한 내용은 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026년 5월 4일</block>
 </blocks>
