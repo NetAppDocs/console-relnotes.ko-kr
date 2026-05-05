@@ -30,6 +30,28 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+== 2026년 5월 5일
+
+
+
+=== 백업 및 복구
+
+
+
+==== Kubernetes 워크로드 개선 사항
+
+이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.
+
+* *VM 보호를 위한 기본 지원*: 이제 VM 기반 애플리케이션을 생성하여 다른 애플리케이션과 동일한 방식으로 가상 머신을 보호할 수 있습니다.
+* *리소스 변환*: 이제 리소스 변환 및 리소스 변환 템플릿을 사용하여 복원 프로세스 중에 리소스 속성을 추가, 제거 및 수정할 수 있습니다.
+* *Backup and Recovery에서 Trident Protect 업그레이드*: 이제 Backup and Recovery에서 Kubernetes 클러스터용 Trident Protect를 직접 업그레이드할 수 있습니다.
+* *보호된 리소스 보기*: 이제 애플리케이션의 각 복구 지점에 포함된 리소스를 확인하고 자세한 JSON 보고서를 다운로드할 수 있습니다. 이를 통해 복구 지점을 완벽하게 파악하고 감사 규정 준수를 간소화할 수 있습니다.
+
+
+Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes 워크로드 보호 개요"]을 참조하세요.
+
+
+
 == 2026년 5월 4일
 
 
@@ -1093,29 +1115,3 @@ Infrastructure Manager를 사용하는 Cloud Volumes ONTAP 시스템은 Google C
 이제 NetApp Console에서 Cloud Volumes ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.
 
 link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["데이터 복제"]
-
-
-
-== 2026년 2월 4일
-
-
-
-=== 디지털 어드바이저
-
-
-
-==== 포괄적인 보안 감독을 위한 새로운 보안 보고서
-
-Digital Advisor에는 이제 스토리지 환경 전반의 ONTAP 보안 위험에 대한 통합 보기를 제공하는 보안 보고서가 포함되어 있습니다. 이 보고서를 통해 클러스터, SVM 및 볼륨 전반에 걸쳐 잘못된 구성, 규정 준수 격차 및 보안 문제를 더 빠르게 감지하여 안전한 스토리지 인프라를 유지할 수 있습니다.
-
-
-
-==== 패치 버전이 혼합된 환경에 대한 Upgrade Advisor 지원 기능이 향상되었습니다.
-
-Upgrade Advisor는 이제 동일한 ONTAP 주요 릴리스 내에서 노드가 서로 다른 패치 레벨을 실행하는 클러스터에 대한 업그레이드 보고서를 생성합니다. 이 개선 사항을 통해 고객은 클러스터가 주요 버전 간에 혼합되지 않는 한 원활하게 업그레이드를 진행할 수 있으며, 업그레이드 계획에 있어 더 큰 유연성을 제공합니다.
-
-
-
-==== 지원 기간이 종료된 ONTAP 버전에 대한 지원이 확장되었습니다.
-
-Upgrade Advisor는 이제 제한적 지원이 종료된 ONTAP 버전에 대한 업그레이드 계획 생성을 지원하며, 9개월의 유예 기간을 제공합니다. 이 기능은 전환 기간 동안 명확한 지침을 제공하여 고객이 적시에 조치를 취하고 업그레이드 중단을 방지할 수 있도록 지원합니다.

@@ -126,13 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">NetApp Backup and Recovery에서 VMware 워크로드 지원이 이제 정식 출시(GA)되었습니다.</block>
-  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">포괄적인 보안 감독을 위한 새로운 보안 보고서</block>
-  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor에는 이제 스토리지 환경 전반의 ONTAP 보안 위험에 대한 통합 보기를 제공하는 보안 보고서가 포함되어 있습니다. 이 보고서를 통해 클러스터, SVM 및 볼륨 전반에 걸쳐 잘못된 구성, 규정 준수 격차 및 보안 문제를 더 빠르게 감지하여 안전한 스토리지 인프라를 유지할 수 있습니다.</block>
-  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">패치 버전이 혼합된 환경에 대한 Upgrade Advisor 지원 기능이 향상되었습니다.</block>
-  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor는 이제 동일한 ONTAP 주요 릴리스 내에서 노드가 서로 다른 패치 레벨을 실행하는 클러스터에 대한 업그레이드 보고서를 생성합니다. 이 개선 사항을 통해 고객은 클러스터가 주요 버전 간에 혼합되지 않는 한 원활하게 업그레이드를 진행할 수 있으며, 업그레이드 계획에 있어 더 큰 유연성을 제공합니다.</block>
-  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">지원 기간이 종료된 ONTAP 버전에 대한 지원이 확장되었습니다.</block>
-  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor는 이제 제한적 지원이 종료된 ONTAP 버전에 대한 업그레이드 계획 생성을 지원하며, 9개월의 유예 기간을 제공합니다. 이 기능은 전환 기간 동안 명확한 지침을 제공하여 고객이 적시에 조치를 취하고 업그레이드 중단을 방지할 수 있도록 지원합니다.</block>
-  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026년 2월 4일</block>
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
   <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상에서는 Google Cloud의 새 배포에 대해 <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 대신 <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM)을 지원합니다. Google은 더 고급 Infrastructure Manager를 위해 가까운 미래에 인프라 서비스로서 Deployment Manager를 더 이상 사용하지 않을 예정입니다.</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">기존 Cloud Volumes ONTAP 배포를 Google Cloud Infrastructure Manager에 맞게 구성합니다.</block>
@@ -542,4 +535,10 @@
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification은 이제 VMware Open Virtual Appliance(OVA)를 통한 배포를 지원하여 온프레미스 VMware vSphere 환경을 위한 간소화된 배포 전략을 제공합니다.</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">자세한 내용은 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026년 5월 4일</block>
+  <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
+  <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*VM 보호를 위한 기본 지원*: 이제 VM 기반 애플리케이션을 생성하여 다른 애플리케이션과 동일한 방식으로 가상 머신을 보호할 수 있습니다.</block>
+  <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*리소스 변환*: 이제 리소스 변환 및 리소스 변환 템플릿을 사용하여 복원 프로세스 중에 리소스 속성을 추가, 제거 및 수정할 수 있습니다.</block>
+  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Backup and Recovery에서 Trident Protect 업그레이드*: 이제 Backup and Recovery에서 Kubernetes 클러스터용 Trident Protect를 직접 업그레이드할 수 있습니다.</block>
+  <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*보호된 리소스 보기*: 이제 애플리케이션의 각 복구 지점에 포함된 리소스를 확인하고 자세한 JSON 보고서를 다운로드할 수 있습니다. 이를 통해 복구 지점을 완벽하게 파악하고 감사 규정 준수를 간소화할 수 있습니다.</block>
+  <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026년 5월 5일</block>
 </blocks>
