@@ -120,76 +120,26 @@
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 만들기</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
-  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager 지원</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">클라우드 배포 관리자</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
-  <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">NetApp Backup and Recovery에서 VMware 워크로드 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
-  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상에서는 Google Cloud의 새 배포에 대해 <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 대신 <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM)을 지원합니다. Google은 더 고급 Infrastructure Manager를 위해 가까운 미래에 인프라 서비스로서 Deployment Manager를 더 이상 사용하지 않을 예정입니다.</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">기존 Cloud Volumes ONTAP 배포를 Google Cloud Infrastructure Manager에 맞게 구성합니다.</block>
-  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">Infrastructure Manager를 사용하는 Cloud Volumes ONTAP 시스템은 Google Cloud Storage 버킷을 사용하여 데이터를 저장하고 첫 번째 배포 영역에 배포 레코드를 저장하며, 이는 후속 배포에 재사용됩니다. 이러한 버킷에 대해 추가 비용이 발생할 수 있지만 버킷이나 해당 콘텐츠를 편집하거나 삭제하지 마십시오.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
-  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP 시작하기</block>
-  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
   <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 릴리스 노트</block>
   <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager에 필요한 권한</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026년 2월 9일</block>
-  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">NetApp Console 캔버스에서 Amazon FSxN for ONTAP을 사용하여 데이터 분류 기능을 바로 활성화하세요.</block>
-  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">이제 NetApp Console 캔버스에서 직접 ONTAP 시스템용 Amazon FSxN을 활성화할 수 있으므로 FSxN 시스템에 대한 데이터 분류를 더욱 빠르게 시작할 수 있습니다.</block>
-  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Amazon FSxN에서 ONTAP 볼륨을 검색합니다</block>
-  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Amazon FSxN for ONTAP에서 Data Classification 사용에 대한 자세한 내용은 <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">디렉토리 조사를 위한 내보내기 제한 증가</block>
-  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">조사 대시보드에서 디렉토리에 대한 조사 보고서를 내보낼 때 이제 최대 10,000개의 행을 포함할 수 있습니다. 이전 제한인 5,000개 행에서 증가한 이번 확장을 통해 데이터 거버넌스 및 규정 준수에 대한 대규모 조사가 가능해졌습니다.</block>
-  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">데이터 조사</block>
-  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">자세한 내용은 <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">복사 및 이동 제한 증가</block>
-  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">파일을 복사하거나 이동할 때 이제 최대 250MB의 파일을 이동할 수 있으며, 이는 이전 제한인 50MB에서 증가한 것입니다.</block>
-  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">저해상도 화면의 디스플레이 개선</block>
-  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification은 저해상도 화면에서의 표시 성능을 개선하여 사용자 경험을 향상시켰습니다.</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 워크로드 개선 사항</block>
-  <block id="de8616724d177017abdd720d7365feff" category="paragraph">이번 Kubernetes 워크로드 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
-  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*CR 워크플로우 지원*: 이제 NetApp Backup and Recovery 웹 UI뿐만 아니라 CR을 사용하여 일반적인 보호 작업을 수행할 수 있습니다.</block>
-  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*클러스터 마이그레이션*: 이제 Trident Protect로 보호되는 기존 Kubernetes 클러스터를 Backup and Recovery에 추가할 수 있습니다.</block>
-  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*알림 프레임워크 지원*: 이제 특정 Kubernetes 워크로드 이벤트에 대한 이메일 및 UI 알림을 받을 수 있습니다.</block>
-  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*복원 탭 통합*: 이제 복원 메뉴에서 Kubernetes 워크로드 복원 작업에 액세스할 수 있습니다.</block>
-  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*3-2-1 팬아웃 백업 아키텍처 지원*: 이제 Kubernetes 워크로드를 보호할 때 보호 정책에서 3-2-1 팬아웃 아키텍처를 사용할 수 있습니다.</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>을 참조하세요.</block>
   <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 워크로드 개선 사항</block>
-  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">이번 Oracle Database 워크로드 릴리스에서는 다음과 같은 향상된 기능이 도입되었습니다.</block>
-  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*루트 권한이 없는 사용자 지원*: 이제 루트 권한이 없는 사용자도 백업, 복원 및 복제 작업을 수행할 수 있어 보안 및 규정 준수가 향상됩니다.</block>
-  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*클론 지원*: 이제 ASM 라이브러리 v2를 사용하여 운영 및 2차 NAS, SAN 및 ASM 환경 전반에 걸쳐 클론 기능을 지원하여 통합 보호 워크플로를 구현할 수 있습니다.</block>
-  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*클론 분할 지원*: 이제 쓰기 가능한 스냅샷(클론)을 상위 볼륨에서 분할하여 스토리지를 확보하고 독립적인 작업을 수행할 수 있습니다.</block>
-  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*객체 저장소에 대한 백업 및 복원*: 이제 객체 기반 S3 호환 스토리지 타겟에 대한 네이티브 백업 및 복원 기능이 지원됩니다.</block>
-  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Clone Lifecycle Management(CLM)*: 운영 스토리지에서 클론 새로 고침 작업이 지원됩니다.</block>
-  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*다른 호스트로 복제*: 이제 기본 스토리지와 2차 스토리지 모두에서 데이터베이스를 다른 호스트로 복제할 수 있습니다(테스트 또는 분석용).</block>
-  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*ONTAP 일관성 그룹 지원*: 이제 ONTAP 일관성 그룹이 지원되어 여러 볼륨에서 애플리케이션 정합성 보장 스냅샷을 보장합니다.</block>
-  <block id="07bac542633034a121251f74bf3c7880" category="list-text">이제 NetApp Backup and Recovery는 Oracle Database 워크로드에 대해 다음과 같은 보호 정책 아키텍처를 지원합니다.</block>
-  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">3-2-1 팬아웃</block>
-  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">디스크 간</block>
-  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">디스크에서 오브젝트 스토리지로</block>
-  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">캐스케이딩</block>
-  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">로컬 스냅샷</block>
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Database 워크로드 보호 개요</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">일반 공급(GA)에서 지원되는 Microsoft Hyper-V 워크로드</block>
-  <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">Microsoft Hyper-V 워크로드 지원이 이제 NetApp Backup and Recovery에서 정식 출시(GA)되었습니다.</block>
-  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console 에이전트 4.4.0</block>
-  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">4.4.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
-  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">NetApp Backup and Recovery 워크로드(Oracle 및 Microsoft SQL Server)에 대한 역할 기반 액세스 지원</block>
-  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">NetApp Backup and Recovery 워크로드(Oracle 및 Microsoft SQL Server)를 프로젝트와 연결할 수 있습니다. 프로젝트에 할당되면 해당 프로젝트에 대한 NetApp Backup and Recovery 역할을 부여받은 사용자는 해당 워크로드를 사용할 수 있습니다. 현재 다른 워크로드에 대해서는 역할 기반 액세스가 지원되지 않습니다.</block>
-  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Backup and Recovery 워크로드에 대한 역할 기반 액세스 설정에 대해 자세히 알아보세요.</block>
-  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
-  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Cloud Volumes ONTAP과 FSx for ONTAP 간의 데이터 복제 지원</block>
-  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">이제 NetApp Console에서 Cloud Volumes ONTAP 시스템과 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">데이터 복제</block>
-  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">일반 출시(GA)에서 지원되는 VMware 워크로드</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure에서 Ebdsv5 및 E104ids_v5 VM 지원</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">Cloud Volumes ONTAP 9.18.1부터 단일 노드 및 고가용성(HA) 배포 및 업그레이드를 위해 Ebdsv5 및 E104ids_v5 VM을 배포할 수 있습니다.</block>
   <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 가상 머신 Eb 제품군의 Ebdsv5 VM은 더 높은 원격 스토리지 성능에 최적화되어 있습니다. 이러한 VM은 관계형 데이터베이스, 인메모리 분석 및 기타 까다로운 비즈니스 크리티컬 애플리케이션과 같이 메모리 집약적이고 I/O 작업이 많은 엔터프라이즈 워크로드에 사용할 수 있습니다.</block>
@@ -254,33 +204,22 @@
   <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026년 2월 23일</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">NetApp Backup and Recovery에서 KVM 워크로드 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">일반 공급(GA)에서 지원되는 Kubernetes 워크로드</block>
-  <block id="d370e8740a6b64fd386955e0e780b888" category="paragraph">2026년 2월 9일부터 Cloud Volumes ONTAP는 신규 및 기존 배포에 Infrastructure Manager를 사용합니다. 다음 표에서 몇 가지 워크플로를 설명합니다.</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">시나리오</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">작업</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">에이전트용 새 API</block>
   <block id="060f2406e35d76018851fe48ca94d582" category="cell">에이전트에 대한 새로운 권한</block>
   <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">Cloud Volumes ONTAP용 새로운 Google Cloud API</block>
   <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">문서 리소스</block>
-  <block id="ffcce4c7137f38bc7e8f7abd968a2416" category="cell">기존 에이전트 및 기존 Cloud Volumes ONTAP 배포</block>
-  <block id="8ca4609018726707802acec01ea088c8" category="cell">기존 에이전트에 새로운 API와 권한을 추가하고 기존 Cloud Volumes ONTAP 시스템을 변환합니다.</block>
   <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">Cloud Infrastructure Manager API</block>
   <block id="a4c710688b0bce1852460a0da5685192" category="list-text">클라우드 할당량 API</block>
   <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">콘솔 릴리스에 대해 나열된 모든 권한:</block>
   <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">2025년 12월 8일</block>
   <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
   <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
-  <block id="d0afacc44f5837356184459eb1b8fb68" category="cell">\https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1</block>
   <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
-  <block id="32524c76b6297a63bd4c44a66fb638cb" category="cell">기존 에이전트 및 새 Cloud Volumes ONTAP 배포</block>
-  <block id="cd116d29376c1e626e005f853f310ae1" category="cell">기존 에이전트에 새로운 API와 권한을 추가하고 새로운 Cloud Volumes ONTAP 시스템을 배포합니다.</block>
-  <block id="599a622e9d52b5b54a2b589d25b12d7f" category="cell">새로운 배포를 위한 모든 단계</block>
   <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">새 에이전트 및 새 배포</block>
-  <block id="252390de9c128281e1354046c39015db" category="cell">새 에이전트를 생성하고 새 Cloud Volumes ONTAP 시스템을 구축합니다.</block>
   <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">Google Cloud에서 Console 에이전트를 생성합니다.</block>
   <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
-  <block id="dfa41bd12b34b1bd351e47cb755d553f" category="paragraph">이제 Cloud Volumes ONTAP을 배포하여 Infrastructure Manager를 자동으로 사용하거나 변환 도구를 실행하여 Deployment Manager의 기존 배포를 Infrastructure Manager로 전환하십시오. 변환은 일회성 프로세스이며, 변환 후 시스템에서 Infrastructure Manager를 사용하기 시작합니다. 변환 도구 실행에 대한 지침은<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="0841cdab6957a4878161d52555ce3f69" category="list-text"><block ref="459888dc95116b3e1800e611d3502102" prefix="" category="inline-code"></block>: 새로운 Cloud Volumes ONTAP 배포에 사용되는 ONTAP 버전 및 SVM Terraform 템플릿용입니다. 이 안에 <block ref="141f3ccee25f2d3a39df4d9471e4bb21" prefix=" " category="inline-code"></block> 버킷에는 Cloud Volumes ONTAP Terraform 파일이 들어 있습니다.</block>
-  <block id="a11251d028e85bf55e217f7b75894bca" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>: Google Cloud Terraform 아티팩트를 저장하는 데 사용됩니다.</block>
   <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">비공개 모드 배포를 위한 Google Infrastructure Manager 지원</block>
   <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상에서는 이제 Google Cloud에서 새로운 프라이빗 모드 배포 시 <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM)을 <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 대신 지원합니다. Google은 더 발전된 Infrastructure Manager를 위해 가까운 시일 내에 Deployment Manager를 인프라 서비스에서 지원 중단할 예정입니다.</block>
   <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">2026년 2월 25일부터 Cloud Volumes ONTAP는 신규 및 기존 프라이빗 모드 배포에 Infrastructure Manager를 사용합니다. 다음 표에서는 기본 워크플로를 설명합니다.</block>
@@ -370,7 +309,6 @@
   <block id="95036acb74478cad3d04125e4993251b" category="paragraph">자세한 내용은 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">향상된 네트워크 검색</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">재해 복구 기능에 향상된 네트워크 검색 기능이 포함되어 더욱 다양한 네트워크 구성을 지원합니다.</block>
-  <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">복사 및 이동에 대한 제한 증가</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">리소스 유효성 검사</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">안정성을 보장하기 위해 Data Classification은 스캔, 보고서 생성 및 작업 전반에 걸쳐 사용 가능한 메모리 및 디스크 리소스를 검증합니다. 메모리 사용량이 95%를 초과하거나 디스크 공간이 6GB 미만으로 떨어지면 Data Classification은 자동으로 작업을 일시 중지합니다. 리소스가 충분해지면 작업이 재개됩니다.</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Data Classification의 상태를 모니터링하세요</block>
@@ -541,4 +479,14 @@
   <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Backup and Recovery에서 Trident Protect 업그레이드*: 이제 Backup and Recovery에서 Kubernetes 클러스터용 Trident Protect를 직접 업그레이드할 수 있습니다.</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*보호된 리소스 보기*: 이제 애플리케이션의 각 복구 지점에 포함된 리소스를 확인하고 자세한 JSON 보고서를 다운로드할 수 있습니다. 이를 통해 복구 지점을 완벽하게 파악하고 감사 규정 준수를 간소화할 수 있습니다.</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026년 5월 5일</block>
+  <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Kubernetes 기반 워크로드 지원(미리 보기)</block>
+  <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">Trident Protect에서 현재 지원하는 모든 Kubernetes 버전</block>
+  <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery에 Kubernetes 기반 워크로드 지원이 추가되었습니다. Kubernetes 지원을 통해 OpenShift Virtualization 환경을 포함한 Kubernetes 클러스터에서 실행되는 애플리케이션을 보호할 수 있습니다. Disaster Recovery는 <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>를 지원하여 컨테이너화된 애플리케이션에 대한 원활한 통합과 강력한 재해 복구 기능을 제공합니다.</block>
+  <block id="17e5366c4d700584180f9a88c40ddd7f" category="paragraph">Kubernetes 기반 워크로드 지원의 주요 기능:</block>
+  <block id="6e623252e9b1dfd44c03c706826c9dc2" category="list-text">**폭넓은 호환성**: Disaster Recovery는 Red Hat OpenShift Virtualization을 포함하여 Trident Protect와 호환되는 모든 Kubernetes 버전을 지원합니다.</block>
+  <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**애플리케이션 중심 보호**: 이제 애플리케이션 수준에서 Kubernetes 워크로드를 보호하여 페일오버 이벤트 발생 시 중요한 서비스의 복구를 보장할 수 있습니다.</block>
+  <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**간소화된 오케스트레이션**: Disaster Recovery는 VMware 환경에서 사용되는 것과 동일한 효율적인 SnapMirror 기술을 활용하여 Kubernetes 워크로드의 백업 및 복제를 자동화하는 직관적인 워크플로우를 제공합니다.</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery를 위한 Kubernetes 요구 사항</block>
+  <block id="84b0e3d023f875f2669a5f0d72922238" category="paragraph">Kubernetes 기반 워크로드 지원은 현재 미리 보기로 제공됩니다. Kubernetes 기반 워크로드 보호를 시작하려면 <block ref="343bf0d5acc46def5b744dcb13640f63" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
 </blocks>
