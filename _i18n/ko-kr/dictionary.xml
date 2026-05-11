@@ -326,7 +326,6 @@
   <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">Console 에이전트에서 구성 검사를 실행하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">콘솔 관리</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">파트너 사용자에게 Keystone 역할을 할당하는 방법에 대해 자세히 알아보세요.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">사용자 행동 알림에서 여러 사용자 일괄 제외</block>
@@ -487,6 +486,13 @@
   <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**애플리케이션 중심 보호**: 이제 애플리케이션 수준에서 Kubernetes 워크로드를 보호하여 페일오버 이벤트 발생 시 중요한 서비스의 복구를 보장할 수 있습니다.</block>
   <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**간소화된 오케스트레이션**: Disaster Recovery는 VMware 환경에서 사용되는 것과 동일한 효율적인 SnapMirror 기술을 활용하여 Kubernetes 워크로드의 백업 및 복제를 자동화하는 직관적인 워크플로우를 제공합니다.</block>
   <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery를 위한 Kubernetes 요구 사항</block>
-  <block id="84b0e3d023f875f2669a5f0d72922238" category="paragraph">Kubernetes 기반 워크로드 지원은 현재 미리 보기로 제공됩니다. Kubernetes 기반 워크로드 보호를 시작하려면 <block ref="343bf0d5acc46def5b744dcb13640f63" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
+  <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 에이전트 4.7.0</block>
+  <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
+  <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">이번 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
+  <block id="2359613eeef582462b02e31edd2c83e1" category="paragraph-title">Console 조직을 확인하세요</block>
+  <block id="43dc49af1a8157f71040baeb30324e66" category="inline-link-macro">Console 조직을 확인하는 방법을 알아보십시오</block>
+  <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">기본적으로 Digital Advisor는 콘솔 조직뿐만 아니라 회사와 연결된 모든 NetApp 계정을 표시합니다. Digital Advisor에 표시되는 내용을 특정 계정으로 제한하려면 콘솔 조직에서 사용할 비즈니스 계정을 확인하십시오.<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
+  <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">Kubernetes 기반 워크로드 지원은 현재 미리 보기로 제공됩니다. Kubernetes 기반 워크로드 보호를 시작하려면 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026년 5월 11일</block>
 </blocks>
