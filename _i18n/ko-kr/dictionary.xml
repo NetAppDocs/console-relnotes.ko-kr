@@ -505,8 +505,6 @@
   <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*보호 그룹에 대한 데이터 저장소 스패닝 지원*: 이제 가상 디스크가 여러 데이터 저장소에 걸쳐 있는 가상 머신을 보호할 때 보호 그룹의 동작을 선택할 수 있습니다.</block>
   <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*클론 지원*: 이제 운영 및 2차 스토리지에서 가상 머신 스냅샷의 클론을 생성할 수 있습니다.</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">클린 복원 기능 향상</block>
-  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">이제 클린 복원 기능은 대체 클러스터로의 복구 및 7일 이상의 분석을 지원합니다.</block>
-  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>.</block>
   <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 지원</block>
   <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience는 이제 Google SecOps를 통한 보안 정보 및 이벤트 관리(SIEM)를 지원하므로 간소화된 위협 분석 및 탐지를 위해 데이터를 Google SecOps로 자동으로 전송할 수 있습니다.</block>
   <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">구성 정보는 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
@@ -548,4 +546,6 @@
   <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">용량 라이선스 요금 부과 방식 변경</block>
   <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
+  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">이제 클린 복원 기능을 통해 다른 위치로 복구할 수 있습니다. 이를 통해 동일한 Console 에이전트에서 관리하는 다른 시스템, 스토리지 VM 및 애그리게이트로 볼륨을 복원할 수 있습니다. 또한, 클린 복원 기능은 복구에 사용할 수 있는 스냅샷을 검색하는 데 적용되던 7일 제한을 해제했습니다. 이제 클린 복원 기능은 랜섬웨어 발생 시점과 관계없이 사용 가능한 스냅샷을 지속적으로 검색하여 복구 지점을 찾습니다.</block>
+  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
