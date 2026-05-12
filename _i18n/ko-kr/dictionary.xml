@@ -486,7 +486,6 @@
   <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**애플리케이션 중심 보호**: 이제 애플리케이션 수준에서 Kubernetes 워크로드를 보호하여 페일오버 이벤트 발생 시 중요한 서비스의 복구를 보장할 수 있습니다.</block>
   <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**간소화된 오케스트레이션**: Disaster Recovery는 VMware 환경에서 사용되는 것과 동일한 효율적인 SnapMirror 기술을 활용하여 Kubernetes 워크로드의 백업 및 복제를 자동화하는 직관적인 워크플로우를 제공합니다.</block>
   <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery를 위한 Kubernetes 요구 사항</block>
-  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
   <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 에이전트 4.7.0</block>
   <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">이번 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
@@ -517,4 +516,9 @@
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience이 이제 Google SecOps 및 Splunk SOAR 플레이북을 사용하여 개별 사용자 차단을 지원합니다. 이 추가 기능을 통해 Ransomware Resilience에서 데이터 유출이나 대량 데이터 삭제와 같은 의심스러운 사용자 활동을 감지할 때 사용자 차단을 자동화할 수 있습니다.</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
+  <block id="6edeb5e7f8d6c86621cc7603e861b9ba" category="doc">FSx for ONTAP을 사용한 기존 관계에 대한 복제 관리</block>
+  <block id="12ad030c730fdc0c585b94ec9fbfc39b" category="paragraph">FSx for ONTAP 파일 시스템을 소스 또는 대상으로 사용하는 복제 관계 관리 기능이 이제 NetApp Workload Factory에 추가되었습니다.</block>
+  <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">데이터 복제 관리</block>
+  <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">복제 :leveloffset: +1</block>
 </blocks>
