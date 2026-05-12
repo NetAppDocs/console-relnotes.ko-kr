@@ -521,4 +521,31 @@
   <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">데이터 복제 관리</block>
   <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">복제 :leveloffset: +1</block>
+  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
+  <block id="55abafc1dd088c3ce83eae8e4a747314" category="paragraph">NetApp은 AWS에서 Cloud Volumes ONTAP 구독에 대한 향상된 청구 옵션을 제공하여 Cloud Volumes ONTAP 용량 및 BlueXP 백업 및 복구와 같은 NetApp 데이터 서비스 비용 지불 방식을 더욱 세밀하게 제어할 수 있도록 지원합니다. 이전에는 모든 Cloud Volumes ONTAP 및 데이터 서비스 사용량이 AWS 마켓플레이스의 NetApp Intelligent Services(NIS) 목록을 통해 통합적으로 청구되었습니다.</block>
+  <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">AWS 엔터프라이즈 할인 프로그램(EDP) 변경으로 인해 NetApp은 AWS 마켓플레이스에 독립형 Cloud Volumes ONTAP 구독을 출시했습니다. 이를 통해 Cloud Volumes ONTAP 용량과 데이터 서비스 요금을 분리하여 청구할 수 있습니다. 이러한 분리를 통해 EDP 크레딧 및 비용 관리에 있어 더욱 유연성을 확보할 수 있습니다. NetApp은 Cloud Volumes ONTAP 사용량에 대한 비용 관리를 개선하기 위해 독립형 구독을 사용하는 것을 권장하며, EDP 요건이 적용되는 2026년 7월 31일 이후에는 데이터 서비스 요금 청구를 위해 NIS 구독을 계속 사용할 것을 권장합니다.</block>
+  <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS의 독립형 Cloud Volumes ONTAP 구독은 유효한 용량 기반 Essentials 또는 Freemium 라이센스 패키지만 지원합니다. Professional 패키지는 지원되지 않습니다. 필요에 가장 적합한 청구 방법을 선택할 수 있습니다.</block>
+  <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*독립형 Cloud Volumes ONTAP 구독(권장)*: AWS 마켓플레이스에서 독립형 구독을 통해 Cloud Volumes ONTAP 사용량에 대한 비용을 지불하고, 데이터 서비스 요금은 NIS 구독을 통해 계속 청구됩니다. 이 옵션은 NetApp Console의 AWS 계정에 독립형 및 NIS 구독이 모두 연결된 대부분의 고객에게 권장됩니다.</block>
+  <block id="89df3be47eb3a96e140986018ec88f25" category="list-text">*통합 NIS 구독*: 기존 NIS 목록을 통해 Cloud Volumes ONTAP과 데이터 서비스를 함께 결제하세요. 이 통합 방식은 NetApp Console에서 AWS 계정에 NIS 구독만 연결된 기존 고객에게 적용됩니다. 하지만 NetApp은 더 나은 비용 관리를 위해 Cloud Volumes ONTAP 사용량에 대한 결제 기본 설정을 지정하고 독립형 구독으로 전환하는 것을 권장합니다.</block>
+  <block id="f0bbf3eb80d447bdeec06a404e0deecc" category="paragraph">구독 유형에 따라 다음과 같은 시나리오가 제공됩니다.</block>
+  <block id="136ebd87e9330d7c5a86db1bea619a09" category="paragraph-title">독립형 구독만 가능(신규 고객)</block>
+  <block id="4878475e6c6d651007ba24b57dd8f52c" category="paragraph">NetApp Console의 AWS 계정에 독립형 AWS 구독만 연결되어 있고 NIS 구독이 없는 경우, 배포 시 Essentials 라이선스 패키지만 선택할 수 있습니다. 데이터 서비스 *Backup and Recovery* 옵션을 사용할 수 없습니다.</block>
+  <block id="b841a0c2e7683cb86c696f570ce9b7c5" category="paragraph-title">독립 실행형 및 NIS 구독(기존 고객) 모두</block>
+  <block id="e5f964639d2d368944a708c9d9159fb8" category="paragraph">AWS 계정에 NIS 구독과 독립 실행형 구독이 모두 연결되어 있고 NetApp Console의 *청구 기본 설정* 탭에서 청구 기본 설정을 지정하지 않은 경우 Cloud Volumes ONTAP 사용량은 기본적으로 NIS를 통해 청구됩니다. 독립 실행형 목록에서는 Professional을 지원하지 않으므로 Professional 패키지를 실행하는 모든 Cloud Volumes ONTAP 인스턴스에서도 기본적으로 이 방식이 적용됩니다. 청구 기본 설정을 지정하여 각 서비스에 대한 청구 방식을 선택할 수 있습니다.</block>
+  <block id="6dd79ef85372ac622a4d4c5dc46a3c46" category="list-text">독립형 구독을 Cloud Volumes ONTAP(Essentials 패키지 포함)의 기본 결제 계정으로 설정하세요. Professional 패키지만 있는 경우 Essentials 패키지로 전환하고 결제 기본 설정을 지정하여 Cloud Volumes ONTAP 사용량을 청구할 수 있습니다. 이 방법은 Cloud Volumes ONTAP EDP 크레딧을 보다 효과적으로 관리하는 데 도움이 되므로 권장합니다.</block>
+  <block id="a77b7d4efa6f963267f588c46c34df1b" category="list-text">NIS 구독을 사용하여 데이터 서비스 요금을 청구하거나 Professional 패키지를 통해 Cloud Volumes ONTAP 사용량을 청구합니다. 배포 중에 *Backup and Recovery* 데이터 서비스를 활성화하고 Professional 라이센스 패키지를 선택하여 NIS 구독을 통해 데이터 서비스 요금을 청구합니다.</block>
+  <block id="8c746863961baaa82aba27b4fd37e769" category="paragraph-title">NIS 구독 전용(기존 고객)</block>
+  <block id="f838fe2f68473e970c4c89e5cbfc3369" category="paragraph">이는 AWS 계정과 연결된 NIS 구독을 보유한 기존 고객에게 적용됩니다. 현재와 같이 Cloud Volumes ONTAP과 데이터 서비스를 함께 청구할 수 있습니다. 하지만 NetApp은 Cloud Volumes ONTAP 사용량에 대한 비용 관리를 개선하기 위해 독립형 구독 방식으로 전환하는 것을 권장합니다.</block>
+  <block id="2a4095338c2cb1e2257dd4e02f2451ce" category="list-text">AWS 포털에서 새로운 독립형 목록을 구독하세요.</block>
+  <block id="ee8232a8731e2273fe25bf49ea87389a" category="list-text">독립형 구독을 AWS 계정에 연결하세요.</block>
+  <block id="46568565f79aa968105d34a67e84131a" category="list-text">Essentials 패키지를 사용한 Cloud Volumes ONTAP 사용에 대해 결제 기본 설정을 독립형 구독으로 설정하십시오.</block>
+  <block id="ef9583ff5df47277e937b49f54639572" category="list-text">(해당되는 경우) Professional 패키지를 Essentials 패키지로 변경하고 결제 방식을 설정하세요.</block>
+  <block id="8460f8e45452fdd819096e78fca80090" category="list-text">NIS 구독을 통해 데이터 서비스 요금 청구를 계속 진행하십시오.</block>
+  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">여러 구독 유형을 사용하거나 목록 간에 마이그레이션하는 경우 중복 측정이 발생하지 않습니다.</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="list-title">관련 링크</block>
+  <block id="050c120c7155ccd2f0ee729008e2ff37" category="inline-link">AWS에서 Cloud Volumes ONTAP 라이선스를 설정합니다</block>
+  <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
+  <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">용량 라이선스 요금 부과 방식 변경</block>
+  <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
 </blocks>
