@@ -119,7 +119,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 만들기</block>
-  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure의 Cloud Volumes ONTAP 에 지원되는 구성</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">클라우드 배포 관리자</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
@@ -140,14 +139,6 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Database 워크로드 보호 개요</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
-  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure에서 Ebdsv5 및 E104ids_v5 VM 지원</block>
-  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">Cloud Volumes ONTAP 9.18.1부터 단일 노드 및 고가용성(HA) 배포 및 업그레이드를 위해 Ebdsv5 및 E104ids_v5 VM을 배포할 수 있습니다.</block>
-  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 가상 머신 Eb 제품군의 Ebdsv5 VM은 더 높은 원격 스토리지 성능에 최적화되어 있습니다. 이러한 VM은 관계형 데이터베이스, 인메모리 분석 및 기타 까다로운 비즈니스 크리티컬 애플리케이션과 같이 메모리 집약적이고 I/O 작업이 많은 엔터프라이즈 워크로드에 사용할 수 있습니다.</block>
-  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5는 예약된 유지 관리 기간을 효율적으로 관리할 수 있도록 설계된 격리된 VM 인스턴스입니다. E80ids_v4와 비교했을 때 디스크 처리량과 IOPS가 훨씬 높으며, 전반적인 네트워크 성능 또한 향상되었습니다.</block>
-  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
-  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 설명서: Edsv5 크기 시리즈</block>
-  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
-  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026년 2월 12일</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">차세대 Google Cloud VM을 위한 Cloud Volumes ONTAP 지원</block>
   <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">9.18.1에서 NetApp은 새로운 Cloud Volumes ONTAP 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다. 이제 Google Cloud에서 Cloud Volumes ONTAP 9.18.1 이상 버전을 배포할 때 C3 시리즈 VM의 이점을 활용할 수 있습니다. C3 시리즈 머신은 Google Virtual NIC(gVNIC)와 Hyperdisk Balanced 디스크를 사용하여 향상된 성능과 더 높은 용량 제한을 제공하며, 집약적인 워크로드에 필요한 동적 성능을 보장합니다.</block>
   <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">현재 Cloud Volumes ONTAP는 단일 노드 배포 환경에서만 C3 시리즈를 지원합니다.</block>
@@ -471,7 +462,6 @@
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">OVA를 사용하여 NetApp Data Classification 배포</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification은 이제 VMware Open Virtual Appliance(OVA)를 통한 배포를 지원하여 온프레미스 VMware vSphere 환경을 위한 간소화된 배포 전략을 제공합니다.</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">자세한 내용은 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026년 5월 4일</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*VM 보호를 위한 기본 지원*: 이제 VM 기반 애플리케이션을 생성하여 다른 애플리케이션과 동일한 방식으로 가상 머신을 보호할 수 있습니다.</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*리소스 변환*: 이제 리소스 변환 및 리소스 변환 템플릿을 사용하여 복원 프로세스 중에 리소스 속성을 추가, 제거 및 수정할 수 있습니다.</block>
@@ -548,4 +538,9 @@
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
   <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">이제 클린 복원 기능을 통해 다른 위치로 복구할 수 있습니다. 이를 통해 동일한 Console 에이전트에서 관리하는 다른 시스템, 스토리지 VM 및 애그리게이트로 볼륨을 복원할 수 있습니다. 또한, 클린 복원 기능은 복구에 사용할 수 있는 스냅샷을 검색하는 데 적용되던 7일 제한을 해제했습니다. 이제 클린 복원 기능은 랜섬웨어 발생 시점과 관계없이 사용 가능한 스냅샷을 지속적으로 검색하여 복구 지점을 찾습니다.</block>
   <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">개선된 구성 페이지</block>
+  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">데이터 분류 기능이 구성 페이지를 업데이트하고 개선하여 설정, 시스템 관리, 스캔 활성화 및 시스템 상태 모니터링을 더욱 편리하게 관리할 수 있는 향상된 사용 편의성 환경을 제공합니다. 새로운 구성 페이지는 기존 기능을 더욱 사용하기 쉬운 형식으로 제공하며, 시스템 유형, 오류 상태 및 스캔 상태별로 시스템을 필터링할 수 있는 기능을 추가했습니다. 또한 연결된 시스템 요약 정보와 활성 및 구성된 스캔 개요를 제공합니다.</block>
+  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">비디오 둘러보기</block>
+  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Data Classification을 사용하여 데이터 소스 스캔</block>
+  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph"><block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>을(를) 검토하십시오. 자세한 내용은 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
 </blocks>
