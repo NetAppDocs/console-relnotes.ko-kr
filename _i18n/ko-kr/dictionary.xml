@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">비디오 둘러보기</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Data Classification을 사용하여 데이터 소스 스캔</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph"><block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>을(를) 검토하십시오. 자세한 내용은 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">규정 준수 관리자 IAM 역할</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">Data Classification은 이제 Data Classification의 권한을 관리하기 위한 Compliance admin 역할을 지원합니다. Compliance admin 역할은 Console 에이전트 및 작업 영역을 포함한 리소스에 대한 액세스 권한이 없습니다. Compliance admin 역할을 가진 사용자는 최소한 하나 이상의 다른 역할과 연결되어야 합니다.</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Data Classification을 설치하려면 Console 플랫폼 관리자 역할 또는 Compliance 관리자 역할이 있어야 합니다.</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">기존 사용자라면 평소와 같이 액세스 권한이 유지됩니다. 예를 들어, 폴더 또는 프로젝트 관리자 역할을 가진 플랫폼 역할은 기존 액세스 권한을 그대로 유지합니다.</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 역할</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">자세한 내용은 <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
 </blocks>
