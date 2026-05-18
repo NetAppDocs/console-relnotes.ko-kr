@@ -519,4 +519,12 @@
   <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Azure의 고급 옵션을 사용하여 Cloud Volumes ONTAP 배포</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
+  <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 지원(미리 보기)</block>
+  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.</block>
+  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">랜섬웨어 복원력의 한계</block>
+  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>을 참조하세요. Google Cloud NetApp Volumes 지원 범위에 대한 자세한 내용은 <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>을 참조하세요.</block>
+  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">이제 클린 복원에서 보고서 기능을 지원합니다. 보고서를 통해 클린 복원 결과를 검토하고 평가할 수 있으며, 해당 정보를 CSV 파일로 오프라인에 저장할 수 있습니다.</block>
+  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.</block>
+  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilience에서 보고서 다운로드</block>
+  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">보고서에 대한 자세한 내용은 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>를 참조하십시오. 복구에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>
