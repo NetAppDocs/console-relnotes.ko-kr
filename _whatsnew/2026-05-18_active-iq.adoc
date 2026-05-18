@@ -1,0 +1,9 @@
+= 웰니스 리뷰
+:allow-uri-read: 
+
+
+
+
+=== 웰니스 리뷰
+
+2026년 7월부터 Digital Advisor에서 Wellness Review 기능을 더 이상 사용할 수 없습니다. 문의 사항이 있으시면 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]으로 이메일을 보내주세요.
