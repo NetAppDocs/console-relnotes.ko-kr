@@ -43,8 +43,8 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 
 
-== c0227cef6f07a8cd2ac72f2945b031aa
+== 오픈 소스
 
-9b73989307c1975dfa4d5e1581e4afe8
+고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.
 
 https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp Console 에 대한 알림"^]

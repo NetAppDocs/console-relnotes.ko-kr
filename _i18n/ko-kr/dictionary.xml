@@ -278,9 +278,7 @@
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">파트너 사용자에게 Keystone 역할을 할당하는 방법에 대해 자세히 알아보세요.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">사용자 행동 알림에서 여러 사용자 일괄 제외</block>
-  <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">Ransomware Resilience는 이제 기존의 UI 및 CSV 기반 옵션 외에도 사용자 행동 활동 알림에서 제외할 사용자 목록을 JSON 형식으로 업로드하는 기능을 지원합니다.</block>
   <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">자세한 내용은 <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="5d8e3a83bb9b2062983b23dd93a1a59a" category="section-title">사용자 행동 활동 개선</block>
   <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience는 이메일 알림을 추가하고 지원되는 SIEM 이벤트 데이터(AWS Security Hub, Microsoft Sentinel 및 Splunk Cloud)에 사용자 행동 이벤트를 포함하여 사용자 행동에 대한 인사이트를 개선했습니다. 이러한 개선 사항은 보안 및 규정 준수 모니터링에 대한 보다 정확한 인사이트를 제공합니다.</block>
   <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">NetApp Ransomware Resilience를 SIEM에 연결하세요</block>
   <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">자세한 내용은 <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -382,7 +380,6 @@
   <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결하세요</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">자세한 내용은 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">사용자 행동 활동 개선</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.</block>
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">사용자 활동 감지에 대해 알아보십시오</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">자세한 내용은 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -525,4 +522,9 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilience에서 보고서 다운로드</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">보고서에 대한 자세한 내용은 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>를 참조하십시오. 복구에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">자세한 내용은 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>을 참조하세요.</block>
+  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">NetApp Ransomware Resilience는 이제 기존의 UI 및 CSV 기반 옵션 외에도 사용자 행동 경고에서 제외할 사용자 목록을 JSON 형식으로 업로드하는 기능을 지원합니다.</block>
+  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">사용자 행동 감지 기능 향상</block>
+  <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">사용자 행동 감지 기능 향상</block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
 </blocks>
