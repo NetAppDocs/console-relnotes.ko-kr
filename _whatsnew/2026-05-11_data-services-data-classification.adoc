@@ -20,7 +20,7 @@ Data Classification을 설치하려면 Console 플랫폼 관리자 역할 또는
 
 기존 사용자라면 평소와 같이 액세스 권한이 유지됩니다. 예를 들어, 폴더 또는 프로젝트 관리자 역할을 가진 플랫폼 역할은 기존 액세스 권한을 그대로 유지합니다.
 
-자세한 내용은 link:https://docs.netapp.com/us-en/console-setup-admin_classification-role/reference-iam-data-classification.html["Data Classification 역할"^]을(를) 참조하십시오.
+자세한 내용은 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-data-classification.html["Data Classification 역할"^]을 참조하세요.
 
 
 

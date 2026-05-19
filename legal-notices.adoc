@@ -43,8 +43,8 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 
 
-== 오픈소스
+== c0227cef6f07a8cd2ac72f2945b031aa
 
-공지 파일은 NetApp 소프트웨어에서 사용되는 타사 저작권 및 라이선스에 대한 정보를 제공합니다.
+9b73989307c1975dfa4d5e1581e4afe8
 
 https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp Console 에 대한 알림"^]
