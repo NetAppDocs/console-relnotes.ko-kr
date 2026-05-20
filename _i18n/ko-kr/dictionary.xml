@@ -141,13 +141,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">알림에서 사용자 제외</block>
-  <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Azure에서 지원되는 새로운 지역</block>
-  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">이제 다음 지역의 Azure에서 단일 및 다중 가용 영역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 배포가 모두 포함됩니다.</block>
-  <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">Japan West(japanwest)</block>
-  <block id="ca5a8f45e6c8349c7fe815e66ba5c4dd" category="list-text">Indonesia Central (indonesiacentral)</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역 목록은<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026년 2월 19일</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">일반 공급(GA)에서 지원되는 KVM 워크로드</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 워크로드 지원이 이제 NetApp Backup and Recovery에서 정식 출시(GA)되었습니다. 이번 Kubernetes 워크로드 릴리스에는 다음과 같은 향상된 기능도 포함되어 있습니다.</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*보고서 지원*: 이제 NetApp Backup and Recovery로 보호되는 Kubernetes 클러스터 및 애플리케이션에 대한 보호 활동 보고서를 생성할 수 있습니다.</block>
@@ -420,7 +413,6 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*VM 보호를 위한 기본 지원*: 이제 VM 기반 애플리케이션을 생성하여 다른 애플리케이션과 동일한 방식으로 가상 머신을 보호할 수 있습니다.</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*리소스 변환*: 이제 리소스 변환 및 리소스 변환 템플릿을 사용하여 복원 프로세스 중에 리소스 속성을 추가, 제거 및 수정할 수 있습니다.</block>
-  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Backup and Recovery에서 Trident Protect 업그레이드*: 이제 Backup and Recovery에서 Kubernetes 클러스터용 Trident Protect를 직접 업그레이드할 수 있습니다.</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*보호된 리소스 보기*: 이제 애플리케이션의 각 복구 지점에 포함된 리소스를 확인하고 자세한 JSON 보고서를 다운로드할 수 있습니다. 이를 통해 복구 지점을 완벽하게 파악하고 감사 규정 준수를 간소화할 수 있습니다.</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026년 5월 5일</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Kubernetes 기반 워크로드 지원(미리 보기)</block>
@@ -527,4 +519,8 @@
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">사용자 행동 감지 기능 향상</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
+  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*: 이번 릴리스에는 Trident Protect 26.05가 포함되어 있습니다.</block>
+  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*백업 및 복구에서 Trident Protect 업그레이드*: Kubernetes 클러스터에서 Trident Protect 26.05 이상을 실행 중인 경우 이제 백업 및 복구에서 직접 Trident Protect를 업그레이드할 수 있습니다.</block>
+  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: 이번 릴리스에는 Trident Protect 26.05.1이 포함되어 있습니다.</block>
+  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*VM 기반 앱의 제자리 복원*: 이제 VM 기반 애플리케이션을 원래 네임스페이스 및 원래 클러스터로 복원할 수 있습니다.</block>
 </blocks>
