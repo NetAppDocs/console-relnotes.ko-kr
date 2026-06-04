@@ -1,0 +1,14 @@
+= 라이프사이클 계획 기능 이름 업데이트
+:allow-uri-read: 
+
+
+
+
+=== 라이프사이클 계획 기능 이름 업데이트
+
+다음과 같은 Lifecycle 계획 기능의 이름이 변경되었습니다.
+
+* Tech refresh 기능이 이제 *System Refresh*로 이름이 변경되었습니다. link:../use/tech-refresh.html["시스템 새로 고침 평가"] 방법을 알아보십시오.
+* 용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. link:../use/capacity-add.html["스토리지 확장"] 방법을 알아보십시오.
+* 갱신 기능이 이제 *지원 갱신*으로 이름이 변경되었습니다. link:../support/task-support-registration.html["지원 등록"] 방법을 알아보십시오.
+

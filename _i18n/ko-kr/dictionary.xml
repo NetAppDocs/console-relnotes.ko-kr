@@ -116,18 +116,10 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 만들기</block>
-  <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">클라우드 배포 관리자</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
-  <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
-  <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">기존 Cloud Volumes ONTAP 배포를 Google Cloud Infrastructure Manager에 맞게 구성합니다.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
-  <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 릴리스 노트</block>
-  <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
-  <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager에 필요한 권한</block>
-  <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
-  <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026년 2월 9일</block>
   <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">복사 및 이동 제한 증가</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 워크로드 개선 사항</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
@@ -141,81 +133,8 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">알림에서 사용자 제외</block>
-  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">시나리오</block>
-  <block id="004bf6c9a40003140292e97330236c53" category="cell">작업</block>
-  <block id="7227af91d597be9f306654b7f9570871" category="cell">에이전트용 새 API</block>
-  <block id="060f2406e35d76018851fe48ca94d582" category="cell">에이전트에 대한 새로운 권한</block>
-  <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">Cloud Volumes ONTAP용 새로운 Google Cloud API</block>
-  <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">문서 리소스</block>
-  <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">Cloud Infrastructure Manager API</block>
-  <block id="a4c710688b0bce1852460a0da5685192" category="list-text">클라우드 할당량 API</block>
-  <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">콘솔 릴리스에 대해 나열된 모든 권한:</block>
-  <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">2025년 12월 8일</block>
-  <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
-  <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
-  <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
-  <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">새 에이전트 및 새 배포</block>
-  <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">Google Cloud에서 Console 에이전트를 생성합니다.</block>
-  <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
-  <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">비공개 모드 배포를 위한 Google Infrastructure Manager 지원</block>
-  <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상에서는 이제 Google Cloud에서 새로운 프라이빗 모드 배포 시 <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM)을 <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 대신 지원합니다. Google은 더 발전된 Infrastructure Manager를 위해 가까운 시일 내에 Deployment Manager를 인프라 서비스에서 지원 중단할 예정입니다.</block>
-  <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">2026년 2월 25일부터 Cloud Volumes ONTAP는 신규 및 기존 프라이빗 모드 배포에 Infrastructure Manager를 사용합니다. 다음 표에서는 기본 워크플로를 설명합니다.</block>
-  <block id="d8848c7dd607d8a63767f8dcc10bcfc7" category="cell">비공개 모드의 기존 에이전트 및 기존 배포</block>
-  <block id="be72cda1fd0978b223bf1c72cd3470fe" category="cell">NetApp Support Site에서 설치 프로그램을 다운로드하여 호스트에 수동으로 에이전트를 설치함으로써 NetApp Console 에이전트를 최신 버전으로 업그레이드하십시오. 이렇게 하면 Infrastructure Manager API를 사용할 수 있습니다. 그 후 기존 Cloud Volumes ONTAP 시스템을 Infrastructure Manager를 사용하도록 변환하십시오.</block>
-  <block id="1b4969e94a4b9494c07d1a3d15d990de" category="list-text">Cloud Build API</block>
-  <block id="b366c1901726ed94faabaca293b342ab" category="list-text">cloudbuild.workerpools.get</block>
-  <block id="a1594604ead4ac9e883fb7f2565b2dff" category="list-text">\https://cloudbuild.googleapis.com/v1</block>
-  <block id="255359407033996c52ff32fb9e9dedfd" category="list-text">\https://www.googleapis.com/upload/storage/v1</block>
-  <block id="f2be3a212e6f5bb332096881441fa881" category="list-text">\https://config.googleapis.com/v1</block>
-  <block id="887fafea4cfb163759637ed2efcec691" category="cell">새 에이전트를 생성하고 프라이빗 모드로 새 Cloud Volumes ONTAP 시스템을 배포합니다.</block>
-  <block id="2977507bb7188d1e96246a14057a3902" category="inline-link">프라이빗 모드 배포를 위한 빠른 시작</block>
-  <block id="2d0e6ad25589f8f4affb38c55f4f325f" category="list-text"><block ref="2d0e6ad25589f8f4affb38c55f4f325f" category="inline-link-rx"></block></block>
-  <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">프라이빗 모드 배포를 위한 Infrastructure Manager 구성</block>
-  <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">프라이빗 모드 배포에서는 Cloud Volumes ONTAP가 Infrastructure Manager를 사용하기 시작하려면 몇 가지 구성 변경이 필요합니다. <block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">2026년 2월 26일</block>
-  <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">프라이빗 모드 릴리스(4.4.0)</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 지원 사이트</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">새로운 비공개 모드 릴리스를 이제<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>에서 다운로드할 수 있습니다</block>
-  <block id="81ce971f80b475d475c24a4e44ada4e1" category="section-title">BlueXP 프라이빗 모드는 이제 NetApp Console 프라이빗 모드입니다</block>
-  <block id="9c787f49c95453f81615500fc040c752" category="paragraph">NetApp Console 4.4.0은 비공개 모드로 제공되는 NetApp Console의 첫 번째 릴리스입니다.</block>
-  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">향상되고 재구성된 BlueXP 기반 위에 구축된 NetApp Console은 온프레미스 및 클라우드 환경 전반에 걸쳐 엔터프라이즈급 NetApp 스토리지 및 NetApp Data Services를 중앙 집중식으로 관리할 수 있도록 지원하며, 실시간 인사이트, 더욱 빠른 워크플로, 그리고 높은 보안성과 규정 준수를 보장하는 간소화된 관리 기능을 제공합니다.</block>
-  <block id="7aced523efa2e35884ba6dffbc655f83" category="inline-link">NetApp Console 페이지의 새로운 기능</block>
-  <block id="214ce822f9505ec8f305259fe07864a2" category="paragraph">새로운 NetApp Console에 대한 자세한 내용은<block ref="cad102c2112bf216811c7b6bb8f99baa" category="inline-link-rx"></block>에서 확인하십시오.</block>
-  <block id="0dbaa5b0eedf75058865e2b0994d5a8f" category="paragraph">4.4.0 릴리스에는 다음과 같은 NetApp Console 구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">구성 요소 또는 서비스</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">이번 릴리스에 포함된 버전</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">이전 비공개 모드 릴리스 이후 변경 사항</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 에이전트</block>
-  <block id="9b4bffa460105781f82b1d463bde8200" category="cell">4.4.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 페이지의 새로운 기능</block>
-  <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell"><block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block>로 이동하여 버전 4.4.0에 포함된 변경 사항을 참조하십시오.</block>
-  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">백업 및 복구</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 페이지의 새로운 기능</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell"><block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>로 이동합니다.</block>
-  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">분류</block>
-  <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1(2026년 2월 9일)</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 페이지의 새로운 기능</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell"><block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>로 이동합니다.</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">다음 서비스는 더 이상 사용되지 않습니다.</block>
-  <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">NetApp Console 에이전트 상태는 FSx for ONTAP 파일 시스템에 대해 지원됩니다</block>
-  <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console에서 이제 워크로드의 FSx for ONTAP 파일 시스템에 대한 Console 에이전트 상태를 표시합니다. 이 상태는 에이전트가 실행 중이고 FSx for ONTAP 파일 시스템과 통신할 수 있는지 여부를 나타냅니다. 이 정보를 통해 연결 문제를 해결할 수 있습니다.</block>
-  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
-  <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2026년 3월 2일)</block>
-  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">클러스터의 볼륨 탭의 새 열</block>
-  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Keystone 구독과 관련된 자산 보기</block>
-  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Keystone 구독 전반에 걸쳐 자산을 확인하세요.</block>
-  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*자산*의 *클러스터별 볼륨* 탭에 *핫 데이터*, *콜드 티어(%)*, *핫 티어(%)*라는 세 개의 새로운 열이 추가되었습니다. 더 자세한 내용을 알아보려면 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 및 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">소비 추세에서 청구된, 청구되지 않은 및 임시 버스트 사용량</block>
-  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">누적된 버스트 보기</block>
-  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">모니터링 보기 개선 사항</block>
-  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* 보기에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
-  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 탭*: *Alert* 열의 이름이 *Alert type &amp; condition*으로 변경되었습니다. 이제 *Status* 열 옆에 있는 점 세 개 아이콘을 사용하여 알림을 편집하거나 메모를 추가하거나 알림 세부 정보를 볼 수 있습니다.</block>
-  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors 탭*: *Condition* 열의 이름이 *Monitor type &amp; condition*으로 변경되었습니다.</block>
-  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystone 구독 관련 알림을 확인하고 관리하세요.</block>
-  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystone 구독에 대한 알림 모니터를 보고 생성하세요.</block>
-  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">더 자세한 내용을 알아보려면 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 및 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026년 3월 2일</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
   <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 향상된 기능을 제공합니다.</block>
   <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*원본 위치로 복원*: 이제 로컬 스냅샷 및 복제된 스냅샷의 파일을 원본 위치뿐만 아니라 다른 위치로도 복원할 수 있습니다.</block>
@@ -525,4 +444,19 @@
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026년 5월 25일</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다.</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 위젯 이름 업데이트</block>
+  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">다음 Digital Advisor 기능의 이름이 변경되었습니다.</block>
+  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">시스템 새로 고침 평가</block>
+  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">Tech Refresh 기능이 이제 System Refresh로 이름이 변경되었습니다. <block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
+  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Digital Advisor 위젯</block>
+  <block id="7b68bc21ce78c08210db229203879260" category="list-text">용량 추가 기능이 이제 스토리지 확장으로 명칭이 변경되었습니다. <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">갱신 기능이 이제 지원 갱신으로 명칭이 변경되었습니다. <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">라이프사이클 계획 기능 이름 업데이트</block>
+  <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">다음과 같은 Lifecycle 계획 기능의 이름이 변경되었습니다.</block>
+  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">Tech refresh 기능이 이제 *System Refresh*로 이름이 변경되었습니다. <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
+  <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">스토리지 확장</block>
+  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
+  <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">지원 등록</block>
+  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">갱신 기능이 이제 *지원 갱신*으로 이름이 변경되었습니다. <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
+  <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026년 6월 3일</block>
 </blocks>
