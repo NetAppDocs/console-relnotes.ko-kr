@@ -399,11 +399,11 @@
   <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">자세한 내용은 <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOAR 플레이북 개선 사항</block>
   <block id="993b3419e78327c12451169533b8d701" category="paragraph">Ransomware Resilience SOAR 플레이북에 이제 사용자를 차단하거나 볼륨을 오프라인으로 전환한 후 복구 단계가 포함되어 있습니다. 해당 작업이 랜섬웨어 위협이 아닌 것으로 판단되면 볼륨을 다시 온라인 상태로 전환하고 사용자 차단을 해제할 수 있습니다.</block>
-  <block id="f73d059120d4b302e53d6f7bec91ff6d" category="doc">AWS에서 Cloud Volumes ONTAP에 지원되는 새로운 EC2 인스턴스</block>
   <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상 버전은 AWS에서 신규 및 기존 단일 노드와 고가용성(HA) 쌍 배포 모두에 대해 M6id 및 M6idn EC2 인스턴스 제품군을 지원합니다. 이러한 6세대 인스턴스는 5세대 범용 시스템에 비해 더 빠른 처리 속도, 강력한 네트워킹 기능 및 향상된 성능을 제공합니다.</block>
   <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*M6id 인스턴스*: 고속 저지연 로컬 NVMe 스토리지를 통해 컴퓨팅 성능과 메모리 용량의 균형을 제공합니다. 모든 M6id 인스턴스 크기는 Flash Cache를 지원합니다. 이러한 인스턴스는 데이터 로깅 및 미디어 처리와 같은 워크로드에 적합합니다.</block>
   <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*M6idn 인스턴스*: M6id 인스턴스와 동일한 로컬 NVMe 스토리지 기능을 제공합니다. 모든 M6idn 인스턴스 크기는 Flash Cache를 지원합니다.</block>
   <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">고성능 또는 메모리 집약적인 워크로드에는 m6id.xlarge, m6id.2xlarge, m6idn.xlarge 및 m6idn.2xlarge 인스턴스 유형을 권장하지 않습니다. 이러한 워크로드에는 코어 개수와 메모리 용량이 더 큰 인스턴스 유형을 사용하십시오.</block>
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWS에서 Cloud Volumes ONTAP에 대해 지원되는 구성</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">자세한 내용은<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>을 참조하세요.</block>
+  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">AWS의 Cloud Volumes ONTAP용 새 EC2 인스턴스 지원</block>
 </blocks>
