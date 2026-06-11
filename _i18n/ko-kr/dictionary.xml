@@ -136,13 +136,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Microsoft Sentinel 및 Splunk용 SOAR 플레이북</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">SOAR 플레이북 통합</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">자세한 내용은 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026년 3월 12일</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience는 이제 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 및 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 쉬워지고, 작업 테스트를 자동화하며 스냅샷 생성 및 볼륨 오프라인 전환을 포함한 필수 랜섬웨어 대응 작업을 자동화합니다.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*일정 계층별 VM 일관성 지원*: 이제 VMware 워크로드에 대한 보호 정책을 구성할 때 특정 일정 계층에 대해 VM 일관성 및 애플리케이션 일관성 백업을 활성화할 수 있습니다. 연간, 월간 및 주간 계층이 지원됩니다.</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026년 3월 16일</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">재해 복구 기능이 VMFS 기반 데이터스토어의 페일오버 성능을 향상시켰습니다. Host Bus Adapter(HBA) 재검색 및 데이터스토어 마운트 작업이 이제 병렬로 실행되어 전체 페일오버 시간이 단축되고 복구 이벤트 중 다운타임이 최소화됩니다.</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">재해 복구를 통한 페일오버</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">페일오버에 대한 자세한 내용은 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Cloud Volumes ONTAP의 새로운 Azure 지역 지원</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">이제 말레이시아 서부(malaysiawest) 지역의 Azure에서 단일 및 다중 가용 영역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 배포가 모두 포함됩니다.</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역 목록은<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026년 6월 11일</block>
 </blocks>
