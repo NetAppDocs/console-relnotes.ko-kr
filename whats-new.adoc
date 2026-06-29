@@ -34,6 +34,31 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 
 
 
+=== 콘솔 설정 및 관리
+
+
+
+==== 프라이빗 모드 릴리스(4.7.0)
+
+새로운 비공개 모드 릴리스를 이제 https://mysupport.netapp.com/site/downloads["NetApp 지원 사이트"^]에서 다운로드할 수 있습니다
+
+4.7.0 릴리스에는 다음과 같은 NetApp Console 구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.
+
+[cols="3*"]
+|===
+| 구성 요소 또는 서비스 | 이번 릴리스에 포함된 버전 | 이전 비공개 모드 릴리스 이후 변경 사항 
+
+
+| Console 에이전트 | 4.7.0 |  https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-05-11.html["NetApp Console 페이지의 새로운 기능"^]로 이동하여 버전 4.7.0에 포함된 변경 사항을 참조하십시오. 
+
+
+| NetApp Backup and Recovery | 5.4.0 (2026년 6월 8일) |  https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["NetApp Backup and Recovery 페이지의 새로운 기능"^]로 이동합니다. 
+
+
+| NetApp Data Classification | 1.54.0 (2026년 5월 11일) |  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classification 페이지의 새로운 기능"^]로 이동합니다. 
+|===
+
+
 === 백업 및 복구
 
 
@@ -828,69 +853,3 @@ NOTE: 송신 네트워크 계층을 Tier-1으로 변경하면 추가 비용이 �
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud에서 Cloud Volumes ONTAP에 대해 지원되는 구성"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["차세대 Google Cloud VM을 위한 Cloud Volumes ONTAP 지원"^]
 
-
-
-
-== 2026년 3월 31일
-
-
-
-=== 백업 및 복구
-
-
-
-==== Oracle Database 워크로드 개선 사항
-
-이번 릴리스에서 Oracle Database 워크로드는 다음과 같은 개선 사항을 도입했습니다.
-
-* *클러스터형 호스트 지원*: 이제 Oracle Automatic Storage Management(ASM)를 사용하고 VMFS 파일 시스템의 VMDK를 사용하여 배포된 Oracle Real Application Clusters(RAC) 데이터베이스를 검색하고 보호할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-discover-oracle.html["Oracle Database 워크로드를 살펴보세요"]를 참조하십시오.
-* *RMAN 카탈로그 지원*: 이제 Backup and Recovery를 구성하여 보호 메타데이터를 RMAN 복구 카탈로그에 저장할 수 있으며, 이를 통해 대상 제어 파일이 손실될 경우 중복성과 장기 보존이 가능합니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-configure-oracle-database.html["Oracle 데이터베이스 구성"]를 참조하십시오.
-
-
-Oracle Database 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Oracle Database 워크로드 보호 개요"]을 참조하십시오.
-
-
-
-=== 랜섬웨어 복원력
-
-
-
-==== Google SecOps용 SOAR 플레이북
-
-Ransomware Resilience는 이제 link:https://github.com/chronicle/content-hub/tree/main/content/response_integrations/third_party/partner/netappransomwareresilience["Google SecOps"^]에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOAR 플레이북 통합"^]를 참조하십시오.
-
-
-
-== 2026년 3월 30일
-
-
-
-=== Keystone
-
-NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
-
-
-
-==== 기간별 데이터 소비량 차트에서 버스트 용량 초과
-
-*소비 추세* 탭의 기간별 데이터 차트에서 이제 버스트 제한을 초과하는 사용량이 강조 표시됩니다. 자세한 내용은 link:./integrations/consumption-tab.html["Keystone 구독의 소비 추세를 확인하세요."]를 참조하십시오.
-
-
-
-==== 용량 사용량 예측
-
-*소비 추세* 탭의 *기간별 소비량* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 용량 사용량을 예측할 수 있습니다. 자세한 내용은 link:./integrations/consumption-tab.html#view-forecast-data["예측 데이터 보기"]를 참조하십시오.
-
-
-
-==== 구독 내보내기의 추적 ID
-
-이제 *구독* 페이지에서 다운로드한 구독 보고서에는 Excel 및 CSV 형식 모두에 대한 성능 서비스 수준 데이터에 *추적 ID*가 포함됩니다.
-
-
-
-==== 구독 페이지 열 표시 여부 업데이트
-
-*구독* 페이지에서 *Keystone 버전* 열은 이제 기본적으로 숨겨져 있으며, *연결된 구독* 열은 연결된 구독이 있는 경우에만 표시됩니다.

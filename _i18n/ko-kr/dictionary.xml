@@ -136,29 +136,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">SOAR 플레이북 통합</block>
-  <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">자세한 내용은 <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">이번 릴리스에서 Oracle Database 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Oracle Database 워크로드를 살펴보세요</block>
-  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*클러스터형 호스트 지원*: 이제 Oracle Automatic Storage Management(ASM)를 사용하고 VMFS 파일 시스템의 VMDK를 사용하여 배포된 Oracle Real Application Clusters(RAC) 데이터베이스를 검색하고 보호할 수 있습니다. 자세한 내용은<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>를 참조하십시오.</block>
-  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Oracle 데이터베이스 구성</block>
-  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMAN 카탈로그 지원*: 이제 Backup and Recovery를 구성하여 보호 메타데이터를 RMAN 복구 카탈로그에 저장할 수 있으며, 이를 통해 대상 제어 파일이 손실될 경우 중복성과 장기 보존이 가능합니다. 자세한 내용은<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>를 참조하십시오.</block>
-  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026년 3월 31일</block>
-  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">기간별 데이터 소비량 차트에서 버스트 용량 초과</block>
-  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystone 구독의 소비 추세를 확인하세요.</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">*소비 추세* 탭의 기간별 데이터 차트에서 이제 버스트 제한을 초과하는 사용량이 강조 표시됩니다. 자세한 내용은 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">용량 사용량 예측</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">예측 데이터 보기</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">*소비 추세* 탭의 *기간별 소비량* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 용량 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">구독 내보내기의 추적 ID</block>
-  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">이제 *구독* 페이지에서 다운로드한 구독 보고서에는 Excel 및 CSV 형식 모두에 대한 성능 서비스 수준 데이터에 *추적 ID*가 포함됩니다.</block>
-  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">구독 페이지 열 표시 여부 업데이트</block>
-  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">*구독* 페이지에서 *Keystone 버전* 열은 이제 기본적으로 숨겨져 있으며, *연결된 구독* 열은 연결된 구독이 있는 경우에만 표시됩니다.</block>
-  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026년 3월 30일</block>
-  <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps용 SOAR 플레이북</block>
-  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience는 이제 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>에 대한 보안 오케스트레이션, 자동화 및 대응(SOAR) 플레이북을 제공합니다. 이 플레이북을 통해 위협 대응 관리가 더욱 간편해지고, 작업 및 테스트가 자동화되며, 스냅샷 생성 및 볼륨 오프라인 전환과 같은 필수적인 랜섬웨어 대응 활동을 지원할 수 있습니다.</block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console 에이전트 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">필요한 디스크 공간의 구성 확인 지원</block>
@@ -441,4 +420,23 @@
   <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*보호 그룹이 이제 호스트 시간대 스케줄링을 사용합니다*: 보호 그룹은 이제 Hyper-V 호스트의 시간대를 사용합니다. 호스트 시간대 스케줄링이 도입되기 전에 생성된 보호 그룹은 이전에 구성된 시간(일반적으로 UTC)을 계속 사용합니다. 이러한 보호 그룹이 Hyper-V 호스트 시간대를 사용하도록 업데이트하려면 스케줄을 다시 생성해야 합니다. 자세한 내용은<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">VMware 워크로드용 보호 그룹 생성 및 관리</block>
   <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*보호 그룹이 이제 호스트 시간대 스케줄링을 사용합니다*: 보호 그룹은 이제 호스팅 VMware vCenter Server의 시간대를 사용합니다. 호스트 시간대 스케줄링이 도입되기 전에 생성된 보호 그룹은 이전에 구성된 시간대(일반적으로 UTC)에서 계속 실행됩니다. vCenter 시간대를 사용하려면 스케줄을 다시 생성해야 합니다. 자세한 내용은<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">프라이빗 모드 릴리스(4.7.0)</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 지원 사이트</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">새로운 비공개 모드 릴리스를 이제<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>에서 다운로드할 수 있습니다</block>
+  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">4.7.0 릴리스에는 다음과 같은 NetApp Console 구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">구성 요소 또는 서비스</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">이번 릴리스에 포함된 버전</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">이전 비공개 모드 릴리스 이후 변경 사항</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 에이전트</block>
+  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 페이지의 새로운 기능</block>
+  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell"><block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block>로 이동하여 버전 4.7.0에 포함된 변경 사항을 참조하십시오.</block>
+  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
+  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0 (2026년 6월 8일)</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 페이지의 새로운 기능</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell"><block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>로 이동합니다.</block>
+  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
+  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (2026년 5월 11일)</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 페이지의 새로운 기능</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell"><block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>로 이동합니다.</block>
 </blocks>
