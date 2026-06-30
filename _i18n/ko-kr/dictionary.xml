@@ -455,4 +455,8 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">지난 30일 동안 AutoSupport를 전송하지 않은 시스템</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">위에 나열된 영향을 받는 시스템에서 AutoSupport를 다시 실행하여 상태 점검 보기의 현재 데이터를 복원하십시오.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">사용자 활동 알림에 대한 자동 응답</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience는 이제 사용자 활동 경고가 발생할 때 스냅샷 생성 및 사용자 차단 자동화를 지원합니다. 자동화된 대응 기능을 통해 경고가 생성되는 즉시 사용자를 차단하고 복구용 스냅샷을 생성하여 수동 개입 없이 신속하게 대응할 수 있습니다.</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">사용자 활동 알림에 대한 응답 자동화</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">자세한 내용은 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
