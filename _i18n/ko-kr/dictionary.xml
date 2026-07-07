@@ -476,6 +476,6 @@
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파일 경로를 제외하는 기능을 지원합니다. 위험하지 않다고 판단되거나, 경고를 유발할 수 있는 작업을 볼륨 내 파일에서 수행하는 경우 해당 파일 경로를 제외할 수 있습니다.</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
-  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
+  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
