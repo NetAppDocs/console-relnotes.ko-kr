@@ -473,4 +473,9 @@
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">용량 사용량에 대한 버스트 알림 임계값이 이제 고정된 20%가 아닌 구독의 약정 버스트 비율을 기준으로 합니다. 예를 들어 약정 버스트가 40%인 경우 약정 용량 사용률이 140%에 도달하면 심각한 알림이 발생합니다.</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystone 구독에 대한 알림 모니터를 보고 생성하세요.</block>
   <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">자세한 내용은 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파일 경로를 제외하는 기능을 지원합니다. 위험하지 않다고 판단되거나, 경고를 유발할 수 있는 작업을 볼륨 내 파일에서 수행하는 경우 해당 파일 경로를 제외할 수 있습니다.</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
 </blocks>
