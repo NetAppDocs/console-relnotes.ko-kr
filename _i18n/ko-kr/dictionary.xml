@@ -478,4 +478,7 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console 에이전트 4.8.0</block>
+  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
+  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">이번 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
 </blocks>
