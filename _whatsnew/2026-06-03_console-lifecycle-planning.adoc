@@ -8,7 +8,7 @@
 
 다음과 같은 Lifecycle 계획 기능의 이름이 변경되었습니다.
 
-* Tech refresh 기능이 이제 *System Refresh*로 이름이 변경되었습니다. link:../use/tech-refresh.html["시스템 새로 고침 평가"] 방법을 알아보십시오.
-* 용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. link:../use/capacity-add.html["스토리지 확장"] 방법을 알아보십시오.
-* 갱신 기능이 이제 *지원 갱신*으로 이름이 변경되었습니다. link:../support/task-support-registration.html["지원 등록"] 방법을 알아보십시오.
+* 기술 업데이트 기능이 이제 *시스템 새로 고침*으로 이름이 변경되었습니다. 방법을 알아보세요 https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["시스템 새로 고침 평가"].
+* 용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. 방법을 알아보세요 https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["스토리지 확장"].
+* 갱신 기능이 이제 *Support Renewals*로 이름이 변경되었습니다. 방법을 알아보세요 https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["지원 등록"].
 

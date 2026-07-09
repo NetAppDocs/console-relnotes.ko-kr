@@ -351,11 +351,8 @@
   <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">갱신 기능이 이제 지원 갱신으로 명칭이 변경되었습니다. <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
   <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">라이프사이클 계획 기능 이름 업데이트</block>
   <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">다음과 같은 Lifecycle 계획 기능의 이름이 변경되었습니다.</block>
-  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">Tech refresh 기능이 이제 *System Refresh*로 이름이 변경되었습니다. <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
   <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">스토리지 확장</block>
-  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">지원 등록</block>
-  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">갱신 기능이 이제 *지원 갱신*으로 이름이 변경되었습니다. <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026년 6월 3일</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*S3 호환 클라우드 스토리지 지원*: NetApp Backup and Recovery for Volumes 워크로드가 이제 S3 호환 클라우드 스토리지로의 백업을 지원합니다.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*게스트 VM으로 파일 및 폴더 복원 기능 개선*: 이제 기본 또는 2차 스토리지의 스냅샷에서 게스트 Windows VM으로 파일 및 폴더를 복원할 수 있습니다. 이 기능은 CIFS 및 SAN VM에서 지원됩니다.</block>
@@ -481,4 +478,7 @@
   <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console 에이전트 4.8.0</block>
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">이번 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
+  <block id="32846264266c0647221942c075bdc06f" category="list-text">기술 업데이트 기능이 이제 *시스템 새로 고침*으로 이름이 변경되었습니다. 방법을 알아보세요<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
+  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. 방법을 알아보세요<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
+  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">갱신 기능이 이제 *Support Renewals*로 이름이 변경되었습니다. 방법을 알아보세요<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
 </blocks>
