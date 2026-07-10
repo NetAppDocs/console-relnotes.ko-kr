@@ -4,6 +4,7 @@
 
 
 
+[[digital-advisor-widget-name-updates]]
 === Digital Advisor 위젯 이름 업데이트
 
 다음 Digital Advisor 기능의 이름이 변경되었습니다.

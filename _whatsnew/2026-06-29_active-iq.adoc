@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === Health Check GraphQL 마이그레이션 및 데이터 정확도 개선
 
 상태 점검 모듈이 데이터 정확도 향상 및 최신 버전 표준에 맞춘 권장 사항 제공 기능을 통해 개선되었습니다. 이번 릴리스에서는 공개 API에서 GraphQL로 마이그레이션되어 성능 향상, 유연한 쿼리 기능 및 장기적인 지원을 제공합니다.

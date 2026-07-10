@@ -4,6 +4,7 @@
 
 
 
+[[ontap-volumes-workloads-enhancements]]
 === ONTAP Volumes 워크로드 개선 사항
 
 이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.
@@ -14,6 +15,7 @@ ONTAP Volumes 워크로드 보호에 대한 자세한 내용은 https://docs.net
 
 
 
+[[kubernetes-workloads-enhancements]]
 === Kubernetes 워크로드 개선 사항
 
 이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 보호 정책 개선 사항을 도입합니다.
@@ -29,6 +31,7 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[hyper-v-workloads-enhancements]]
 === Hyper-V 워크로드 개선 사항
 
 이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.
@@ -41,6 +44,7 @@ Hyper-V 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.co
 
 
 
+[[kvm-workloads-enhancements]]
 === KVM 워크로드 개선 사항
 
 이번 릴리스에서 KVM 워크로드는 다음과 같은 개선 사항을 도입했습니다.
@@ -53,6 +57,7 @@ KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요
 
 
 
+[[vmware-workloads-enhancements]]
 === VMware 워크로드 개선 사항
 
 이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.

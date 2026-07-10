@@ -30,10 +30,12 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[07-july-2026]]
 == 2026년 7월 7일
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -46,10 +48,12 @@ Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파�
 
 
 
+[[29-june-2026]]
 == 2026년 6월 29일
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -62,6 +66,7 @@ Ransomware Resilience는 이제 사용자 활동 경고가 발생할 때 스냅�
 
 
 
+[[digital-advisor]]
 === 디지털 어드바이저
 
 
@@ -100,6 +105,7 @@ Health Check 모듈의 권장 소프트웨어 개선 사항을 통해 더욱 정
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
@@ -108,13 +114,13 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 ==== MetroCluster 구독에 대한 ADP 라이선스 배포 내역 보기
 
-이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은 link:./integrations/adp-tab.html["Keystone MetroCluster 구독의 사용량 및 상태를 확인하세요"]을 참조하십시오.
+이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Keystone MetroCluster 구독의 사용량 및 상태를 확인하세요"]을 참조하십시오.
 
 
 
 ==== 볼륨의 랜섬웨어 보호 상태 보기
 
-자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP의 ARP(Autonomous Ransomware Protection)"]을 참조하십시오.
+자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은 https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP의 ARP(Autonomous Ransomware Protection)"^]을 참조하십시오.
 
 
 
@@ -132,14 +138,16 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 용량 사용량에 대한 버스트 알림 임계값이 이제 고정된 20%가 아닌 구독의 약정 버스트 비율을 기준으로 합니다. 예를 들어 약정 버스트가 40%인 경우 약정 용량 사용률이 140%에 도달하면 심각한 알림이 발생합니다.
 
-자세한 내용은 link:./integrations/monitoring-alert-monitors.html["Keystone 구독에 대한 알림 모니터를 보고 생성하세요."]을 참조하십시오.
+자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Keystone 구독에 대한 알림 모니터를 보고 생성하세요."]을 참조하십시오.
 
 
 
+[[15-june-2026]]
 == 2026년 6월 15일
 
 
 
+[[console-setup-and-administration]]
 === 콘솔 설정 및 관리
 
 
@@ -165,6 +173,7 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 |===
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -183,10 +192,12 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[11-june-2026]]
 == 2026년 6월 11일
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -199,10 +210,12 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[08-june-2026]]
 == 2026년 6월 8일
 
 
 
+[[console-setup-and-administration]]
 === 콘솔 설정 및 관리
 
 
@@ -221,6 +234,7 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -258,6 +272,7 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[data-classification]]
 === 데이터 분류
 
 
@@ -268,6 +283,7 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[disaster-recovery]]
 === 재해 복구
 
 
@@ -330,6 +346,7 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -354,6 +371,7 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -372,10 +390,12 @@ Cloud Volumes ONTAP 9.16.1 이상 버전은 AWS에서 신규 및 기존 단일 �
 
 
 
+[[03-june-2026]]
 == 2026년 6월 3일
 
 
 
+[[lifecycle-planning]]
 === 수명주기 계획
 
 
@@ -391,6 +411,7 @@ Cloud Volumes ONTAP 9.16.1 이상 버전은 AWS에서 신규 및 기존 단일 �
 
 
 
+[[digital-advisor]]
 === 디지털 어드바이저
 
 
@@ -406,10 +427,12 @@ Cloud Volumes ONTAP 9.16.1 이상 버전은 AWS에서 신규 및 기존 단일 �
 
 
 
+[[26-may-2026]]
 == 2026년 5월 26일
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -422,10 +445,12 @@ Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크�
 
 
 
+[[25-may-2026]]
 == 2026년 5월 25일
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
@@ -434,14 +459,16 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 ==== 구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.
 
-이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은 link:./integrations/subscription-timeline.html["Keystone 구독의 타임라인 보기"]를 참조하십시오.
+이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Keystone 구독의 타임라인 보기"]을 참조하십시오.
 
 
 
+[[18-may-2026]]
 == 2026년 5월 18일
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -464,6 +491,7 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -479,6 +507,7 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 
 
+[[digital-advisor]]
 === 디지털 어드바이저
 
 
@@ -489,10 +518,12 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 
 
+[[12-may-2026]]
 == 2026년 5월 12일
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -541,10 +572,12 @@ NOTE: 여러 구독 유형을 사용하거나 목록 간에 마이그레이션�
 
 
 
+[[11-may-2026]]
 == 2026년 5월 11일
 
 
 
+[[console-setup-and-administration]]
 === 콘솔 설정 및 관리
 
 
@@ -566,6 +599,7 @@ NOTE: 여러 구독 유형을 사용하거나 목록 간에 마이그레이션�
 
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -629,6 +663,7 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[data-classification]]
 === 데이터 분류
 
 
@@ -661,6 +696,7 @@ NetApp Data Classification은 이제 VMware Open Virtual Appliance(OVA)를 통�
 
 
 
+[[disaster-recovery]]
 === 재해 복구
 
 
@@ -680,6 +716,7 @@ Kubernetes 기반 워크로드 지원은 현재 미리 보기로 제공됩니다
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -716,10 +753,12 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[05-may-2026]]
 == 2026년 5월 5일
 
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -739,10 +778,12 @@ Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp
 
 
 
+[[27-april-2026]]
 == 2026년 4월 27일
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
@@ -757,14 +798,16 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 
 ==== 누적 버스트에 대한 예측 토글
 
-이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 link:./integrations/consumption-tab.html#view-forecast-data["예측 데이터 보기"]을 참조하십시오.
+이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["예측 데이터 보기"]을 참조하십시오.
 
 
 
+[[20-april-2026]]
 == 2026년 4월 20일
 
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -779,10 +822,12 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[13-april-2026]]
 == 2026년 4월 13일
 
 
 
+[[console-setup-and-administration]]
 === 콘솔 설정 및 관리
 
 
@@ -801,6 +846,7 @@ OVA를 사용하여 vCenter에 Console 에이전트를 배포한 경우, 이제 
 
 
 
+[[backup-and-recovery]]
 === 백업 및 복구
 
 
@@ -870,6 +916,7 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[data-classification]]
 === 데이터 분류
 
 
@@ -880,6 +927,7 @@ VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com
 
 
 
+[[cloud-tiering]]
 === 클라우드 티어링
 
 
@@ -898,6 +946,7 @@ NetApp에서는 고객이 NetApp 담당자와 협력하여 기존 계층화 라�
 
 
 
+[[disaster-recovery]]
 === 재해 복구
 
 
@@ -916,6 +965,7 @@ GCVE 지원에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/dat
 
 
 
+[[ransomware-resilience]]
 === 랜섬웨어 복원력
 
 
@@ -946,6 +996,7 @@ Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관
 
 
 
+[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
 === FSx for ONTAP을 사용한 기존 관계에 대한 복제 관리
 
 FSx for ONTAP 파일 시스템을 소스 또는 대상으로 사용하는 복제 관계 관리 기능이 이제 NetApp Workload Factory에 추가되었습니다.
@@ -954,6 +1005,7 @@ link:https://docs.netapp.com/us-en/data-services-replication/task-managing-repli
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 

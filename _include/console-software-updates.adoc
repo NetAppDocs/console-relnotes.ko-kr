@@ -4,4 +4,5 @@
 
 
 
+[[software-updates]]
 === 소프트웨어 업데이트

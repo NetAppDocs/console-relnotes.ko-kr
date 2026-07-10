@@ -4,4 +4,5 @@
 
 
 
+[[automation-catalog]]
 === 자동화 카탈로그

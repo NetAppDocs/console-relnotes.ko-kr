@@ -4,4 +4,5 @@
 
 
 
+[[google-cloud-storage]]
 === 구글 클라우드 스토리지

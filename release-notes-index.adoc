@@ -18,6 +18,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 
 
 
+[[administration]]
 == 관리
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["설정 및 관리"^]
@@ -31,6 +32,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 
 
 
+[[storage]]
 == 스토리지
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["ONTAP 용 Amazon FSx"^]
@@ -48,6 +50,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 
 
 
+[[storage-as-a-service]]
 == 서비스로서의 스토리지
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 
 
 
+[[data-services]]
 == 데이터 서비스
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["백업 및 복구"^]
