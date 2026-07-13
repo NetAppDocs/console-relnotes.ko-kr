@@ -30,6 +30,64 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[13-july-2026]]
+== 2026년 7월 13일
+
+
+
+[[disaster-recovery]]
+=== 재해 복구
+
+
+
+==== Kubernetes 업데이트
+
+재해 복구 기능은 Kubernetes 기반 워크로드에 대해 다음과 같은 변경 사항을 도입했습니다.
+
+
+
+===== 사이트 메뉴에서 Trident Protect 관리
+
+이제 재해 복구 UI의 사이트 메뉴에서 Trident Protect를 직접 관리할 수 있습니다. Trident Protect를 업그레이드하거나 재해 복구에서 제거하여 Kubernetes 리소스 관리를 간소화할 수 있습니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/manage.html["사이트 관리"^]을 참조하십시오.
+
+
+
+==== VMware 업데이트
+
+재해 복구 기능은 VMware 기반 워크로드에 대해 다음과 같은 변경 사항을 도입했습니다.
+
+
+
+===== 빈 데이터스토어 장애 조치
+
+이제 빈 데이터스토어를 포함하는 복제 계획을 해당 데이터스토어를 계획에서 제외하거나 강제로 장애 조치를 수행하지 않고도 성공적으로 장애 조치를 수행할 수 있습니다. 장애 조치 시 Disaster Recovery는 재해 복구 사이트에 빈 데이터스토어를 자동으로 마운트하여 VM을 추가하고 장애 복구 작업을 위해 보호할 수 있도록 합니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["원격 사이트로 페일오버"^]을 참조하십시오.
+
+
+
+===== vCenter 네트워크 자동 매핑
+
+이제 vCenter 수준에서(즉, 복제 계획 대화 상자 외부에서) 네트워크 매핑 관계를 구성할 수 있습니다. 구성이 완료되면 Disaster Recovery에서 복제 계획을 추가하거나 편집할 때 이러한 네트워크 매핑을 자동으로 적용하여 복제 계획 관리를 간소화합니다.
+
+재해 복구는 계획별 재정의를 계속 지원합니다. 복제 계획에 정의된 기존 네트워크 매핑은 네트워크별로 편집할 수 있으며, 이러한 매핑은 vCenter 수준의 정의보다 우선 적용됩니다.
+
+
+
+==== 재해 복구 뷰어 역할 강화
+
+재해 복구 뷰어 역할에서 '시스템 업그레이드' 탭을 볼 수 있는 기능이 제거되었습니다. 이러한 변경 사항은 읽기 전용 사용자에게 더 적합한 환경에 맞춰 역할을 조정하기 위한 것입니다. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-disaster-rec-roles.html["NetApp Disaster Recovery에서 사용자 역할 및 권한에 대해 알아보세요."^].
+
+
+
+==== 시스템 성능 향상
+
+재해 복구에는 시스템 리소스 소비를 줄이고 운영 전반의 성능을 향상시키기 위한 변경 사항이 도입되었습니다.
+
+
+
 [[07-july-2026]]
 == 2026년 7월 7일
 
@@ -819,213 +877,3 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 *ASA r2 SAN 지원*: VMware 워크로드에서 이제 NetApp ASA r2 SAN 전용 환경에서 호스팅되는 VMFS 데이터스토어의 VM 보호를 지원합니다.
 
 VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware 워크로드 보호 개요"]을 참조하십시오.
-
-
-
-[[13-april-2026]]
-== 2026년 4월 13일
-
-
-
-[[console-setup-and-administration]]
-=== 콘솔 설정 및 관리
-
-
-
-==== Console 에이전트 4.6.0
-
-4.6.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.
-
-이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.
-
-.필요한 디스크 공간의 구성 확인 지원
-구성 검사를 사용하여 Console 에이전트에 필요한 디스크 공간을 사용할 수 있는지 확인할 수 있습니다. Console 또는 Agent 유지 관리 콘솔에서 구성 검사를 수행할 수 있습니다.link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Console 에이전트에서 구성 검사를 실행하는 방법에 대해 자세히 알아보세요"^]
-
-.ISO를 사용하여 vCenter에 배포된 Console 에이전트 업그레이드
-OVA를 사용하여 vCenter에 Console 에이전트를 배포한 경우, 이제 ISO를 VM에 마운트하고 VM 유지 관리 콘솔에서 업그레이드를 실행하여 새 버전으로 업그레이드할 수 있습니다. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["vCenter에 배포된 콘솔 에이전트를 업그레이드하는 방법을 알아보세요."^]
-
-
-
-[[backup-and-recovery]]
-=== 백업 및 복구
-
-
-
-==== ONTAP Volumes 워크로드 개선 사항
-
-이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.
-
-*NetApp MetroCluster 액티브/액티브 구성 지원*: 이제 NetApp Backup and Recovery for Volumes 워크로드에서 액티브-액티브 구성의 MetroCluster를 지원합니다.
-
-ONTAP Volumes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP 볼륨 워크로드 보호 개요"]를 참조하십시오.
-
-
-
-==== Kubernetes 워크로드 개선 사항
-
-이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 보호 정책 개선 사항을 도입합니다.
-
-* *보호 정책 편집*: 이제 필요에 따라 Kubernetes 워크로드 보호 정책을 편집할 수 있습니다.
-* *디스크 간 지원*: 이제 디스크 간 백업 아키텍처를 사용하여 Kubernetes 보호 정책을 구성할 수 있습니다.
-* *Google Cloud Platform 스토리지 버킷 지원*: 이제 Kubernetes 보호 정책을 구성하여 Google Cloud Platform 스토리지 버킷에 백업할 수 있습니다.
-
-
-보호 정책에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["NetApp Backup and Recovery에서 보호 정책을 생성하고 관리하기"]을 참조하십시오.
-
-Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes 워크로드 보호 개요"]을 참조하세요.
-
-
-
-==== Hyper-V 워크로드 개선 사항
-
-이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.
-
-* *작업 처리 기능 개선*: NetApp Backup and Recovery가 이제 여러 개의 동시 작업을 더욱 효율적으로 처리합니다.
-* *SAN 지원(미리 보기)*: 이제 NetApp Backup and Recovery가 SAN 스토리지에 저장된 Hyper-V VM 보호를 지원합니다.
-
-
-Hyper-V 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-V 워크로드 보호 개요"]를 참조하십시오.
-
-
-
-==== KVM 워크로드 개선 사항
-
-이번 릴리스에서 KVM 워크로드는 다음과 같은 개선 사항을 도입했습니다.
-
-* *작업 처리 기능 개선*: NetApp Backup and Recovery가 이제 여러 개의 동시 작업을 더욱 효율적으로 처리합니다.
-* *대체 위치로 복원(미리 보기)*: 이제 KVM VM을 대체 대상으로 복원할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["NetApp Backup and Recovery를 사용하여 KVM 가상 머신을 복원하세요"]을 참조하십시오.
-
-
-KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["KVM 워크로드 보호 개요"] .
-
-
-
-==== VMware 워크로드 개선 사항
-
-이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.
-
-* *태그 기반 보호*: VMware 워크로드용 백업 및 복구는 이제 NFS 및 VMFS 볼륨에 저장된 VM에 대한 태그 기반 보호를 지원하므로 개별 VM 또는 데이터스토어 대신 vCenter 태그를 기반으로 보호 그룹을 구성할 수 있습니다. vCenter에서 VM 및 데이터스토어에 태그를 지정하면 백업 및 복구가 자동으로 해당 항목을 검색하고 수동 그룹 유지 관리 없이 향후 백업에 포함합니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["보호 그룹 생성 및 관리"]을 참조하십시오.
-* *대체 스토리지 시스템으로 복원*: 이제 원래(운영) 스토리지 시스템을 완전히 사용할 수 없는 경우에도 가상 머신을 대체 스토리지 시스템으로 복원할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMware 워크로드 복원"]을 참조하십시오.
-* *Linux VM에 파일 복원*: 이제 VM 파일과 폴더를 Linux VM에 복원할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["파일 및 폴더 복원"]을 참조하십시오.
-* *파일 및 폴더 복원 시 프록시 VM 지원* - 이제 가상 디스크를 원래 VM에 연결하지 않고 프록시 VM을 사용하여 가상 디스크에서 파일과 폴더를 복원할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["파일 및 폴더 복원"]을 참조하세요.
-* *재귀적 파일 및 폴더 검색* - 이제 가상 디스크 전체에서 특정 파일이나 폴더를 검색할 수 있습니다. 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["파일 및 폴더 복원"]을 참조하세요.
-* *작업 처리 기능 개선*: NetApp Backup and Recovery가 이제 여러 개의 동시 작업을 더욱 효율적으로 처리합니다.
-
-
-VMware 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware 워크로드 보호 개요"]을 참조하십시오.
-
-
-
-[[data-classification]]
-=== 데이터 분류
-
-
-
-==== 전반적인 개선
-
-이번 Data Classification 릴리스에는 버그 수정, 보안 개선 및 성능 향상이 포함되어 있습니다.
-
-
-
-[[cloud-tiering]]
-=== 클라우드 티어링
-
-
-
-==== NetApp Cloud Tiering은 더 이상 제공되지 않습니다
-
-NetApp Cloud Tiering은 2026년 4월 26일부터 더 이상 구매하거나 라이선스를 갱신할 수 없습니다.
-
-기존 고객은 구독 또는 라이선스 계약이 만료될 때까지 NetApp Cloud Tiering을 계속 사용하고 지원을 받을 수 있습니다. 구독이 만료된 후에는 고객이 NetApp Cloud Tiering 기능이나 지원에 더 이상 액세스할 수 없습니다.
-
-NetApp에서는 고객이 NetApp 담당자와 협력하여 기존 계층화 라이센스를 ONTAP FabricPool 라이센스로 전환할 것을 권장합니다. 이 라이센스는 ONTAP에서 데이터 계층화 기능을 제공합니다. FabricPool을 사용하여 ONTAP에서 데이터 계층화를 설정하는 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/ontap/fabricpool/install-license-aws-azure-ibm-task.html["ONTAP 클러스터에 FabricPool 라이센스 설치"]을 참조하십시오.
-
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-Notice2.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_9L2PauNXYE0fOs0RIz8KK2q5Jb6sg8Yv-97NNJ53ceAab9UAqpKOrAvByxsOWqhIQHNCHgFfM0q3TI["NetApp Cloud Tiering 사용 중단 안내"]
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-FAQ-v3.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_rplJe_ZtlY4PQAQRQlewsDa0W4JR55muT0KCThR46zI7-uOhIYfVsxODDKFrnYYvy5uZzvhEKHOwBI["NetApp Cloud Tiering 공급 종료 FAQ"]
-
-
-
-
-[[disaster-recovery]]
-=== 재해 복구
-
-
-
-==== Google Cloud VMware Engine(GCVE) 지원이 이제 정식 출시(GA)되었습니다.
-
-NetApp Disaster Recovery의 GCVE 지원이 이제 일반 공급(GA)으로 제공됩니다. GA 지원을 통해 GCVE용 Disaster Recovery는 이제 다음을 지원합니다:
-
-* *플랫폼 관리형 스냅샷:* ONTAP 또는 Google Cloud Platform(GCP)을 통해 백업 및 보존 정책을 원활하게 관리합니다.
-* *복제 계획당 여러 데이터 저장소:* 여러 데이터 저장소를 단일 복제 전략으로 통합하여 재해 복구 계획을 간소화하십시오.
-* *사용할 수 없는 소스 사이트에 대한 강제 페일오버:* 소스를 사용할 수 없는 경우 재해 복구 사이트로 전환합니다.
-* *SnapMirror 재동기화 연기 및 필요에 따라 복제 복원:* "보호 건너뛰기" 옵션을 사용하여 운영량이 많은 시간대에 프로덕션 워크로드에 미치는 영향을 방지하기 위해 SnapMirror 재동기화를 연기하고, 나중에 재보호 옵션을 사용하여 필요에 따라 복제를 복원할 수 있습니다
-
-
-GCVE 지원에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Disaster Recovery를 위한 지원 구성"^]을(를) 참조하십시오.
-
-
-
-[[ransomware-resilience]]
-=== 랜섬웨어 복원력
-
-
-
-==== 클린 복원
-
-Ransomware Resilience는 이제 랜섬웨어 공격으로부터 빠르고 쉽게 복구할 수 있도록 지원하는 새로운 복구 옵션인 클린 복원을 지원합니다. 클린 복원은 다운타임을 최소화하면서 워크로드를 가동하고 실행하기 위한 최적의 복원 지점을 식별하는 안내형 워크플로를 제공합니다. 클린 복원의 워크플로는 또한 데이터에 대한 파일 수준의 인사이트를 제공하여 재감염을 방지하고 데이터 손실을 최소화하는 멀웨어 없는 워크로드를 복원할 수 있도록 보장합니다.
-
-지원되는 구성 및 클린 복원을 위한 시스템 구성 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["격리된 복구 환경 생성"^]를 참조하십시오. 클린 복원을 사용하여 복구하는 방법에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["깔끔한 복원을 통해 워크로드 복구"^]를 참조하십시오.
-
-
-
-==== Splunk Enterprise용 SIEM 지원
-
-Ransomware Resilience는 이제 Splunk Enterprise용 보안 정보 이벤트 관리(SIEM) 지원을 제공하여 로그 및 이벤트 데이터를 중앙 집중화하고 위협 분석 및 탐지를 간소화할 수 있습니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Ransomware Resilience를 SIEM에 연결하세요"^]를 참조하십시오.
-
-
-
-==== 사용자 행동 감지 기능 향상
-
-데이터 유출 사건에 대한 분석 정보가 이제 사건 발생 후 13개월 동안 보존되어 보고 요구 사항에 맞춰 더 오랜 기간 기록을 보관할 수 있습니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["사용자 행동 감지에 대해 알아보기"^]를 참조하십시오.
-
-복제 :leveloffset: +1
-
-
-
-[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
-=== FSx for ONTAP을 사용한 기존 관계에 대한 복제 관리
-
-FSx for ONTAP 파일 시스템을 소스 또는 대상으로 사용하는 복제 관계 관리 기능이 이제 NetApp Workload Factory에 추가되었습니다.
-
-link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["데이터 복제 관리"]
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Google Cloud C3 VM에서 Cloud Volumes ONTAP 지원이 향상되었습니다.
-
-Cloud Volumes ONTAP는 이제 Google Cloud C3 시리즈 VM에 대한 지원을 강화하여 다음과 같은 추가 기능을 사용할 수 있게 되었습니다.
-
-* Cloud Volumes ONTAP 배포에서 C3 제품군 내의 다양한 변형 간에 인스턴스 유형을 전환할 수 있습니다.
-* 인스턴스 유형을 변경할 때 대상 VM으로 c3-standard-44 또는 c3-standard-88 및 해당 LSSD 변형을 선택하면 Google 네트워크 서비스 송신 네트워크 계층 Tier-1이 자동으로 적용됩니다. 다른 C3 변형으로 전환하면 송신 네트워크 계층은 Standard로 설정됩니다.
-+
-
-NOTE: 송신 네트워크 계층을 Tier-1으로 변경하면 추가 비용이 발생합니다. 배포 및 업그레이드 계획을 적절히 수립하십시오.
-
-* C3의 로컬 SSD(LSSD) 변형을 선택하면 Flash Cache가 기본적으로 활성화됩니다. 대상 변형이 Flash Cache를 지원하더라도 Cloud Volumes ONTAP 배포 환경에서는 C3 LSSD 변형 간에 전환할 수 없습니다.
-* 이제 C3 VM에서 새 애그리게이트와 기존 애그리게이트 모두에 볼륨을 추가할 수 있습니다.
-* NetApp Console을 통해 또는  `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API를 사용하여 볼륨을 추가할 때 IOPS 및 처리량 설정을 변경할 수 있습니다.
-
-
-.관련 링크
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud에서 Cloud Volumes ONTAP에 대해 지원되는 구성"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["차세대 Google Cloud VM을 위한 Cloud Volumes ONTAP 지원"^]
-
