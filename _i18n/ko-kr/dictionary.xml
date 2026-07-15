@@ -422,4 +422,50 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">시스템 성능 향상</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">재해 복구에는 시스템 리소스 소비를 줄이고 운영 전반의 성능을 향상시키기 위한 변경 사항이 도입되었습니다.</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026년 7월 13일</block>
+  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel용 ARM 템플릿</block>
+  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
+  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">위협 탐지 및 분석을 위해 SIEM에 연결</block>
+  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="b6e501a3f9a9964fecae7c393bb7cf74" category="doc">Cloud Volumes ONTAP 9.19.1 RC</block>
+  <block id="f11434f81dce28dd60c981c553fa8539" category="paragraph">이제 NetApp Console을 사용하여 Google Cloud에서 Cloud Volumes ONTAP 9.19.1 릴리스 후보(RC) 버전을 배포하고 관리할 수 있습니다. 이 버전은 Amazon Web Service(AWS) 및 Microsoft Azure(Azure)에서는 배포 및 업그레이드가 불가능합니다.</block>
+  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">이번 Cloud Volumes ONTAP 릴리스에 대해 자세히 알아보십시오</block>
+  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block>.</block>
+  <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 에서 차세대 Google Cloud VM 지원</block>
+  <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1에서 NetApp은 Cloud Volumes ONTAP 고가용성(HA) 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다.</block>
+  <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">이 지원은 단일 가용 영역(AZ) 고가용성(HA) 배포에만 적용됩니다.</block>
+  <block id="daeb9d2c445d835a4dfabab85d7f7ac8" category="paragraph">이제 Google Cloud에서 Cloud Volumes ONTAP 9.19.1 이상 버전을 배포할 때 C3 시리즈 VM을 활용할 수 있습니다. 이러한 VM은 향상된 성능과 더 높은 용량 한도를 제공합니다. Google Virtual NIC(gVNIC)와 Hyperdisk Balanced 디스크를 사용하여 집약적인 워크로드에서 동적인 성능을 제공합니다.</block>
+  <block id="039aeba61a2d04ffa12dc9230a552474" category="paragraph">Cloud Volumes ONTAP 시스템이 9.19.1 이상 버전인 경우, 단일 AZ에 간편하게 배포할 수 있도록 사전 구성된 패키지는 자동으로 C3 VM을 사용하며, 워크로드 요구 사항에 따라 IOPS 및 처리량 매개변수를 사용자 지정할 수 있습니다. 마찬가지로, 애그리게이트를 생성할 때 Google Cloud에서 성능과 확장성을 향상시키기 위해 Zonal Hyperdisk Balanced 디스크를 추가할 수 있습니다. 또한 기본 Flash Cache 지원을 위해 C3 시리즈 머신의 LSSD 버전을 선택할 수도 있습니다.</block>
+  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">다음 사항에 유의하십시오:</block>
+  <block id="a8b9ee4ec08e660e7c78a765fe6e8e76" category="list-text">Cloud Volumes ONTAP 배포 환경에서는 C3 VM을 N2-series VM으로 또는 그 반대로 변경할 수 없습니다. 하지만 C3 제품군 내의 다른 변형 인스턴스 유형 간에는 전환이 가능합니다.</block>
+  <block id="4508abef5bde6dc4e321f4c629f6b5df" category="admonition">C3 제품군 내에서 인스턴스 유형을 변경하는 데 걸리는 시간은 연결된 데이터 디스크 수에 따라 달라질 수 있습니다. 성능 저하를 방지하려면 사전에 구성을 계획하십시오.</block>
+  <block id="5d6ac50e964794f1d9f58de17f041571" category="list-text">인스턴스 유형을 변경할 때 대상 VM으로 c3-standard-44 또는 c3-standard-88과 해당 로컬 SSD(LSSD) 변형을 선택하면 Google 네트워크 서비스 송신 네트워크 계층이 자동으로 _Tier-1_로 적용됩니다. 다른 C3 변형으로 되돌리면 송신 네트워크 계층은 _Standard_로 설정됩니다.</block>
+  <block id="cc900a1bed6dc9c21fe26836d5594034" category="admonition">송신 네트워크 계층을 _Tier-1_로 변경하면 추가 비용이 발생합니다. 배포 및 업그레이드 계획을 적절히 수립하십시오.</block>
+  <block id="745f1e222c1a230bd097ce9d3bc14619" category="list-text">C3의 LSSD 변형을 선택하면 Flash Cache가 기본적으로 활성화됩니다. 대상 변형이 Flash Cache를 지원하더라도 Cloud Volumes ONTAP 배포 환경에서는 C3 LSSD 변형 간에 전환할 수 없습니다.</block>
+  <block id="562863c77a375e6f0ad98475be21d62d" category="list-text">C3 VM에서 새 애그리게이트와 기존 애그리게이트 모두에 볼륨을 추가할 수 있습니다.</block>
+  <block id="0934d6e64727e82c89dcc51725cc8a7d" category="list-text">N2 VM 유형의 Cloud Volumes ONTAP 시스템을 C3 VM 유형으로 복제할 때 디스크 유형은 기본적으로 Hyperdisk Balanced로 설정됩니다.</block>
+  <block id="7f779554154f7bbce7ebe34e61b8a90f" category="list-text">NetApp Console 또는 <block ref="566e7ce0d4fe7a4872db87a6368a9417" prefix=" " category="inline-code"></block> API를 사용하여 애그리게이트를 추가할 때 IOPS 및 처리량 설정을 변경할 수 있습니다.</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP에 대해 지원되는 구성</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google 문서: C3 머신 시리즈</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Google Cloud에서 Cloud Volumes ONTAP 배포 간소화</block>
+  <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">이제 *빠른 생성* 마법사를 사용하여 단일 노드 및 고가용성(HA) 구성 모두에 대해 Google Cloud에 Cloud Volumes ONTAP을 배포할 수 있습니다. 이 간소화된 프로세스는 단계를 줄이고, 단일 페이지에서 기본값을 자동으로 설정하며, 탐색을 최소화하여 더 빠르고 쉽게 배포할 수 있도록 합니다.</block>
+  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">빠른 생성을 사용하여 Google Cloud에 Cloud Volumes ONTAP 배포</block>
+  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
+  <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Google Cloud의 고급 옵션을 사용하여 Cloud Volumes ONTAP 배포</block>
+  <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
+  <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP의 액세스 역할 소개</block>
+  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetApp은 Cloud Volumes ONTAP에 대한 ID 및 액세스 관리(IAM) 역할을 도입하여 역할 기반 액세스 제어(RBAC)를 통해 보안을 강화하고 규정 준수를 간소화합니다. 사용자는 NetApp Console에 기존 자격 증명을 사용하여 로그인하고 Cloud Volumes ONTAP 작업을 계속 수행할 수 있습니다. 그러나 이제 인증은 ID 페더레이션을 통해 이루어지므로 Console 관리자가 이러한 기능을 더욱 세밀하게 제어할 수 있습니다. 모든 사용자는 Cloud Volumes ONTAP에서 작업을 수행하려면 다음 역할 중 하나를 보유해야 합니다. 역할이 없으면 사용자는 Cloud Volumes ONTAP 인스턴스를 보거나 액세스할 수 없습니다.</block>
+  <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP 뷰어*: Cloud Volumes ONTAP 화면 및 탭에 대한 읽기 전용 액세스 권한을 부여합니다. 이 역할에서는 특정 화면 및 작업 버튼이 비활성화됩니다.</block>
+  <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*: 볼륨 추가, 스토리지 관리, 복제 구성과 같은 일상적인 관리 작업을 지원합니다.</block>
+  <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*: 모든 Cloud Volumes ONTAP 작업에 대한 전체 액세스 권한을 제공합니다.</block>
+  <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console 관리자는 *Administration &gt; Identity*에서 Cloud Volumes ONTAP 사용자에게 역할을 할당합니다. 역할 권한은 사용자의 소속 조직을 기준으로 하며 해당 조직 내의 모든 Cloud Volumes ONTAP 시스템에 적용됩니다.</block>
+  <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAP은 각 사용자의 권한을 로컬 캐시에 저장하여 RBAC를 적용하며, 이 캐시는 매시간 자동으로 갱신됩니다. 사용자에게 새 역할이 할당되거나 기존 역할이 변경되면 변경 사항이 적용되는 데 최대 1시간이 소요될 수 있으며, 이후 해당 역할에서 허용된 모든 워크플로가 활성화됩니다.</block>
+  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">콘솔 에이전트를 처음 배포하거나 기존 콘솔 에이전트를 Console 4.9.0 이상 버전으로 업그레이드할 때, 일회성 시딩 프로세스가 조직의 모든 기존 사용자에게 Cloud Volumes ONTAP 역할을 자동으로 할당합니다. 이 프로세스는 완료하는 데 최대 30분이 소요될 수 있습니다. 완료되면 콘솔은 기존 사용자에게 적절한 역할을 할당합니다.</block>
+  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Cloud Volumes ONTAP 역할은 Amazon Web Service(AWS), Microsoft Azure(Azure) 및 Google Cloud 환경에 적용됩니다.</block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console 액세스 역할</block>
+  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">NetApp Console의 Cloud Volumes ONTAP 액세스 역할</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026년 7월 14일</block>
 </blocks>
