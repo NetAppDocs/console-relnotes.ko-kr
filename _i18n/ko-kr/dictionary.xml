@@ -477,4 +477,5 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026년 7월 15일</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console의 워크로드에서 GenAI 워크로드 제거</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">NetApp Console의 워크로드에서 GenAI 워크로드가 제거되었습니다.</block>
+  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*향상된 멀티 버킷 지원*: ONTAP 9.19.1 이상 버전부터는 시스템당 최대 100개의 버킷을 사용하여 서로 다른 클라우드 공급자에 걸쳐 시스템 내 볼륨을 보호할 수 있습니다.</block>
 </blocks>
