@@ -57,6 +57,17 @@ link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.h
 
 
 
+[[amazon-fsx-for-ontap]]
+=== ONTAP 용 Amazon FSX
+
+
+
+==== NetApp Console의 워크로드에서 GenAI 워크로드 제거
+
+NetApp Console의 워크로드에서 GenAI 워크로드가 제거되었습니다.
+
+
+
 [[14-july-2026]]
 == 2026년 7월 14일
 

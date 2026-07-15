@@ -475,4 +475,6 @@
   <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Cloud Volumes ONTAP의 역할 기반 액세스 제어에 대해 자세히 알아보십시오</block>
   <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026년 7월 15일</block>
+  <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console의 워크로드에서 GenAI 워크로드 제거</block>
+  <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">NetApp Console의 워크로드에서 GenAI 워크로드가 제거되었습니다.</block>
 </blocks>
