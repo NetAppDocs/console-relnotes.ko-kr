@@ -145,8 +145,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결하세요</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 지원*: VMware 워크로드에서 이제 NetApp ASA r2 SAN 전용 환경에서 호스팅되는 VMFS 데이터스토어의 VM 보호를 지원합니다.</block>
-  <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026년 4월 20일</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">프로비저닝된 용량 레이블 이름 변경</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* 레이블이 *Provisioned volume capacity*로 변경되었습니다. 업데이트된 레이블은 관련 CSV 및 Excel 보고서에도 반영됩니다.</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">누적 버스트에 대한 예측 토글</block>
@@ -481,4 +479,28 @@
   <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">이번 Backup and Recovery 릴리스에서는 시스템당 최대 100개의 버킷을 사용하여 서로 다른 클라우드 공급자에 걸쳐 시스템 내 워크로드를 보호할 수 있습니다.</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery에 대해 알아보세요</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery에 대한 자세한 내용은 <block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS Marketplace에서 Cloud Volumes ONTAP의 간편한 온보딩 소개</block>
+  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp은 AWS Marketplace에서 Cloud Volumes ONTAP을 위한 간소화된 온보딩 워크플로를 도입하여 수동 작업과 온보딩 과정의 마찰을 줄였습니다.</block>
+  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">이전에는 AWS Marketplace에서 Cloud Volumes ONTAP을 배포하려면 여러 화면을 탐색하고 역할, 정책 및 자격 증명을 수동으로 구성해야 했습니다. 이로 인해 온보딩 속도가 느리고 오류 발생 가능성이 높았습니다.</block>
+  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">새로운 온보딩 워크플로는 다음과 같은 기능을 통해 마켓플레이스 구독에서 완벽하게 작동하는 Cloud Volumes ONTAP 환경으로의 전환을 간소화합니다.</block>
+  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">AWS Marketplace의 Cloud Volumes ONTAP 전용 상품 목록 구독: AWS Marketplace에서 Cloud Volumes ONTAP 독립형 상품 목록을 구독하고, 구독을 구매한 후, AWS 계정을 설정합니다(계정이 없는 경우).</block>
+  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">NetApp 콘솔의 안내 경로: NetApp 콘솔에서 계정을 설정하면 콘솔이 자동으로 배포 여정을 안내하며, 오른쪽 측면에 안내 경로를 표시합니다. 콘솔을 종료해야 하는 경우 나중에 안내 경로를 다시 시작할 수 있습니다.</block>
+  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">구독 연동: 구독을 콘솔에 자동으로 연동하여 수동으로 연결하는 번거로움을 줄일 수 있습니다.</block>
+  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">AWS 자격 증명 구성을 사용한 Console 에이전트 배포: 필요한 AWS 역할을 자동으로 생성할 수 있습니다. 이 프로세스는 필요한 역할과 정책이 포함된 AWS CloudFormation 스택을 AWS 계정에 배포하여 검토할 수 있도록 한 다음, NetApp Console과 연결하여 수동 IAM 설정을 제거합니다. 그런 다음 에이전트 구성, 네트워킹 및 보안 그룹 설정을 진행하여 에이전트 배포를 시작할 수 있습니다.</block>
+  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">AWS에 새로운 Cloud Volumes ONTAP 시스템 배포: <block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block> 마법사로 바로 이동하여 더욱 빠르고 간편하게 Cloud Volumes ONTAP를 배포할 수 있습니다.</block>
+  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">빠른 생성 기능을 사용하여 Cloud Volumes ONTAP 배포</block>
+  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
+  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
+  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure의 Cloud Volumes ONTAP에 대한 잘 설계된 구성 분석</block>
+  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console에서 이제 Microsoft Azure에서 실행되는 Cloud Volumes ONTAP 시스템에 대한 잘 설계된 구성 분석 기능을 지원합니다. Console은 배포 환경을 매일 분석하여 잘 설계된 상태, 인사이트 및 권장 사항을 제공함으로써 NetApp 모범 사례 및 잘 설계된 프레임워크에 부합하는 시스템을 유지 관리할 수 있도록 지원합니다.</block>
+  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">잘 설계된 대시보드는 분석된 시스템의 총 개수를 표시하고 구성 및 심각도 수준별로 리소스를 분류합니다. 시스템 관리자인 경우 Console 대시보드에서 조직 내 구성 문제에 대한 권장 사항을 직접 확인하고 모든 권장 사항이 포함된 CSV 보고서를 다운로드할 수 있습니다. 구성은 다음 기준에 따라 분류됩니다.</block>
+  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*안정성*: 장애 발생 시에도 워크로드가 정확하고 일관되게 작동하도록 보장합니다.</block>
+  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*Security*: 위험 평가 및 완화를 통해 데이터, 시스템 및 자산을 보호합니다.</block>
+  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*운영 우수성*: 비즈니스 가치를 극대화하기 위해 아키텍처를 최적화합니다.</block>
+  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*비용 최적화*: 비용을 절감하고 최적화하여 더 큰 비즈니스 가치를 실현합니다.</block>
+  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP 구성 분석</block>
+  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
+  <block id="5bff0e2ec30fb9a44ab23683ebe9af90" category="inline-link">잘 설계된 시스템 구성 구현</block>
+  <block id="fae0b0bdb2210aacd56925bf63411bc1" category="list-text"><block ref="fae0b0bdb2210aacd56925bf63411bc1" category="inline-link-rx"></block></block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
 </blocks>
