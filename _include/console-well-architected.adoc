@@ -1,0 +1,8 @@
+= 잘 설계된 대시보드
+:allow-uri-read: 
+
+
+
+
+[[well-architected-dashboard]]
+=== 잘 설계된 대시보드

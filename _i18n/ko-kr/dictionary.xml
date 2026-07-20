@@ -503,4 +503,18 @@
   <block id="5bff0e2ec30fb9a44ab23683ebe9af90" category="inline-link">잘 설계된 시스템 구성 구현</block>
   <block id="fae0b0bdb2210aacd56925bf63411bc1" category="list-text"><block ref="fae0b0bdb2210aacd56925bf63411bc1" category="inline-link-rx"></block></block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
+  <block id="1f669523a45bf910651af3583e944a20" category="doc">잘 설계된 대시보드</block>
+  <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">NetApp Console의 잘 설계된 대시보드 소개</block>
+  <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console의 아키텍처 최적화 대시보드는 계정 및 지역 전반에 걸쳐 스토리지 시스템과 구성을 한눈에 볼 수 있도록 지원합니다. 이 대시보드는 운영 효율성을 극대화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다. 구성의 아키텍처 최적화 상태, 사용 중인 스토리지 유형에 대한 아키텍처 최적화 프레임워크의 핵심 요소별로 정리된 구성 문제, 그리고 구성 문제 및 권장 사항 목록을 확인할 수 있습니다.</block>
+  <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">잘 설계된 대시보드</block>
+  <block id="6e2cc6111df032359200840287f3c08f" category="paragraph"><block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
+  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
+  <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure의 Cloud Volumes ONTAP</block>
+  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
+  <block id="95be701b55d8162269ca03772d2761bc" category="section-title">사용자 지정 규칙 만들기</block>
+  <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
+  <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">사용자 지정 규칙에 대해 자세히 알아보기</block>
+  <block id="9bd966d21188bc73353090c821e40934" category="paragraph"><block ref="9bd966d21188bc73353090c821e40934" category="inline-link-rx"></block></block>
 </blocks>
