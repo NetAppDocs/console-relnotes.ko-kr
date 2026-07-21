@@ -517,4 +517,7 @@
   <block id="9bd966d21188bc73353090c821e40934" category="paragraph"><block ref="9bd966d21188bc73353090c821e40934" category="inline-link-rx"></block></block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">잘 설계된 Cloud Volumes ONTAP 시스템 구성 구현</block>
   <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">웰니스 리뷰 서비스 중단 안내</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review 기능은 더 이상 사용되지 않으며, 2026년 7월부터 Digital Advisor에서 이용할 수 없습니다.</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.</block>
 </blocks>

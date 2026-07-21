@@ -1,0 +1,12 @@
+= 웰니스 리뷰 서비스 중단 안내
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== 웰니스 리뷰 서비스 중단 안내
+
+Wellness Review 기능은 더 이상 사용되지 않으며, 2026년 7월부터 Digital Advisor에서 이용할 수 없습니다.
+
+문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.
