@@ -526,4 +526,8 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">자세한 내용은 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="bb52269a2ff950398b1909638550daa9" category="section-title">사용자 활동 이벤트에 대한 자동 응답 이메일 알림</block>
   <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience는 이제 사용자 활동 이벤트로 인해 자동 대응이 트리거될 때 이메일 알림을 전송하여 Ransomware Resilience 및 랜섬웨어 활동에 대한 명확성과 가시성을 향상시킵니다.</block>
+  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">구독 만료일 및 자동 갱신 상태 보기</block>
+  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">구독 테이블(*Storage &gt; Keystone &gt; Subscriptions*)의 *Days to subscription expiry* 열에 이제 만료일 옆에 아이콘이 표시됩니다. 자동 갱신이 해제된 경우 아이콘 색상은 만료 임박도를 나타냅니다. 녹색은 120일 초과(&gt;120일), 주황색은 91~120일, 빨간색은 90일 미만(&lt;90일), 회색은 만료됨을 의미합니다. 자동 갱신이 활성화된 구독의 경우 자동 갱신 아이콘이 표시되어 현재 기간이 종료되면 구독이 자동으로 갱신됨을 나타냅니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 구독을 열면 *Current consumption*, *Consumption trend*, *Subscription timeline*, *Assets* 탭의 구독 세부 정보 헤더에 이러한 아이콘이 표시되어 탐색하는 동안 만료 및 갱신 상태를 확인할 수 있습니다.</block>
+  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Keystone 구독에 대한 자세한 정보를 확인하세요.</block>
+  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">자세한 내용은<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>을 참조하십시오.</block>
 </blocks>
