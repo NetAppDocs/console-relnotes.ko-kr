@@ -531,4 +531,11 @@
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Keystone 구독에 대한 자세한 정보를 확인하세요.</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">자세한 내용은<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 관리에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
+  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure에서 칠레 중부 지역 지원</block>
+  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">이제 Azure의 칠레 중앙(chilecentral) 지역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
+  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">로컬 중복 스토리지(LRS)를 사용하여 단일 가용성 영역에서 고가용성(HA) 구현</block>
+  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현</block>
+  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">지원되는 모든 지역 목록은<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026년 7월 23일</block>
 </blocks>
