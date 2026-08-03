@@ -464,7 +464,6 @@
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console의 워크로드에서 GenAI 워크로드 제거</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">NetApp Console의 워크로드에서 GenAI 워크로드가 제거되었습니다.</block>
   <block id="66591c0e71be05bd24e1869944b92db6" category="doc">모든 워크로드에 대한 향상된 멀티 버킷 지원</block>
-  <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">이번 Backup and Recovery 릴리스에서는 시스템당 최대 100개의 버킷을 사용하여 서로 다른 클라우드 공급자에 걸쳐 시스템 내 워크로드를 보호할 수 있습니다.</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery에 대해 알아보세요</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery에 대한 자세한 내용은 <block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS Marketplace에서 Cloud Volumes ONTAP의 간편한 온보딩 소개</block>
@@ -585,4 +584,5 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">나중에 해제된 구성을 포함하려면 잘 설계된 대시보드에서 다시 활성화할 수 있습니다. 이렇게 하면 구성이 분석에 복원되어 권장 사항 및 수정 사항을 확인할 수 있습니다.</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
+  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery는 이제 서로 다른 클라우드 공급자에 걸쳐 최대 100개의 버킷을 사용하여 시스템 내 워크로드를 보호하는 기능을 지원합니다. 시스템당 6개 이상의 버킷을 지원하려면 ONTAP 9.19.1 이상 버전이 필요합니다.</block>
 </blocks>
