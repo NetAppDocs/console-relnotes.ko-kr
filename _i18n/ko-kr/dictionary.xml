@@ -585,4 +585,17 @@
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
   <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery는 이제 서로 다른 클라우드 공급자에 걸쳐 최대 100개의 버킷을 사용하여 시스템 내 워크로드를 보호하는 기능을 지원합니다. 시스템당 6개 이상의 버킷을 지원하려면 ONTAP 9.19.1 이상 버전이 필요합니다.</block>
+  <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Cloud Volumes ONTAP과 Microsoft OneLake 통합</block>
+  <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
+  <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
+  <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3 멀티 프로토콜</block>
+  <block id="401d011b2377a7c64751160aa39ff55c" category="paragraph">Cloud Volumes ONTAP이 이제 공개 미리 보기로 <block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block>와의 통합을 지원합니다. Cloud Volumes ONTAP를 <block ref="df6d917e247d0878fc8f4ddd737f9ab2" category="inline-link-rx"></block>과 통합하여 <block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block>을 사용하면 기존 Cloud Volumes ONTAP NAS 데이터를 Power BI, Azure AI Search, OpenAI, Microsoft Copilot 등 Microsoft 분석 및 AI 서비스에서 사용할 수 있습니다. 이 통합에는 데이터 이동이나 중복이 필요하지 않습니다. 이 통합은 <block ref="f8b4f97863c52739a61ab36e880c3d99" category="inline-link-rx"></block> 액세스를 사용하여 Cloud Volumes ONTAP를 기존 Microsoft Fabric Lakehouse에 연결합니다.</block>
+  <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">관련 기사 및 자료:</block>
+  <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp 블로그: Microsoft OneLake 및 NetApp Cloud Volumes ONTAP로 AI 및 분석 최적화</block>
+  <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
+  <block id="ecbaa51ea44293a13a4eb6ca8d26d642" category="inline-link">AI 및 분석을 위해 Cloud Volumes ONTAP 시스템을 Microsoft OneLake와 통합</block>
+  <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
+  <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP과 Microsoft OneLake 통합 - 기술 개요</block>
+  <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
+  <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
 </blocks>
