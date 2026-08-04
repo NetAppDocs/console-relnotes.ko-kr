@@ -598,4 +598,14 @@
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP과 Microsoft OneLake 통합 - 기술 개요</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
   <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes용 SAN 지원(미리 보기)</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하여 SAN 워크로드에 대한 암호화 기반 랜섬웨어 공격을 탐지할 수 있습니다. Google Cloud NetApp Volumes의 SAN 지원은 현재 미리 보기로 제공됩니다.</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">지원되는 시스템</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">랜섬웨어 방어력 강화를 위한 SAN 스토리지</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">자세한 내용은 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 및 <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">사용자 차단을 위한 간소화된 인터페이스</block>
+  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">사용자 활동 감지</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">랜섬웨어 방어 기능이 이제 사용자 차단 및 차단된 사용자 관리를 위한 간소화된 사용자 환경을 제공합니다. 이번 업데이트를 통해 차단한 사용자를 쉽게 확인하고 수정할 수 있습니다. 사용자를 차단하려면 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">차단된 사용자 관리</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">자세한 내용은 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
