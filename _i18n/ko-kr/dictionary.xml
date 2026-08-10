@@ -116,23 +116,16 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
-  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM 워크로드 보호 개요</block>
-  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVM 작업 부하 보호에 대한 자세한 내용은 다음을 참조하세요.<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 워크로드 개선 사항</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>을 참조하세요.</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 워크로드 개선 사항</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Database 워크로드 보호 개요</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">다음 서비스는 더 이상 사용되지 않습니다.</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware 워크로드 보호 개요</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="d78202f5dede249577567c1012878352" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP 볼륨 워크로드 보호 개요</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
@@ -140,89 +133,14 @@
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Hyper-V 워크로드 보호 개요</block>
   <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>를 참조하십시오.</block>
-  <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVM 워크로드 개선 사항</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
-  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Ransomware Resilience를 SIEM에 연결하세요</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
-  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">OVA를 사용하여 NetApp Data Classification 배포</block>
-  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification은 이제 VMware Open Virtual Appliance(OVA)를 통한 배포를 지원하여 온프레미스 VMware vSphere 환경을 위한 간소화된 배포 전략을 제공합니다.</block>
-  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">자세한 내용은 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Kubernetes 기반 워크로드 지원(미리 보기)</block>
-  <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">Trident Protect에서 현재 지원하는 모든 Kubernetes 버전</block>
-  <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery에 Kubernetes 기반 워크로드 지원이 추가되었습니다. Kubernetes 지원을 통해 OpenShift Virtualization 환경을 포함한 Kubernetes 클러스터에서 실행되는 애플리케이션을 보호할 수 있습니다. Disaster Recovery는 <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>를 지원하여 컨테이너화된 애플리케이션에 대한 원활한 통합과 강력한 재해 복구 기능을 제공합니다.</block>
-  <block id="17e5366c4d700584180f9a88c40ddd7f" category="paragraph">Kubernetes 기반 워크로드 지원의 주요 기능:</block>
-  <block id="6e623252e9b1dfd44c03c706826c9dc2" category="list-text">**폭넓은 호환성**: Disaster Recovery는 Red Hat OpenShift Virtualization을 포함하여 Trident Protect와 호환되는 모든 Kubernetes 버전을 지원합니다.</block>
-  <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**애플리케이션 중심 보호**: 이제 애플리케이션 수준에서 Kubernetes 워크로드를 보호하여 페일오버 이벤트 발생 시 중요한 서비스의 복구를 보장할 수 있습니다.</block>
-  <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**간소화된 오케스트레이션**: Disaster Recovery는 VMware 환경에서 사용되는 것과 동일한 효율적인 SnapMirror 기술을 활용하여 Kubernetes 워크로드의 백업 및 복제를 자동화하는 직관적인 워크플로우를 제공합니다.</block>
-  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery를 위한 Kubernetes 요구 사항</block>
-  <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 에이전트 4.7.0</block>
-  <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
-  <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">이번 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
-  <block id="2359613eeef582462b02e31edd2c83e1" category="paragraph-title">Console 조직을 확인하세요</block>
-  <block id="43dc49af1a8157f71040baeb30324e66" category="inline-link-macro">Console 조직을 확인하는 방법을 알아보십시오</block>
-  <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">기본적으로 Digital Advisor는 콘솔 조직뿐만 아니라 회사와 연결된 모든 NetApp 계정을 표시합니다. Digital Advisor에 표시되는 내용을 특정 계정으로 제한하려면 콘솔 조직에서 사용할 비즈니스 계정을 확인하십시오.<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
-  <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">Kubernetes 기반 워크로드 지원은 현재 미리 보기로 제공됩니다. Kubernetes 기반 워크로드 보호를 시작하려면 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026년 5월 11일</block>
-  <block id="2177f4b8385663763a55092409fcf96d" category="list-text">*SAN 스토리지의 VM 보호*: 이제 SAN 객체 스토리지에 있는 VM을 보호할 수 있습니다.</block>
-  <block id="b4f11c5e52133c7c24d1d06bed289da5" category="list-text">*대체 위치로 복원 기능 향상*: 이제 SAN 스토리지에 있는 VM을 기본 및 보조 위치에서 대체 위치로 복원할 수 있습니다.</block>
-  <block id="c79dba5399648f390585db72c4aefa97" category="list-text">*게스트 VM으로 파일 및 폴더 복원*: 이제 기본 스토리지의 스냅샷에서 게스트 Windows VM으로 파일과 폴더를 복원할 수 있습니다. 이 기능은 CIFS VM에서만 지원됩니다.</block>
-  <block id="b1eace1ceffef99bf891142b0bcdbbe8" category="paragraph">이번 릴리스에서 KVM 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="1c663519b8e9745bde2b09d483acf65f" category="paragraph">*다른 위치로 복원*: 이제 KVM VM을 다른 대상으로 복원할 수 있습니다(이 기능은 현재 정식으로 제공됩니다).</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">이번 릴리스에서 Oracle 데이터베이스 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="25b535a4c68470b09e1b9748b7ec9c31" category="list-text">*Oracle AI Database 26ai 지원*: NetApp Backup and Recovery가 이제 Oracle AI Database 26ai를 지원합니다.</block>
-  <block id="366ff97a6ee8b3b75ea30b7561cfe3ca" category="list-text">*백업 검증 지원*: 이제 Oracle 데이터베이스 백업의 무결성을 자동으로 검증하는 백업 정책을 구성할 수 있습니다.</block>
-  <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*보호 그룹에 대한 데이터 저장소 스패닝 지원*: 이제 가상 디스크가 여러 데이터 저장소에 걸쳐 있는 가상 머신을 보호할 때 보호 그룹의 동작을 선택할 수 있습니다.</block>
-  <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*클론 지원*: 이제 운영 및 2차 스토리지에서 가상 머신 스냅샷의 클론을 생성할 수 있습니다.</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">클린 복원 기능 향상</block>
-  <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 지원</block>
-  <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience는 이제 Google SecOps를 통한 보안 정보 및 이벤트 관리(SIEM)를 지원하므로 간소화된 위협 분석 및 탐지를 위해 데이터를 Google SecOps로 자동으로 전송할 수 있습니다.</block>
-  <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">구성 정보는 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="6ed9912d7c1784fccae7864acc430aeb" category="section-title">Azure NetApp Files 지원이 이제 정식으로 제공됩니다</block>
-  <block id="71c5d2f3f39fa5ddeeec1b7e5cd06c5e" category="paragraph">Ransomware Resilience는 이제 Azure NetApp Files 시스템을 지원하여 Azure NetApp Files에서 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 워크로드를 검색할 때 Ransomware Resilience는 이제 Azure NetApp Files를 표시하고 보호 대시보드에 표시합니다. Azure NetApp Files에 대한 Ransomware Resilience 지원에는 스냅샷만을 사용한 탐지 및 보호 전략이 포함됩니다. Azure NetApp Files 지원은 현재 정식 출시(GA)되었습니다.</block>
-  <block id="23261131430f46ec6fb27110ac7f00fc" category="section-title">SOAR의 사용자 차단 지원</block>
-  <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience이 이제 Google SecOps 및 Splunk SOAR 플레이북을 사용하여 개별 사용자 차단을 지원합니다. 이 추가 기능을 통해 Ransomware Resilience에서 데이터 유출이나 대량 데이터 삭제와 같은 의심스러운 사용자 활동을 감지할 때 사용자 차단을 자동화할 수 있습니다.</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
-  <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">AWS 엔터프라이즈 할인 프로그램(EDP) 변경으로 인해 NetApp은 AWS 마켓플레이스에 독립형 Cloud Volumes ONTAP 구독을 출시했습니다. 이를 통해 Cloud Volumes ONTAP 용량과 데이터 서비스 요금을 분리하여 청구할 수 있습니다. 이러한 분리를 통해 EDP 크레딧 및 비용 관리에 있어 더욱 유연성을 확보할 수 있습니다. NetApp은 Cloud Volumes ONTAP 사용량에 대한 비용 관리를 개선하기 위해 독립형 구독을 사용하는 것을 권장하며, EDP 요건이 적용되는 2026년 7월 31일 이후에는 데이터 서비스 요금 청구를 위해 NIS 구독을 계속 사용할 것을 권장합니다.</block>
-  <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS의 독립형 Cloud Volumes ONTAP 구독은 유효한 용량 기반 Essentials 또는 Freemium 라이센스 패키지만 지원합니다. Professional 패키지는 지원되지 않습니다. 필요에 가장 적합한 청구 방법을 선택할 수 있습니다.</block>
-  <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*독립형 Cloud Volumes ONTAP 구독(권장)*: AWS 마켓플레이스에서 독립형 구독을 통해 Cloud Volumes ONTAP 사용량에 대한 비용을 지불하고, 데이터 서비스 요금은 NIS 구독을 통해 계속 청구됩니다. 이 옵션은 NetApp Console의 AWS 계정에 독립형 및 NIS 구독이 모두 연결된 대부분의 고객에게 권장됩니다.</block>
-  <block id="89df3be47eb3a96e140986018ec88f25" category="list-text">*통합 NIS 구독*: 기존 NIS 목록을 통해 Cloud Volumes ONTAP과 데이터 서비스를 함께 결제하세요. 이 통합 방식은 NetApp Console에서 AWS 계정에 NIS 구독만 연결된 기존 고객에게 적용됩니다. 하지만 NetApp은 더 나은 비용 관리를 위해 Cloud Volumes ONTAP 사용량에 대한 결제 기본 설정을 지정하고 독립형 구독으로 전환하는 것을 권장합니다.</block>
-  <block id="f0bbf3eb80d447bdeec06a404e0deecc" category="paragraph">구독 유형에 따라 다음과 같은 시나리오가 제공됩니다.</block>
-  <block id="136ebd87e9330d7c5a86db1bea619a09" category="paragraph-title">독립형 구독만 가능(신규 고객)</block>
-  <block id="4878475e6c6d651007ba24b57dd8f52c" category="paragraph">NetApp Console의 AWS 계정에 독립형 AWS 구독만 연결되어 있고 NIS 구독이 없는 경우, 배포 시 Essentials 라이선스 패키지만 선택할 수 있습니다. 데이터 서비스 *Backup and Recovery* 옵션을 사용할 수 없습니다.</block>
-  <block id="b841a0c2e7683cb86c696f570ce9b7c5" category="paragraph-title">독립 실행형 및 NIS 구독(기존 고객) 모두</block>
-  <block id="e5f964639d2d368944a708c9d9159fb8" category="paragraph">AWS 계정에 NIS 구독과 독립 실행형 구독이 모두 연결되어 있고 NetApp Console의 *청구 기본 설정* 탭에서 청구 기본 설정을 지정하지 않은 경우 Cloud Volumes ONTAP 사용량은 기본적으로 NIS를 통해 청구됩니다. 독립 실행형 목록에서는 Professional을 지원하지 않으므로 Professional 패키지를 실행하는 모든 Cloud Volumes ONTAP 인스턴스에서도 기본적으로 이 방식이 적용됩니다. 청구 기본 설정을 지정하여 각 서비스에 대한 청구 방식을 선택할 수 있습니다.</block>
-  <block id="6dd79ef85372ac622a4d4c5dc46a3c46" category="list-text">독립형 구독을 Cloud Volumes ONTAP(Essentials 패키지 포함)의 기본 결제 계정으로 설정하세요. Professional 패키지만 있는 경우 Essentials 패키지로 전환하고 결제 기본 설정을 지정하여 Cloud Volumes ONTAP 사용량을 청구할 수 있습니다. 이 방법은 Cloud Volumes ONTAP EDP 크레딧을 보다 효과적으로 관리하는 데 도움이 되므로 권장합니다.</block>
-  <block id="a77b7d4efa6f963267f588c46c34df1b" category="list-text">NIS 구독을 사용하여 데이터 서비스 요금을 청구하거나 Professional 패키지를 통해 Cloud Volumes ONTAP 사용량을 청구합니다. 배포 중에 *Backup and Recovery* 데이터 서비스를 활성화하고 Professional 라이센스 패키지를 선택하여 NIS 구독을 통해 데이터 서비스 요금을 청구합니다.</block>
-  <block id="8c746863961baaa82aba27b4fd37e769" category="paragraph-title">NIS 구독 전용(기존 고객)</block>
-  <block id="f838fe2f68473e970c4c89e5cbfc3369" category="paragraph">이는 AWS 계정과 연결된 NIS 구독을 보유한 기존 고객에게 적용됩니다. 현재와 같이 Cloud Volumes ONTAP과 데이터 서비스를 함께 청구할 수 있습니다. 하지만 NetApp은 Cloud Volumes ONTAP 사용량에 대한 비용 관리를 개선하기 위해 독립형 구독 방식으로 전환하는 것을 권장합니다.</block>
-  <block id="2a4095338c2cb1e2257dd4e02f2451ce" category="list-text">AWS 포털에서 새로운 독립형 목록을 구독하세요.</block>
-  <block id="ee8232a8731e2273fe25bf49ea87389a" category="list-text">독립형 구독을 AWS 계정에 연결하세요.</block>
-  <block id="46568565f79aa968105d34a67e84131a" category="list-text">Essentials 패키지를 사용한 Cloud Volumes ONTAP 사용에 대해 결제 기본 설정을 독립형 구독으로 설정하십시오.</block>
-  <block id="ef9583ff5df47277e937b49f54639572" category="list-text">(해당되는 경우) Professional 패키지를 Essentials 패키지로 변경하고 결제 방식을 설정하세요.</block>
-  <block id="8460f8e45452fdd819096e78fca80090" category="list-text">NIS 구독을 통해 데이터 서비스 요금 청구를 계속 진행하십시오.</block>
-  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">여러 구독 유형을 사용하거나 목록 간에 마이그레이션하는 경우 중복 측정이 발생하지 않습니다.</block>
-  <block id="06afa66cf6eca938a45be835a47030e1" category="list-title">관련 링크</block>
-  <block id="050c120c7155ccd2f0ee729008e2ff37" category="inline-link">AWS에서 Cloud Volumes ONTAP 라이선스를 설정합니다</block>
-  <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
-  <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">용량 라이선스 요금 부과 방식 변경</block>
-  <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
-  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026년 5월 12일</block>
-  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">이제 클린 복원 기능을 통해 다른 위치로 복구할 수 있습니다. 이를 통해 동일한 Console 에이전트에서 관리하는 다른 시스템, 스토리지 VM 및 애그리게이트로 볼륨을 복원할 수 있습니다. 또한, 클린 복원 기능은 복구에 사용할 수 있는 스냅샷을 검색하는 데 적용되던 7일 제한을 해제했습니다. 이제 클린 복원 기능은 랜섬웨어 발생 시점과 관계없이 사용 가능한 스냅샷을 지속적으로 검색하여 복구 지점을 찾습니다.</block>
-  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
-  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">개선된 구성 페이지</block>
-  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">데이터 분류 기능이 구성 페이지를 업데이트하고 개선하여 설정, 시스템 관리, 스캔 활성화 및 시스템 상태 모니터링을 더욱 편리하게 관리할 수 있는 향상된 사용 편의성 환경을 제공합니다. 새로운 구성 페이지는 기존 기능을 더욱 사용하기 쉬운 형식으로 제공하며, 시스템 유형, 오류 상태 및 스캔 상태별로 시스템을 필터링할 수 있는 기능을 추가했습니다. 또한 연결된 시스템 요약 정보와 활성 및 구성된 스캔 개요를 제공합니다.</block>
-  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">비디오 둘러보기</block>
-  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Data Classification을 사용하여 데이터 소스 스캔</block>
-  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph"><block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>을(를) 검토하십시오. 자세한 내용은 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">규정 준수 관리자 IAM 역할</block>
-  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">Data Classification은 이제 Data Classification의 권한을 관리하기 위한 Compliance admin 역할을 지원합니다. Compliance admin 역할은 Console 에이전트 및 작업 영역을 포함한 리소스에 대한 액세스 권한이 없습니다. Compliance admin 역할을 가진 사용자는 최소한 하나 이상의 다른 역할과 연결되어야 합니다.</block>
-  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Data Classification을 설치하려면 Console 플랫폼 관리자 역할 또는 Compliance 관리자 역할이 있어야 합니다.</block>
-  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">기존 사용자라면 평소와 같이 액세스 권한이 유지됩니다. 예를 들어, 폴더 또는 프로젝트 관리자 역할을 가진 플랫폼 역할은 기존 액세스 권한을 그대로 유지합니다.</block>
-  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 역할</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">웰니스 리뷰</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026년 7월부터 Digital Advisor에서 Wellness Review 기능을 더 이상 사용할 수 없습니다. 문의 사항이 있으시면 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]으로 이메일을 보내주세요.</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026년 5월 18일</block>
@@ -240,12 +158,8 @@
   <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilience에서 보고서 다운로드</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">보고서에 대한 자세한 내용은 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>를 참조하십시오. 복구에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">자세한 내용은 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>을 참조하세요.</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
-  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: 이번 릴리스에는 Trident Protect 26.05.1이 포함되어 있습니다.</block>
-  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*VM 기반 앱의 제자리 복원*: 이제 VM 기반 애플리케이션을 원래 네임스페이스 및 원래 클러스터로 복원할 수 있습니다.</block>
-  <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp은 AWS에서 Cloud Volumes ONTAP 구독에 대한 향상된 청구 옵션을 제공하여 Cloud Volumes ONTAP 용량 및 NetApp Backup and Recovery와 같은 NetApp 데이터 서비스 비용 지불 방식을 더욱 세밀하게 제어할 수 있도록 지원합니다. 이전에는 모든 Cloud Volumes ONTAP 및 데이터 서비스 사용량이 AWS 마켓플레이스의 NetApp Intelligent Services(NIS) 목록을 통해 통합적으로 청구되었습니다.</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026년 5월 26일</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.</block>
@@ -412,10 +326,7 @@
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
   <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">위협 탐지 및 분석을 위해 SIEM에 연결</block>
   <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="b6e501a3f9a9964fecae7c393bb7cf74" category="doc">Cloud Volumes ONTAP 9.19.1 RC</block>
-  <block id="f11434f81dce28dd60c981c553fa8539" category="paragraph">이제 NetApp Console을 사용하여 Google Cloud에서 Cloud Volumes ONTAP 9.19.1 릴리스 후보(RC) 버전을 배포하고 관리할 수 있습니다. 이 버전은 Amazon Web Service(AWS) 및 Microsoft Azure(Azure)에서는 배포 및 업그레이드가 불가능합니다.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">이번 Cloud Volumes ONTAP 릴리스에 대해 자세히 알아보십시오</block>
-  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block>.</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 에서 차세대 Google Cloud VM 지원</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1에서 NetApp은 Cloud Volumes ONTAP 고가용성(HA) 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다.</block>
   <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">이 지원은 단일 가용 영역(AZ) 고가용성(HA) 배포에만 적용됩니다.</block>
@@ -608,4 +519,7 @@
   <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">랜섬웨어 방어 기능이 이제 사용자 차단 및 차단된 사용자 관리를 위한 간소화된 사용자 환경을 제공합니다. 이번 업데이트를 통해 차단한 사용자를 쉽게 확인하고 수정할 수 있습니다. 사용자를 차단하려면 <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>을(를) 구성해야 합니다.</block>
   <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">차단된 사용자 관리</block>
   <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">자세한 내용은 <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
+  <block id="a504c964d28135033096219100cd2752" category="paragraph">Cloud Volumes ONTAP 9.19.1 릴리스 후보(RC) 버전은 Google Cloud에서만 9.19.1 일반 출시(GA) 버전으로 업그레이드할 수 있습니다.</block>
+  <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>.</block>
 </blocks>
