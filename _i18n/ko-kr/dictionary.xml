@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM에 대한 대체 위치 복원 지원*: 이제 SAN 기반 VM 백업을 다른 위치로 복원할 수 있습니다.</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*여러 백업 삭제 지원*: 이제 한 번에 여러 백업을 삭제할 수 있습니다.</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 워크로드 개선 사항</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">이번 릴리스에서 Oracle 데이터베이스 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*플러그형 데이터베이스(PDB) 복원 및 복제*: NetApp Console 서비스용 백업 및 복구 기능이 이제 플러그형 데이터베이스 복원 및 복제를 지원합니다.</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Database 워크로드 보호 개요</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*에어갭 리소스에 대한 미리 보기 지원*: NetApp Console 로컬 배포에서 NetApp Backup and Recovery를 실행하는 경우 에어갭 Kubernetes 리소스를 검색, 보호 및 복원할 수 있습니다. 이 기능은 이번 릴리스에서 미리 보기로 제공됩니다.</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*복원 작업을 백업보다 우선 순위 지정*: 이제 가상 머신이나 파일을 복원할 때 복원 작업을 백업 작업보다 우선 순위로 지정할 수 있습니다.</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Backup and Recovery 활성화 없이 ONTAP 시스템 및 볼륨 검색*: 이제 Backup and Recovery를 활성화하지 않고도 시스템과 볼륨을 검색할 수 있습니다.</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">활성 스캔 탭으로 스캔 관리 향상</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">데이터 분류 기능의 구성 메뉴에 *활성 스캔* 탭이 추가되어 스캔 관리가 더욱 편리해졌습니다. 활성 스캔 탭에서는 스캔을 활성화한 모든 볼륨을 한눈에 볼 수 있으며, 익숙한 필터를 사용하여 리소스를 정렬할 수 있습니다. 또한, 이 탭은 스캔 우선순위 지정, 스캔 일시 중지, 오류 검토를 위한 중앙 위치를 제공합니다.</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">스캔 관리</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">자세한 내용은 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
