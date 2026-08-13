@@ -131,8 +131,6 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 워크로드 개선 사항</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Hyper-V 워크로드 보호 개요</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
@@ -565,4 +563,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">데이터 수집기 삭제</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합니다. 데이터 수집기는 워크로드에서 사용자 활동 감지를 활성화하면 자동으로 생성됩니다. 데이터 수집기가 더 이상 유효하지 않게 되면 이제 수동으로 삭제할 수 있습니다.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">NetApp Backup and Recovery를 사용한 Hyper-V 보호 워크플로</block>
+  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>를 참조하십시오.</block>
 </blocks>
