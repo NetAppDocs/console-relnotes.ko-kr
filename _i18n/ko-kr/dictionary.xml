@@ -565,4 +565,7 @@
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">NetApp Backup and Recovery를 사용한 Hyper-V 보호 워크플로</block>
   <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 기능에 대한 사용 중단 안내</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용되지 않을 예정입니다.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026년 8월 12일</block>
 </blocks>

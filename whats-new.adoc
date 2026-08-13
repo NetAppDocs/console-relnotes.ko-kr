@@ -73,6 +73,24 @@ Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합�
 
 
 
+[[12-august-2026]]
+== 2026년 8월 12일
+
+
+
+[[digital-advisor]]
+=== 디지털 어드바이저
+
+
+
+==== Config Drift 기능에 대한 사용 중단 안내
+
+Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용되지 않을 예정입니다.
+
+문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.
+
+
+
 [[10-august-2026]]
 == 2026년 8월 10일
 
