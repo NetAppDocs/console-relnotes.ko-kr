@@ -562,4 +562,7 @@
   <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">이제 서비스는 클러스터 상태 업데이트를 더욱 효율적으로 처리하여 간헐적인 시간 초과 및 다운타임을 줄이고 SMaS 관계에 대한 자동 계획 외 장애 조치 중재 기능을 강화합니다.</block>
   <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 관리에는 보안 및 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026년 8월 13일</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">데이터 수집기 삭제</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합니다. 데이터 수집기는 워크로드에서 사용자 활동 감지를 활성화하면 자동으로 생성됩니다. 데이터 수집기가 더 이상 유효하지 않게 되면 이제 수동으로 삭제할 수 있습니다.</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
