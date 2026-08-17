@@ -30,6 +30,54 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[17-august-2026]]
+== 2026년 8월 17일
+
+
+
+[[backup-and-recovery]]
+=== 백업 및 복구
+
+
+
+==== Hyper-V 워크로드 개선 사항
+
+이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.
+
+*오브젝트 스토리지 백업을 다른 위치로 복원*: 이제 Hyper-V 가상 머신, 파일 및 폴더를 오브젝트 스토리지에서 다른 스토리지 위치로 복원할 수 있습니다.
+
+Hyper-V 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["NetApp Backup and Recovery를 사용하여 Hyper-V 워크로드를 보호하는 방법에 대해 알아보십시오."]를 참조하십시오.
+
+
+
+==== Kubernetes 워크로드 개선 사항
+
+이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.
+
+* *Trident Protect 26.08*: 이번 릴리스에는 Trident Protect 26.08가 포함되어 있습니다.
+* *백업 재시도*: 이제 Kubernetes 보호 정책의 고급 설정에서 백업 재시도를 활성화하고 재시도 횟수 및 재시도 간격을 구성할 수 있습니다.
+* *부분 백업 성공*: 이제 Kubernetes 보호 정책의 고급 설정을 통해 개별 리소스에 장애가 발생하더라도 백업을 계속 진행하여 백업 작업이 부분적으로 성공한 것으로 처리할 수 있습니다. 이를 통해 백업 작업 중 일부 리소스에 장애가 발생하더라도 백업된 리소스를 복원할 수 있습니다.
+* *크래시 일관성 및 VM 일관성 백업*: NetApp Console용 백업 및 복구 서비스는 이제 크래시 일관성 또는 VM 일관성 백업이나 스냅샷을 생성하는 보호 정책 구성을 지원합니다. 또한 보호 작업 중에 VM을 일시 중지하는 방법을 사용자 지정할 수 있습니다.
+* *콘솔 에이전트 IP 주소 변경 시 Kubernetes 클러스터 재연결*: NetApp Console 서비스용 Backup and Recovery를 사용하면 이제 에이전트의 IP 주소가 변경될 경우 클러스터를 콘솔 에이전트에 다시 연결할 수 있습니다.
+* *클러스터 새 콘솔 에이전트로 마이그레이션*: NetApp Console 서비스용 Backup and Recovery를 사용하면 기존 에이전트에 장애가 발생하거나 삭제된 경우 클러스터를 새 콘솔 에이전트로 마이그레이션하여 애플리케이션 보호 기능을 중단 없이 유지할 수 있습니다.
+
+
+Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["NetApp Backup and Recovery를 사용하여 Kubernetes 워크로드를 보호하는 방법에 대해 알아보십시오."]을 참조하세요.
+
+
+
+==== Oracle Database 워크로드 향상
+
+이번 릴리스에서 Oracle 데이터베이스 워크로드는 다음과 같은 개선 사항을 도입했습니다.
+
+* *플러그형 데이터베이스(PDB) 복원*: 이제 개별 플러그형 데이터베이스(PDB) 및 PDB 테이블스페이스를 복원할 수 있으며, 특정 시점 복구도 가능합니다.
+* *플러그형 데이터베이스(PDB) 복제*: 이제 기존 대상 컨테이너 데이터베이스(CDB)에 단일 PDB를 복제할 수 있으며, 전체 컨테이너 데이터베이스를 복제할 때 선택적으로 PDB를 제외할 수도 있습니다.
+
+
+Oracle Database 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["NetApp Backup and Recovery를 사용하여 Oracle Database 워크로드를 보호하는 방법에 대해 알아보십시오."]을 참조하십시오.
+
+
+
 [[13-august-2026]]
 == 2026년 8월 13일
 
@@ -1161,58 +1209,3 @@ NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
 ==== 구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.
 
 이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Keystone 구독의 타임라인 보기"]을 참조하십시오.
-
-
-
-[[18-may-2026]]
-== 2026년 5월 18일
-
-
-
-[[ransomware-resilience]]
-=== 랜섬웨어 복원력
-
-
-
-==== Google Cloud NetApp Volumes 지원(미리 보기)
-
-랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["랜섬웨어 복원력에 대해 알아보세요"^]을 참조하세요. Google Cloud NetApp Volumes 지원 범위에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["랜섬웨어 복원력의 한계"^]을 참조하세요.
-
-
-
-==== 클린 복원 기능 향상
-
-이제 클린 복원에서 보고서 기능을 지원합니다. 보고서를 통해 클린 복원 결과를 검토하고 평가할 수 있으며, 해당 정보를 CSV 파일로 오프라인에 저장할 수 있습니다.
-
-이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.
-
-보고서에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Ransomware Resilience에서 보고서 다운로드"^]를 참조하십시오. 복구에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["깔끔한 복원을 통해 워크로드 복구"^]를 참조하십시오.
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure에서 간소화된 Cloud Volumes ONTAP 배포
-
-이제 빠른 생성 기능을 사용하여 단일 노드 및 고가용성(HA) 구성 모두에 대해 Azure에 Cloud Volumes ONTAP을 배포할 수 있습니다. 이 간소화된 프로세스는 고급 방법에 비해 단계 수를 줄이고, 단일 페이지에서 기본값을 자동으로 설정하며, 탐색 과정을 최소화하여 배포를 더 빠르고 쉽게 만들어 줍니다.
-
-.관련 링크
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-azure.html["빠른 생성 기능을 사용하여 Azure에 Cloud Volumes ONTAP 배포"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure의 고급 옵션을 사용하여 Cloud Volumes ONTAP 배포"^]
-
-
-
-
-[[digital-advisor]]
-=== 디지털 어드바이저
-
-
-
-==== 웰니스 리뷰
-
-2026년 7월부터 Digital Advisor에서 Wellness Review 기능을 더 이상 사용할 수 없습니다. 문의 사항이 있으시면 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]으로 이메일을 보내주세요.

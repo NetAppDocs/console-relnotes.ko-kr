@@ -121,7 +121,6 @@
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>을 참조하세요.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
-  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">랜섬웨어 복원력에 대해 알아보세요</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">다음 서비스는 더 이상 사용되지 않습니다.</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware 워크로드 보호 개요</block>
@@ -131,31 +130,13 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 워크로드 개선 사항</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">깔끔한 복원을 통해 워크로드 복구</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">클린 복원 기능 향상</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
-  <block id="ba0619dd0f47665766133e60320fb439" category="doc">웰니스 리뷰</block>
-  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026년 7월부터 Digital Advisor에서 Wellness Review 기능을 더 이상 사용할 수 없습니다. 문의 사항이 있으시면 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]으로 이메일을 보내주세요.</block>
-  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026년 5월 18일</block>
-  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Azure에서 간소화된 Cloud Volumes ONTAP 배포</block>
-  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">이제 빠른 생성 기능을 사용하여 단일 노드 및 고가용성(HA) 구성 모두에 대해 Azure에 Cloud Volumes ONTAP을 배포할 수 있습니다. 이 간소화된 프로세스는 고급 방법에 비해 단계 수를 줄이고, 단일 페이지에서 기본값을 자동으로 설정하며, 탐색 과정을 최소화하여 배포를 더 빠르고 쉽게 만들어 줍니다.</block>
-  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">빠른 생성 기능을 사용하여 Azure에 Cloud Volumes ONTAP 배포</block>
-  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
-  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Azure의 고급 옵션을 사용하여 Cloud Volumes ONTAP 배포</block>
-  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 지원(미리 보기)</block>
-  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes 시스템을 지원하여 Google Cloud NetApp Volumes에서 발생하는 랜섬웨어 위협을 효율적으로 탐지하고 대응할 수 있습니다. 검색을 수행하면 랜섬웨어 복원력이 Google Cloud NetApp Volumes 시스템의 워크로드를 자동으로 표시합니다. 시스템이 검색되면 랜섬웨어 복원력 대시보드에 표시됩니다. 랜섬웨어 복원력의 Google Cloud NetApp Volumes 지원은 현재 미리 보기로 제공됩니다.</block>
-  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">랜섬웨어 복원력의 한계</block>
-  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">자세한 내용은 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>을 참조하세요. Google Cloud NetApp Volumes 지원 범위에 대한 자세한 내용은 <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>을 참조하세요.</block>
-  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">이제 클린 복원에서 보고서 기능을 지원합니다. 보고서를 통해 클린 복원 결과를 검토하고 평가할 수 있으며, 해당 정보를 CSV 파일로 오프라인에 저장할 수 있습니다.</block>
-  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">이제 클린 복원 시 분석 중지 기능도 지원합니다. 분석을 중지하면 클린 복원을 다시 시작해야 합니다.</block>
-  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilience에서 보고서 다운로드</block>
-  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">보고서에 대한 자세한 내용은 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>를 참조하십시오. 복구에 대한 자세한 내용은 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
@@ -568,4 +549,23 @@
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 기능에 대한 사용 중단 안내</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용되지 않을 예정입니다.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026년 8월 12일</block>
+  <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
+  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*오브젝트 스토리지 백업을 다른 위치로 복원*: 이제 Hyper-V 가상 머신, 파일 및 폴더를 오브젝트 스토리지에서 다른 스토리지 위치로 복원할 수 있습니다.</block>
+  <block id="9836134eb11f1353834ea33101d25681" category="inline-link">NetApp Backup and Recovery를 사용하여 Hyper-V 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
+  <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*: 이번 릴리스에는 Trident Protect 26.08가 포함되어 있습니다.</block>
+  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*백업 재시도*: 이제 Kubernetes 보호 정책의 고급 설정에서 백업 재시도를 활성화하고 재시도 횟수 및 재시도 간격을 구성할 수 있습니다.</block>
+  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*부분 백업 성공*: 이제 Kubernetes 보호 정책의 고급 설정을 통해 개별 리소스에 장애가 발생하더라도 백업을 계속 진행하여 백업 작업이 부분적으로 성공한 것으로 처리할 수 있습니다. 이를 통해 백업 작업 중 일부 리소스에 장애가 발생하더라도 백업된 리소스를 복원할 수 있습니다.</block>
+  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*크래시 일관성 및 VM 일관성 백업*: NetApp Console용 백업 및 복구 서비스는 이제 크래시 일관성 또는 VM 일관성 백업이나 스냅샷을 생성하는 보호 정책 구성을 지원합니다. 또한 보호 작업 중에 VM을 일시 중지하는 방법을 사용자 지정할 수 있습니다.</block>
+  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*콘솔 에이전트 IP 주소 변경 시 Kubernetes 클러스터 재연결*: NetApp Console 서비스용 Backup and Recovery를 사용하면 이제 에이전트의 IP 주소가 변경될 경우 클러스터를 콘솔 에이전트에 다시 연결할 수 있습니다.</block>
+  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*클러스터 새 콘솔 에이전트로 마이그레이션*: NetApp Console 서비스용 Backup and Recovery를 사용하면 기존 에이전트에 장애가 발생하거나 삭제된 경우 클러스터를 새 콘솔 에이전트로 마이그레이션하여 애플리케이션 보호 기능을 중단 없이 유지할 수 있습니다.</block>
+  <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">NetApp Backup and Recovery를 사용하여 Kubernetes 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
+  <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>을 참조하세요.</block>
+  <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Database 워크로드 향상</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">이번 릴리스에서 Oracle 데이터베이스 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
+  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*플러그형 데이터베이스(PDB) 복원*: 이제 개별 플러그형 데이터베이스(PDB) 및 PDB 테이블스페이스를 복원할 수 있으며, 특정 시점 복구도 가능합니다.</block>
+  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*플러그형 데이터베이스(PDB) 복제*: 이제 기존 대상 컨테이너 데이터베이스(CDB)에 단일 PDB를 복제할 수 있으며, 전체 컨테이너 데이터베이스를 복제할 때 선택적으로 PDB를 제외할 수도 있습니다.</block>
+  <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery를 사용하여 Oracle Database 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
+  <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026년 8월 17일</block>
 </blocks>
