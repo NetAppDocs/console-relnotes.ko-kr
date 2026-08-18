@@ -568,4 +568,8 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery를 사용하여 Oracle Database 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026년 8월 17일</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Google Cloud NetApp Volumes 지원(잘 설계된 대시보드)</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 대시보드에서 이제 Google Cloud NetApp Volumes를 지원합니다. 스토리지 관리자는 스토리지 풀 및 구성 상태를 확인하고, 효율성, 비용, 성능, 안정성 및 보안을 개선하기 위한 권장 사항을 받아보고, 운영을 최적화하고 모범 사례를 따르기 위한 조치를 취할 수 있습니다.</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes에 대한 구성 분석</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph"><block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
 </blocks>
