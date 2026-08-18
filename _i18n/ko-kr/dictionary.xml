@@ -424,7 +424,6 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">SIEM 시스템 비활성화</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">자세한 내용은 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026년 7월 27일</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">이전 구성 이름</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">새 구성 이름</block>
@@ -572,7 +571,8 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console의 well-architected 대시보드는 Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다.</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">FSx for ONTAP의 구성 분석에 대해 알아보기</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 FSx for ONTAP에 대한 새로운 스토리지 구성 이름이 포함됩니다.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.</block>
 </blocks>
