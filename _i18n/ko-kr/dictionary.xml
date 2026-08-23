@@ -141,9 +141,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026년 5월 26일</block>
-  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.</block>
-  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Keystone 구독의 타임라인 보기</block>
-  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026년 5월 25일</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다.</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 위젯 이름 업데이트</block>
@@ -280,7 +277,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">기술 업데이트 기능이 이제 *시스템 새로 고침*으로 이름이 변경되었습니다. 방법을 알아보세요<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">용량 추가 기능이 이제 *Storage Expansion*으로 이름이 변경되었습니다. 방법을 알아보세요<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">갱신 기능이 이제 *Support Renewals*로 이름이 변경되었습니다. 방법을 알아보세요<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
-  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">자세한 내용은<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>을 참조하십시오.</block>
@@ -575,4 +571,10 @@
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Value Insights를 소개합니다</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 기능은 ONTAP 시스템의 전반적인 상태, 비용 절감, 안정성 및 보안 정보를 통합하여 제공합니다. 이 정보를 활용하여 ONTAP 환경에 대한 지속적인 데이터 기반 분석을 통해 시스템 상태와 성능을 개선할 수 있습니다.</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights는 ONTAP 시스템에서만 사용할 수 있습니다.</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph"><block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026년 8월 20일</block>
 </blocks>
