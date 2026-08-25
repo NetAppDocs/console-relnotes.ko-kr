@@ -136,13 +136,8 @@
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
-  <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 지원(미리 보기)</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
-  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilience에서 보호 그룹 생성</block>
-  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026년 5월 26일</block>
-  <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience는 이제 Google Cloud NetApp Volumes 시스템의 워크로드에 대한 보호 그룹 생성을 지원하여, 여러 워크로드를 하나의 정책 아래에 구성해 관리 효율성을 높일 수 있습니다.</block>
-  <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">자세한 내용은 <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 위젯 이름 업데이트</block>
   <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">다음 Digital Advisor 기능의 이름이 변경되었습니다.</block>
   <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">시스템 새로 고침 평가</block>
@@ -577,4 +572,9 @@
   <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
   <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph"><block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
   <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026년 8월 20일</block>
+  <block id="03646431a428b1129a0642a9e9a930d6" category="inline-link">AWS Marketplace에서 Cloud Volumes ONTAP 온보딩</block>
+  <block id="22b14536778a26fb341e73c9dfc20414" category="list-text"><block ref="22b14536778a26fb341e73c9dfc20414" category="inline-link-rx"></block></block>
+  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure에서 오스트리아 동부 및 벨기에 중부 지역에 대한 지원</block>
+  <block id="44e833213a99257d69192896111996f4" category="paragraph">이제 Azure의 오스트리아 동부(austriaeast) 및 벨기에 중부(belgiumcentral) 리전에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
+  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026년 8월 25일</block>
 </blocks>
