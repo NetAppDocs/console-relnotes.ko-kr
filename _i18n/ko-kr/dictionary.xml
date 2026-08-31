@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">콘솔 에이전트를 통한 SIEM 이벤트 전달</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">랜섬웨어 복원력은 이제 NetApp Console을 통해 이벤트를 전달하는 기존 옵션 외에도 콘솔 에이전트를 통해 SIEM 이벤트를 전달하는 것을 지원합니다.</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">콘솔 에이전트를 통해 SIEM 이벤트를 전달하면 네트워크 경계 내에서 SIEM 이벤트 전달을 유지할 수 있습니다. 이를 통해 엄격한 IP 주소 허용 목록이 있는 온프레미스 환경에 대한 배포가 간소화되고 기존 보안 제어와 더 잘 통합될 수 있습니다. 이 옵션을 사용하려면 콘솔 에이전트가 방화벽이나 프록시 제어를 통해 필요한 포트에서 SIEM 엔드포인트를 확인하고 연결할 수 있는지 확인하십시오.</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">향상된 SnapMirror 스냅샷 관리</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">이제 최신 스냅샷을 사용하여 페일오버를 트리거할 수 있습니다. 이는 새 스냅샷을 생성하지 않을 때 권장되는 방법입니다.</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">특정 스냅샷 기준선을 선택할 때 SnapMirror 전송 스냅샷은 기본적으로 숨겨집니다. 이는 장애 조치 도중에 해당 스냅샷이 삭제될 수 있으며, 이로 인해 "공통 스냅샷을 찾을 수 없음" 오류가 발생하여 장애 조치 후 워크로드를 다시 보호할 수 없게 될 수 있기 때문입니다. 이러한 스냅샷을 계속 사용할 수는 있지만, 위험을 인지하고 동의하는 추가 확인 절차를 완료해야 합니다.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">원격 사이트로 장애 조치</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">자세한 내용은 <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">기타 개선 사항</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">테스트 페일오버 워크플로의 복원력을 높이기 위해 몇 가지 사소한 개선 사항이 적용되었습니다.</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">스크립트를 추가할 때 발생하던 유효성 검사 오류가 수정되었습니다.</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">2026년 8월 31일</block>
 </blocks>
