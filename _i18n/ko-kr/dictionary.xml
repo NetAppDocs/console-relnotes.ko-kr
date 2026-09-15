@@ -125,99 +125,18 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware 워크로드 보호 개요</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP 볼륨 워크로드 보호 개요</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 워크로드 개선 사항</block>
-  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOAR 플레이북 통합</block>
-  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
-  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*S3 호환 클라우드 스토리지 지원*: NetApp Backup and Recovery for Volumes 워크로드가 이제 S3 호환 클라우드 스토리지로의 백업을 지원합니다.</block>
-  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*게스트 VM으로 파일 및 폴더 복원 기능 개선*: 이제 기본 또는 2차 스토리지의 스냅샷에서 게스트 Windows VM으로 파일 및 폴더를 복원할 수 있습니다. 이 기능은 CIFS 및 SAN VM에서 지원됩니다.</block>
-  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026년 6월 8일</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">이번 Data Classification 릴리스에는 보안 개선 사항과 성능 향상이 포함되어 있습니다.</block>
-  <block id="ad047b692e58386490130db85fe198fd" category="doc">보호 전략을 위한 향상된 유연성</block>
-  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Ransomware Resilience은 이제 랜섬웨어 탐지 전략을 선택하는 데 더 많은 유연성을 제공합니다. 이전에는 모든 랜섬웨어 보호 전략에 암호화 탐지가 포함되어야 했습니다. 이제 사용자 행동 탐지만으로 구성된 랜섬웨어 보호 전략을 활성화할 수 있습니다.</block>
-  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">보호 전략에는 암호화 감지_와_ 의심스러운 사용자 행동 감지가 모두 포함될 수 있습니다. 파일 확장자 차단 기능 또한 모든 보호 전략에 추가할 수 있습니다.</block>
-  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">기존 정책의 보호 전략 일부를 비활성화하면 이전 정책 버전에서 생성된 기존 경고는 "해결됨"으로만 표시할 수 있으며 "무시됨"으로는 표시할 수 없습니다. 예를 들어 암호화 감지 및 의심스러운 사용자 동작을 포함하는 보호 전략이 있었지만 암호화 감지를 비활성화한 경우 해당 워크로드에 대한 기존 암호화 경고만 해결할 수 있습니다.</block>
-  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">NetApp Ransomware Resilience 보호 전략으로 워크로드를 보호하세요</block>
-  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">자세한 내용은 <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOAR 플레이북 개선 사항</block>
-  <block id="993b3419e78327c12451169533b8d701" category="paragraph">Ransomware Resilience SOAR 플레이북에 이제 사용자를 차단하거나 볼륨을 오프라인으로 전환한 후 복구 단계가 포함되어 있습니다. 해당 작업이 랜섬웨어 위협이 아닌 것으로 판단되면 볼륨을 다시 온라인 상태로 전환하고 사용자 차단을 해제할 수 있습니다.</block>
-  <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1 이상 버전은 AWS에서 신규 및 기존 단일 노드와 고가용성(HA) 쌍 배포 모두에 대해 M6id 및 M6idn EC2 인스턴스 제품군을 지원합니다. 이러한 6세대 인스턴스는 5세대 범용 시스템에 비해 더 빠른 처리 속도, 강력한 네트워킹 기능 및 향상된 성능을 제공합니다.</block>
-  <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*M6id 인스턴스*: 고속 저지연 로컬 NVMe 스토리지를 통해 컴퓨팅 성능과 메모리 용량의 균형을 제공합니다. 모든 M6id 인스턴스 크기는 Flash Cache를 지원합니다. 이러한 인스턴스는 데이터 로깅 및 미디어 처리와 같은 워크로드에 적합합니다.</block>
-  <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*M6idn 인스턴스*: M6id 인스턴스와 동일한 로컬 NVMe 스토리지 기능을 제공합니다. 모든 M6idn 인스턴스 크기는 Flash Cache를 지원합니다.</block>
-  <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">고성능 또는 메모리 집약적인 워크로드에는 m6id.xlarge, m6id.2xlarge, m6idn.xlarge 및 m6idn.2xlarge 인스턴스 유형을 권장하지 않습니다. 이러한 워크로드에는 코어 개수와 메모리 용량이 더 큰 인스턴스 유형을 사용하십시오.</block>
-  <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWS에서 Cloud Volumes ONTAP에 대해 지원되는 구성</block>
-  <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">자세한 내용은<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>을 참조하세요.</block>
-  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">AWS의 Cloud Volumes ONTAP용 새 EC2 인스턴스 지원</block>
   <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetes 업데이트</block>
   <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">재해 복구 기능은 Kubernetes 기반 워크로드에 대해 다음과 같은 변경 사항을 도입했습니다.</block>
-  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Kubernetes 워크로드에 대한 페일오버 지원 테스트</block>
-  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">재해 복구 기능이 이제 Kubernetes 워크로드에 대한 페일오버 프로세스 테스트를 지원합니다. 페일오버 테스트를 통해 재해 복구 계획의 유효성을 검증할 수 있습니다. 테스트가 완료되면 테스트 페일오버를 정리할 수 있으며, 시스템이 자동으로 테스트 리소스를 정리하여 오버헤드를 줄이고 환경의 일관성을 유지합니다.</block>
-  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">장애 조치 프로세스 테스트</block>
-  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">자세한 내용은 <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="9be7f1264301a801add3868ed7829904" category="section-title">예약된 테스트 페일오버</block>
-  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">이제 테스트 페일오버 일정을 설정하여 재해 복구 테스트를 자동화할 수 있습니다. 반복적인 테스트 페일오버 일정을 설정하여 수동 개입 없이 복구 계획을 지속적으로 검증하고, 복구 목표에 대한 신뢰도를 유지하며 규정 준수 요건을 충족할 수 있습니다.</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">복제 계획 관리</block>
-  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">자세한 내용은 <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Kubernetes 워크로드의 예약된 검색</block>
-  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">예약된 검색 기능을 사용하면 Disaster Recovery가 새로운 Kubernetes 워크로드를 검색하는 빈도를 제어할 수 있습니다. 운영 주기에 맞춰 검색 간격을 구성하면 불필요한 시스템 오버헤드를 줄이는 동시에 새로운 워크로드를 적시에 감지하고 보호할 수 있습니다.</block>
-  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">검색 일정 사용자 지정</block>
-  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">자세한 내용은 <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware 업데이트</block>
-  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">빈 데이터 저장소 보호</block>
-  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">매핑 정보</block>
-  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">재해 복구 기능을 통해 이제 가상 머신(VM)이 없는 데이터스토어에 대한 보호 설정을 구성할 수 있습니다. 데이터스토어에 추가되는 모든 VM은 재해 복구 기능에 의해 자동으로 감지되며, 이때 <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>을(를) 제공해야 합니다.</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">원격 사이트로 페일오버</block>
-  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">보호 계획에 빈 데이터 저장소를 추가하는 경우, 장애 조치를 수행하기 전에 보호 계획에서 데이터 저장소를 제거하거나 강제 장애 조치를 수행해야 합니다. 자세한 내용은 <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">이전에 제외된 데이터 저장소를 보호 플랜으로 복원합니다</block>
-  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">이전에는 보호 대상에서 제외되었던 데이터 저장소를 이제 다시 포함할 수 있습니다. 이 개선 사항은 시간이 지남에 따라 재해 복구 구성을 관리하고 업데이트할 때 더 큰 유연성을 제공합니다.</block>
-  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">사이트, 리소스 그룹 및 복제 계획 관리</block>
-  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">자세한 내용은 <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
-  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">VMFS 기반 데이터 저장소의 더 빠른 페일오버</block>
-  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">재해 복구 기능이 VMFS 기반 데이터스토어의 페일오버 성능을 향상시켰습니다. Host Bus Adapter(HBA) 재검색 및 데이터스토어 마운트 작업이 이제 병렬로 실행되어 전체 페일오버 시간이 단축되고 복구 이벤트 중 다운타임이 최소화됩니다.</block>
-  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">재해 복구를 통한 페일오버</block>
-  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">페일오버에 대한 자세한 내용은 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Cloud Volumes ONTAP의 새로운 Azure 지역 지원</block>
-  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">이제 말레이시아 서부(malaysiawest) 지역의 Azure에서 단일 및 다중 가용 영역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 배포가 모두 포함됩니다.</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역 목록은<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026년 6월 11일</block>
-  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*: 이번 릴리스에는 Trident Protect 26.06가 포함되어 있습니다.</block>
-  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*복원 중 애플리케이션 생성 건너뛰기*: 이제 복원 작업 중 애플리케이션 사용자 지정 리소스 개체의 자동 생성을 건너뛸 수 있습니다. 이렇게 하면 애플리케이션 인벤토리에 불필요한 항목이 줄어듭니다.</block>
-  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*VM 영구 볼륨 클레임 복원*: VM 기반 애플리케이션을 복원할 때 이제 전체 가상 머신을 복원하지 않고 개별 영구 볼륨 클레임을 복원할 수 있으므로 특정 디스크 또는 볼륨이 손상되거나 데이터가 손실된 경우 복구 속도가 향상됩니다.</block>
-  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*작업 모니터링 개선 사항*: 이제 작업 모니터링을 통해 Kubernetes 보호 작업에 대한 가시성이 향상되었습니다. 작업 및 하위 작업에 대한 자세한 상태 정보를 확인하고 각 작업에서 사용되는 대상 스토리지를 볼 수 있습니다.</block>
-  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">2026년 6월 15일</block>
-  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">Hyper-V 워크로드용 보호 그룹 생성 및 관리</block>
-  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*보호 그룹이 이제 호스트 시간대 스케줄링을 사용합니다*: 보호 그룹은 이제 Hyper-V 호스트의 시간대를 사용합니다. 호스트 시간대 스케줄링이 도입되기 전에 생성된 보호 그룹은 이전에 구성된 시간(일반적으로 UTC)을 계속 사용합니다. 이러한 보호 그룹이 Hyper-V 호스트 시간대를 사용하도록 업데이트하려면 스케줄을 다시 생성해야 합니다. 자세한 내용은<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">VMware 워크로드용 보호 그룹 생성 및 관리</block>
-  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*보호 그룹이 이제 호스트 시간대 스케줄링을 사용합니다*: 보호 그룹은 이제 호스팅 VMware vCenter Server의 시간대를 사용합니다. 호스트 시간대 스케줄링이 도입되기 전에 생성된 보호 그룹은 이전에 구성된 시간대(일반적으로 UTC)에서 계속 실행됩니다. vCenter 시간대를 사용하려면 스케줄을 다시 생성해야 합니다. 자세한 내용은<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">프라이빗 모드 릴리스(4.7.0)</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 지원 사이트</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">새로운 비공개 모드 릴리스를 이제<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>에서 다운로드할 수 있습니다</block>
-  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">4.7.0 릴리스에는 다음과 같은 NetApp Console 구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">구성 요소 또는 서비스</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">이번 릴리스에 포함된 버전</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">이전 비공개 모드 릴리스 이후 변경 사항</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 에이전트</block>
-  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 페이지의 새로운 기능</block>
-  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell"><block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block>로 이동하여 버전 4.7.0에 포함된 변경 사항을 참조하십시오.</block>
-  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
-  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0 (2026년 6월 8일)</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 페이지의 새로운 기능</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell"><block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>로 이동합니다.</block>
-  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (2026년 5월 11일)</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 페이지의 새로운 기능</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell"><block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>로 이동합니다.</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">Health Check GraphQL 마이그레이션 및 데이터 정확도 개선</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">상태 점검 모듈이 데이터 정확도 향상 및 최신 버전 표준에 맞춘 권장 사항 제공 기능을 통해 개선되었습니다. 이번 릴리스에서는 공개 API에서 GraphQL로 마이그레이션되어 성능 향상, 유연한 쿼리 기능 및 장기적인 지원을 제공합니다.</block>
   <block id="d6493900927657728256c0c09c4e62d3" category="section-title">추천 소프트웨어</block>
@@ -254,9 +173,6 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console 에이전트 4.8.0</block>
-  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
-  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">이번 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">자세한 내용은<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>을 참조하십시오.</block>
@@ -513,8 +429,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">데이터 수집기 삭제</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합니다. 데이터 수집기는 워크로드에서 사용자 활동 감지를 활성화하면 자동으로 생성됩니다. 데이터 수집기가 더 이상 유효하지 않게 되면 이제 수동으로 삭제할 수 있습니다.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">NetApp Backup and Recovery를 사용한 Hyper-V 보호 워크플로</block>
-  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 기능에 대한 사용 중단 안내</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용되지 않을 예정입니다.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026년 8월 12일</block>
@@ -593,4 +507,7 @@
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026년 9월 2일</block>
+  <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">가상 머신에 대한 사용 중단 공지</block>
+  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Virtual Machine 기능은 2026년 10월에 Digital Advisor에서 더 이상 사용되지 않습니다.</block>
+  <block id="84de9715d135be833103283dc9df0296" category="section-title">2026년 9월 14일</block>
 </blocks>

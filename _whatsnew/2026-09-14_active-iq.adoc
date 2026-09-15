@@ -1,0 +1,12 @@
+= 가상 머신에 대한 사용 중단 공지
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== 가상 머신에 대한 사용 중단 공지
+
+Virtual Machine 기능은 2026년 10월에 Digital Advisor에서 더 이상 사용되지 않습니다.
+
+문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.
