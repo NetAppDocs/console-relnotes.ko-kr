@@ -364,7 +364,6 @@
   <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
   <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
   <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3 멀티 프로토콜</block>
-  <block id="401d011b2377a7c64751160aa39ff55c" category="paragraph">Cloud Volumes ONTAP이 이제 공개 미리 보기로 <block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block>와의 통합을 지원합니다. Cloud Volumes ONTAP를 <block ref="df6d917e247d0878fc8f4ddd737f9ab2" category="inline-link-rx"></block>과 통합하여 <block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block>을 사용하면 기존 Cloud Volumes ONTAP NAS 데이터를 Power BI, Azure AI Search, OpenAI, Microsoft Copilot 등 Microsoft 분석 및 AI 서비스에서 사용할 수 있습니다. 이 통합에는 데이터 이동이나 중복이 필요하지 않습니다. 이 통합은 <block ref="f8b4f97863c52739a61ab36e880c3d99" category="inline-link-rx"></block> 액세스를 사용하여 Cloud Volumes ONTAP를 기존 Microsoft Fabric Lakehouse에 연결합니다.</block>
   <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">관련 기사 및 자료:</block>
   <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp 블로그: Microsoft OneLake 및 NetApp Cloud Volumes ONTAP로 AI 및 분석 최적화</block>
   <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
@@ -510,4 +509,5 @@
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">가상 머신에 대한 사용 중단 공지</block>
   <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Virtual Machine 기능은 2026년 10월에 Digital Advisor에서 더 이상 사용되지 않습니다.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026년 9월 14일</block>
+  <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">이제 Cloud Volumes ONTAP에서 공개 프리뷰로 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>과의 통합을 지원합니다. Cloud Volumes ONTAP를 <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block>와 통합하려면 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>를 사용하여 Power BI, Azure AI Search, OpenAI, Microsoft Copilot 등 Microsoft 분석 및 AI 서비스에서 기존 Cloud Volumes ONTAP NAS 데이터를 사용할 수 있습니다. 이 통합에는 데이터 이동 또는 중복이 필요하지 않습니다. 이 통합은 <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> 액세스를 사용하여 Cloud Volumes ONTAP를 기존 Microsoft Fabric lakehouse에 연결합니다.</block>
 </blocks>
