@@ -521,4 +521,29 @@
   <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*일일 백업 데이터 전송 보고서*: NetApp Backup and Recovery for Volumes에 이제 보고서 탭에서 이용 가능한 일일 백업 데이터 전송 보고서가 포함되어 있어 환경 전반의 일일 백업 및 복제 데이터 전송 활동을 확인할 수 있습니다. 전체 계정 또는 선택한 스토리지 시스템에 대한 보고서를 생성하고, 날짜 범위 및 보호 유형별로 필터링한 후 CSV 파일로 다운로드할 수 있습니다.</block>
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">NetApp Backup and Recovery를 사용한 ONTAP 볼륨 보호에 대해 알아보십시오</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="432e57b4ac6417575095631e36c4ad84" category="doc">StorageGRID 12.1 지원</block>
+  <block id="b6d09872582b8745a9b3f149504d2383" category="paragraph">이제 NetApp Console에서 StorageGRID 12.1 시스템을 관리할 수 있습니다.</block>
+  <block id="fe21ed67c3641d5e2e10ba99109b6611" category="inline-link">NetApp Console의 고급 보기를 사용하여 StorageGRID를 관리하는 방법을 알아보십시오</block>
+  <block id="4df6d59ec4dc722c05f0d3acec14b56c" category="paragraph"><block ref="e0100fd3222c3d2603aecd8b497b4e0b" category="inline-link-rx"></block>.</block>
+  <block id="bc084b415a20851b8e676913db93fcd2" category="doc">NetApp Disaster Recovery에서 Kubernetes 지원 기능이 이제 정식 출시(GA)되었습니다.</block>
+  <block id="9324db17e670e1369640c556f71a1423" category="paragraph">NetApp Disaster Recovery에서 Kubernetes 기반 워크로드 지원이 정식 출시(GA)되었습니다. Kubernetes 기반 워크로드 지원을 통해 OpenShift 가상화 환경을 포함한 Kubernetes 클러스터에서 실행되는 애플리케이션을 보호할 수 있습니다. Disaster Recovery는 Trident Protect에서 현재 지원하는 모든 버전의 Kubernetes를 지원하므로 컨테이너화된 애플리케이션에 대한 원활한 통합과 강력한 재해 복구 기능을 제공합니다.</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery를 위한 Kubernetes 요구 사항</block>
+  <block id="09aa82bf41a96669e2e7ab72fce53b68" category="paragraph">Kubernetes 기반 워크로드 보호를 시작하려면 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="8bbea59fb56a0e0b18eb0dbc87a3e911" category="section-title">리소스 변환</block>
+  <block id="23ec139ada546bb40b0037293927926e" category="paragraph">재해 복구 기능이 이제 리소스 변환을 지원하여 장애 조치 중에 워크로드의 모든 측면을 수정할 수 있습니다. 이 기능은 재해 복구 이벤트 중에 워크로드를 다양한 환경 및 구성에 맞게 조정할 수 있는 유연성을 제공합니다.</block>
+  <block id="1cb71dc0319186e8a5ef959445ae26e6" category="inline-link-macro">리소스 변환 관리</block>
+  <block id="5dc97329134aa1a46a95297e199ee57a" category="paragraph">리소스 변환은 복제 계획을 생성할 때 적용됩니다. 새 설정 페이지에서 리소스 변환을 생성, 편집 및 삭제할 수 있습니다. 자세한 내용은 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">스크립트 실행</block>
+  <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">이제 장애 조치 워크플로에 사용자 지정 스크립트를 삽입하여 애플리케이션의 일시 중지 및 재개를 조정할 수 있습니다. 이 기능을 통해 스냅샷이 복제되고 적절하게 복원되기 전에 애플리케이션이 제대로 준비되도록 하여 장애 조치 후에도 원활하게 운영을 재개할 수 있습니다.</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획 생성</block>
+  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">사용자 지정 스크립트를 삽입하는 방법을 알아보려면 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">새 워크로드 페이지</block>
+  <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">재해 복구 기능에 워크로드 페이지가 추가되어 검색된 모든 워크로드와 해당 보호 상태를 한눈에 확인할 수 있습니다. 이 워크로드 페이지를 통해 워크로드를 더욱 효과적으로 모니터링하고 관리할 수 있습니다.</block>
+  <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">Disaster Recovery에서 상태 및 보호 상태 검토</block>
+  <block id="62cca7f4abc63d606056cd2842c6540f" category="paragraph">자세한 내용은 <block ref="97bec68dd22e6068edf69b3149251ef2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="cb212c0e367b7e5f6090b19e7f1473eb" category="section-title">설정 페이지</block>
+  <block id="7d4c91b69e54df2f702e8579ef0febe4" category="inline-link-macro">AppVaults 관리</block>
+  <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">이제 재해 복구 기능에 리소스 변환 템플릿과 AppVaults를 중앙에서 관리할 수 있는 설정 페이지가 제공됩니다. 이 페이지는 재해 복구 계획의 핵심 구성 요소를 구성하고 관리할 수 있는 단일 인터페이스를 제공합니다. 설정 페이지의 옵션에 대한 자세한 내용은 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 및 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="8904eb8da011894f529ca214813ca630" category="paragraph">NetApp Disaster Recovery는 더욱 원활하고 오류 없는 사용자 경험을 보장하기 위해 복제 계획 생성 페이지에 향상된 유효성 검사 기능을 도입했습니다.</block>
+  <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">Disaster Recovery는 간헐적인 요청 시간 초과를 허용하도록 서비스의 복원력을 높여 UI의 전반적인 성능과 안정성을 향상시켰습니다.</block>
 </blocks>
