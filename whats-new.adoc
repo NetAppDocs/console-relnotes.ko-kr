@@ -30,6 +30,22 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[16-september-2026]]
+== 2026년 9월 16일
+
+
+
+[[data-classification]]
+=== 데이터 분류
+
+
+
+==== 전반적인 개선
+
+이번 Data Classification 릴리스에는 보안 개선 사항과 성능 향상이 포함되어 있습니다.
+
+
+
 [[14-september-2026]]
 == 2026년 9월 14일
 

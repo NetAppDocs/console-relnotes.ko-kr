@@ -510,4 +510,7 @@
   <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Virtual Machine 기능은 2026년 10월에 Digital Advisor에서 더 이상 사용되지 않습니다.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026년 9월 14일</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">이제 Cloud Volumes ONTAP에서 공개 프리뷰로 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>과의 통합을 지원합니다. Cloud Volumes ONTAP를 <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block>와 통합하려면 <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>를 사용하여 Power BI, Azure AI Search, OpenAI, Microsoft Copilot 등 Microsoft 분석 및 AI 서비스에서 기존 Cloud Volumes ONTAP NAS 데이터를 사용할 수 있습니다. 이 통합에는 데이터 이동 또는 중복이 필요하지 않습니다. 이 통합은 <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> 액세스를 사용하여 Cloud Volumes ONTAP를 기존 Microsoft Fabric lakehouse에 연결합니다.</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">전반적인 개선</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">이번 Data Classification 릴리스에는 보안 개선 사항과 성능 향상이 포함되어 있습니다.</block>
+  <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026년 9월 16일</block>
 </blocks>
