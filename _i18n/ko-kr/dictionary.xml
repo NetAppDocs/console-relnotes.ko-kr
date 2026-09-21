@@ -588,4 +588,7 @@
   <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Cloud Volumes ONTAP의 노드 기반 라이센스 관리</block>
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026년 9월 21일</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: 이번 릴리스에는 Trident Protect 26.09가 포함되어 있습니다.</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*클러스터 및 네임스페이스 수준의 역할 기반 액세스 제어*: Kubernetes 클러스터 검색 중에 새 클러스터와 연결할 프로젝트 또는 폴더를 선택하여 리소스에 대한 액세스를 제어할 수 있습니다. 특정 네임스페이스를 등록하여 액세스 제어를 수행할 수도 있습니다. 이를 통해 클러스터 또는 네임스페이스 수준에서 더욱 세밀한 액세스 제어가 가능합니다.</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*파일 및 폴더 복원*: 이제 Kubernetes VM 기반 애플리케이션 백업에서 특정 파일 및 폴더를 복원하거나 다운로드할 수 있습니다.</block>
 </blocks>
