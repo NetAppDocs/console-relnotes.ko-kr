@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026년 7월 13일</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel용 ARM 템플릿</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">위협 탐지 및 분석을 위해 SIEM에 연결</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">자세한 내용은 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">이번 Cloud Volumes ONTAP 릴리스에 대해 자세히 알아보십시오</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 에서 차세대 Google Cloud VM 지원</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1에서 NetApp은 Cloud Volumes ONTAP 고가용성(HA) 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다.</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: 이번 릴리스에는 Trident Protect 26.09가 포함되어 있습니다.</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*클러스터 및 네임스페이스 수준의 역할 기반 액세스 제어*: Kubernetes 클러스터 검색 중에 새 클러스터와 연결할 프로젝트 또는 폴더를 선택하여 리소스에 대한 액세스를 제어할 수 있습니다. 특정 네임스페이스를 등록하여 액세스 제어를 수행할 수도 있습니다. 이를 통해 클러스터 또는 네임스페이스 수준에서 더욱 세밀한 액세스 제어가 가능합니다.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*파일 및 폴더 복원*: 이제 Kubernetes VM 기반 애플리케이션 백업에서 특정 파일 및 폴더를 복원하거나 다운로드할 수 있습니다.</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Ransomware Resilience에서 Microsoft Sentinel SIEM 구성</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">자세한 내용은 <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">웹훅을 사용하여 SIEM 시스템 구성</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">자세한 내용은 <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
