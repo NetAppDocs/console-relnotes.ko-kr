@@ -30,6 +30,32 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[25-september-2026]]
+== 2026년 9월 25일
+
+
+
+[[digital-advisor]]
+=== 디지털 어드바이저
+
+
+
+==== 가치 분석 대시보드 콘텐츠 업데이트
+
+Value Insights 대시보드 관련 문서 업데이트가 게시되었습니다.
+
+link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["Digital Advisor에서 Value Insights Dashboard를 사용하는 방법"^]에 대해 자세히 알아보십시오.
+
+
+
+==== Config Drift 기능에 대한 사용 중단 안내
+
+Config Drift 기능은 더 이상 사용되지 않으며 2026년 9월부터 Digital Advisor에서 더 이상 사용할 수 없습니다.
+
+문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.
+
+
+
 [[21-september-2026]]
 == 2026년 9월 21일
 

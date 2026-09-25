@@ -595,4 +595,10 @@
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*VM 호스트 검색 중 자격 증명 선택*: KVM, Hyper-V 또는 VMware 호스트를 검색할 때 Backup and Recovery에 이미 추가한 자격 증명을 사용할 수 있습니다.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 워크로드 향상</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*복원 작업을 백업보다 우선 순위 지정*: 이제 볼륨, 파일 또는 폴더를 복원할 때 복원 작업을 백업 작업보다 우선 순위로 지정할 수 있습니다.</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">가치 분석 대시보드 콘텐츠 업데이트</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Value Insights 대시보드 관련 문서 업데이트가 게시되었습니다.</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">Digital Advisor에서 Value Insights Dashboard를 사용하는 방법</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph"><block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 기능은 더 이상 사용되지 않으며 2026년 9월부터 Digital Advisor에서 더 이상 사용할 수 없습니다.</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026년 9월 25일</block>
 </blocks>
