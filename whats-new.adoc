@@ -348,7 +348,7 @@ Cloud Volumes ONTAP는 이제 비공개 미리 보기로 Azure Government Secret
 
 자세한 내용은 Azure 설명서를 참조하세요.
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["미국 정부 공관을 위한 클라우드^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["미국 정부 공관을 위한 클라우드 서비스"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-sto
 * 영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현
 
 
-지원되는 모든 지역 목록은 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure의 글로벌 지역 지도"^]을 참조하십시오.
+지원되는 모든 지역 목록은 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure의 글로벌 지역 지도"^]을 참조하십시오.
 
 
 
@@ -927,7 +927,7 @@ NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTA
 * 영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현
 
 
-지원되는 모든 지역 목록은 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure의 글로벌 지역 지도"^]을 참조하십시오.
+지원되는 모든 지역 목록은 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure의 글로벌 지역 지도"^]을 참조하십시오.
 
 
 
