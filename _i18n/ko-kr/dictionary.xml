@@ -581,4 +581,14 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">지원되는 모든 지역 목록은<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">미국 정부 공관을 위한 클라우드 서비스</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Workload Factory에서 Flex Unified 리소스를 검색합니다.</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory는 이제 ONTAP API 프록시 엔드포인트를 통해 Google Cloud NetApp Volumes Flex Unified 기본 모드 및 ONTAP 모드 스토리지 풀과 볼륨을 찾을 수 있습니다. 이러한 리소스는 인벤토리에 표시되며, 아키텍처 최적화 평가 및 권장 사항에 포함됩니다.</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Google Cloud NetApp Volumes의 구성 분석에 대해 알아보기</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">NetApp Console Canvas에서 Flex Unified 시스템 입력</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">이제 NetApp Console 캔버스에서 검색된 Google Cloud NetApp Volumes Flex Unified 시스템에 대해 *시스템 입력*을 선택할 수 있습니다. 그러면 선택한 시스템의 리소스 페이지가 열리고 기본 모드 시스템에서 사용 가능한 것과 동일한 워크플로를 사용하여 연결된 스토리지 풀 및 볼륨을 볼 수 있습니다.</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified 리소스에 대한 잘 설계된 평가</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">잘 설계된 대시보드는 이제 Google Cloud NetApp Volumes Flex Unified 스토리지 풀 및 볼륨의 SSD 용량 여유 공간, 볼륨 용량 여유 공간 및 스냅샷 정책 적용 범위를 평가합니다. 결과는 Google Cloud NetApp Volumes 잘 설계된 환경에 표시되며 기본 모드 또는 ONTAP 모드의 리소스를 식별합니다.</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
 </blocks>
