@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified 리소스에 대한 잘 설계된 평가</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">잘 설계된 대시보드는 이제 Google Cloud NetApp Volumes Flex Unified 스토리지 풀 및 볼륨의 SSD 용량 여유 공간, 볼륨 용량 여유 공간 및 스냅샷 정책 적용 범위를 평가합니다. 결과는 Google Cloud NetApp Volumes 잘 설계된 환경에 표시되며 기본 모드 또는 ONTAP 모드의 리소스를 식별합니다.</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
 </blocks>
