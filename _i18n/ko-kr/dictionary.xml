@@ -591,4 +591,8 @@
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">잘 설계된 대시보드는 이제 Google Cloud NetApp Volumes Flex Unified 스토리지 풀 및 볼륨의 SSD 용량 여유 공간, 볼륨 용량 여유 공간 및 스냅샷 정책 적용 범위를 평가합니다. 결과는 Google Cloud NetApp Volumes 잘 설계된 환경에 표시되며 기본 모드 또는 ONTAP 모드의 리소스를 식별합니다.</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 미리 보기 개선 사항을 도입합니다.</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*볼륨 복원 작업 취소*: 이제 작업 모니터링 페이지에서 진행 중인 ONTAP 볼륨 복원 작업을 취소할 수 있어, 실행 시간이 길거나 속도가 느린 작업을 더욱 쉽게 관리할 수 있습니다.</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*볼륨 인덱싱 상태 보고 기능 개선*: ONTAP Volumes 대시보드는 이제 인덱싱 대상이 아닌 볼륨 및 스냅샷 복사본에 대해<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> 상태를 도입하여 인덱싱 상태를 더욱 정확하게 보고합니다. <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> 상태는 이제 인덱싱 대기 중인 볼륨에만 사용되며, 볼륨 세부 정보에서는 스냅샷별 인덱싱 상태와 함께 볼륨 또는 스냅샷 복사본이 인덱싱되지 않는 이유를 설명하는 마우스 오버 텍스트가 표시됩니다.</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 지원*: 이제 2노드 및 4노드 NetApp AFX 클러스터에서 호스팅되는 볼륨을 보호할 수 있습니다.</block>
 </blocks>
