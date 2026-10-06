@@ -139,11 +139,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">사용자 활동 알림에 대한 응답 자동화</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">자세한 내용은 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">사용자 행동 알림에서 파일 경로 제외</block>
-  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience는 사용자 동작 모니터링 경고에서 특정 파일 경로를 제외하는 기능을 지원합니다. 위험하지 않다고 판단되거나, 경고를 유발할 수 있는 작업을 볼륨 내 파일에서 수행하는 경우 해당 파일 경로를 제외할 수 있습니다.</block>
-  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">알림에서 파일 경로 제외</block>
-  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026년 7월 7일</block>
-  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">자세한 내용은 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">사이트 메뉴에서 Trident Protect 관리</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">이제 재해 복구 UI의 사이트 메뉴에서 Trident Protect를 직접 관리할 수 있습니다. Trident Protect를 업그레이드하거나 재해 복구에서 제거하여 Kubernetes 리소스 관리를 간소화할 수 있습니다.</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">사이트 관리</block>
@@ -161,8 +156,6 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">시스템 성능 향상</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">재해 복구에는 시스템 리소스 소비를 줄이고 운영 전반의 성능을 향상시키기 위한 변경 사항이 도입되었습니다.</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026년 7월 13일</block>
-  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel용 ARM 템플릿</block>
-  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">랜섬웨어 복원력은 이제 Microsoft Sentinel을 SIEM으로 연결하기 위한 Azure Resource Manager(ARM) 템플릿을 제공하여 배포를 더욱 간편하게 해주는 두 번째 방법을 제공합니다.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">이번 Cloud Volumes ONTAP 릴리스에 대해 자세히 알아보십시오</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HA 에서 차세대 Google Cloud VM 지원</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1에서 NetApp은 Cloud Volumes ONTAP 고가용성(HA) 배포를 N2 VM에서 차세대 Google Cloud C3 시리즈 VM으로 전환하여 더욱 빠르고 확장 가능한 환경을 제공합니다.</block>
@@ -187,16 +180,11 @@
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Google Cloud의 고급 옵션을 사용하여 Cloud Volumes ONTAP 배포</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP의 액세스 역할 소개</block>
-  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetApp은 Cloud Volumes ONTAP에 대한 ID 및 액세스 관리(IAM) 역할을 도입하여 역할 기반 액세스 제어(RBAC)를 통해 보안을 강화하고 규정 준수를 간소화합니다. 사용자는 NetApp Console에 기존 자격 증명을 사용하여 로그인하고 Cloud Volumes ONTAP 작업을 계속 수행할 수 있습니다. 그러나 이제 인증은 ID 페더레이션을 통해 이루어지므로 Console 관리자가 이러한 기능을 더욱 세밀하게 제어할 수 있습니다. 모든 사용자는 Cloud Volumes ONTAP에서 작업을 수행하려면 다음 역할 중 하나를 보유해야 합니다. 역할이 없으면 사용자는 Cloud Volumes ONTAP 인스턴스를 보거나 액세스할 수 없습니다.</block>
   <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP 뷰어*: Cloud Volumes ONTAP 화면 및 탭에 대한 읽기 전용 액세스 권한을 부여합니다. 이 역할에서는 특정 화면 및 작업 버튼이 비활성화됩니다.</block>
   <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*: 볼륨 추가, 스토리지 관리, 복제 구성과 같은 일상적인 관리 작업을 지원합니다.</block>
   <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*: 모든 Cloud Volumes ONTAP 작업에 대한 전체 액세스 권한을 제공합니다.</block>
   <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console 관리자는 *Administration &gt; Identity*에서 Cloud Volumes ONTAP 사용자에게 역할을 할당합니다. 역할 권한은 사용자의 소속 조직을 기준으로 하며 해당 조직 내의 모든 Cloud Volumes ONTAP 시스템에 적용됩니다.</block>
   <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAP은 각 사용자의 권한을 로컬 캐시에 저장하여 RBAC를 적용하며, 이 캐시는 매시간 자동으로 갱신됩니다. 사용자에게 새 역할이 할당되거나 기존 역할이 변경되면 변경 사항이 적용되는 데 최대 1시간이 소요될 수 있으며, 이후 해당 역할에서 허용된 모든 워크플로가 활성화됩니다.</block>
-  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">콘솔 에이전트를 처음 배포하거나 기존 콘솔 에이전트를 Console 4.9.0 이상 버전으로 업그레이드할 때, 일회성 시딩 프로세스가 조직의 모든 기존 사용자에게 Cloud Volumes ONTAP 역할을 자동으로 할당합니다. 이 프로세스는 완료하는 데 최대 30분이 소요될 수 있습니다. 완료되면 콘솔은 기존 사용자에게 적절한 역할을 할당합니다.</block>
-  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Cloud Volumes ONTAP 역할은 Amazon Web Service(AWS), Microsoft Azure(Azure) 및 Google Cloud 환경에 적용됩니다.</block>
-  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console 액세스 역할</block>
-  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">NetApp Console의 Cloud Volumes ONTAP 액세스 역할</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026년 7월 14일</block>
@@ -230,7 +218,6 @@
   <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*운영 우수성*: 비즈니스 가치를 극대화하기 위해 아키텍처를 최적화합니다.</block>
   <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*비용 최적화*: 비용을 절감하고 최적화하여 더 큰 비즈니스 가치를 실현합니다.</block>
   <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP 구성 분석</block>
-  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">잘 설계된 대시보드</block>
   <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">NetApp Console의 잘 설계된 대시보드 소개</block>
@@ -240,8 +227,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">사용자 지정 규칙 만들기</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">사용자 지정 규칙에 대해 자세히 알아보기</block>
-  <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">잘 설계된 Cloud Volumes ONTAP 시스템 구성 구현</block>
-  <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
   <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">웰니스 리뷰 서비스 중단 안내</block>
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review 기능은 더 이상 사용되지 않으며, 2026년 7월부터 Digital Advisor에서 이용할 수 없습니다.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.</block>
@@ -332,7 +317,6 @@
   <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP과 Microsoft OneLake 통합 - 기술 개요</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
   <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp Volumes용 SAN 지원(미리 보기)</block>
   <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">랜섬웨어 복원력이 이제 Google Cloud NetApp Volumes의 SAN 워크로드를 지원하여 SAN 워크로드에 대한 암호화 기반 랜섬웨어 공격을 탐지할 수 있습니다. Google Cloud NetApp Volumes의 SAN 지원은 현재 미리 보기로 제공됩니다.</block>
   <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">지원되는 시스템</block>
@@ -551,8 +535,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026년 9월 21일</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: 이번 릴리스에는 Trident Protect 26.09가 포함되어 있습니다.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*파일 및 폴더 복원*: 이제 Kubernetes VM 기반 애플리케이션 백업에서 특정 파일 및 폴더를 복원하거나 다운로드할 수 있습니다.</block>
-  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Ransomware Resilience에서 Microsoft Sentinel SIEM 구성</block>
-  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">자세한 내용은 <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">웹훅을 사용하여 SIEM 시스템 구성</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">자세한 내용은 <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">일반 NetApp Backup and Recovery 기능 향상</block>
@@ -595,4 +577,14 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*볼륨 복원 작업 취소*: 이제 작업 모니터링 페이지에서 진행 중인 ONTAP 볼륨 복원 작업을 취소할 수 있어, 실행 시간이 길거나 속도가 느린 작업을 더욱 쉽게 관리할 수 있습니다.</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*볼륨 인덱싱 상태 보고 기능 개선*: ONTAP Volumes 대시보드는 이제 인덱싱 대상이 아닌 볼륨 및 스냅샷 복사본에 대해<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> 상태를 도입하여 인덱싱 상태를 더욱 정확하게 보고합니다. <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> 상태는 이제 인덱싱 대기 중인 볼륨에만 사용되며, 볼륨 세부 정보에서는 스냅샷별 인덱싱 상태와 함께 볼륨 또는 스냅샷 복사본이 인덱싱되지 않는 이유를 설명하는 마우스 오버 텍스트가 표시됩니다.</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 지원*: 이제 2노드 및 4노드 NetApp AFX 클러스터에서 호스팅되는 볼륨을 보호할 수 있습니다.</block>
+  <block id="4ffb16f35f5e9aee9dee7b4d07e72ec5" category="paragraph">NetApp은 Cloud Volumes ONTAP을 위한 ID 및 액세스 관리(IAM) 역할을 도입하여, 더 나은 보안과 손쉬운 규정 준수를 위해 역할 기반 액세스 제어(RBAC)를 지원합니다. 사용자는 Cloud Volumes ONTAP 작업을 위해 기존 자격 증명을 사용하여 NetApp Console에 계속 로그인할 수 있습니다. 하지만 이제 인증은 ID 페더레이션을 통해 라우팅되므로 Console 관리자가 이러한 기능을 더욱 세밀하게 제어할 수 있습니다. Cloud Volumes ONTAP 역할을 활성화하려면 Console 에이전트가 버전 4.9.0 이상에서 실행 중이어야 합니다.</block>
+  <block id="fc587a597771f80d7a6ba4e7b2d90d37" category="paragraph">모든 사용자는 Cloud Volumes ONTAP에서 작업을 수행하려면 다음 역할 중 하나를 보유해야 합니다. 역할이 없으면 사용자는 Cloud Volumes ONTAP 인스턴스를 보거나 액세스할 수 없습니다.</block>
+  <block id="cb5ee3ecd31c69fc46d3da114a16ed83" category="admonition">콘솔 에이전트를 처음 배포하거나 기존 콘솔 에이전트를 콘솔 4.9.0 이상으로 업그레이드할 때, 일회성 시딩 프로세스가 조직의 모든 기존 사용자에게 Cloud Volumes ONTAP 역할을 자동으로 할당합니다. 이 프로세스는 완료하는 데 최대 30분이 소요될 수 있습니다. 완료되면 콘솔은 기존 사용자에게 적절한 역할을 할당합니다. 시딩 프로세스는 에이전트가 실행 중인 경우에만 진행됩니다.</block>
+  <block id="58589b55d1f4e063bc5f101e0aaacde5" category="paragraph">Cloud Volumes ONTAP 역할은 Amazon Web Service(AWS), Microsoft Azure(Azure) 및 Google Cloud 환경에 적용됩니다. 이 역할은 비공개 및 제한된 배포 모드에는 적용되지 않습니다.</block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">NetApp Console에서 Cloud Volumes ONTAP에 대한 역할 기반 액세스 설정</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
+  <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Workload Factory를 사용하여 Azure의 Cloud Volumes ONTAP 구성을 개선하십시오</block>
+  <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
+  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
 </blocks>
