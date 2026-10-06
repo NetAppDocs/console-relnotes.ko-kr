@@ -587,4 +587,9 @@
   <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Workload Factory를 사용하여 Azure의 Cloud Volumes ONTAP 구성을 개선하십시오</block>
   <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
   <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
+  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">사용자 지정 규칙 편집 및 관리</block>
+  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">이제 규칙 카탈로그에서 사용자 지정 규칙을 편집할 수 있습니다. 규칙 이름과 설정을 업데이트하고, 채팅에서 변경 사항을 확인하고, 편집 내용을 검증하고, 더 이상 필요하지 않은 규칙을 삭제할 수 있습니다.</block>
+  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">사용자 지정 규칙을 관리하는 방법을 알아보십시오</block>
+  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
 </blocks>
