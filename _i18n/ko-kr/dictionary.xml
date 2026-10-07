@@ -593,4 +593,5 @@
   <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 지원*: Azure 인증에 스토리지 계정 액세스 키를 사용하지 않으려는 경우, 이제 Azure 오브젝트 스토리지 버킷 구성에 Microsoft Entra ID 인증을 사용할 수 있습니다. 이 옵션은 ONTAP 9.16.1 이상이 실행되는 Azure 시스템의 Cloud Volumes ONTAP에서 지원됩니다.</block>
+  <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 워크로드 향상</block>
 </blocks>
