@@ -594,4 +594,9 @@
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 지원*: Azure 인증에 스토리지 계정 액세스 키를 사용하지 않으려는 경우, 이제 Azure 오브젝트 스토리지 버킷 구성에 Microsoft Entra ID 인증을 사용할 수 있습니다. 이 옵션은 ONTAP 9.16.1 이상이 실행되는 Azure 시스템의 Cloud Volumes ONTAP에서 지원됩니다.</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 워크로드 향상</block>
+  <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory의 초기 릴리스</block>
+  <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">Workload Factory용 OCI NetApp 스토리지 서비스(OCI NSS)의 초기 릴리스에서는 온보딩, 시스템 검색, 자격 증명 관리, 링크 생성 및 연결 기능을 제공합니다. OCI NSS에 대한 액세스 권한을 요청하려면 Oracle에 지원 티켓을 제출하십시오.</block>
+  <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">NetApp Console 사용자를 위한 Workload Factory 설명서</block>
+  <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">NetApp Console에서 Workload Factory에 대한 자세한 문서를 찾을 수 있으며, 여기에는 온보딩, 시스템 검색, 자격 증명 관리, 링크 생성 및 연결에 대한 가이드가 포함됩니다.</block>
+  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">&lt;stdin&gt; - include::_include/data-services-workloads.adoc[] :leveloffset: +1 에서 해결되지 않은 지시문</block>
 </blocks>

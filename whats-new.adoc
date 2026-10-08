@@ -86,6 +86,22 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 
 Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.
 
+<stdin> - include::_include/data-services-workloads.adoc[] :leveloffset: +1 에서 해결되지 않은 지시문
+
+
+
+[[initial-release-of-oracle-cloud-infrastructure-netapp-storage-service-for-workload-factory]]
+=== Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory의 초기 릴리스
+
+Workload Factory용 OCI NetApp 스토리지 서비스(OCI NSS)의 초기 릴리스에서는 온보딩, 시스템 검색, 자격 증명 관리, 링크 생성 및 연결 기능을 제공합니다. OCI NSS에 대한 액세스 권한을 요청하려면 Oracle에 지원 티켓을 제출하십시오.
+
+
+
+[[workload-factory-documentation-for-netapp-console-users]]
+=== NetApp Console 사용자를 위한 Workload Factory 설명서
+
+NetApp Console에서 Workload Factory에 대한 자세한 문서를 찾을 수 있으며, 여기에는 온보딩, 시스템 검색, 자격 증명 관리, 링크 생성 및 연결에 대한 가이드가 포함됩니다.
+
 
 
 [[28-september-2026]]
