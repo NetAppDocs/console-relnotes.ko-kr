@@ -548,4 +548,14 @@
   <block id="838e15ad2606430b761fae47ebb38dee" category="section-title">Kubernetes 규정 준수 검사</block>
   <block id="07de08b6dc69bbb77fbf2faa073882f2" category="paragraph">Disaster Recovery에 Kubernetes 워크로드의 누락된 작업 환경을 식별하는 규정 준수 검사가 추가되었습니다. 이러한 규정 준수 검사는 복제 계획의 무결성을 위해 워크로드 상태를 보장하는 데 도움이 됩니다.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026년 10월 12일</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroCluster 지원*: 이제 NetApp Backup and Recovery를 사용하여 NetApp MetroCluster로 미러링된 Hyper-V VM을 보호할 수 있습니다.</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*SAN VM용 스패닝 디스크 보호*: CIFS 및 SAN 구성의 경우, 이제 보호 그룹의 각 VM에 연결된 모든 디스크를 보호할 수 있습니다. 여기에는 여러 ONTAP 볼륨 또는 ONTAP 스토리지 시스템에 분산된 파일(스패닝 디스크)과 단일 위치로 제한된 파일이 포함됩니다.</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">이번 릴리스에서 Oracle Database 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*자동 아카이브 로그 관리*: 데이터베이스 복원 및 복제 작업 중에 NetApp Backup and Recovery는 필요한 아카이브 로그를 자동으로 검색하여 마운트하고, 작업이 완료되면 마운트를 해제합니다. 기본, 보조 및 오브젝트 스토리지 로그 소스가 지원됩니다.</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Server 워크로드 향상</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">이번 릴리스에서 Microsoft SQL Server 워크로드는 다음과 같은 개선 사항을 도입했습니다:</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*라이선스 변경 사항*: 디스크 간 또는 디스크 간 팬아웃 아키텍처를 사용하는 백업에는 더 이상 요금이 부과되지 않습니다. 요금은 3-2-1 또는 디스크-오브젝트 스토리지 아키텍처를 사용하는 백업을 포함하여 오브젝트 스토리지에 대한 백업에만 적용됩니다.</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recovery를 사용하여 Microsoft SQL Server 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Server 워크로드 보호에 대한 자세한 내용은 <block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
 </blocks>
