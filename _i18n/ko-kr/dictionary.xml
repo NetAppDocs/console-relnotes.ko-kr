@@ -135,15 +135,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">사용자 활동 알림에 대한 응답 자동화</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">자세한 내용은 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console 에이전트 4.9.0</block>
-  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">4.9.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
-  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">Cloud Volumes ONTAP에 대한 역할 기반 액세스 제어 지원</block>
-  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">콘솔은 Cloud Volumes ONTAP에 대한 역할 기반 액세스 제어를 지원합니다.</block>
-  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Cloud Volumes ONTAP의 역할 기반 액세스 제어에 대해 자세히 알아보십시오</block>
-  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
-  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026년 7월 15일</block>
-  <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console의 워크로드에서 GenAI 워크로드 제거</block>
-  <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">NetApp Console의 워크로드에서 GenAI 워크로드가 제거되었습니다.</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS Marketplace에서 Cloud Volumes ONTAP의 간편한 온보딩 소개</block>
   <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp은 AWS Marketplace에서 Cloud Volumes ONTAP을 위한 간소화된 온보딩 워크플로를 도입하여 수동 작업과 온보딩 과정의 마찰을 줄였습니다.</block>
   <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">이전에는 AWS Marketplace에서 Cloud Volumes ONTAP을 배포하려면 여러 화면을 탐색하고 역할, 정책 및 자격 증명을 수동으로 구성해야 했습니다. 이로 인해 온보딩 속도가 느리고 오류 발생 가능성이 높았습니다.</block>
@@ -171,8 +162,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">사용자 지정 규칙 만들기</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">사용자 지정 규칙에 대해 자세히 알아보기</block>
-  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">웰니스 리뷰 서비스 중단 안내</block>
-  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review 기능은 더 이상 사용되지 않으며, 2026년 7월부터 Digital Advisor에서 이용할 수 없습니다.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">웹훅을 통해 SIEM 구성</block>
@@ -185,7 +174,6 @@
   <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">구독 테이블(*Storage &gt; Keystone &gt; Subscriptions*)의 *Days to subscription expiry* 열에 이제 만료일 옆에 아이콘이 표시됩니다. 자동 갱신이 해제된 경우 아이콘 색상은 만료 임박도를 나타냅니다. 녹색은 120일 초과(&gt;120일), 주황색은 91~120일, 빨간색은 90일 미만(&lt;90일), 회색은 만료됨을 의미합니다. 자동 갱신이 활성화된 구독의 경우 자동 갱신 아이콘이 표시되어 현재 기간이 종료되면 구독이 자동으로 갱신됨을 나타냅니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 구독을 열면 *Current consumption*, *Consumption trend*, *Subscription timeline*, *Assets* 탭의 구독 세부 정보 헤더에 이러한 아이콘이 표시되어 탐색하는 동안 만료 및 갱신 상태를 확인할 수 있습니다.</block>
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Keystone 구독에 대한 자세한 정보를 확인하세요.</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">자세한 내용은<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 관리에는 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure에서 칠레 중부 지역 지원</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">이제 Azure의 칠레 중앙(chilecentral) 지역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
@@ -558,4 +546,12 @@
   <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*라이선스 변경 사항*: 디스크 간 또는 디스크 간 팬아웃 아키텍처를 사용하는 백업에는 더 이상 요금이 부과되지 않습니다. 요금은 3-2-1 또는 디스크-오브젝트 스토리지 아키텍처를 사용하는 백업을 포함하여 오브젝트 스토리지에 대한 백업에만 적용됩니다.</block>
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recovery를 사용하여 Microsoft SQL Server 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Server 워크로드 보호에 대한 자세한 내용은 <block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">Keystone 구독에 대한 상태 인사이트 생성</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">이번 Keystone STaaS 릴리스에는 NetApp Console의 Keystone 대시보드에 다음과 같은 업데이트가 포함되어 있습니다.</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">Keystone 구독에 대한 상태 보고서를 생성하고 예약합니다.</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">NetApp Console의 *Storage &gt; Keystone &gt; Monitoring &gt; Health reports*에서 온디맨드 PowerPoint 보고서를 다운로드하거나 일회성, 주별, 월별 또는 분기별 전송을 예약할 수 있습니다. 각 보고서는 선택한 구독에 대한 구독 사용량, 운영 상태, 위험 및 취약성을 결합하여 우려 사항을 파악하고 수신자와 실행 가능한 인사이트를 공유하는 데 도움이 됩니다. 자세한 내용은<block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">ONTAP 클러스터 및 애그리게이트 용량 보기</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link">Keystone 구독 전반에 걸쳐 자산을 확인하세요.</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link">Keystone 구독과 관련된 자산 보기</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">ONTAP 클러스터 및 해당 애그리게이트에 대한 물리적 용량, 논리적 용량 및 스토리지 효율성은 *자산 &gt; 클러스터 및 애그리게이트*에서 확인할 수 있습니다. 이 기능은 물리적 용량을 기준으로 요금이 청구되는 Keystone STaaS 구독에만 제공됩니다. 자세한 내용은 <block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block> 및 <block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>를 참조하십시오.</block>
 </blocks>
