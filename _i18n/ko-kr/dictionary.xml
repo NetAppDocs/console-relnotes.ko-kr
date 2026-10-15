@@ -585,4 +585,9 @@
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026년 10월 14일</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*작업 모니터 사용자 지정 날짜 범위 필터링*: 이제 작업 모니터의 달력에서 사용자 지정 시작일과 종료일을 선택하여 지난 90일간의 작업을 검색할 수 있습니다.</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value Insights의 E-Series 및 StorageGRID 지원</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">이제 Value Insights의 상태, 위험, 보안 위험 및 수명 주기 총계에 ONTAP, E-Series 및 StorageGRID 시스템이 포함됩니다. 플랫폼별로 대시보드를 필터링하여 플랫폼별 세부 정보를 볼 수 있습니다. 실현된 비용 절감액 및 예상 비용 절감액은 계속해서 ONTAP 시스템에만 제공됩니다.</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisor에서 가치 인사이트 살펴보기</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026년 10월 15일</block>
 </blocks>
