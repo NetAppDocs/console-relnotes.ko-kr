@@ -206,61 +206,8 @@ ONTAP 클러스터 및 해당 애그리게이트에 대한 물리적 용량, 논
 
 
 
-[[04-october-2026]]
-== 2026년 10월 4일
-
-
-
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== 사용자 지정 규칙 편집 및 관리
-
-이제 규칙 카탈로그에서 사용자 지정 규칙을 편집할 수 있습니다. 규칙 이름과 설정을 업데이트하고, 채팅에서 변경 사항을 확인하고, 편집 내용을 검증하고, 더 이상 필요하지 않은 규칙을 삭제할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["사용자 지정 규칙을 관리하는 방법을 알아보십시오"]
-
-
-
 [[30-september-2026]]
 == 2026년 9월 30일
-
-
-
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== Workload Factory에서 Flex Unified 리소스를 검색합니다.
-
-Workload Factory는 이제 ONTAP API 프록시 엔드포인트를 통해 Google Cloud NetApp Volumes Flex Unified 기본 모드 및 ONTAP 모드 스토리지 풀과 볼륨을 찾을 수 있습니다. 이러한 리소스는 인벤토리에 표시되며, 아키텍처 최적화 평가 및 권장 사항에 포함됩니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes의 구성 분석에 대해 알아보기"]
-
-
-
-==== NetApp Console Canvas에서 Flex Unified 시스템 입력
-
-이제 NetApp Console 캔버스에서 검색된 Google Cloud NetApp Volumes Flex Unified 시스템에 대해 *시스템 입력*을 선택할 수 있습니다. 그러면 선택한 시스템의 리소스 페이지가 열리고 기본 모드 시스템에서 사용 가능한 것과 동일한 워크플로를 사용하여 연결된 스토리지 풀 및 볼륨을 볼 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes의 구성 분석에 대해 알아보기"]
-
-
-
-==== Flex Unified 리소스에 대한 잘 설계된 평가
-
-잘 설계된 대시보드는 이제 Google Cloud NetApp Volumes Flex Unified 스토리지 풀 및 볼륨의 SSD 용량 여유 공간, 볼륨 용량 여유 공간 및 스냅샷 정책 적용 범위를 평가합니다. 결과는 Google Cloud NetApp Volumes 잘 설계된 환경에 표시되며 기본 모드 또는 ONTAP 모드의 리소스를 식별합니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes의 구성 분석에 대해 알아보기"]
-
-
-
-==== NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점
-
-Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.
 
 
 
@@ -629,31 +576,6 @@ Cloud Volumes ONTAP는 이제 비공개 미리 보기로 Azure Government Secret
 
 
 
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== Cloud Volumes ONTAP의 원격 데이터 복제 평가
-
-Cloud Volumes ONTAP 데이터가 원격 복제로 보호되는지 확인할 수 있는 새로운 평가를 사용할 수 있습니다. 이를 통해 데이터 보호 계획이 재해 복구 및 비즈니스 연속성에 대한 모범 사례를 따르도록 보장할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP의 구성 분석에 대해 알아봅니다"]
-
-
-
-==== 잘 설계된 구성 전체 무시
-
-이제 대시보드에서 권장 구성 전체를 해제할 수 있습니다. 이를 통해 사용자의 환경에 표시되는 권장 사항 및 평가를 더욱 세밀하게 제어할 수 있습니다.
-
-
-
-==== 잘 설계된 대시보드의 데이터베이스 워크로드 권장 사항
-
-FSx for ONTAP을 사용하는 데이터베이스 워크로드에 대한 권장 사항이 이제 NetApp Console의 잘 설계된 대시보드에서 제공됩니다. 스토리지 리소스와 데이터베이스 워크로드의 상태를 한 곳에서 확인할 수 있으므로 인프라 상태를 완벽하게 파악할 수 있습니다.
-
-
-
 [[storagegrid]]
 === StorageGRID
 
@@ -756,88 +678,6 @@ link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value 
 
 [[17-august-2026]]
 == 2026년 8월 17일
-
-
-
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== NetApp Console의 well-architected 대시보드에서 FSx for ONTAP 지원
-
-NetApp Console의 well-architected 대시보드는 Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["FSx for ONTAP의 구성 분석에 대해 알아보기"]
-
-
-
-==== 잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다
-
-NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.
-
-다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.
-
-[cols="1,1"]
-|===
-| 이전 구성 이름 | 새 구성 이름 
-
-
-| 볼륨 백업 예약 | 볼륨 백업 
-
-
-| SSD 용량 임계값 | SSD 용량 여유 공간 
-
-
-| 파일 용량 임계값 | 파일 용량 여유 공간 
-
-
-| 장기 보존 데이터의 신뢰성 | 복제 정책 레이블 
-
-
-| 예약된 로컬 스냅샷 | 스냅샷 정책 
-
-
-| 불필요한 백업 삭제 | 백업 만료 
-
-
-| 불필요한 스냅샷 삭제 | 스냅샷 만료 
-
-
-| SSD 용량 활용률 저하 | SSD 용량 과잉 프로비저닝 
-
-
-| 비활성 블록 장치 | 비활성 블록 장치(LUN) 
-
-
-| 콜드 데이터를 계층화하여 TCO 최적화 | 콜드 데이터 티어링 
-
-
-| 볼륨 논리적 데이터 용량 보고 | 호스트에서 볼 수 있는 용량 보고 
-
-
-| FlexGroup 볼륨 재조정 | FlexGroup 볼륨 재조정 
-
-
-| FlexVol 볼륨 재조정 | FlexVol 볼륨 재조정 
-
-
-| 캐시 관계 쓰기 모드 | FlexCache 쓰기 모드 
-
-
-| 캐시 볼륨 크기 최적화 | FlexCache 복제본 크기 
-
-
-| 볼륨에 대한 무단 접근 | 무단 iSCSI 볼륨 액세스 
-
-
-| ARP/AI 비활성화됨 | 랜섬웨어 보호(ARP/AI) 
-|===
-
-
-==== NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점
-
-Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.
 
 
 
@@ -950,19 +790,6 @@ Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용�
 
 
 
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== Google Cloud NetApp Volumes 지원(잘 설계된 대시보드)
-
-NetApp Console 대시보드에서 이제 Google Cloud NetApp Volumes를 지원합니다. 스토리지 관리자는 스토리지 풀 및 구성 상태를 확인하고, 효율성, 비용, 성능, 안정성 및 보안을 개선하기 위한 권장 사항을 받아보고, 운영을 최적화하고 모범 사례를 따르기 위한 조치를 취할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes에 대한 구성 분석"]에 대해 자세히 알아보십시오.
-
-
-
 [[backup-and-recovery]]
 === 백업 및 복구
 
@@ -1070,23 +897,6 @@ Disaster Recovery는 사용자 수준 작업 로깅을 통해 작업의 책임�
 
 [[03-august-2026]]
 == 2026년 8월 3일
-
-
-
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== Microsoft Azure의 Cloud Volumes ONTAP 구성 수정, 해제 및 재활성화
-
-NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTAP 시스템에 대한 구성 권장 사항을 수정할 수 있습니다.
-
-또한, 아키텍처 분석에서 하나 이상의 구성을 제외할 수 있습니다. 이를 통해 사용자 환경에 적용되지 않는 특정 구성을 무시할 수 있습니다.
-
-나중에 해제된 구성을 포함하려면 잘 설계된 대시보드에서 다시 활성화할 수 있습니다. 이렇게 하면 구성이 분석에 복원되어 권장 사항 및 수정 사항을 확인할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP 구성 수정, 해제 및 재활성화"]
 
 
 
@@ -1202,29 +1012,6 @@ NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTA
 
 [[20-july-2026]]
 == 2026년 7월 20일
-
-
-
-[[well-architected-dashboard]]
-=== 잘 설계된 대시보드
-
-
-
-==== NetApp Console의 잘 설계된 대시보드 소개
-
-NetApp Console의 아키텍처 최적화 대시보드는 계정 및 지역 전반에 걸쳐 스토리지 시스템과 구성을 한눈에 볼 수 있도록 지원합니다. 이 대시보드는 운영 효율성을 극대화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다. 구성의 아키텍처 최적화 상태, 사용 중인 스토리지 유형에 대한 아키텍처 최적화 프레임워크의 핵심 요소별로 정리된 구성 문제, 그리고 구성 문제 및 권장 사항 목록을 확인할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["잘 설계된 대시보드"]에 대해 자세히 알아보십시오.
-
-Console의 잘 설계된 대시보드는 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP."]에서 이용할 수 있습니다.
-
-
-
-==== 사용자 지정 규칙 만들기
-
-조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["사용자 지정 규칙에 대해 자세히 알아보기"]
 
 
 
