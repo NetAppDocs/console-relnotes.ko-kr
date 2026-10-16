@@ -177,7 +177,6 @@
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure에서 칠레 중부 지역 지원</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">이제 Azure의 칠레 중앙(chilecentral) 지역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
-  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">로컬 중복 스토리지(LRS)를 사용하여 단일 가용성 영역에서 고가용성(HA) 구현</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026년 7월 23일</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">워크로드 및 시스템 유형에 따라 보호 그룹을 표준화합니다.</block>
@@ -561,7 +560,6 @@
   <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
   <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">Cloud Volumes ONTAP용 Azure 호스트 암호화</block>
   <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">Cloud Volumes ONTAP 9.19.1 GA부터 필수 조건을 충족하는 새로운 Azure 단일 노드 및 고가용성(HA) 배포에 대해 Azure 호스트 암호화가 기본적으로 활성화됩니다. 이 기능은 데이터가 호스트에 기록되고 호스트에서 읽힐 때 임시 디스크 및 관련 호스트 수준 캐시 등 VM을 호스팅하는 물리적 서버의 데이터를 암호화합니다.</block>
-  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">Azure에 Cloud Volumes ONTAP을 배포하기 전에 다음 필수 조건을 충족하는지 확인하십시오:</block>
   <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Microsoft 설명서: 호스트에서 암호화 활성화</block>
   <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text">해당 <block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block> 기능이 Azure 구독에 등록되었습니다. <block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
   <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Microsoft 설명서: 지원되는 VM 크기 찾기</block>
@@ -590,4 +588,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisor에서 가치 인사이트 살펴보기</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026년 10월 15일</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">로컬 중복 스토리지(LRS)를 사용하는 단일 가용성 영역의 HA</block>
+  <block id="145afd276d37daec187001af80160d51" category="paragraph">Azure에 Cloud Volumes ONTAP을 배포하기 전에 환경이 다음 필수 조건을 충족하는지 확인하십시오.</block>
 </blocks>
