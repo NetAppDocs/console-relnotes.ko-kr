@@ -30,6 +30,26 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[19-october-2026]]
+== 2026년 10월 19일
+
+
+
+[[backup-and-recovery]]
+=== 백업 및 복구
+
+
+
+==== Oracle Database 워크로드 향상
+
+이번 릴리스에서 Oracle Database 워크로드는 다음과 같은 개선 사항을 도입했습니다.
+
+*Oracle Data Guard 지원*: NetApp Backup and Recovery는 이제 고가용성을 위해 Oracle Data Guard를 사용하는 기본 및 대기 데이터베이스를 보호하기 위한 보호 그룹 사용을 지원합니다.
+
+Oracle Database 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["NetApp Backup and Recovery를 사용하여 Oracle Database 워크로드를 보호하는 방법에 대해 알아보십시오."]을 참조하십시오.
+
+
+
 [[15-october-2026]]
 == 2026년 10월 15일
 
@@ -1007,91 +1027,3 @@ NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTA
 
 
 지원되는 모든 지역 목록은 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure의 글로벌 지역 지도"^]을 참조하십시오.
-
-
-
-[[20-july-2026]]
-== 2026년 7월 20일
-
-
-
-[[ransomware-resilience]]
-=== 랜섬웨어 복원력
-
-
-
-==== 웹훅을 통해 SIEM 구성
-
-Ransomware Resilience는 이제 Ransomware Resilience UI에서 웹훅을 통해 보안 정보 및 이벤트 관리(SIEM) 시스템을 구성할 수 있도록 지원합니다. 웹훅을 사용하면 선호하는 SIEM 시스템을 연동하여 랜섬웨어 모니터링을 체계적으로 관리할 수 있습니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["웹훅을 사용하여 SIEM 시스템 구성"^]을 참조하십시오.
-
-
-
-==== 사용자 활동 이벤트에 대한 자동 응답 이메일 알림
-
-Ransomware Resilience는 이제 사용자 활동 이벤트로 인해 자동 대응이 트리거될 때 이메일 알림을 전송하여 Ransomware Resilience 및 랜섬웨어 활동에 대한 명확성과 가시성을 향상시킵니다.
-
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["사용자 활동 알림에 대한 응답 자동화"^]을 참조하십시오.
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== AWS Marketplace에서 Cloud Volumes ONTAP의 간편한 온보딩 소개
-
-NetApp은 AWS Marketplace에서 Cloud Volumes ONTAP을 위한 간소화된 온보딩 워크플로를 도입하여 수동 작업과 온보딩 과정의 마찰을 줄였습니다.
-
-이전에는 AWS Marketplace에서 Cloud Volumes ONTAP을 배포하려면 여러 화면을 탐색하고 역할, 정책 및 자격 증명을 수동으로 구성해야 했습니다. 이로 인해 온보딩 속도가 느리고 오류 발생 가능성이 높았습니다.
-
-새로운 온보딩 워크플로는 다음과 같은 기능을 통해 마켓플레이스 구독에서 완벽하게 작동하는 Cloud Volumes ONTAP 환경으로의 전환을 간소화합니다.
-
-. AWS Marketplace의 Cloud Volumes ONTAP 전용 상품 목록 구독: AWS Marketplace에서 Cloud Volumes ONTAP 독립형 상품 목록을 구독하고, 구독을 구매한 후, AWS 계정을 설정합니다(계정이 없는 경우).
-. NetApp 콘솔의 안내 경로: NetApp 콘솔에서 계정을 설정하면 콘솔이 자동으로 배포 여정을 안내하며, 오른쪽 측면에 안내 경로를 표시합니다. 콘솔을 종료해야 하는 경우 나중에 안내 경로를 다시 시작할 수 있습니다.
-. 구독 연동: 구독을 콘솔에 자동으로 연동하여 수동으로 연결하는 번거로움을 줄일 수 있습니다.
-. AWS 자격 증명 구성을 사용한 Console 에이전트 배포: 필요한 AWS 역할을 자동으로 생성할 수 있습니다. 이 프로세스는 필요한 역할과 정책이 포함된 AWS CloudFormation 스택을 AWS 계정에 배포하여 검토할 수 있도록 한 다음, NetApp Console과 연결하여 수동 IAM 설정을 제거합니다. 그런 다음 에이전트 구성, 네트워킹 및 보안 그룹 설정을 진행하여 에이전트 배포를 시작할 수 있습니다.
-. AWS에 새로운 Cloud Volumes ONTAP 시스템 배포:  `Quick create` 마법사로 바로 이동하여 더욱 빠르고 간편하게 Cloud Volumes ONTAP를 배포할 수 있습니다.
-
-
-.관련 링크
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-onboard-cvo-aws-marketplace.html["AWS Marketplace에서 Cloud Volumes ONTAP 온보딩"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-aws.html["AWS에서 빠른 생성 기능을 사용하여 Cloud Volumes ONTAP 배포"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구"^]
-
-
-
-
-==== Azure의 Cloud Volumes ONTAP에 대한 잘 설계된 구성 분석
-
-NetApp Console에서 이제 Microsoft Azure에서 실행되는 Cloud Volumes ONTAP 시스템에 대한 잘 설계된 구성 분석 기능을 지원합니다. Console은 배포 환경을 매일 분석하여 잘 설계된 상태, 인사이트 및 권장 사항을 제공함으로써 NetApp 모범 사례 및 잘 설계된 프레임워크에 부합하는 시스템을 유지 관리할 수 있도록 지원합니다.
-
-잘 설계된 대시보드는 분석된 시스템의 총 개수를 표시하고 구성 및 심각도 수준별로 리소스를 분류합니다. 시스템 관리자인 경우 Console 대시보드에서 조직 내 구성 문제에 대한 권장 사항을 직접 확인하고 모든 권장 사항이 포함된 CSV 보고서를 다운로드할 수 있습니다. 구성은 다음 기준에 따라 분류됩니다.
-
-* *안정성*: 장애 발생 시에도 워크로드가 정확하고 일관되게 작동하도록 보장합니다.
-* *Security*: 위험 평가 및 완화를 통해 데이터, 시스템 및 자산을 보호합니다.
-* *운영 우수성*: 비즈니스 가치를 극대화하기 위해 아키텍처를 최적화합니다.
-* *비용 최적화*: 비용을 절감하고 최적화하여 더 큰 비즈니스 가치를 실현합니다.
-
-
-.관련 링크
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-configuration-analysis-cvo.html["Cloud Volumes ONTAP 구성 분석"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Workload Factory를 사용하여 Azure의 Cloud Volumes ONTAP 구성을 개선하십시오"^]
-
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
-
-
-
-==== 구독 만료일 및 자동 갱신 상태 보기
-
-구독 테이블(*Storage > Keystone > Subscriptions*)의 *Days to subscription expiry* 열에 이제 만료일 옆에 아이콘이 표시됩니다. 자동 갱신이 해제된 경우 아이콘 색상은 만료 임박도를 나타냅니다. 녹색은 120일 초과(>120일), 주황색은 91~120일, 빨간색은 90일 미만(<90일), 회색은 만료됨을 의미합니다. 자동 갱신이 활성화된 구독의 경우 자동 갱신 아이콘이 표시되어 현재 기간이 종료되면 구독이 자동으로 갱신됨을 나타냅니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 구독을 열면 *Current consumption*, *Consumption trend*, *Subscription timeline*, *Assets* 탭의 구독 세부 정보 헤더에 이러한 아이콘이 표시되어 탐색하는 동안 만료 및 갱신 상태를 확인할 수 있습니다.
-
-자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystone 구독에 대한 자세한 정보를 확인하세요."]을 참조하십시오.
