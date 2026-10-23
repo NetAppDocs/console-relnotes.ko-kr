@@ -30,6 +30,38 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[20-october-2026]]
+== 2026년 10월 20일
+
+
+
+[[ransomware-resilience]]
+=== 랜섬웨어 복원력
+
+
+
+==== 향상된 격리 복구 환경 구성
+
+Ransomware Resilience는 이제 향상된 격리 복구 환경 구성 워크플로를 제공합니다. 새로운 워크플로는 클라우드 또는 온프레미스 환경을 위한 격리 복구 환경 설정 프로세스를 명확히 하고 간소화합니다.
+
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["정상적인 복원을 위해 격리된 복구 환경을 구축합니다."^]을 참조하십시오.
+
+
+
+==== 사용자 활동 모니터링을 활성화하기 위한 향상된 워크플로
+
+Ransomware Resilience는 사용자 활동 모니터링 활성화 워크플로를 개선했습니다. 이전에는 Ransomware Resilience가 워크로드에서 사용자 활동 모니터링을 사용하는 랜섬웨어 보호 전략을 활성화할 때마다 데이터 수집기의 연결을 테스트했습니다. 이번 업데이트를 통해 스토리지 VM에 데이터 수집기가 존재하고 "실행 중" 상태인 경우 해당 확인 단계를 건너뛰어 보호 워크플로 속도를 향상시켰습니다.
+
+자세한 내용은 link:link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["워크로드 보호"^] 참조하십시오.
+
+
+
+==== Google Cloud NetApp Volumes Flex 서비스 레벨이 일반 출시되었습니다.
+
+Google Cloud NetApp Volumes의 Flex 서비스 레벨에 대한 랜섬웨어 복원력 지원이 이제 정식 출시(GA)되었습니다.
+
+
+
 [[19-october-2026]]
 == 2026년 10월 19일
 
@@ -1004,26 +1036,3 @@ NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTA
 랜섬웨어 복원력 기능에 SIEM 시스템을 일시 중지하거나 삭제하는 옵션이 사용자 인터페이스에 추가되었습니다. 이 개선 사항을 통해 문제 해결이나 유지 관리를 위해 시스템을 일시적으로 비활성화하거나 완전히 제거하는 작업이 더욱 간편해졌습니다.
 
 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["SIEM 시스템 비활성화"^]을 참조하십시오.
-
-
-
-[[23-july-2026]]
-== 2026년 7월 23일
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure에서 칠레 중부 지역 지원
-
-이제 Azure의 칠레 중앙(chilecentral) 지역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.
-
-* 단일 노드
-* 로컬 중복 스토리지(LRS)를 사용하는 단일 가용성 영역의 HA
-* 영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현
-
-
-지원되는 모든 지역 목록은 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure의 글로벌 지역 지도"^]을 참조하십시오.
