@@ -137,20 +137,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">자세한 내용은 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현</block>
-  <block id="752cfb7f100699ed10b934470fc8824c" category="doc">워크로드 및 시스템 유형에 따라 보호 그룹을 표준화합니다.</block>
-  <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">랜섬웨어 복원력 기능이 이제 보호 그룹에 하나의 워크로드 유형과 시스템 유형만 포함하도록 강제합니다. 새 보호 그룹을 생성할 때 워크로드 유형(파일 시스템 또는 블록)과 시스템을 모두 지정해야 합니다. 이 개선 사항을 통해 보호 그룹에 대해 선택한 랜섬웨어 보호 전략이 그룹 내 모든 워크로드에 성공적으로 적용될 수 있습니다.</block>
-  <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">기존에 시스템 유형과 워크로드 유형이 혼합된 보호 그룹이 있는 경우 계속 사용할 수 있지만, 보호 그룹에 워크로드를 추가할 수는 없습니다.</block>
-  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">보호 그룹 생성</block>
-  <block id="9cc8304f699313927313d2034fff7636" category="paragraph">자세한 내용은 <block ref="6971a647ce964528556f81913b109378" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="3813b173292c59d50038bdf05c6b0021" category="section-title">준비 태세 훈련 강화</block>
-  <block id="cf649f651dc2f032117c490236422d53" category="paragraph">랜섬웨어 복원력 기능을 통해 이제 공격 유형별 대비 훈련을 실시할 수 있습니다. 랜섬웨어 복원력은 다섯 가지 유형의 공격을 감지하며, 각 유형에 대한 대비 훈련을 통해 공격 및 복구 과정을 시뮬레이션하여 랜섬웨어 공격에 대한 대비 태세를 파악할 수 있습니다.</block>
-  <block id="d805ea206a1d58881a7d28213018ae80" category="inline-link-macro">준비 태세 훈련 실시</block>
-  <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">자세한 내용은 <block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="363260f41aed8104ffe114ccda875937" category="section-title">SIEM 시스템 일시 중지 또는 삭제</block>
-  <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">랜섬웨어 복원력 기능에 SIEM 시스템을 일시 중지하거나 삭제하는 옵션이 사용자 인터페이스에 추가되었습니다. 이 개선 사항을 통해 문제 해결이나 유지 관리를 위해 시스템을 일시적으로 비활성화하거나 완전히 제거하는 작업이 더욱 간편해졌습니다.</block>
-  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">SIEM 시스템 비활성화</block>
-  <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">자세한 내용은 <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026년 7월 27일</block>
   <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Microsoft Azure의 Cloud Volumes ONTAP 구성 수정, 해제 및 재활성화</block>
   <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console의 잘 설계된 대시보드를 통해 이제 Cloud Volumes ONTAP 시스템에 대한 구성 권장 사항을 수정할 수 있습니다.</block>
   <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">또한, 아키텍처 분석에서 하나 이상의 구성을 제외할 수 있습니다. 이를 통해 사용자 환경에 적용되지 않는 특정 구성을 무시할 수 있습니다.</block>
@@ -476,4 +462,18 @@
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 서비스 레벨이 일반 출시되었습니다.</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Google Cloud NetApp Volumes의 Flex 서비스 레벨에 대한 랜섬웨어 복원력 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026년 10월 20일</block>
+  <block id="d2ebbd36608739936bb939c9de72a23a" category="paragraph">이번 릴리스에서 NetApp Backup and Recovery는 Kubernetes 워크로드에 대해 다음과 같은 향상된 기능을 제공합니다:</block>
+  <block id="cc7c8e0fe116e37f04e0ad62644d821b" category="list-text">*Trident Protect 26.10*: 이번 릴리스에는 Trident Protect 26.10가 포함되어 있습니다.</block>
+  <block id="ca663f12e620da9687b7846a60e5d2e7" category="list-text">*ontap-nas-economy 및 ontap-san-economy 드라이버 지원*: 이제 NetApp Trident<block ref="caafdf62a2c609bfa5316118231a1007" prefix=" " category="inline-code"></block> 드라이버(Qtree) 및 <block ref="3016c12c1db45f14c80c9c1731b9c26a" prefix=" " category="inline-code"></block> 드라이버(LUN)로 프로비저닝된 영구 볼륨 클레임(PVC)을 보호할 수 있습니다. 이코노미 드라이버를 사용하여 PVC를 보호하면 기본 FlexVol 또는 LUN 전체가 보호됩니다. 이러한 백업에서 개별 PVC를 복원할 수 있습니다.</block>
+  <block id="d3ea67062b764fc121c2313921544714" category="list-text">*Kubernetes 인식 알림*: NetApp Console은 이제 Kubernetes 알림을 볼륨당 한 번이 아닌 Kubernetes 애플리케이션당 한 번씩 보냅니다.</block>
+  <block id="56763801785ca9815df36fb133a8847a" category="list-text">*볼륨 그룹 스냅샷 지원*: 이제 Kubernetes 애플리케이션을 정의할 때 볼륨 그룹을 생성할 수 있습니다. 볼륨 그룹을 사용하면 여러 볼륨을 함께 스냅샷하여 크래시 일관성을 유지하는 세트를 만들 수 있으므로 그룹 내 모든 볼륨에서 데이터 일관성을 보장합니다.</block>
+  <block id="1d458bfacd6d519628c6da6c1cb44452" category="list-text">*S3 호환 오브젝트 스토리지 지원*: 이제 백업 대상 자격 증명을 추가하고 보호 정책을 구성하여 Kubernetes 애플리케이션 리소스 및 데이터를 S3 호환 오브젝트 스토리지에 백업할 수 있습니다.</block>
+  <block id="c49afcf4c9d7fb7f9e3e56e33e3ed3a8" category="paragraph">이번 릴리스에서 NetApp Backup and Recovery는 ONTAP Volumes 워크로드에 다음과 같은 향상된 기능을 제공합니다:</block>
+  <block id="c087f837ef797de43d9ebd1a7d125236" category="list-text">*보호 보고서*: NetApp Backup and Recovery는 이제 ONTAP Volumes 워크로드에 대한 확장 보고서 생성 및 다운로드를 지원합니다.</block>
+  <block id="b9ba826047adb428b13135e4a8370ce8" category="list-text">*ONTAP 시스템 등록 해제 시 백업 보존 여부 선택*: NetApp Backup and Recovery에서 ONTAP 시스템 등록을 해제할 때, 이전에 백업한 데이터를 삭제할지 또는 복원용으로 보존할지 선택할 수 있습니다. NetApp Backup and Recovery 설명서에는 시스템 등록 해제 후 보존된 데이터를 복원하는 방법에 대한 지침이 포함되어 있습니다.</block>
+  <block id="147e4e035d3742c8a163c4282707c86d" category="inline-link">시스템에 대한 Backup and Recovery 등록 해제</block>
+  <block id="113ea0f6ada6e0a0faeef3e476b36daa" category="paragraph">더 자세한 내용은 다음을 참조하십시오<block ref="d430b7e541ef6ef0ab6b72278c77300c" category="inline-link-rx"></block>.</block>
+  <block id="4218ebde887e47d99313814e89fca1dc" category="paragraph">이번 릴리스에서 NetApp Backup and Recovery는 Oracle 데이터베이스 워크로드에 대해 다음과 같은 향상된 기능을 제공합니다.</block>
+  <block id="d2a0591e201dfac56fdea850632dc8e3" category="paragraph">*다른 위치로 복원*: NetApp Backup and Recovery는 이제 Oracle 데이터베이스를 다른 위치(다른 등록된 호스트)로 복원하는 기능을 지원합니다.</block>
+  <block id="b0609734250ba6ba4d0839963ce55146" category="section-title">2026년 10월 26일</block>
 </blocks>
