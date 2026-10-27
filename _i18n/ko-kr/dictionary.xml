@@ -455,7 +455,6 @@
   <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 향상된 워크플로</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience는 사용자 활동 모니터링 활성화 워크플로를 개선했습니다. 이전에는 Ransomware Resilience가 워크로드에서 사용자 활동 모니터링을 사용하는 랜섬웨어 보호 전략을 활성화할 때마다 데이터 수집기의 연결을 테스트했습니다. 이번 업데이트를 통해 스토리지 VM에 데이터 수집기가 존재하고 "실행 중" 상태인 경우 해당 확인 단계를 건너뛰어 보호 워크플로 속도를 향상시켰습니다.</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">워크로드 보호</block>
-  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">자세한 내용은 <block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 서비스 레벨이 일반 출시되었습니다.</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Google Cloud NetApp Volumes의 Flex 서비스 레벨에 대한 랜섬웨어 복원력 지원이 이제 정식 출시(GA)되었습니다.</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026년 10월 20일</block>
@@ -479,4 +478,7 @@
   <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">사용자 지정 스크립트를 삽입하는 방법을 알아보려면 <block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp Disaster Recovery는 이제 리소스에 대한 우선순위 및 선택적 지연 시간을 지정하여 Kubernetes 복제 계획의 리소스 그룹에 대한 선택적 부팅 순서 설정을 지원합니다. 이 옵션을 사용하면 필요한 경우 리소스를 동시에 부팅하고 다른 리소스에 종속된 리소스의 부팅을 지연시켜 애플리케이션이 정상적으로 다시 온라인 상태가 되도록 지원할 수 있습니다.</block>
   <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">자세한 내용은 <block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="a2796a8db571ead965c0a0f1d62135a3" category="paragraph">자세한 내용은 <block ref="092a9715a1fcee9c7af4662f48f0f290" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="25b96777bfadb381f78f25912d595183" category="doc">NetApp Console 관련 법적 고지</block>
+  <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console용 릴리스 노트 색인</block>
 </blocks>

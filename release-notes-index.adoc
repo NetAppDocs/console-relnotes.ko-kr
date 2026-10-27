@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: NetApp Console 관리 및 스토리지 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 노트를 확인하세요. 
 ---
-= 릴리스 노트 인덱스
+= NetApp Console용 릴리스 노트 색인
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
