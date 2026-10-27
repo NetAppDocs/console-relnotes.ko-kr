@@ -262,9 +262,9 @@ Microsoft SQL Server 워크로드 보호에 대한 자세한 내용은  https://
 
 ==== Kubernetes 리소스 그룹의 선택적 부팅 순서
 
-NetApp Disaster Recovery는 이제 리소스에 대한 우선순위 순서 및 선택적 지연 시간을 지정하여 Kubernetes 복제 계획의 리소스 그룹에 대한 선택적 부팅 순서 설정을 지원합니다. 이 옵션을 사용하면 필요한 경우 리소스를 동시에 부팅하고 다른 리소스에 종속된 리소스의 부팅을 지연시켜 애플리케이션이 정상적으로 다시 온라인 상태가 되도록 지원할 수 있습니다.
+NetApp Disaster Recovery는 이제 리소스에 대한 우선순위 및 선택적 지연 시간을 지정하여 Kubernetes 복제 계획의 리소스 그룹에 대한 선택적 부팅 순서 설정을 지원합니다. 이 옵션을 사용하면 필요한 경우 리소스를 동시에 부팅하고 다른 리소스에 종속된 리소스의 부팅을 지연시켜 애플리케이션이 정상적으로 다시 온라인 상태가 되도록 지원할 수 있습니다.
 
-자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["복제 계획을 생성하십시오"^]를 참조하십시오.
+자세한 내용은 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-replication-plan-kubernetes.html["복제 계획을 생성하십시오"^] 참조하십시오.
 
 
 
@@ -592,7 +592,7 @@ Kubernetes 기반 워크로드 보호를 시작하려면 link:https://docs.netap
 
 이제 장애 조치 워크플로에 사용자 지정 스크립트를 삽입하여 애플리케이션의 일시 중지 및 재개를 조정할 수 있습니다. 이 기능을 통해 스냅샷이 복제되고 적절하게 복원되기 전에 애플리케이션이 제대로 준비되도록 하여 장애 조치 후에도 원활하게 운영을 재개할 수 있습니다.
 
-사용자 지정 스크립트를 삽입하는 방법을 알아보려면 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["복제 계획 생성"^]을 참조하십시오.
+사용자 지정 스크립트를 삽입하는 방법을 알아보려면 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-replication-plan-kubernetes.html["복제 계획 생성"^]을 참조하십시오.
 
 
 
