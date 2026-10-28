@@ -61,6 +61,7 @@ NetApp Console 기능과 NetApp 데이터 서비스에 대한 전체 릴리스 �
 [[data-services]]
 == 데이터 서비스
 
+* https://docs.netapp.com/us-en/ai-data-engine/release-notes/whats-new.html["AI Data Engine"^]
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["백업 및 복구"^]
 * https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["데이터 분류"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["복사 및 동기화"^]
