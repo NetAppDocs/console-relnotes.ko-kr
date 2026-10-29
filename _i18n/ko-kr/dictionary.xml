@@ -294,7 +294,6 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">이제 재해 복구 기능에 리소스 변환 템플릿과 AppVaults를 중앙에서 관리할 수 있는 설정 페이지가 제공됩니다. 이 페이지는 재해 복구 계획의 핵심 구성 요소를 구성하고 관리할 수 있는 단일 인터페이스를 제공합니다. 설정 페이지의 옵션에 대한 자세한 내용은 <block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> 및 <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">NetApp Disaster Recovery는 더욱 원활하고 오류 없는 사용자 경험을 보장하기 위해 복제 계획 생성 페이지에 향상된 유효성 검사 기능을 도입했습니다.</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">Disaster Recovery는 간헐적인 요청 시간 초과를 허용하도록 서비스의 복원력을 높여 UI의 전반적인 성능과 안정성을 향상시켰습니다.</block>
-  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">깔끔한 복원을 위한 지원 강화</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">이제 의심스러운 사용자 동작 및 사용자 기반 암호화 공격 후 복구를 위한 클린 복원 기능을 사용할 수 있습니다. 이 기능은 기존의 암호화(엔트로피) 기반 공격 지원에 추가됩니다. 향상된 기능을 통해 클린 복원의 안내형 접근 방식을 활용하여 데이터 손실을 최소화하고 복구 속도를 높이는 최적의 복원 지점을 찾을 수 있습니다.</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">정상적인 복원을 위해 격리된 복구 환경을 구축합니다.</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">자세한 내용은 <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
@@ -452,7 +451,6 @@
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026년 10월 19일</block>
   <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">향상된 격리 복구 환경 구성</block>
   <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilience는 이제 향상된 격리 복구 환경 구성 워크플로를 제공합니다. 새로운 워크플로는 클라우드 또는 온프레미스 환경을 위한 격리 복구 환경 설정 프로세스를 명확히 하고 간소화합니다.</block>
-  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 향상된 워크플로</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience는 사용자 활동 모니터링 활성화 워크플로를 개선했습니다. 이전에는 Ransomware Resilience가 워크로드에서 사용자 활동 모니터링을 사용하는 랜섬웨어 보호 전략을 활성화할 때마다 데이터 수집기의 연결을 테스트했습니다. 이번 업데이트를 통해 스토리지 VM에 데이터 수집기가 존재하고 "실행 중" 상태인 경우 해당 확인 단계를 건너뛰어 보호 워크플로 속도를 향상시켰습니다.</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">워크로드 보호</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 서비스 레벨이 일반 출시되었습니다.</block>
@@ -490,4 +488,6 @@
   <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience는 이제 수동 사용자 활동 에이전트 생성 워크플로를 제공하여 VM에서 사용자 활동 에이전트를 생성하는 방법을 더욱 세밀하게 제어할 수 있도록 합니다. 이 새로운 워크플로를 사용하면 VM SSH 키를 제공하지 않고도 사용자 활동 에이전트를 직접 설치하고 프록시 설정을 구성할 수 있습니다.</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">사용자 활동 에이전트를 생성합니다</block>
   <block id="77330beb10dbe494866c425493911f54" category="paragraph">자세한 내용은 <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">의심스러운 사용자 행동 및 사용자 기반 암호화 공격에 대한 클린 복원 지원</block>
+  <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">사용자 활동 모니터링을 활성화하기 위한 개선된 워크플로</block>
 </blocks>
