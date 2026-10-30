@@ -489,4 +489,55 @@
   <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">이번 릴리스에서 NetApp Backup and Recovery는 모든 워크로드에 대해 다음과 같은 라이선스 개선 사항을 도입했습니다:</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">NetApp Backup and Recovery 라이선스 설정</block>
   <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">라이선스에 대한 자세한 내용은 <block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
+  <block id="702209553c340514b23674486ae4fd31" category="doc">AI Data Engine 1.3</block>
+  <block id="dd420b0ebbfd644a3592c8e34b2ff629" category="inline-link">AIDE 단일 노드 배포</block>
+  <block id="bef20353ec71f208058a441ac3075e32" category="paragraph">AI Data Engine은 NetApp Console을 통해 관리되는 메타데이터 인텔리전스 서비스로, 연결된 시스템을 스캔하고 메타데이터 카탈로그를 구축하며, 스토리지를 최적화하고 대규모로 데이터를 관리할 수 있는 가시성과 툴을 제공합니다. AI Data Engine을 <block ref="142c34bc944087f6618b21ea2656150e" category="inline-link-rx"></block>(으)로 배포하거나, 환경에서 대규모의 Kubernetes 기반 고가용성이 필요한 경우 AIDE 다중 노드 배포로 배포할 수 있습니다.</block>
+  <block id="b47d2c6bc36912f9c4906cd956ab8801" category="paragraph">AI Data Engine 1.3은 최초의 일반 출시(GA) 버전입니다.</block>
+  <block id="b6fbdf8ef74b308af14cc26bb5cf3d57" category="dlist-title">데이터를 배포하고 연결하세요</block>
+  <block id="6efb2debacc503f80d4da744eff0cf0e" category="inline-link">환경에 필요한 규모로 배포하세요</block>
+  <block id="240f9f6dce8959d1579bafbec08d0a07" category="list-text"><block ref="240f9f6dce8959d1579bafbec08d0a07" category="inline-link-rx"></block></block>
+  <block id="54d59647b1d587275188225d397c3a90" category="inline-link">AIDE용 프록시에 대해 알아보기</block>
+  <block id="dc5d043b5e605fee0d9932e6221d1341" category="list-text">단일 VM에서 빠른 시작을 위해 AIDE 단일 노드 배포를 선택하거나, 고가용성 및 대규모 확장을 위해 자체 Kubernetes 클러스터에서 AIDE 다중 노드 배포를 선택하십시오. 환경에서 인터넷에 연결하기 위해 프록시가 필요한 경우,<block ref="1fba41490412204ba3e209df7e3a5b18" category="inline-link-rx"></block> 프록시를 사용하여 배포하십시오.</block>
+  <block id="5d4ef326714efe60337e85390babd329" category="inline-link">데이터를 범위에 포함하십시오</block>
+  <block id="cbb5a5204dc3d123ef3e9d16f2e82c40" category="list-text"><block ref="cbb5a5204dc3d123ef3e9d16f2e82c40" category="inline-link-rx"></block></block>
+  <block id="d230737bea58a8428adf7af15944f95e" category="list-text">파일 공유, 데이터베이스 서버 및 StorageGRID 시스템을 연결하고 스캔할 데이터 리소스를 선택하십시오.</block>
+  <block id="dc3afd3f5177091595345a8d4549347f" category="inline-link">스캔을 정상 상태로 유지하십시오</block>
+  <block id="7b788817aa65d1a00c5998f98ef08cfb" category="list-text"><block ref="7b788817aa65d1a00c5998f98ef08cfb" category="inline-link-rx"></block></block>
+  <block id="2ee195a4ed58f4d222297b70a61432fb" category="list-text">배포 상태를 모니터링하여 스캔을 방해할 수 있는 문제를 파악하고, 문제를 해결하는 데 필요한 세부 정보를 수집하십시오.</block>
+  <block id="503e5b39e3523e3f785dc860a90339b7" category="dlist-title">스토리지를 최적화하고 데이터를 조사하십시오</block>
+  <block id="5985e93b91139d269803898603d579a6" category="inline-link">스토리지 용량 복구</block>
+  <block id="78d40fa188b264432d9acc14b6e6b1a6" category="list-text"><block ref="78d40fa188b264432d9acc14b6e6b1a6" category="inline-link-rx"></block></block>
+  <block id="28ee8cd4b89e717d7369cec556fc8ecb" category="list-text">설정된 임계값을 기준으로 연결된 시스템 전체에서 콜드, 오래된, 중복 데이터를 식별하고, 어떤 시스템과 데이터 소유자가 이러한 데이터를 가장 많이 보유하고 있는지 확인하십시오.</block>
+  <block id="768437ba03b276a3ec10fbbe8b81a73b" category="inline-link">조직의 콜드 및 비활성 데이터를 정의하십시오.</block>
+  <block id="cf33f4d67208331a1884a855217b6910" category="list-text"><block ref="cf33f4d67208331a1884a855217b6910" category="inline-link-rx"></block></block>
+  <block id="c7f53c208d84a3ef5f51bc7df079759c" category="list-text">보존 정책에 맞춰 어떤 데이터를 콜드 또는 비활성 데이터로 분류할지 결정하는 임계값을 설정하십시오.</block>
+  <block id="b1a6eb35f4a110688914b03b871eaf51" category="inline-link">데이터 관련 문의 담당자를 확인하세요</block>
+  <block id="05ea9642a4f5b9ce56f13fe067b453b2" category="list-text"><block ref="05ea9642a4f5b9ce56f13fe067b453b2" category="inline-link-rx"></block></block>
+  <block id="7a1cad1c9f215254d948360e464d76ff" category="list-text">대시보드에서 어떤 데이터 소유자가 콜드, 비활성 또는 중복 데이터를 가장 많이 보유하고 있는지 확인하십시오. 그런 다음 조사 보기에서 소유자 또는 그룹별로 필터링하여 결과를 검토하고 연락할 담당자를 찾으십시오.</block>
+  <block id="48f8775f839e036416f7dc0d633d5f90" category="inline-link">비용 및 위험 감소</block>
+  <block id="862a75ec1e9a5a65a297360dc22b2bc2" category="list-text"><block ref="862a75ec1e9a5a65a297360dc22b2bc2" category="inline-link-rx"></block></block>
+  <block id="847b10ef72a08afa0a7a2bccfc9f722a" category="list-text">연결된 모든 시스템에서 액세스 시간, 수정 날짜, 생성 날짜, 파일 크기, 중복 여부 및 기타 기준에 따라 필터링하여 조직의 데이터 관리 목표에 부합하는 파일을 찾으십시오. 검색 결과를 바로 활용하거나 기준을 정책으로 저장할 수 있습니다.</block>
+  <block id="aa06fbb4900808cad7e234eac413020c" category="inline-link">중복 데이터 제거</block>
+  <block id="b61b383822e3f75988a3bc5303d64e36" category="list-text"><block ref="b61b383822e3f75988a3bc5303d64e36" category="inline-link-rx"></block></block>
+  <block id="b88b83fb304e42378e6634bd65125bc0" category="list-text">연결된 시스템 전체에서 중복된 파일을 찾습니다. 중복 속성 또는 파일 해시를 기준으로 필터링하여 중복 그룹을 검토한 다음 중복된 파일을 정리합니다.</block>
+  <block id="6a0ea53ac4eb792afc1b4f47bebce855" category="inline-link">액세스 위험 찾기</block>
+  <block id="9ee8d4cfc51103c18fc1a2ae913d5f55" category="list-text"><block ref="9ee8d4cfc51103c18fc1a2ae913d5f55" category="inline-link-rx"></block></block>
+  <block id="c29b4022a785fd3edc8eacb408d318ae" category="list-text">권한이 열려 있는 디렉터리를 식별하여 권한 검토의 우선순위를 정하십시오.</block>
+  <block id="4a85d1ee07bb8b9d1edfdad83663f695" category="inline-link">정형 데이터 조사</block>
+  <block id="13bf9647191c08a44d253d11925f720f" category="list-text"><block ref="13bf9647191c08a44d253d11925f720f" category="inline-link-rx"></block></block>
+  <block id="ed29587aa611eb50b7cd9e6c7532cd6b" category="list-text">연결된 데이터베이스 서버 전체에서 크기가 너무 크거나 사용되지 않는 데이터베이스 테이블을 찾으십시오.</block>
+  <block id="a96561a39a488fd7ab3a0429b8037b51" category="dlist-title">데이터를 기반으로 조치를 취하고 시간 경과에 따라 모니터링하십시오</block>
+  <block id="a82c68dd721dede489a3f3b8e95372d3" category="inline-link">스토리지 비용 절감</block>
+  <block id="3364b0befdd009cf3911e421130619e8" category="list-text"><block ref="3364b0befdd009cf3911e421130619e8" category="inline-link-rx"></block></block>
+  <block id="e21cfecd675bc598f5df1e37e056a8ec" category="list-text">파일을 NFS 또는 SMB 대상으로 복사 및 보관하거나, 추적을 위해 항목에 태그를 지정하거나, 보존 요구 사항에 따라 파일을 영구적으로 삭제하여 조직의 데이터 라이프사이클 정책을 시행하십시오.</block>
+  <block id="d0cec28746f2b1c070ddbca66abadb26" category="inline-link">데이터 상태를 지속적으로 모니터링합니다</block>
+  <block id="bb9cf8ec15fcf3324f1ac0beae0e6103" category="list-text"><block ref="bb9cf8ec15fcf3324f1ac0beae0e6103" category="inline-link-rx"></block></block>
+  <block id="324524f3e5ca24846ad76aa3a39d085c" category="list-text">콜드 파일 또는 크기가 큰 파일 등 반복되는 데이터 조건을 시간이 지남에 따라 추적하기 위해 필터 기준을 명명된 정책으로 저장하고, 영향을 받는 파일 수가 변경될 때 알림을 받으십시오.</block>
+  <block id="9da1323a6fdf6f9dd2a01251fd374b38" category="dlist-title">AI 접근 제어</block>
+  <block id="7ddef8d1014170776e5690b23704bda9" category="inline-link">AI 클라이언트에게 메타데이터에 대한 통제된 액세스 권한을 부여하십시오.</block>
+  <block id="ce4014ce8d04d1a09fa16018842bd557" category="list-text"><block ref="ce4014ce8d04d1a09fa16018842bd557" category="inline-link-rx"></block></block>
+  <block id="e92a557f1e1e53dd1526a17543191ac9" category="list-text">모델 컨텍스트 프로토콜(MCP)을 통해 Claude Code, Claude Desktop, Cursor 또는 OpenCode를 AI Data Engine에 연결합니다. AI 클라이언트가 검색할 수 있는 컬렉션을 활성화하고 Microsoft Entra ID 범위를 사용하여 각 컬렉션을 검색할 수 있는 사용자를 제어합니다. AI 클라이언트는 메타데이터와 태그 파일을 검색할 수 있습니다.</block>
+  <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">관리자 및 뷰어 역할 할당</block>
+  <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
+  <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">조직 내 사용자에게 AI Data Engine 관리자 또는 뷰어 역할을 할당하여 데이터를 조사하고 조치를 취할 수 있는 사용자를 제어할 수 있습니다.</block>
 </blocks>
