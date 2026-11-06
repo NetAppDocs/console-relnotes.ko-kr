@@ -531,20 +531,16 @@
   <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">새로운 데이터가 있을 경우 알림 배너에서 *지금 불러오기*를 선택하여 대시보드를 업데이트하십시오.</block>
   <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">*데이터 새로 고침*과 *지금 불러오기* 모두 Tracker에서 데이터 수집 이벤트를 생성합니다.</block>
   <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">사용자 지정 대시보드 데이터를 새로 고치는 방법을 알아보십시오.</block>
-  <block id="d6592fddba6a07bb0a917566a4081fc5" category="paragraph"><block ref="d6592fddba6a07bb0a917566a4081fc5" category="inline-link-macro-rx"></block></block>
   <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">사용자 지정 대시보드에 대한 지역을 지정하십시오</block>
   <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">이제 맞춤형 대시보드는 요청에 지역이 포함되지 않은 경우 하나 이상의 지역을 선택하도록 요청합니다. 대시보드 데이터는 사용자가 선택한 지역으로 제한됩니다.</block>
   <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">맞춤형 대시보드를 생성하는 방법 알아보기</block>
-  <block id="265c60992e7c3b3f876f80926a9c3a65" category="paragraph"><block ref="265c60992e7c3b3f876f80926a9c3a65" category="inline-link-macro-rx"></block></block>
   <block id="639dc972d056a14ca9535d40d9ba48bb" category="section-title">FSx for ONTAP 링크 생성을 위한 IAM 정책</block>
   <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">이제 링크 생성을 위한 CloudFormation 템플릿과 Terraform 코드는 인라인 Lambda 권한 대신 IAM 정책을 사용합니다.</block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">링크를 만드는 방법을 알아보세요</block>
-  <block id="2f101cc9d5d0dd23089ae6fca31ac27f" category="paragraph"><block ref="2f101cc9d5d0dd23089ae6fca31ac27f" category="inline-link-macro-rx"></block></block>
   <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">AI 에이전트 동작에 대한 감사 및 추적</block>
   <block id="5aecb2747daa4a62ad221d70aaf568df" category="paragraph">이제 Tracker를 사용하여 AI 에이전트 설정 변경 사항을 검토하고, 읽기/쓰기 모드에서 에이전트의 질문과 사용자의 답변을 포함한 각 승인 요청을 확인할 수 있습니다.</block>
   <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">Workload Factory API를 통해 이루어진 리소스 변경 사항은 해당 작업을 수행하는 Workload Factory 서비스에 기록됩니다.</block>
   <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">에이전트 작업에 대한 감사 및 추적에 대해 알아보십시오</block>
-  <block id="d280606d2d970fea6313288893352119" category="paragraph"><block ref="d280606d2d970fea6313288893352119" category="inline-link-macro-rx"></block></block>
   <block id="9e81dbda2a0d084e31f85eea0c371131" category="section-title">Amazon FSx for NetApp ONTAP 향상 기능</block>
   <block id="230227ce1631475a082d9f0865ea84b2" category="section-title">개시자 그룹 다이어그램 개선 사항</block>
   <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">클라이언트 액세스 관리 페이지에서 블록 장치에 대한 이니시에이터 그룹을 표시하는 다이어그램에 이제 호스트에 대한 자세한 정보가 포함됩니다. 다이어그램에서 호스트 위에 마우스를 올리면 호스트 이름, 인스턴스 ID, 워크로드 유형, 지역 및 iSCSI 정규화 이름(IQN) 등 호스트 세부 정보가 표시됩니다.</block>
@@ -619,7 +615,11 @@
   <block id="7dc11e8b104c8a8c4a3b0a79dfe90760" category="list-text">비용 최적화: 콜드 데이터 계층화, 스냅샷 정리 및 스토리지 효율성</block>
   <block id="4c08f7b0400f82cb6607401bcdf078f1" category="inline-link-macro">OCI NSS 시스템에 대한 잘 설계된 분석</block>
   <block id="5514a97cb8286872cf232b29c81405be" category="inline-link-macro">잘 설계된 구성 구현</block>
-  <block id="6c5cb49a519e4001a13828cd8f9f28ab" category="paragraph"><block ref="026b7813287d66b370ca6b12a499c052" category="inline-link-macro-rx"></block> 및 <block ref="503539a9757057d0d19762cf2dfced52" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026년 11월 1일</block>
   <block id="b2aa5fc60892f4965eac1f9ee3c256a9" category="paragraph"><block ref="b2aa5fc60892f4965eac1f9ee3c256a9" category="inline-link-rx"></block></block>
+  <block id="07cf94dbd86831dbe155ce2ae452142d" category="paragraph"><block ref="07cf94dbd86831dbe155ce2ae452142d" category="inline-link-macro-rx"></block></block>
+  <block id="9f67b96a0ca41faa533cd001e1dfb1b1" category="paragraph"><block ref="9f67b96a0ca41faa533cd001e1dfb1b1" category="inline-link-macro-rx"></block></block>
+  <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
+  <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
+  <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph"><block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block> 및 <block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
 </blocks>
