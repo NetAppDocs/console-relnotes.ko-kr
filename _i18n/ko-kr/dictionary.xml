@@ -114,18 +114,11 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console 관리</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">이 릴리스 노트에서는 NetApp Console 과 이를 지원하는 데이터 서비스에 대한 최신 개선 사항을 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크입니다.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사항에 대해 알아보세요. 전체 릴리스 내역을 보려면 각 서비스에 대한 전체 릴리스 노트를 참조하세요.</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 워크로드 개선 사항</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 워크로드 개선 사항</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>을 참조하세요.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">이번 NetApp Console 에이전트 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">다음 서비스는 더 이상 사용되지 않습니다.</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 워크로드 개선 사항</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware 워크로드 보호 개요</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMware 워크로드 보호에 대한 자세한 내용은<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP 볼륨 워크로드 보호 개요</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP Volumes 워크로드 보호에 대한 자세한 내용은<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 워크로드 개선 사항</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
@@ -137,39 +130,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">자세한 내용은 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현</block>
-  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">개선된 대시보드</block>
-  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Disaster Recovery 대시보드가 새롭게 개선되어 전체 Disaster Recovery 환경을 한눈에 파악할 수 있는 향상된 사용자 경험을 제공합니다. 새로운 대시보드에는 다음이 포함되어 있습니다.</block>
-  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*통합 워크로드 가시성* — 단일 화면에서 VMware 및 Kubernetes 워크로드와 기본 인프라 상태를 모두 모니터링할 수 있습니다.</block>
-  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*사전 예방적 문제 표시* — 대시보드가 이제 환경 문제를 자동으로 강조 표시하여 더 빠른 진단과 문제 해결 시간 단축을 지원합니다.</block>
-  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*용량 활용률* — 용량 관련 지표가 이제 대시보드에 직접 표시되어 리소스 소비량을 더 쉽게 파악할 수 있습니다.</block>
-  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">대시보드에서 NetApp Disaster Recovery 계획의 상태를 확인합니다</block>
-  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">자세한 내용은 <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">개선된 보고서</block>
-  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">환경 전반의 Disaster Recovery 활동에 대한 보다 심층적인 인사이트를 제공하도록 보고 기능이 확장되었습니다.</block>
-  <block id="7f09e48950606d1acab05c889751f513" category="list-text">VMware 워크로드, Kubernetes 워크로드 또는 둘 다를 대상으로 보고서를 생성하여 대상에 맞게 보고서를 맞춤 설정할 수 있는 유연성을 제공합니다.</block>
-  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">각 보고서는 지정된 기간 동안의 활동에 대한 완전한 요약을 제공하여 Disaster Recovery 환경에서 발생하는 모든 이벤트를 완벽하게 파악할 수 있도록 합니다.</block>
-  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">NetApp Disaster Recovery 보고서 생성</block>
-  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">자세한 내용은 <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">사용자 작업 로깅</block>
-  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery는 사용자 수준 작업 로깅을 통해 작업의 책임성과 감사 가능성을 향상시켰습니다. 이제 실행되는 모든 작업에는 작업을 시작한 사용자가 기록되어 규정 준수 및 문제 해결을 위한 명확한 감사 추적을 제공합니다. Disaster Recovery에 의해 자동으로 트리거되는 작업은 "system"으로 식별되어 사용자 시작 활동과 서비스 시작 활동을 쉽게 구분할 수 있습니다.</block>
-  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">NetApp Disaster Recovery 작업 모니터링</block>
-  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">자세한 내용은 <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">성능 및 리소스 최적화</block>
-  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">시스템 리소스 소비를 전반적으로 줄이고 Disaster Recovery 작업 전반의 성능을 향상시키기 위해 다양한 내부 개선 사항이 적용되었습니다.</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026년 8월 10일</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">일반 NetApp Backup and Recovery 기능 향상</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*NetApp Console 로컬 배포 지원*: 이번 NetApp Backup and Recovery 릴리스는 NetApp Console 로컬 배포를 미리 보기 상태로 지원합니다.</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90일 작업 보존*: 이제 Backup and Recovery가 작업 모니터에서 작업 정보를 90일 동안 보존합니다.</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">이번 릴리스에서 VMware 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM에 대한 대체 위치 복원 지원*: 이제 SAN 기반 VM 백업을 다른 위치로 복원할 수 있습니다.</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*여러 백업 삭제 지원*: 이제 한 번에 여러 백업을 삭제할 수 있습니다.</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*에어갭 리소스에 대한 미리 보기 지원*: NetApp Console 로컬 배포에서 NetApp Backup and Recovery를 실행하는 경우 에어갭 Kubernetes 리소스를 검색, 보호 및 복원할 수 있습니다. 이 기능은 이번 릴리스에서 미리 보기로 제공됩니다.</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">이번 릴리스에서 ONTAP Volumes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Backup and Recovery 활성화 없이 ONTAP 시스템 및 볼륨 검색*: 이제 Backup and Recovery를 활성화하지 않고도 시스템과 볼륨을 검색할 수 있습니다.</block>
-  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">활성 스캔 탭으로 스캔 관리 향상</block>
-  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">데이터 분류 기능의 구성 메뉴에 *활성 스캔* 탭이 추가되어 스캔 관리가 더욱 편리해졌습니다. 활성 스캔 탭에서는 스캔을 활성화한 모든 볼륨을 한눈에 볼 수 있으며, 익숙한 필터를 사용하여 리소스를 정렬할 수 있습니다. 또한, 이 탭은 스캔 우선순위 지정, 스캔 일시 중지, 오류 검토를 위한 중앙 위치를 제공합니다.</block>
-  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">스캔 관리</block>
-  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">자세한 내용은 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console 에이전트 4.10.0</block>
   <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
   <block id="657b18a162285732ef5f46d679b05663" category="section-title">클라우드 미디에이터의 응답성과 안정성이 향상되었습니다.</block>
@@ -180,8 +140,6 @@
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience 기능이 이제 데이터 수집기 삭제를 지원합니다. 데이터 수집기는 워크로드에서 사용자 활동 감지를 활성화하면 자동으로 생성됩니다. 데이터 수집기가 더 이상 유효하지 않게 되면 이제 수동으로 삭제할 수 있습니다.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">자세한 내용은 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 기능에 대한 사용 중단 안내</block>
-  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 기능은 2026년 9월에 Digital Advisor에서 더 이상 사용되지 않을 예정입니다.</block>
-  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026년 8월 12일</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*오브젝트 스토리지 백업을 다른 위치로 복원*: 이제 Hyper-V 가상 머신, 파일 및 폴더를 오브젝트 스토리지에서 다른 스토리지 위치로 복원할 수 있습니다.</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">NetApp Backup and Recovery를 사용하여 Hyper-V 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
@@ -313,7 +271,6 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">일반 NetApp Backup and Recovery 기능 향상</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*VM 호스트 검색 중 자격 증명 선택*: KVM, Hyper-V 또는 VMware 호스트를 검색할 때 Backup and Recovery에 이미 추가한 자격 증명을 사용할 수 있습니다.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 워크로드 향상</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*복원 작업을 백업보다 우선 순위 지정*: 이제 볼륨, 파일 또는 폴더를 복원할 때 복원 작업을 백업 작업보다 우선 순위로 지정할 수 있습니다.</block>
   <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">가치 분석 대시보드 콘텐츠 업데이트</block>
   <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Value Insights 대시보드 관련 문서 업데이트가 게시되었습니다.</block>
   <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">Digital Advisor에서 Value Insights Dashboard를 사용하는 방법</block>
@@ -622,4 +579,22 @@
   <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
   <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
   <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph"><block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block> 및 <block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="da3e6d90947db5a87778a986ff1db5ba" category="section-title">Workload Factory for EDA 개선 사항</block>
+  <block id="0c8274ed6d395bfacc0daf3070e64c0c" category="paragraph">이러한 개선 사항에는 지연 시간 분석의 볼륨 세부 정보, 파일 시스템 부하 검사, 처리량 결정 지점 및 지연 시간 분석 재실행이 포함됩니다.</block>
+  <block id="f65838a0505e6828c4b2c1ae8ce1218d" category="section-title">지연 시간 분석 중 볼륨 세부 정보를 확인합니다</block>
+  <block id="34649924d5b9e1477b2428d04da725a3" category="paragraph">지연 시간 이벤트를 분석하는 동안 Workload Factory에서 볼륨 세부 정보를 추가로 확인하여 볼륨이 어떻게 구성되어 있는지 파악할 수 있습니다. 상세 지연 시간 분석 페이지에는 *볼륨 유형*(RW 또는 DP) 및 *볼륨 스타일*(FlexVol 또는 FlexGroup)이 표시됩니다.</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link-macro">지연 시간 추세를 분석하는 방법을 알아보십시오</block>
+  <block id="10686b705e0e365002c272bd2719b69a" category="paragraph"><block ref="10686b705e0e365002c272bd2719b69a" category="inline-link-macro-rx"></block></block>
+  <block id="59d6e00f849e1dd27d91bb4c786299b8" category="section-title">지연 이벤트 발생 시 파일 시스템 부하를 확인하십시오</block>
+  <block id="6f204454acf5d87a64a6daf9900777eb" category="paragraph">워크로드 팩토리에서는 지연 이벤트 발생 시 파일 시스템 부하가 성능에 영향을 미쳤는지 확인하여 파일 시스템 조사 여부를 결정할 수 있습니다. 지연 알림이 발생한 볼륨의 경우, 이벤트 발생 40분 전부터의 CloudWatch 데이터를 확인하고 파일 시스템을 열어 추가 조사를 진행할 수 있습니다.</block>
+  <block id="dfa004f6c9736368068fe71bacbee74e" category="inline-link-macro">파일 시스템 압력 검사에 대해 알아보세요</block>
+  <block id="c6351fb1f8b9c7124503e2dd773f4a6f" category="paragraph"><block ref="c6351fb1f8b9c7124503e2dd773f4a6f" category="inline-link-macro-rx"></block></block>
+  <block id="f8240ccc3d3033d0a4d027c0acb6a2fd" category="section-title">EDA에 대한 처리량 결정 지점을 검토합니다</block>
+  <block id="8591045ae6ed3a89acd6e3756c7561dc" category="paragraph">Workload Factory가 처리량 변경을 권장하거나 적용한 시점을 확인할 수 있도록 EDA Overview 대시보드에서 클라이언트 처리량 결정 지점을 검토할 수 있습니다. 결정 지점에 마우스를 올리면 현재 및 권장 SKU 또는 해당 기간 동안 위반된 지표 등 세부 정보를 볼 수 있습니다.</block>
+  <block id="8f60994adbdba3c89dc164460dbd5fe7" category="inline-link-macro">처리량 결정 지점을 검토하는 방법을 알아보십시오</block>
+  <block id="08935aa85ac8d6983a754c391dc22299" category="paragraph"><block ref="08935aa85ac8d6983a754c391dc22299" category="inline-link-macro-rx"></block></block>
+  <block id="afaff13c48c5bdfb3e3a3820005ef966" category="section-title">지연 시간 분석을 다시 실행하십시오</block>
+  <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">조사 또는 변경 후 결과를 새로 고치려면 Workload Factory에서 볼륨에 대한 지연 시간 분석을 다시 실행할 수 있습니다. 새 분석을 시작하고 결과를 업데이트하려면 *분석 다시 실행*을 선택하십시오.</block>
+  <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">지연 시간 문제를 분석하는 방법을 알아보세요</block>
+  <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
 </blocks>
