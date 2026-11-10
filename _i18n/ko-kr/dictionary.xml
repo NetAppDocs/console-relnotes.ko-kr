@@ -597,4 +597,11 @@
   <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">조사 또는 변경 후 결과를 새로 고치려면 Workload Factory에서 볼륨에 대한 지연 시간 분석을 다시 실행할 수 있습니다. 새 분석을 시작하고 결과를 업데이트하려면 *분석 다시 실행*을 선택하십시오.</block>
   <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">지연 시간 문제를 분석하는 방법을 알아보세요</block>
   <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
+  <block id="e9f11fc9d91bec322284ec741f87191d" category="section-title">VMware용 Workload Factory 개선 사항</block>
+  <block id="2296d077680e104e6519a9745c173ece" category="paragraph">이러한 개선 사항은 VMware 마이그레이션을 위한 EVS TCO 계산기에 적용됩니다.</block>
+  <block id="37460924712e1c37dc5ad9be085001ad" category="section-title">EVS TCO 계산기에서 i7i.metal-24xl 및 i7i.metal-48xl 인스턴스 지원</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">EVS TCO 계산기가 이제 AWS i7i.metal-24xl 및 i7i.metal-48xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, i7i.metal-24xl 인스턴스는 컴퓨팅 비용 측면에서 EVS 초기 비용을 약 33%, vSAN 스토리지 비용 측면에서 약 25% 절감해 줍니다.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">이 계산기는 모든 인스턴스 유형을 비교하여 가장 저렴한 옵션을 자동으로 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 선택할 수 있습니다.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVS의 예상 절감액 계산</block>
+  <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
 </blocks>
