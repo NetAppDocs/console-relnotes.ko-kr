@@ -935,17 +935,6 @@ ONTAP Volumes 워크로드 보호에 대한 자세한 내용은 https://docs.net
 
 
 
-[[data-classification]]
-=== 데이터 분류
-
-
-
-==== 전반적인 개선
-
-이번 Data Classification 릴리스에는 보안 개선 사항과 성능 향상이 포함되어 있습니다.
-
-
-
 [[disaster-recovery]]
 === 재해 복구
 
