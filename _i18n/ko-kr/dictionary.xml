@@ -590,7 +590,6 @@
   <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">재해 복구에서 작업 모니터링</block>
   <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">자세한 내용은 <block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">관리되는 차단된 파일 확장자</block>
-  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">Ransomware Resilience는 이제 *의심스러운 파일 확장자 차단* 보호 옵션을 활성화한 경우 워크로드에서 허용 또는 차단되는 파일 확장자 목록을 사용자 지정할 수 있는 기능을 제공합니다. 이 개선 사항을 통해 스토리지 VM(SVM)에서 특정 파일 형식만 허용하거나 특정 파일 확장자를 차단하도록 워크로드를 구성할 수 있습니다. FPolicy를 사용하여 의심스러운 파일 확장자를 차단하는 기존 워크로드를 Ransomware Resilience로 마이그레이션하는 경우, 기본적으로 더 선별된 확장자 목록을 사용하지만 해당 목록을 사용자 지정할 수 있습니다. 이 개선 사항은 파일 확장자 옵션에 대한 더욱 세밀한 제어를 지원하며, 각 SVM마다 다른 목록을 생성할 수도 있습니다.</block>
   <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">Ransomware Resilience에서 차단된 파일 확장자 관리</block>
   <block id="746947620a1677afde977abf37019b8c" category="paragraph">자세한 내용은 <block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroCluster 지원</block>
@@ -600,4 +599,11 @@
   <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">자세한 내용은 <block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026년 11월 16일</block>
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026년 11월 9일</block>
+  <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console 에이전트 4.13.0</block>
+  <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
+  <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">Console 에이전트를 배포할 때 AWS 배포 역할을 자동으로 생성합니다</block>
+  <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">Console에서 AWS에 Console 에이전트를 배포하는 방법을 알아보십시오.</block>
+  <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">이제 AWS에 콘솔 에이전트를 배포하기 전에 IAM 역할을 생성할 필요가 없습니다. NetApp Console에서 역할을 생성해 줍니다. <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
+  <block id="d8a7fd7644a3770509948debea790466" category="paragraph">Ransomware Resilience는 이제 *의심스러운 파일 확장자 차단* 보호 옵션을 활성화한 경우 워크로드에서 허용 또는 차단되는 파일 확장자 목록을 사용자 지정할 수 있는 기능을 제공합니다. 이 개선 사항을 통해 스토리지 VM(SVM)에서 특정 파일 형식만 허용하거나 특정 파일 확장자를 차단하도록 워크로드를 구성할 수 있습니다. 이 개선 사항은 파일 확장자 옵션에 대한 더욱 세밀한 제어를 지원하며, 각 SVM마다 다른 목록을 생성할 수도 있습니다.</block>
 </blocks>

@@ -55,6 +55,28 @@ MetroCluster 워크로드에 대한 랜섬웨어 공격 후 복구 시 현재는
 
 
 
+[[console-setup-and-administration]]
+=== 콘솔 설정 및 관리
+
+
+
+==== Console 에이전트 4.13.0
+
+4.13.0 릴리스는 표준 모드와 제한된 모드를 모두 지원합니다.
+
+이번 Console 에이전트 릴리스에는 보안 개선 사항 및 버그 수정 사항과 더불어 다음과 같은 새로운 기능이 포함되어 있습니다.
+
+.Console 에이전트를 배포할 때 AWS 배포 역할을 자동으로 생성합니다
+이제 AWS에 콘솔 에이전트를 배포하기 전에 IAM 역할을 생성할 필요가 없습니다. NetApp Console에서 역할을 생성해 줍니다. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["Console에서 AWS에 Console 에이전트를 배포하는 방법을 알아보십시오."^]
+
+
+
+==== NetApp Console 관리
+
+이번 릴리스에는 보안 개선 사항과 버그 수정 사항이 포함되어 있습니다.
+
+
+
 [[disaster-recovery]]
 === 재해 복구
 
@@ -75,7 +97,7 @@ MetroCluster 워크로드에 대한 랜섬웨어 공격 후 복구 시 현재는
 
 ==== 관리되는 차단된 파일 확장자
 
-Ransomware Resilience는 이제 *의심스러운 파일 확장자 차단* 보호 옵션을 활성화한 경우 워크로드에서 허용 또는 차단되는 파일 확장자 목록을 사용자 지정할 수 있는 기능을 제공합니다. 이 개선 사항을 통해 스토리지 VM(SVM)에서 특정 파일 형식만 허용하거나 특정 파일 확장자를 차단하도록 워크로드를 구성할 수 있습니다. FPolicy를 사용하여 의심스러운 파일 확장자를 차단하는 기존 워크로드를 Ransomware Resilience로 마이그레이션하는 경우, 기본적으로 더 선별된 확장자 목록을 사용하지만 해당 목록을 사용자 지정할 수 있습니다. 이 개선 사항은 파일 확장자 옵션에 대한 더욱 세밀한 제어를 지원하며, 각 SVM마다 다른 목록을 생성할 수도 있습니다.
+Ransomware Resilience는 이제 *의심스러운 파일 확장자 차단* 보호 옵션을 활성화한 경우 워크로드에서 허용 또는 차단되는 파일 확장자 목록을 사용자 지정할 수 있는 기능을 제공합니다. 이 개선 사항을 통해 스토리지 VM(SVM)에서 특정 파일 형식만 허용하거나 특정 파일 확장자를 차단하도록 워크로드를 구성할 수 있습니다. 이 개선 사항은 파일 확장자 옵션에 대한 더욱 세밀한 제어를 지원하며, 각 SVM마다 다른 목록을 생성할 수도 있습니다.
 
 자세한 내용은 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["Ransomware Resilience에서 차단된 파일 확장자 관리"]을 참조하십시오.
 
