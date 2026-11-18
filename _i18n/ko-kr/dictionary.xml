@@ -633,4 +633,11 @@
   <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">이 기능은 공개 미리 보기로 제공됩니다. 구성은 ONTAP CLI를 통해서만 지원됩니다. NetApp Console 통합은 아직 지원되지 않습니다.</block>
   <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">SMB용 Microsoft Entra ID 인증 구성</block>
   <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="8e185e7635097d7251137556c4d7b148" category="doc">AWS Marketplace의 Cloud Volumes ONTAP용 별도 PAYGO 목록</block>
+  <block id="e22492ae15b7a204416f84c3bc5e2d1e" category="paragraph">NetApp은 이제 NetApp 독립형 상품 등록(NSL)을 통해 AWS Marketplace에서 Cloud Volumes ONTAP에 대한 별도의 종량제(PAYGO) 상품 등록을 제공합니다. NetApp은 이전에 AWS 엔터프라이즈 할인 프로그램(EDP) 변경 사항에 맞춰 독립형 Cloud Volumes ONTAP 구독을 도입한 바 있습니다. 이제 PAYGO 상품 등록은 Cloud Volumes ONTAP 연간 계약과 함께 동일한 NSL 상품으로 제공되어 PAYGO 사용량 추적, 초과 요금 모니터링 및 소비 비용 관리가 더욱 간편해졌습니다.</block>
+  <block id="76d4be3bca7251e78e8b9d340a9e88e6" category="paragraph">Cloud Volumes ONTAP 연간 계약과 PAYGO 상품 등록은 모두 NetApp Intelligence Services(NIS) 연간 계약 및 PAYGO 상품 등록과 별도로 유지되므로 Cloud Volumes ONTAP 용량과 데이터 서비스에 대한 개별 청구가 가능합니다.</block>
+  <block id="79ef9f61ccfcabc1d70e24a061eef1a5" category="inline-link">결제 설정에 대해 자세히 알아보세요</block>
+  <block id="90354e46cc101991e55370e682628f58" category="inline-link">AWS Marketplace의 독립 실행형 제품 목록을 사용하여 Cloud Volumes ONTAP 배포</block>
+  <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
+  <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">2026년 11월 18일</block>
 </blocks>
