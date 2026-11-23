@@ -123,13 +123,8 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">이번 릴리스에서 Kubernetes 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">잘 설계된 대시보드</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">문의 사항이 있거나 의견을 공유하려면 ng-activeiq-feedback@netapp.com으로 Active IQ 팀에 문의하세요.</block>
-  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEM 시스템 구성</block>
-  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">자세한 내용은 <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
-  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">영역 중복 스토리지(ZRS)를 사용하여 여러 가용 영역에서 고가용성(HA) 구현</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 기능에 대한 사용 중단 안내</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">이번 릴리스에서 Hyper-V 워크로드는 다음과 같은 개선 사항을 도입했습니다.</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">NetApp Backup and Recovery를 사용하여 Hyper-V 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
@@ -139,12 +134,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Database 워크로드 향상</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery를 사용하여 Oracle Database 워크로드를 보호하는 방법에 대해 알아보십시오.</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Database 워크로드 보호에 대한 자세한 내용은<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>을 참조하십시오.</block>
-  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure에서 오스트리아 동부 및 벨기에 중부 지역에 대한 지원</block>
-  <block id="44e833213a99257d69192896111996f4" category="paragraph">이제 Azure의 오스트리아 동부(austriaeast) 및 벨기에 중부(belgiumcentral) 리전에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
-  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026년 8월 25일</block>
-  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">콘솔 에이전트를 통한 SIEM 이벤트 전달</block>
-  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">랜섬웨어 복원력은 이제 NetApp Console을 통해 이벤트를 전달하는 기존 옵션 외에도 콘솔 에이전트를 통해 SIEM 이벤트를 전달하는 것을 지원합니다.</block>
-  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">콘솔 에이전트를 통해 SIEM 이벤트를 전달하면 네트워크 경계 내에서 SIEM 이벤트 전달을 유지할 수 있습니다. 이를 통해 엄격한 IP 주소 허용 목록이 있는 온프레미스 환경에 대한 배포가 간소화되고 기존 보안 제어와 더 잘 통합될 수 있습니다. 이 옵션을 사용하려면 콘솔 에이전트가 방화벽이나 프록시 제어를 통해 필요한 포트에서 SIEM 엔드포인트를 확인하고 연결할 수 있는지 확인하십시오.</block>
   <block id="e10cb273323f88df11fadb5507d738a0" category="doc">향상된 SnapMirror 스냅샷 관리</block>
   <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">이제 최신 스냅샷을 사용하여 페일오버를 트리거할 수 있습니다. 이는 새 스냅샷을 생성하지 않을 때 권장되는 방법입니다.</block>
   <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">특정 스냅샷 기준선을 선택할 때 SnapMirror 전송 스냅샷은 기본적으로 숨겨집니다. 이는 장애 조치 도중에 해당 스냅샷이 삭제될 수 있으며, 이로 인해 "공통 스냅샷을 찾을 수 없음" 오류가 발생하여 장애 조치 후 워크로드를 다시 보호할 수 없게 될 수 있기 때문입니다. 이러한 스냅샷을 계속 사용할 수는 있지만, 위험을 인지하고 동의하는 추가 확인 절차를 완료해야 합니다.</block>
@@ -262,7 +251,6 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">프라이빗 모드 4.10.0은 Red Hat Enterprise Linux(RHEL) 9.6을 지원합니다.</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">개인 모드의 호스트 요구 사항에 대해 알아보십시오.</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">이제 Red Hat Enterprise Linux(RHEL) 9.6에서 개인 정보 보호 모드를 설치하고 실행할 수 있어 사용자는 향상된 보안 및 성능을 위한 최신 지원 운영 체제를 이용할 수 있습니다.<block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
-  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">지원되는 모든 지역 목록은<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">미국 정부 공관을 위한 클라우드 서비스</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
@@ -341,7 +329,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisor에서 가치 인사이트 살펴보기</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026년 10월 15일</block>
-  <block id="f06295aec82b8045d499f988d711565d" category="list-text">로컬 중복 스토리지(LRS)를 사용하는 단일 가용성 영역의 HA</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">Azure에 Cloud Volumes ONTAP을 배포하기 전에 환경이 다음 필수 조건을 충족하는지 확인하십시오.</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 지원*: NetApp Backup and Recovery는 이제 고가용성을 위해 Oracle Data Guard를 사용하는 기본 및 대기 데이터베이스를 보호하기 위한 보호 그룹 사용을 지원합니다.</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026년 10월 19일</block>
@@ -645,4 +632,14 @@
   <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">Hyper-V 워크로드를 검색하고 관리하십시오</block>
   <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">NetApp MetroCluster 구성에서 Hyper-V 호스트를 보호하는 방법에 대한 자세한 내용은 <block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
   <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">Hyper-V 워크로드 보호에 대한 자세한 내용은<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="fe137bb7e7054941bc9c91c50085f74f" category="list-text">*디스크 간 백업 아키텍처를 사용한 Amazon FSx for NetApp ONTAP 지원*: 이제 동일한 AWS 리전 또는 다른 AWS 리전에서 Amazon FSx for NetApp ONTAP을 기본 스토리지로, 다른 FSx for NetApp ONTAP 파일 시스템을 2차 스토리지로 사용하는 디스크 간 백업 아키텍처를 활용하여 Kubernetes 보호 정책을 생성할 수 있습니다. 또한 Cloud Volumes ONTAP을 기본 스토리지로, FSx for NetApp ONTAP을 2차 스토리지로 사용할 수도 있습니다.</block>
+  <block id="f0fe6c245af38530401dcf0ad8dfed35" category="list-text">*qtree 복원 문제 수정*: 이전에는 ontap-nas-economy 볼륨 복원 시 qtree 디렉터리의 소유자 및 권한이 잘못 복원되는 문제가 있었습니다. 이번 릴리스에서 이 문제가 해결되었습니다.</block>
+  <block id="ae4951a992a8d5e6e6132772ba1d8a9e" category="inline-link">NetApp Backup and Recovery에서 Kubernetes 백업 정책을 생성하고 관리합니다.</block>
+  <block id="28a7fe5c0d3dddc8f87571ff9c276c1d" category="paragraph">Kubernetes 보호 정책 생성에 대한 자세한 내용은 다음을 참조하십시오<block ref="bfe6c4e3e3b18b6562d50ee9cf2c4f82" category="inline-link-rx"></block>.</block>
+  <block id="04df59aebaa27ff65cee06cd27064bff" category="list-text">*복원 인터페이스 개선*: ONTAP 볼륨용 복원 마법사의 레이아웃이 새롭게 바뀌고 탐색 기능이 향상되었습니다:</block>
+  <block id="335272593837dc282e2df95a4a0177c6" category="list-text">*향상된 선택 테이블*: 선택 테이블에 한 번에 더 많은 행과 열이 표시됩니다. 복원 화면은 간격과 이동 경로 표시를 개선하여 워크플로우에서 현재 위치를 확인할 수 있습니다.</block>
+  <block id="f0e5c0e1059e3a13f23bf2b09cc506f2" category="list-text">*단계별 탐색*: *다음* 및 *계속* 버튼 기능이 개선되어 실수로 다음 주요 단계로 건너뛰는 것을 방지합니다. *이전* 버튼을 누르면 마지막으로 완료한 화면으로 돌아가며 이전 선택 사항이 유지되므로 단계를 다시 시작할 필요가 없습니다.</block>
+  <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*소스 볼륨 선택 시 더 자세한 정보 표시*: 이제 볼륨 목록에 볼륨 유형, 볼륨 스타일, SnapLock 유형, 기존 보호 및 보호 상태가 표시됩니다. 기존 보호 열이 더 넓어져 모든 보호 표시기(스냅샷, 복제 및 백업)를 확인할 수 있습니다.</block>
+  <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Azure 중국 리전에 호스팅된 볼륨 보호 지원*: 이제 ONTAP 볼륨을 Azure 중국(21Vianet)의 Azure Blob 스토리지에 백업할 수 있습니다. 이 지원은 Cloud Volumes ONTAP과 온프레미스 ONTAP 시스템 모두에 적용됩니다. 상용 Azure 및 Azure 정부 리전은 변경되지 않았습니다.</block>
+  <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026년 11월 23일</block>
 </blocks>

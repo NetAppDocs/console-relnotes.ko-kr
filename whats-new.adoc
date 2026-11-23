@@ -30,6 +30,48 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[23-november-2026]]
+== 2026년 11월 23일
+
+
+
+[[backup-and-recovery]]
+=== 백업 및 복구
+
+
+
+==== Kubernetes 워크로드 개선 사항
+
+이번 릴리스에서 NetApp Backup and Recovery는 Kubernetes 워크로드에 대해 다음과 같은 향상된 기능을 제공합니다:
+
+* *디스크 간 백업 아키텍처를 사용한 Amazon FSx for NetApp ONTAP 지원*: 이제 동일한 AWS 리전 또는 다른 AWS 리전에서 Amazon FSx for NetApp ONTAP을 기본 스토리지로, 다른 FSx for NetApp ONTAP 파일 시스템을 2차 스토리지로 사용하는 디스크 간 백업 아키텍처를 활용하여 Kubernetes 보호 정책을 생성할 수 있습니다. 또한 Cloud Volumes ONTAP을 기본 스토리지로, FSx for NetApp ONTAP을 2차 스토리지로 사용할 수도 있습니다.
+* *qtree 복원 문제 수정*: 이전에는 ontap-nas-economy 볼륨 복원 시 qtree 디렉터리의 소유자 및 권한이 잘못 복원되는 문제가 있었습니다. 이번 릴리스에서 이 문제가 해결되었습니다.
+
+
+Kubernetes 보호 정책 생성에 대한 자세한 내용은 다음을 참조하십시오 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-kubernetes-create.html["NetApp Backup and Recovery에서 Kubernetes 백업 정책을 생성하고 관리합니다."^].
+
+Kubernetes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["NetApp Backup and Recovery를 사용하여 Kubernetes 워크로드를 보호하는 방법에 대해 알아보십시오."^]을 참조하세요.
+
+
+
+==== ONTAP Volumes 워크로드 개선 사항
+
+이번 릴리스에서 NetApp Backup and Recovery는 ONTAP Volumes 워크로드에 다음과 같은 향상된 기능을 제공합니다:
+
+* *복원 인터페이스 개선*: ONTAP 볼륨용 복원 마법사의 레이아웃이 새롭게 바뀌고 탐색 기능이 향상되었습니다:
++
+** *향상된 선택 테이블*: 선택 테이블에 한 번에 더 많은 행과 열이 표시됩니다. 복원 화면은 간격과 이동 경로 표시를 개선하여 워크플로우에서 현재 위치를 확인할 수 있습니다.
+** *단계별 탐색*: *다음* 및 *계속* 버튼 기능이 개선되어 실수로 다음 주요 단계로 건너뛰는 것을 방지합니다. *이전* 버튼을 누르면 마지막으로 완료한 화면으로 돌아가며 이전 선택 사항이 유지되므로 단계를 다시 시작할 필요가 없습니다.
+** *소스 볼륨 선택 시 더 자세한 정보 표시*: 이제 볼륨 목록에 볼륨 유형, 볼륨 스타일, SnapLock 유형, 기존 보호 및 보호 상태가 표시됩니다. 기존 보호 열이 더 넓어져 모든 보호 표시기(스냅샷, 복제 및 백업)를 확인할 수 있습니다.
+
+
+* *Azure 중국 리전에 호스팅된 볼륨 보호 지원*: 이제 ONTAP 볼륨을 Azure 중국(21Vianet)의 Azure Blob 스토리지에 백업할 수 있습니다. 이 지원은 Cloud Volumes ONTAP과 온프레미스 ONTAP 시스템 모두에 적용됩니다. 상용 Azure 및 Azure 정부 리전은 변경되지 않았습니다.
+
+
+ONTAP Volumes 워크로드 보호에 대한 자세한 내용은 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["NetApp Backup and Recovery를 사용한 ONTAP 볼륨 보호에 대해 알아보십시오"^]를 참조하십시오.
+
+
+
 [[18-november-2026]]
 == 2026년 11월 18일
 
