@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*소스 볼륨 선택 시 더 자세한 정보 표시*: 이제 볼륨 목록에 볼륨 유형, 볼륨 스타일, SnapLock 유형, 기존 보호 및 보호 상태가 표시됩니다. 기존 보호 열이 더 넓어져 모든 보호 표시기(스냅샷, 복제 및 백업)를 확인할 수 있습니다.</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Azure 중국 리전에 호스팅된 볼륨 보호 지원*: 이제 ONTAP 볼륨을 Azure 중국(21Vianet)의 Azure Blob 스토리지에 백업할 수 있습니다. 이 지원은 Cloud Volumes ONTAP과 온프레미스 ONTAP 시스템 모두에 적용됩니다. 상용 Azure 및 Azure 정부 리전은 변경되지 않았습니다.</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026년 11월 23일</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">Azure에서 덴마크 동부 및 인도 남중부 지역에 대한 지원</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">이제 Azure의 덴마크 동부(denmarkeast) 및 인도 남중부(indiasouthcentral) 지역에 Cloud Volumes ONTAP 9.12.1 GA 이상 버전을 배포할 수 있습니다. 지원되는 배포 유형은 다음과 같습니다.</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">단일 노드</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">로컬 중복 스토리지(LRS)를 사용하는 단일 가용성 영역의 HA</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">영역 중복 스토리지(ZRS)를 사용한 다중 가용성 영역의 고가용성(HA) - 인도 남중부 지역에만 해당</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure의 글로벌 지역 지도</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">지원되는 모든 지역 목록은<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">2026년 11월 24일</block>
 </blocks>
