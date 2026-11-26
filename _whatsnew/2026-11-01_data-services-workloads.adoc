@@ -138,7 +138,7 @@ Workload Factory는 이제 AWS Cost Explorer 대신 AWS Cost and Usage Reports(C
 
 Workload Factory는 스토리지 VM 마이그레이션을 위한 향상된 안내 기능을 사용자 인터페이스 내에서 제공합니다. 여기에는 단계별 지침과 프로덕션 환경에 마이그레이션을 적용하기 전에 실행할 수 있는 테스트 실행 기능이 포함됩니다.
 
-link:fsx-storage/create-replication.html["스토리지 VM 마이그레이션에 대해 자세히 알아보세요"]
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-replication.html["스토리지 VM 마이그레이션에 대해 자세히 알아보세요"]
 
 
 
