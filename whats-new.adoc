@@ -30,6 +30,162 @@ NetApp Console 에 포함된 기능 및 데이터 서비스의 최신 변경 사
 ====
 
 
+[[26-november-2026]]
+== 2026년 11월 26일
+
+
+
+[[workload-factory]]
+=== Workload Factory
+
+
+
+==== Amazon FSx for NetApp ONTAP 향상 기능
+
+
+
+===== 여러 FSx for ONTAP 파일 시스템을 링크에 연결
+
+이제 각 파일 시스템에 대해 연결을 반복할 필요 없이 하나의 워크플로에서 여러 FSx for ONTAP 파일 시스템을 새 링크 또는 기존 링크에 연결할 수 있습니다. 각 파일 시스템에 대해 ONTAP 자격 증명을 입력하거나 여러 파일 시스템에 동일한 자격 증명을 적용하여 링크를 인증할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/setup/links-overview.html["링크에 대해 자세히 알아보기"]
+
+
+
+===== 스토리지 VM 네임 서비스에 대한 새로운 권장 사항
+
+Workload Factory는 이제 잘 설계된 아키텍처 분석에서 스토리지 VM 이름 서비스에 대해 다음과 같은 권장 사항을 포함합니다:
+
+*DNS 및 LDAP 서버 이중화*: DNS를 사용하는 스토리지 VM에는 최소 2개의 DNS 서버를, LDAP를 사용하는 스토리지 VM에는 최소 2개의 LDAP 서버를 권장합니다. 단일 서버 장애로 인해 이름 확인, 도메인 인증 또는 NFS 액세스가 차단될 수 있습니다.
+
+
+
+===== 볼륨 탐색기 개선 사항
+
+
+
+====== 새 볼륨 탐색기 테이블 열
+
+볼륨 탐색기 테이블에 다음과 같은 새 열이 추가되었습니다.
+
+* *논리적 사용 크기*: 스토리지 효율성 절감 전, 클라이언트가 사용 중인 것으로 인식하는 공간을 보여줍니다. 이 열은 기본적으로 표시됩니다.
+* *접합 경로*: 볼륨의 접합 경로를 보여줍니다.
+
+
+
+
+====== 마운트 지점 관리
+
+이제 Volumes explorer에서 직접 스토리지 VM 네임스페이스의 볼륨 마운트 위치를 관리할 수 있습니다. 볼륨의 *Advanced* 메뉴에서 *Manage mount points*를 선택하여 스토리지 VM 네임스페이스를 트리로 확인한 다음, 볼륨을 마운트, 마운트 해제하거나 접합 경로를 변경할 수 있습니다. Workload Factory는 볼륨을 마운트 해제하기 전에 종속성을 확인합니다. 다른 볼륨이 하위에 마운트된 볼륨은 마운트 해제할 수 없으며, 볼륨에 SMB 공유가 있는 경우 경고가 표시됩니다.
+
+
+
+====== 새 볼륨에 대한 중첩된 접합 경로
+
+볼륨을 생성할 때 이제 *고급 구성* 섹션에서  `/test1/test2` 등과 같은 중첩 정션 경로를 입력할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-volume.html["볼륨을 만드는 방법을 알아보세요"]
+
+
+
+===== 잘 설계된 구성을 사용자 지정 규칙으로 맞춤 설정하십시오.
+
+원래의 모범 사례를 그대로 유지하면서 자체 임계값이나 범위를 적용할 수 있도록 잘 설계된 구성에서 사용자 지정 규칙을 시작할 수 있습니다. Workload Factory는 해당 구성을 기반으로 편집 가능한 프롬프트와 함께 사용자 지정 규칙을 엽니다. 규칙은 초안으로 시작되며, 설명에는 어떤 구성을 기반으로 하는지 명시됩니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/improve-configurations.html["잘 설계된 구성을 사용자 지정하는 방법을 알아보십시오"]
+
+
+
+===== 예약된 사용자 지정 규칙 실행에 대한 알림 수신
+
+Workload Factory에 로그인하지 않고도 결과를 확인하려면 예약된 사용자 지정 규칙에 대한 알림을 켜십시오. 예약된 실행 후 매번 알림을 받거나 실행이 실패하거나 부분적으로 성공했을 때만 알림을 받을 수 있습니다. 알림은 이미 설정한 채널을 통해 전송됩니다. 수동 테스트는 알림을 보내지 않습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/manage-custom-rules.html["예약된 사용자 지정 규칙에 대한 알림을 받는 방법을 알아보세요"]
+
+
+
+==== Workload Factory 관리 기능 개선
+
+이러한 개선 사항은 Workload Factory의 사용자 지정 대시보드 및 기타 관리 작업에 적용됩니다.
+
+
+
+===== 사용자 지정 대시보드 제목 및 설명 편집
+
+사용자 지정 대시보드의 제목과 설명을 대시보드 카탈로그 또는 대시보드 보기에서 편집하여 대시보드 변경 시에도 정확하게 유지할 수 있습니다. 두 필드 모두 필수 항목이며, 두 개의 대시보드가 동일한 제목을 가질 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/admin/manage-custom-dashboards-fsx.html["사용자 지정 대시보드를 관리하는 방법을 알아보세요"]
+
+
+
+==== Workload Factory for EDA 개선 사항
+
+이러한 개선 사항에는 추적된 볼륨에 대한 자동 AI 분석, AI 분석에서 더욱 명확한 근본 원인 설명, 그리고 지연 시간 분석 결과의 보존 기간이 포함됩니다.
+
+
+
+===== 자동 AI 분석을 위한 볼륨 추적
+
+지연 문제가 감지되면 볼륨을 자동 AI 분석 대상으로 지정할 수 있습니다. 분석 결과는 72시간 동안 저장되며 알림 이메일에 포함되므로 직접 분석을 실행하지 않고도 원인을 확인할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["지연 문제 분석에 대해 알아보십시오"^].
+
+
+
+===== AI 분석의 근본 원인에 대한 더 명확한 설명
+
+AI 분석을 활용하여 지연 현상의 원인을 더 명확하게 파악하십시오. 이 분석은 FlexCache, 용량 풀, 파일 시스템 관련 문제뿐만 아니라 처리량 및 IOPS 제한, 높은 SSD 사용량, 쓰기 포화 상태, 동일한 리소스를 사용하는 다른 볼륨과 관련된 문제도 점검합니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["지연 문제 분석에 대해 알아보십시오"^].
+
+
+
+===== 지연 시간 분석 결과는 72시간 동안 보관됩니다
+
+이제 지연 시간 분석 결과를 인터페이스에서 24시간이 아닌 72시간 동안 확인할 수 있으므로 볼륨에 대한 이전 분석 결과를 검토할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["지연 문제 분석에 대해 알아보십시오"^].
+
+
+
+==== Google Cloud NetApp Volumes 기능 향상
+
+이러한 개선 사항에는 스토리지 풀 삭제, 시스템에서 스토리지 풀 인벤토리 열기, 여러 지역에 걸쳐 시스템 추가, 오른쪽 패널에서 시스템 관리 등이 포함됩니다.
+
+
+
+===== 스토리지 풀 삭제
+
+볼륨이 없고 상태가 준비됨 또는 오류인 Google Cloud NetApp Volumes 스토리지 풀을 삭제할 수 있습니다. 삭제는 되돌릴 수 없습니다. 삭제에 실패하면 풀은 인벤토리에 남아 있고 오류는 Tracker에 기록됩니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/delete-storage-pool.html["스토리지 풀을 삭제하는 방법을 알아보십시오."]
+
+
+
+===== 시스템에서 스토리지 풀 인벤토리를 엽니다.
+
+Google Cloud NetApp Volumes 시스템에서 *시스템 입력*을 클릭하면 Workload Factory에서 스토리지 풀 인벤토리가 열리고 해당 시스템의 프로젝트, 자격 증명 및 지역이 이미 선택됩니다. 모든 지역을 지원하는 시스템은 모든 지역이 선택된 상태로 열립니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["스토리지 풀을 보는 방법을 알아보세요"]
+
+
+
+===== 모든 지역에 걸쳐 시스템을 추가하십시오
+
+Google Cloud NetApp Volumes 시스템을 추가할 때 리전은 선택 사항이며 기본값은 모든 리전입니다. Workload Factory는 선택한 자격 증명에 대해 모든 리전에서 스토리지 풀을 검색합니다. 선택한 리전은 시스템이 캔버스에 표시하는 내용과 Compliance 및 DRaaS가 사용하는 내용을 설정합니다. 검색을 제한하지는 않습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/create-discover-systems.html["시스템을 추가하는 방법을 알아보십시오"]
+
+
+
+===== 오른쪽 패널에서 시스템 관리
+
+Google Cloud NetApp Volumes 시스템의 오른쪽 패널을 사용하면 볼륨을 보고 NetApp Console에서 시스템에 들어갈 수 있습니다.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["스토리지 풀을 보는 방법을 알아보세요"]
+
+
+
 [[24-november-2026]]
 == 2026년 11월 24일
 
